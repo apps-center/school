@@ -352,39 +352,86 @@ h1,-webkit-text-fill-color{-webkit-backface-visibility:hidden;backface-visibilit
 
 
 
-/* ── BARRE DE NAVIGATION ── */
+/* ── BARRE NAVIGATION ── */
 #nav-bar{
   position:fixed;top:0;left:0;right:0;z-index:9999;
-  height:42px;
-  display:flex;align-items:center;justify-content:space-between;
+  height:44px;
+  display:flex;align-items:center;
   padding:0 16px;
-  background:rgba(6,10,20,.95);
+  background:rgba(6,10,20,.97);
   backdrop-filter:blur(10px);
   border-bottom:1px solid rgba(200,180,120,.12);
 }
 #nav-back{
   font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
-  color:rgba(232,223,196,.6);text-decoration:none;
-  display:flex;align-items:center;gap:6px;
-  padding:6px 10px;
-  border-radius:3px;
+  color:rgba(232,223,196,.65);text-decoration:none;
+  display:flex;align-items:center;gap:7px;
+  padding:7px 10px;border-radius:3px;
   transition:color .18s,background .18s;
 }
 #nav-back:hover{color:#e8dfc4;background:rgba(200,180,120,.08);}
 #nav-back svg{width:14px;height:14px;flex-shrink:0;}
-#nav-title{
-  font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
-  color:rgba(232,223,196,.35);
-  position:absolute;left:50%;transform:translateX(-50%);
-  pointer-events:none;
+
+/* push entire page below nav */
+body{padding-top:44px;}
+
+/* ── TABS: grid au lieu de scroll horizontal ── */
+.tabs{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;padding:0;
+  position:sticky;top:44px;
+}
+.tab{
+  font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:11px 4px;border:1px solid rgba(200,180,120,.2);background:none;
+  color:rgba(232,223,196,.45);cursor:pointer;transition:all .25s;
+  text-align:center;line-height:1.3;white-space:normal;
+  border-radius:0;border-left:none;border-right:none;
+}
+.tab:first-child{border-left:1px solid rgba(200,180,120,.2);}
+.tab:last-child{border-right:1px solid rgba(200,180,120,.2);}
+.tab:not(:last-child){border-right:1px solid rgba(200,180,120,.1);}
+.tab.active{background:rgba(200,180,120,.12);color:var(--star);border-color:rgba(200,180,120,.5);}
+.tab:hover:not(.active){color:rgba(232,223,196,.75);background:rgba(200,180,120,.06);}
+
+/* ── LÉGENDE en bas ── */
+.disc-legend{
+  position:fixed;bottom:0;left:0;right:0;z-index:100;
+  display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;
+  padding:8px 16px 10px;
+  background:rgba(6,10,20,.96);
+  backdrop-filter:blur(8px);
+  border-top:1px solid rgba(200,180,120,.1);
+}
+.dl-item{display:flex;align-items:center;gap:5px;font-size:.6rem;letter-spacing:.1em;
+  text-transform:uppercase;color:rgba(232,223,196,.5);}
+.dl-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+
+/* Timeline bottom padding to not be hidden behind legend */
+.timeline{padding-bottom:70px;}
+
+/* ── ERA SEPARATOR mobile: wrap text ── */
+@media(max-width:700px){
+  .era-sep span{
+    white-space:normal;
+    text-align:center;
+    font-size:.78rem;
+    letter-spacing:.12em;
+    padding:8px 14px;
+  }
+  /* Header simplifié */
+  .subtitle{display:none;}
+  .tagline{font-size:.78rem;letter-spacing:.1em;}
+  .positioning{display:none;}
+  header{padding:20px 16px 18px;}
+  h1{font-size:clamp(1.4rem,7vw,2rem);}
 }
 
-/* push content below nav */
-header{padding-top:calc(72px + 42px);}
 </style>
 </head>
 <body>
-
+<canvas id="stars"></canvas>
 <nav id="nav-bar">
   <a id="nav-back" href="accueil.html">
     <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -392,10 +439,8 @@ header{padding-top:calc(72px + 42px);}
     </svg>
     Accueil
   </a>
-  <span id="nav-title">L'Encyclopédie des Explorateurs</span>
 </nav>
 
-<canvas id="stars"></canvas>
 
 <header>
   <p class="subtitle">De la naissance de l'univers à nos jours</p>
@@ -419,8 +464,7 @@ header{padding-top:calc(72px + 42px);}
   <button class="tab tab-quiz" id="tab-quiz" onclick="startQuiz()">🎯 Quiz</button>
 </div>
 
-<div class="disc-legend">
-  <div class="dl-item"><div class="dl-dot" style="background:#e8dfc4"></div>Événement historique</div>
+Événement historique</div>
   <div class="dl-item"><div class="dl-dot" style="background:#40c8e0"></div>Science &amp; Invention</div>
   <div class="dl-item"><div class="dl-dot" style="background:#e0b840"></div>Littérature</div>
   <div class="dl-item"><div class="dl-dot" style="background:#e060b0"></div>Art</div>
@@ -762,5 +806,7 @@ document.querySelectorAll('.qf-btn').forEach(btn=>{
 </script>
 
 
+<div class="disc-legend">
+  <div class="dl-item"><div class="dl-dot" style="background:#e8dfc4"></div>
 </body>
 </html>
