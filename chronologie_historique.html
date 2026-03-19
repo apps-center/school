@@ -404,9 +404,14 @@ body{padding-top:44px;}
   backdrop-filter:blur(8px);
   border-top:1px solid rgba(200,180,120,.1);
 }
-.dl-item{display:flex;align-items:center;gap:5px;font-size:.6rem;letter-spacing:.1em;
-  text-transform:uppercase;color:rgba(232,223,196,.5);}
+.dl-item{display:flex;align-items:center;gap:5px;font-size:.58rem;letter-spacing:.08em;
+  text-transform:uppercase;color:rgba(232,223,196,.48);white-space:nowrap;}
 .dl-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+/* Hide "Événement historique" label on mobile to save space */
+@media(max-width:480px){
+  .disc-legend{gap:6px 12px;}
+  .dl-item:first-child .dl-label{display:none;}
+}
 
 /* Timeline bottom padding to not be hidden behind legend */
 .timeline{padding-bottom:70px;}
@@ -458,17 +463,17 @@ body{padding-top:44px;}
 </header>
 
 <div class="tabs">
-  <button class="tab active" data-tab="cosmo">🌌 Ère Cosmique &amp; Préhistoire</button>
+  <button class="tab active" data-tab="cosmo">🌌 Préhistoire</button>
   <button class="tab" data-tab="france">🏰 France</button>
   <button class="tab" data-tab="monde">🌍 Civilisations du Monde</button>
   <button class="tab tab-quiz" id="tab-quiz" onclick="startQuiz()">🎯 Quiz</button>
 </div>
 
 Événement historique</div>
-  <div class="dl-item"><div class="dl-dot" style="background:#40c8e0"></div>Science &amp; Invention</div>
-  <div class="dl-item"><div class="dl-dot" style="background:#e0b840"></div>Littérature</div>
-  <div class="dl-item"><div class="dl-dot" style="background:#e060b0"></div>Art</div>
-  <div class="dl-item"><div class="dl-dot" style="background:#60d080"></div>Musique</div>
+  <div class="dl-item"><div class="dl-dot" style="background:#40c8e0"></div><span class="dl-label">Science &amp; Invention</span></div>
+  <div class="dl-item"><div class="dl-dot" style="background:#e0b840"></div><span class="dl-label">Littérature</span></div>
+  <div class="dl-item"><div class="dl-dot" style="background:#e060b0"></div><span class="dl-label">Art</span></div>
+  <div class="dl-item"><div class="dl-dot" style="background:#60d080"></div><span class="dl-label">Musique</span></div>
 </div>
 
 <div id="cosmo" class="branch active"></div>
