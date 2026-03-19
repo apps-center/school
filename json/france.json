@@ -1,0 +1,891 @@
+[
+  {
+    "era": "✦ Antiquité Gauloise & Romaine",
+    "cls": "antique",
+    "events": [
+      {
+        "icon": "🌿",
+        "tag": "Peuple",
+        "date": "–800 av. J.-C.",
+        "title": "Les Gaulois & Celtes",
+        "desc": "Les Celtes s'étendent sur toute l'Europe. En Gaule, les druides transmettent le savoir oralement, les oppidums sont de véritables villes.",
+        "anecdotes": [
+          {
+            "e": "🎃",
+            "t": "<b>Samhain (1er novembre)</b> est la fête celtique du Nouvel An, ancêtre direct d'Halloween. Le voile entre monde des vivants et des morts s'amincissait."
+          },
+          {
+            "e": "💪",
+            "t": "<b>En 390 av. J.-C., les Gaulois saccagèrent Rome.</b> Brennus jeta son épée sur la balance : « Vae victis ! » (Malheur aux vaincus !)"
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🛡️",
+        "tag": "Événement",
+        "date": "–52 av. J.-C.",
+        "title": "Alésia — La Gaule Devient Romaine",
+        "desc": "Vercingétorix capitule devant César. La Gaule devient province romaine. En moins d'un siècle, les Gaulois parlent latin — base du français d'aujourd'hui.",
+        "anecdotes": [
+          {
+            "e": "📖",
+            "t": "<b>On ne connaît Vercingétorix qu'à travers César, son ennemi.</b> C'est toujours le vainqueur qui écrit l'histoire."
+          },
+          {
+            "e": "🍷",
+            "t": "<b>La romanisation fut rapide et profonde.</b> La France parle encore ce latin transformé — 2 000 ans plus tard."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "⚙️",
+        "date": "~–52 av. J.-C.",
+        "title": "La Faucille & la Moissonneuse Gauloise",
+        "desc": "Les Gaulois inventent la vallus — une moissonneuse tirée par un bœuf qui coupe les épis. 1 900 ans avant la moissonneuse industrielle, les Gaulois mécanisaient déjà leur agriculture.",
+        "anecdotes": [
+          {
+            "e": "🌾",
+            "t": "<b>La vallus gauloise</b> fut décrite par Pline l'Ancien. Elle fut oubliée après la conquête romaine et ne fut « réinventée » qu'au XIXe siècle lors de la Révolution industrielle."
+          },
+          {
+            "e": "⚙️",
+            "t": "<b>Les Gaulois étaient d'excellents ingénieurs :</b> ils inventèrent aussi le tonneau en bois (remplaçant les amphores), le savon, la chaîne de transmission et le recuit de l'acier."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "era": "✦ Haut Moyen Âge",
+    "cls": "medieval",
+    "events": [
+      {
+        "icon": "⚡",
+        "tag": "Événement",
+        "date": "376 – 476",
+        "title": "Invasions Barbares & Chute de Rome",
+        "desc": "Huns, Wisigoths, Vandales déferlent sur l'Empire. En 476, Romulus Augustule est déposé. Fin de l'Antiquité, début du Moyen Âge.",
+        "anecdotes": [
+          {
+            "e": "😏",
+            "t": "<b>Romulus Augustule n'avait que 14 ans.</b> Odoacre lui accorda une pension confortable. La grande « chute de Rome » fut finalement peu dramatique."
+          },
+          {
+            "e": "🧱",
+            "t": "<b>L'Empire d'Orient (Byzance) survécut encore 977 ans</b> après 476 — jusqu'en 1453. Rome ne mourut pas vraiment ce jour-là."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Mérovingiens",
+    "cls": "merov",
+    "events": [
+      {
+        "icon": "⚜️",
+        "tag": "Roi",
+        "date": "481 – 511",
+        "title": "Clovis Ier — Fondateur du Royaume de France",
+        "desc": "Il unifie les Francs et se fait baptiser à Reims vers 496. Naissance de l'alliance entre la royauté et l'Église catholique.",
+        "anecdotes": [
+          {
+            "e": "🏺",
+            "t": "<b>Le Vase de Soissons :</b> Clovis attendit un an avant de fracasser le crâne du soldat qui avait refusé de rendre un vase à l'évêque. La vengeance royale se fait attendre."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Clovis élimina méthodiquement tous ses rivaux francs,</b> y compris ses cousins. À sa mort, il était le seul roi franc vivant."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Roi",
+        "date": "629 – 639",
+        "title": "Dagobert Ier — Le Dernier Grand Mérovingien",
+        "desc": "Dernier roi mérovingien puissant. Il unifie le royaume franc et fait de Saint-Denis la nécropole royale de France.",
+        "anecdotes": [
+          {
+            "e": "👖",
+            "t": "<b>« Le bon roi Dagobert avait sa culotte à l'envers »</b> — cette chanson fut inventée sous la Révolution, pas du tout à l'époque de Dagobert !"
+          },
+          {
+            "e": "⛪",
+            "t": "<b>La tradition d'enterrer les rois à Saint-Denis</b> qu'il instaura dura jusqu'à Louis XVIII en 1824 — soit 1 185 ans de continuité."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "😴",
+        "tag": "Événement",
+        "date": "639 – 751",
+        "title": "Les Rois Fainéants",
+        "desc": "Les maires du palais prennent le vrai pouvoir. Les rois mérovingiens ne sont plus que des figurants promenés en charrette lors des fêtes.",
+        "anecdotes": [
+          {
+            "e": "💈",
+            "t": "<b>Couper les cheveux d'un roi mérovingien équivalait à l'abdiquer.</b> Plusieurs furent tonsurés de force et envoyés au monastère."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Carolingiens",
+    "cls": "caro",
+    "events": [
+      {
+        "icon": "⚔️",
+        "tag": "Événement",
+        "date": "732",
+        "title": "Charles Martel — Poitiers",
+        "desc": "Maire du palais, Charles Martel arrête l'avancée arabe en Europe à la bataille de Poitiers. Le surnom « Martel » (le marteau) lui est donné.",
+        "anecdotes": [
+          {
+            "e": "👶",
+            "t": "<b>Charles Martel était né illégitime.</b> Emprisonné par sa belle-mère, il s'évada et prit le pouvoir. Le sauveur de l'Europe chrétienne était un bâtard en fuite."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚜️",
+        "tag": "Roi",
+        "date": "751 – 768",
+        "title": "Pépin le Bref — 1er Roi Carolingien",
+        "desc": "Il dépose le dernier mérovingien avec l'accord du pape. Son fils sera Charlemagne.",
+        "anecdotes": [
+          {
+            "e": "🤝",
+            "t": "<b>La « donation de Pépin » (754) :</b> il offrit au pape des terres en Italie en échange de sa légitimation. Naissance des États pontificaux, qui dureront jusqu'en 1870."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Roi",
+        "date": "768 – 814",
+        "title": "Charlemagne — Empereur d'Occident",
+        "desc": "Couronné Empereur à Rome le 25 décembre 800 par le pape Léon III. Il unifie l'Europe occidentale et crée les premières écoles.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>Charlemagne avait du mal à écrire,</b> selon son biographe Éginhard. Il gardait une ardoise sous son oreiller pour s'exercer la nuit. L'homme qui créa les écoles luttait lui-même contre l'écriture."
+          },
+          {
+            "e": "📏",
+            "t": "<b>Il mesurait environ 1,92 m</b> — confirmé par ses ossements à Aix-la-Chapelle. Il dominait physiquement toute son assemblée."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🐴",
+        "date": "~800",
+        "title": "L'Étrier & le Collier d'Épaule",
+        "desc": "L'étrier (venu d'Asie) et le collier d'épaule permettent au cheval de tirer des charges sans s'étrangler. La productivité agricole double. La chevalerie médiévale devient possible.",
+        "anecdotes": [
+          {
+            "e": "🐴",
+            "t": "<b>Avant le collier d'épaule,</b> les chevaux portaient un joug sur la gorge qui les étranglait à l'effort. Ils ne pouvaient tirer que 500 kg. Avec le collier d'épaule, ils en tirent 1 500 kg."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>L'étrier changea la guerre.</b> Le cavalier stabilisé peut frapper avec toute la force de son cheval. C'est ce qui rendit la chevalerie lourde possible — et domina les champs de bataille pendant 700 ans."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "era": "✦ Capétiens & Moyen Âge",
+    "cls": "capet",
+    "events": [
+      {
+        "icon": "🏰",
+        "tag": "Roi",
+        "date": "987",
+        "title": "Hugues Capet — Fondateur de la Lignée",
+        "desc": "Élu roi, sa descendance régnera 800 ans. Petit royaume autour de Paris, mais lignée ininterrompue jusqu'en 1848.",
+        "anecdotes": [
+          {
+            "e": "🗳️",
+            "t": "<b>Hugues fut choisi parce que les grands seigneurs le jugeaient moins dangereux.</b> Ils pensaient pouvoir le contrôler. Ils se trompèrent."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏝️",
+        "tag": "Monument",
+        "date": "966",
+        "title": "Le Mont Saint-Michel",
+        "desc": "Une abbaye bénédictine fondée sur un îlot rocheux de 80 m de hauteur en Normandie. Construit sur 10 siècles, le Mont Saint-Michel est le monument le plus visité de France après le Louvre.",
+        "anecdotes": [
+          {
+            "e": "🌊",
+            "t": "<b>Les marées du Mont Saint-Michel</b> sont les plus grandes d'Europe : la mer revient à la vitesse d'un cheval au galop. Des pèlerins se noyaient régulièrement en traversant la baie."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Le Mont Saint-Michel résista aux Anglais pendant 116 ans</b>, tout au long de la Guerre de Cent Ans. Il devint le symbole de la résistance française."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏛️",
+        "date": "~1140",
+        "title": "L'Arc-Boutant — Architecture Gothique",
+        "desc": "L'abbé Suger et les architectes de la cathédrale de Saint-Denis inventent l'arc-boutant. Cette structure reporte le poids des voûtes vers l'extérieur, permettant des murs percés de vitraux et des hauteurs inégalées.",
+        "anecdotes": [
+          {
+            "e": "✨",
+            "t": "<b>Sans l'arc-boutant,</b> les cathédrales gothiques seraient impossibles. Les murs épais des cathédrales romanes devaient tout porter — les murs gothiques sont presque transparents, remplis de vitraux colorés."
+          },
+          {
+            "e": "🏰",
+            "t": "<b>Notre-Dame de Paris (1163-1345)</b> est l'exemple parfait : ses arcs-boutants permettent des murs de verre et une hauteur de 35 mètres sous voûte. Une prouesse d'ingénierie médiévale."
+          }
+        ]
+      },
+      {
+        "icon": "⛪",
+        "tag": "Monument",
+        "date": "1163",
+        "title": "Notre-Dame de Paris",
+        "desc": "Chef-d'œuvre du gothique, Notre-Dame est construite en 182 ans sur l'Île de la Cité. Ses arcs-boutants, rosaces et 69 m de hauteur en font le symbole de Paris. Incendiée en 2019, elle rouvre en décembre 2024.",
+        "anecdotes": [
+          {
+            "e": "🔥",
+            "t": "<b>L'incendie du 15 avril 2019</b> ravagea la flèche et la toiture. La charpente en chêne de 800 ans, la « forêt », disparut. Mais les tours et le trésor — dont la couronne d'épines — furent sauvés."
+          },
+          {
+            "e": "📚",
+            "t": "<b>Victor Hugo écrivit Notre-Dame de Paris (1831)</b> pour sauver la cathédrale de la démolition. Le roman créa un tel engouement que le gouvernement finança sa restauration."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎓",
+        "date": "~1150",
+        "title": "Naissance des Universités",
+        "desc": "Les premières universités européennes naissent à Bologne (1088), Paris (~1150), Oxford (~1167). Pour la première fois, le savoir est organisé, enseigné et transmis de façon institutionnelle.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>L'Université de Paris (la Sorbonne)</b> fut la première université française. Elle attirait des étudiants de toute l'Europe — le latin était la langue commune qui permettait à des Allemands, Anglais et Espagnols de suivre les mêmes cours."
+          },
+          {
+            "e": "🎓",
+            "t": "<b>Le système « licence-maîtrise-doctorat »</b> inventé par les universités médiévales est encore celui que nous utilisons aujourd'hui, 850 ans plus tard."
+          }
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "tag": "Roi",
+        "date": "1180 – 1223",
+        "title": "Philippe Auguste — Bâtisseur du Royaume",
+        "desc": "Il quadruple le domaine royal (Bouvines, 1214) et fait construire le Louvre et les remparts de Paris.",
+        "anecdotes": [
+          {
+            "e": "🚿",
+            "t": "<b>Il ordonna le pavage de Paris</b> parce qu'il était incommodé par les odeurs depuis son palais. Paris reçut ses premières rues pavées grâce à sa sensibilité olfactive."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "💨",
+        "date": "~1180",
+        "title": "Le Moulin à Vent en Europe",
+        "desc": "Les croisés rapportent le moulin à vent de Perse. En quelques décennies, des milliers de moulins ponctuent le paysage européen, moudant le grain et pompant l'eau des polders hollandais.",
+        "anecdotes": [
+          {
+            "e": "💨",
+            "t": "<b>Les Pays-Bas utilisèrent les moulins à vent</b> pour pomper l'eau et assécher des terres gagnées sur la mer. Sans moulin à vent, les Pays-Bas tels qu'on les connaît n'existeraient pas."
+          },
+          {
+            "e": "⚙️",
+            "t": "<b>Don Quichotte attaque des moulins à vent</b> (Cervantes, 1605) en les prenant pour des géants. À cette époque, les moulins étaient si omniprésents dans le paysage qu'ils étaient devenus le symbole même du progrès technique."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🧭",
+        "date": "~1190",
+        "title": "La Boussole en Europe",
+        "desc": "La boussole magnétique, venue de Chine via les Arabes, arrive en Europe. Elle permet la navigation en mer fermée, même par temps couvert. Sans elle, les Grandes Découvertes sont impossibles.",
+        "anecdotes": [
+          {
+            "e": "🌍",
+            "t": "<b>Avant la boussole,</b> les navigateurs européens longeaient les côtes. Ils ne pouvaient traverser l'Atlantique ou le Pacifique sans repères côtiers. La boussole leur donna enfin le courage de s'éloigner des terres."
+          },
+          {
+            "e": "🧲",
+            "t": "<b>La boussole pointe vers le nord magnétique,</b> pas le nord géographique. Cette déclinaison magnétique, découverte au XVe siècle, dut être compensée dans tous les calculs de navigation — une subtilité qui causa bien des naufrages."
+          }
+        ]
+      },
+      {
+        "icon": "🌳",
+        "tag": "Roi",
+        "date": "1226 – 1270",
+        "title": "Louis IX — Saint Louis",
+        "desc": "Roi pieux, il rend la justice sous un chêne à Vincennes. Part deux fois en croisade, meurt à Tunis. Canonisé en 1297.",
+        "anecdotes": [
+          {
+            "e": "💸",
+            "t": "<b>Louis IX racheta la « couronne d'épines »</b> pour une fortune colossale. Pour l'abriter, il fit construire la Sainte-Chapelle — encore visible aujourd'hui."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎵",
+        "date": "~1250 – 1400",
+        "title": "Ars Nova — La Polyphonie",
+        "desc": "Philippe de Vitry théorise l'Ars Nova : plusieurs voix indépendantes chantent simultanément des mélodies différentes. La polyphonie révolutionne la musique occidentale et ouvre la voie à toute l'harmonie moderne.",
+        "anecdotes": [
+          {
+            "e": "🎶",
+            "t": "<b>La polyphonie semble évidente aujourd'hui,</b> mais c'était révolutionnaire au XIIIe siècle : faire chanter 4 voix indépendantes en harmonie requiert une théorie musicale complexe que personne n'avait formulée avant."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>L'École de Notre-Dame de Paris</b> (Léonin, Pérotin, XIIe s.) est le premier grand centre de composition polyphonique de l'histoire. Les musiciens venaient du monde entier étudier à Paris — la musique classique occidentale est née à Notre-Dame."
+          }
+        ]
+      },
+      {
+        "icon": "🎰",
+        "tag": "Événement",
+        "date": "1307 – 1314",
+        "title": "Philippe le Bel & les Rois Maudits",
+        "desc": "Philippe IV supprime les Templiers. Le grand maître Jacques de Molay le maudit depuis son bûcher. Ses trois fils mourront en 14 ans sans héritier mâle.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>« Les Rois Maudits » de Maurice Druon</b> inspira directement George R.R. Martin pour Game of Thrones."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚔️",
+        "tag": "Événement",
+        "date": "1337 – 1453",
+        "title": "Guerre de Cent Ans",
+        "desc": "France contre Angleterre pour la couronne. Défaite d'Azincourt (1415), redressement avec Jeanne d'Arc (1429), victoire finale française.",
+        "anecdotes": [
+          {
+            "e": "🔥",
+            "t": "<b>Jeanne d'Arc avait 17 ans</b> quand elle convainquit le roi de la laisser mener son armée. Brûlée à 19 ans. Canonisée en 1920 — 489 ans après son exécution."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "💀",
+        "tag": "Événement",
+        "date": "1347 – 1351",
+        "title": "La Grande Peste Noire",
+        "desc": "La peste bubonique tue un tiers de la population européenne — 25 à 50 millions de morts en 4 ans.",
+        "anecdotes": [
+          {
+            "e": "🐀",
+            "t": "<b>La chasse aux chats (associés aux sorcières) avait multiplié les rats.</b> Un préjugé religieux a peut-être tué des millions de personnes."
+          },
+          {
+            "e": "💸",
+            "t": "<b>Les survivants héritèrent des terres des morts.</b> Les salaires explosèrent. La Peste accéléra la fin du servage en Europe."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Renaissance & Réforme",
+    "cls": "renaiss",
+    "events": [
+      {
+        "icon": "👑",
+        "tag": "Roi",
+        "date": "1515 – 1547",
+        "title": "François Ier — Roi de la Renaissance",
+        "desc": "Grand mécène, il attire Léonard de Vinci. Impose le français comme langue officielle (Villers-Cotterêts, 1539).",
+        "anecdotes": [
+          {
+            "e": "🎨",
+            "t": "<b>Léonard de Vinci mourut en France à 67 ans.</b> La Joconde, qu'il avait emportée, devint propriété de François Ier et finit au Louvre."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "📖",
+        "tag": "Littérature",
+        "date": "~1532",
+        "title": "Rabelais — Gargantua & Pantagruel",
+        "desc": "François Rabelais publie Pantagruel (1532) puis Gargantua (1534) — mêlant érudition humaniste, satire et humour. Il incarne l'idéal humaniste de la Renaissance française : curiosité universelle et liberté d'esprit.",
+        "anecdotes": [
+          {
+            "e": "🍷",
+            "t": "<b>Rabelais était à la fois médecin, moine et romancier.</b> Son œuvre inventa le mot « pantagruélique » et enrichit la langue française de centaines de néologismes encore en usage."
+          },
+          {
+            "e": "😄",
+            "t": "<b>« Fais ce que voudras »</b> — la devise de l'abbaye de Thélème résume l'idéal humaniste : liberté naturelle de l'être instruit. Une provocation dans la France du XVIe siècle."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Monarchie Absolue",
+    "cls": "moderne",
+    "events": [
+      {
+        "icon": "🕊️",
+        "tag": "Roi",
+        "date": "1589 – 1610",
+        "title": "Henri IV — Le Vert-Galant",
+        "desc": "Premier Bourbon. L'Édit de Nantes (1598) met fin aux guerres de Religion. Assassiné par Ravaillac en 1610.",
+        "anecdotes": [
+          {
+            "e": "🛐",
+            "t": "<b>« Paris vaut bien une messe. »</b> Henri IV, protestant, se convertit au catholicisme pour être accepté comme roi. Un acte de pragmatisme politique resté célèbre."
+          },
+          {
+            "e": "🗡️",
+            "t": "<b>Ravaillac était un fanatique catholique</b> convaincu qu'Henri IV allait attaquer le pape. Il le poignarda dans son carrosse bloqué dans la rue de la Ferronnerie, le 14 mai 1610."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🎭",
+        "tag": "Littérature",
+        "date": "1637",
+        "title": "Corneille — Le Cid",
+        "desc": "Pierre Corneille révolutionne le théâtre français avec Le Cid (1637). Il invente le héros déchiré entre devoir et passion — le « dilemme cornélien » structurera la littérature pour des siècles.",
+        "anecdotes": [
+          {
+            "e": "⚔️",
+            "t": "<b>Le Cid fut un triomphe populaire immédiat</b> mais l'Académie française, fondée par Richelieu, le critiqua vertement. L'expression « beau comme Le Cid » entra dans la langue."
+          },
+          {
+            "e": "🏆",
+            "t": "<b>Corneille inventa le dilemme cornélien :</b> choisir entre deux valeurs également impérieuses — honneur vs amour. Ce conflit psychologique structure encore le cinéma et la littérature."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🔬",
+        "tag": "Sciences & Pensée",
+        "date": "1654",
+        "title": "Pascal — Pensées & Physique",
+        "desc": "Blaise Pascal est mathématicien (probabilités), physicien (pression atmosphérique) et philosophe (Pensées). Génie universel emporté à 39 ans, il construisit à 19 ans la première calculatrice mécanique.",
+        "anecdotes": [
+          {
+            "e": "💻",
+            "t": "<b>La Pascaline</b> — première calculatrice mécanique — fut construite par Pascal à 19 ans pour aider son père percepteur. Le langage informatique Pascal lui rend hommage."
+          },
+          {
+            "e": "🙏",
+            "t": "<b>Le pari de Pascal :</b> si Dieu existe, croire rapporte tout et ne coûte rien. Premier raisonnement probabiliste appliqué à la théologie."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "☀️",
+        "tag": "Roi",
+        "date": "1643 – 1715",
+        "title": "Louis XIV — Le Roi-Soleil",
+        "desc": "72 ans de règne. Versailles, absolutisme royal, révocation de l'Édit de Nantes (1685). Apogée et épuisement de la France.",
+        "anecdotes": [
+          {
+            "e": "🚽",
+            "t": "<b>Versailles manquait cruellement de sanitaires.</b> Le château le plus luxueux d'Europe était aussi l'un des plus malodorants."
+          },
+          {
+            "e": "💃",
+            "t": "<b>Louis XIV était un danseur exceptionnel,</b> participant à au moins 40 ballets de cour. Le ballet classique est une invention royale française."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚡",
+        "tag": "Philosophie",
+        "date": "1734",
+        "title": "Voltaire — Les Lumières",
+        "desc": "Voltaire, symbole des Lumières : défenseur de la tolérance, ennemi du fanatisme. Candide et ses pamphlets incarnèrent la puissance de la plume contre l'arbitraire.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>« Écrasez l'infâme ! »</b> — cri de guerre de Voltaire contre le fanatisme. À 83 ans, à son retour triomphal à Paris, il mourut d'une apothéose : trop d'honneurs en une nuit."
+          },
+          {
+            "e": "😄",
+            "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Ironie dévastratrice inégalée."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Monument",
+        "date": "1661",
+        "title": "Le Château de Versailles",
+        "desc": "Louis XIV transforme un pavillon de chasse en le plus grand palais du monde : 700 pièces, 2 000 hectares de jardins, 20 000 personnes. Versailles devient le modèle de toutes les cours royales européennes.",
+        "anecdotes": [
+          {
+            "e": "🚽",
+            "t": "<b>Le château le plus luxueux d'Europe manquait cruellement de sanitaires.</b> L'odeur était légendaire — ironie suprême de la magnificence absolue."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚡",
+        "tag": "Philosophie",
+        "date": "1734",
+        "title": "Voltaire — Les Lumières & la Tolérance",
+        "desc": "François-Marie Arouet, dit Voltaire, symbole des Lumières : défenseur de la tolérance, ennemi du fanatisme. Candide et ses pamphlets incarnèrent la puissance de la plume contre l'arbitraire et l'injustice.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>« Écrasez l'infâme ! »</b> — le cri de guerre de Voltaire contre le fanatisme religieux. À 83 ans, à son retour triomphal à Paris, il mourut d'une apothéose : trop d'émotion et d'honneurs en une nuit."
+          },
+          {
+            "e": "😄",
+            "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Cette ironie dévastratrice en 30 pages reste inégalée."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌿",
+        "tag": "Philosophie",
+        "date": "1762",
+        "title": "Rousseau — Le Contrat Social",
+        "desc": "Jean-Jacques Rousseau révolutionne la pensée politique avec Le Contrat Social (1762) : « la souveraineté appartient au peuple ». Ses idées nourriront directement la Révolution française et l'Émile révolutionne la pédagogie.",
+        "anecdotes": [
+          {
+            "e": "🗳️",
+            "t": "<b>« L'homme est né libre, et partout il est dans les fers. »</b> Les révolutionnaires liront Rousseau comme un programme — et placeront ses cendres au Panthéon aux côtés de Voltaire."
+          },
+          {
+            "e": "🌱",
+            "t": "<b>Rousseau fut le premier écologiste :</b> il défendait la nature contre la civilisation corromprice et rêvait du « bon sauvage ». Thoreau, Tolstoï et tous les critiques de la modernité lui doivent tout."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "📖",
+        "date": "1664 – 1673",
+        "title": "Molière — Le Théâtre Français",
+        "desc": "Jean-Baptiste Poquelin, dit Molière, révolutionne la comédie française avec Tartuffe, Le Misanthrope, L'Avare. Il dénonce les hypocrisies de son époque avec une liberté audacieuse.",
+        "anecdotes": [
+          {
+            "e": "😂",
+            "t": "<b>Molière mourut sur scène</b> le 17 février 1673 lors de la 4ème représentation du Malade Imaginaire — pièce sur un hypocondriaque. Il fit une hémorragie pendant le spectacle et mourut quelques heures plus tard. L'ironie suprême."
+          },
+          {
+            "e": "😤",
+            "t": "<b>Tartuffe fut interdite dès sa première représentation</b> en 1664, jugée scandaleuse par l'Église. Louis XIV la défendit. La bataille entre Molière et les dévots dura 5 ans avant que la pièce puisse être jouée librement."
+          }
+        ]
+      },
+      {
+        "icon": "🎭",
+        "tag": "Littérature",
+        "date": "1667",
+        "title": "Racine — Andromaque & Phèdre",
+        "desc": "Jean Racine pousse la tragédie à son sommet avec Andromaque (1667) et Phèdre (1677). Sa langue d'une pureté absolue fait de lui le plus grand tragédien français.",
+        "anecdotes": [
+          {
+            "e": "💔",
+            "t": "<b>Phèdre amoureuse de son beau-fils Hippolyte</b> est l'un des portraits psychologiques les plus fouillés de la littérature mondiale — culpabilité, désir et mort avec une modernité saisissante."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🦊",
+        "tag": "Littérature",
+        "date": "1668",
+        "title": "La Fontaine — Les Fables",
+        "desc": "Jean de La Fontaine publie ses Fables en 12 livres (1668-1694). Ces courts poèmes animaliers cachent une critique mordante de la société. Appris par cœur par des générations d'écoliers français depuis 350 ans.",
+        "anecdotes": [
+          {
+            "e": "🐺",
+            "t": "<b>« La raison du plus fort est toujours la meilleure »</b> — La Fontaine critique le pouvoir et la vanité derrière des histoires d'animaux que la censure royale ne pouvait atteindre."
+          },
+          {
+            "e": "📚",
+            "t": "<b>Les Fables sont le texte le plus imprimé de France</b> après la Bible. La Fontaine transforme la morale ésopique en poésie musicale aux vers impossibles à améliorer."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "✍️",
+        "tag": "Littérature",
+        "date": "1678",
+        "title": "Mme de Lafayette — La Princesse de Clèves",
+        "desc": "Marie-Madeleine de Lafayette publie anonymement La Princesse de Clèves (1678) — le premier roman psychologique moderne. Une femme mariée résiste à sa passion par devoir. Fondateur du roman d'analyse.",
+        "anecdotes": [
+          {
+            "e": "💭",
+            "t": "<b>La Princesse de Clèves invente l'introspection romanesque :</b> pour la première fois, le roman s'intéresse aux pensées intimes du personnage. Stendhal et Proust en descendent directement."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>En 2009, Sarkozy railla ce roman.</b> La polémique déclencha des lectures publiques de masse — la Princesse de Clèves fut en rupture de stock dans toutes les librairies de France."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🗡️",
+        "tag": "Roi",
+        "date": "1774 – 1792",
+        "title": "Louis XVI — La Fin de la Monarchie",
+        "desc": "Guillotiné le 21 janvier 1793. La Révolution éclate en 1789 : Bastille, Déclaration des droits de l'Homme.",
+        "anecdotes": [
+          {
+            "e": "😴",
+            "t": "<b>Le 14 juillet 1789, Louis XVI écrit dans son journal : « Rien ».</b> Il chassait ce jour-là. Il ne savait pas que la Bastille venait de tomber."
+          },
+          {
+            "e": "🔧",
+            "t": "<b>Louis XVI était passionné de serrurerie.</b> On découvrit dans son atelier son « armoire de fer » contenant ses correspondances compromettantes."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Révolution & Empire",
+    "cls": "revolution",
+    "events": [
+      {
+        "icon": "🏰",
+        "tag": "Événement",
+        "date": "14 juillet 1789",
+        "title": "Prise de la Bastille",
+        "desc": "Le peuple de Paris prend d'assaut la forteresse-prison symbole de l'absolutisme. Date fondatrice de la République.",
+        "anecdotes": [
+          {
+            "e": "🔓",
+            "t": "<b>La Bastille ne contenait que 7 prisonniers</b> ce jour-là : 4 faussaires, 2 fous et 1 noble. La grande forteresse symbole de la tyrannie était presque vide."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚖️",
+        "tag": "Événement",
+        "date": "1793 – 1794",
+        "title": "La Terreur — Robespierre",
+        "desc": "Le Comité de Salut Public envoie des milliers à la guillotine. 17 000 exécutions officielles. La Terreur finira par se dévorer elle-même.",
+        "anecdotes": [
+          {
+            "e": "😱",
+            "t": "<b>Danton, qui avait voté la Terreur, fut guillotiné sur ordre de Robespierre.</b> Sur l'échafaud : « Tu me suivras, Robespierre ! » Il avait raison — 3 mois plus tard."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Empereur",
+        "date": "1804 – 1815",
+        "title": "Napoléon Ier — Empereur des Français",
+        "desc": "Sacré en 1804 à Notre-Dame. Code civil, lycées, Légion d'honneur. Il domine l'Europe avant Waterloo (1815).",
+        "anecdotes": [
+          {
+            "e": "📏",
+            "t": "<b>Napoléon n'était pas si petit !</b> Il mesurait ~1,68 m — la taille française moyenne. La confusion vient d'une erreur de conversion entre pouces français et anglais."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Lors de son sacre, il prit la couronne des mains du pape et se couronna lui-même</b> — il ne voulait pas devoir sa couronne à l'Église."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "📖",
+        "date": "1830 – 1885",
+        "title": "Victor Hugo — Les Misérables & Notre-Dame",
+        "desc": "Victor Hugo est le monument de la littérature française du XIXe siècle : poète, romancier, dramaturge et homme politique. Les Misérables (1862) est l'un des romans les plus lus du monde.",
+        "anecdotes": [
+          {
+            "e": "📬",
+            "t": "<b>Victor Hugo envoya un télégramme à son éditeur</b> pour savoir comment se vendaient Les Misérables. Il écrivit simplement : « ? ». L'éditeur répondit : « ! ». La plus courte correspondance commerciale de l'histoire."
+          },
+          {
+            "e": "🏰",
+            "t": "<b>Notre-Dame de Paris (1831)</b> fut écrit exprès pour sauver la cathédrale de la démolition. Le roman créa un tel engouement populaire que Victor Hugo força le gouvernement à restaurer l'édifice. Un roman qui sauva un monument."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "era": "✦ Républiques & Guerres Mondiales",
+    "cls": "republiques",
+    "events": [
+      {
+        "icon": "🏛️",
+        "tag": "Événement",
+        "date": "1870 – 1940",
+        "title": "3ème République",
+        "desc": "70 ans de République. Jules Ferry instaure l'école laïque et gratuite (1882). Tour Eiffel (1889). Affaire Dreyfus. Deux guerres mondiales.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>Jules Ferry :</b> pour la première fois, tous les enfants de France — riches ou pauvres, filles ou garçons — avaient droit à l'éducation publique gratuite."
+          },
+          {
+            "e": "🗼",
+            "t": "<b>La Tour Eiffel devait être démolie après 20 ans.</b> Elle fut sauvée uniquement parce qu'elle servait d'antenne radio."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🗼",
+        "tag": "Monument",
+        "date": "1889",
+        "title": "La Tour Eiffel",
+        "desc": "Gustave Eiffel construit cette tour de 330 m pour l'Exposition universelle de 1889. D'abord raillée comme une « vergue de fer », elle devait être démolie après 20 ans. Sauvée par sa radio-antenne, elle reçoit 7 millions de visiteurs par an.",
+        "anecdotes": [
+          {
+            "e": "😤",
+            "t": "<b>300 artistes signèrent une pétition contre la Tour Eiffel.</b> Maupassant déjeunait dans son restaurant — le seul endroit de Paris d'où on ne la voyait pas."
+          },
+          {
+            "e": "📡",
+            "t": "<b>La Tour Eiffel fut sauvée par la radio :</b> son antenne émit les premiers signaux TSF en 1903. Pendant la Guerre, elle intercepta des communications ennemies — dont celles qui permirent d'arrêter Mata Hari."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "📖",
+        "date": "1871 – 1893",
+        "title": "Zola — Le Naturalisme",
+        "desc": "Émile Zola crée la série des Rougon-Macquart — 20 romans sur une famille sous le Second Empire. Germinal (1885) sur les mineurs reste l'un des grands romans sociaux de la littérature mondiale.",
+        "anecdotes": [
+          {
+            "e": "✊",
+            "t": "<b>« J'accuse ! »</b> — le 13 janvier 1898, Zola publie cette lettre ouverte dans L'Aurore pour défendre Dreyfus, officier juif injustement condamné. Cet acte politique courageux lui valut un procès et l'exil en Angleterre."
+          },
+          {
+            "e": "🔬",
+            "t": "<b>Zola préparait ses romans comme un journaliste-scientifique :</b> il passa des mois dans les mines du Nord pour écrire Germinal, remplissant des carnets de notes sur les conditions de travail réelles."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎨",
+        "date": "1874",
+        "title": "Monet & l'Impressionnisme",
+        "desc": "Claude Monet expose « Impression, Soleil Levant » — un critique la raille en disant « ce ne sont que des impressions ». Le mot reste et donne son nom au mouvement qui révolutionne la peinture.",
+        "anecdotes": [
+          {
+            "e": "👁️",
+            "t": "<b>Monet souffrait d'une cataracte grave</b> à la fin de sa vie. Ses tableaux des Nymphéas, aux couleurs brouillées et aux contours flous, reflètent sa vision dégradée. Opéré en 1923, il dit que les couleurs étaient différentes de ce qu'il avait peint."
+          },
+          {
+            "e": "🌸",
+            "t": "<b>Le jardin de Giverny</b> que Monet fit construire avec son bassin et ses nymphéas fut son chef-d'œuvre architectural — il le peignit plus de 250 fois sous différentes lumières et saisons."
+          }
+        ]
+      },
+      {
+        "icon": "🪖",
+        "tag": "Événement",
+        "date": "1914 – 1918",
+        "title": "Première Guerre Mondiale",
+        "desc": "18 millions de morts dont 1,4 million de soldats français. La guerre des tranchées traumatise toute une génération.",
+        "anecdotes": [
+          {
+            "e": "✋",
+            "t": "<b>Le 11 novembre 1918 à 11h,</b> les canons se turent sur tout le front. Des soldats qui s'étaient entre-tués pendant 4 ans se levèrent et se regardèrent en silence."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🔥",
+        "tag": "Événement",
+        "date": "1939 – 1945",
+        "title": "Deuxième Guerre Mondiale",
+        "desc": "La France est occupée de 1940 à 1944. Résistance, débarquement du 6 juin 1944, Libération. La Shoah fait 6 millions de victimes juives.",
+        "anecdotes": [
+          {
+            "e": "📻",
+            "t": "<b>Le 18 juin 1940, de Gaulle lança son appel depuis Londres :</b> « La France a perdu une bataille, mais la France n'a pas perdu la guerre ! »"
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ France Contemporaine",
+    "cls": "contemp",
+    "events": [
+      {
+        "icon": "🗳️",
+        "tag": "Événement",
+        "date": "1958 – aujourd'hui",
+        "title": "5ème République — De Gaulle & Nos Jours",
+        "desc": "La Constitution de 1958 instaure un régime semi-présidentiel fort. Mai 1968. Construction européenne. La France reste une grande puissance mondiale.",
+        "anecdotes": [
+          {
+            "e": "🌸",
+            "t": "<b>Mai 1968 :</b> des millions de Français en grève. De Gaulle quitta secrètement l'Élysée pour consulter ses généraux. La France fut à deux doigts de la révolution."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>La France fut l'un des 6 pays fondateurs de l'Europe</b> avec l'Allemagne. La réconciliation franco-allemande est le fondement de l'Union Européenne."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  }
+]
