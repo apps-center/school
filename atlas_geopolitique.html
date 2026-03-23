@@ -13,6 +13,7 @@
 /* ── RESET & BASE ── */
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;overflow:hidden;}
+body{padding-top:46px;box-sizing:border-box;}
 :root{
   --bg:#080e1c;
   --ocean:#0a1428;
@@ -55,7 +56,15 @@ body{
   font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;
   color:rgba(232,223,196,.25);margin-left:12px;
 }
-.bar-layers{display:flex;gap:4px;}
+.bar-layers{
+  display:flex;gap:4px;
+  flex:1;
+  overflow-x:auto;overflow-y:hidden;
+  padding:0 12px;
+  scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;
+}
+.bar-layers::-webkit-scrollbar{display:none;}
 .layer-btn{
   font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.13em;text-transform:uppercase;
   padding:6px 16px;border:1px solid rgba(200,180,120,.16);border-radius:3px;
@@ -76,13 +85,10 @@ body{
 #map{
   flex:1;position:relative;overflow:hidden;
   background:#0f1e38;
-  touch-action:none;
-  -webkit-user-select:none;user-select:none;
 }
 #world-svg{
   width:100%;height:100%;display:block;
   cursor:default;
-  touch-action:none;
 }
 
 /* Country paths */
@@ -315,10 +321,10 @@ h1,-webkit-text-fill-color{-webkit-backface-visibility:hidden;backface-visibilit
 /* ── BARRE DE NAVIGATION ── */
 #nav-bar{
   position:fixed;top:0;left:0;right:0;z-index:9999;
-  height:42px;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 16px;
-  background:rgba(6,10,20,.95);
+  height:46px;
+  display:flex;align-items:center;gap:0;
+  padding:0 0 0 4px;
+  background:rgba(6,10,20,.97);
   backdrop-filter:blur(10px);
   border-bottom:1px solid rgba(200,180,120,.12);
 }
@@ -352,16 +358,6 @@ h1,-webkit-text-fill-color{-webkit-backface-visibility:hidden;backface-visibilit
     </svg>
     Accueil
   </a>
-  <span id="nav-title">L'Encyclopédie des Explorateurs</span>
-</nav>
-
-
-<!-- TOP BAR -->
-<div class="bar">
-  <div style="display:flex;align-items:baseline">
-    <span class="bar-logo">Atlas Géopolitique</span>
-    <span class="bar-sub">Monde · Ressources · Tensions</span>
-  </div>
   <div class="bar-layers">
     <button class="layer-btn active" id="lb-world"  onclick="setLayer('world')">🌍 Monde</button>
     <button class="layer-btn"        id="lb-water"  onclick="setLayer('water')">💧 Eau</button>
@@ -369,17 +365,17 @@ h1,-webkit-text-fill-color{-webkit-backface-visibility:hidden;backface-visibilit
     <button class="layer-btn"        id="lb-energy" onclick="setLayer('energy')">⚡ Énergie</button>
     <button class="layer-btn" id="lb-energy-res" onclick="setLayer('energy-res')">🛢 Énergie</button>
     <button class="layer-btn" id="lb-minerais"   onclick="setLayer('minerais')">⛏ Minerais</button>
-    <button class="layer-btn" id="lb-climat"    onclick="setLayer('climat')">🌡 Climat</button>
-    <button class="layer-btn" id="lb-maritime"  onclick="setLayer('maritime')">🚢 Maritime</button>
+    <button class="layer-btn" id="lb-climat"     onclick="setLayer('climat')">🌡 Climat</button>
+    <button class="layer-btn" id="lb-maritime"   onclick="setLayer('maritime')">🚢 Maritime</button>
   </div>
-</div>
+</nav>
 
 <!-- APP -->
 <div class="app">
 
   <!-- MAP -->
   <div id="map">
-    <svg id="world-svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet" style="touch-action:none;">
+    <svg id="world-svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
       <rect width="1200" height="600" fill="#0f1e38"/>
       <!-- Tropics & Equator — always visible -->
       <g id="geo-lines" pointer-events="none">
@@ -935,62 +931,33 @@ svgEl.addEventListener('wheel', e=>{
   applyTransform();
 }, {passive:false});
 
-// ── TOUCH : pan 1 doigt + pinch zoom 2 doigts ──
-let lastDist=null, lastMid=null;
-let tDragging=false, tDragStart={x:0,y:0}, tDragOrig={x:0,y:0}, tDragMoved=false;
-
+// Touch pinch zoom
+let lastDist = null;
+let lastMid  = null;
 svgEl.addEventListener('touchstart', e=>{
-  e.preventDefault(); // bloque le scroll iOS
-  if(e.touches.length===1){
-    tDragging=true; tDragMoved=false;
-    tDragStart={x:e.touches[0].clientX, y:e.touches[0].clientY};
-    tDragOrig={x:vx, y:vy};
-    lastDist=null;
-  } else if(e.touches.length===2){
-    tDragging=false;
+  if(e.touches.length===2){
     const t=e.touches;
-    lastDist=Math.hypot(t[0].clientX-t[1].clientX, t[0].clientY-t[1].clientY);
+    lastDist = Math.hypot(t[0].clientX-t[1].clientX, t[0].clientY-t[1].clientY);
     const rect=svgEl.getBoundingClientRect();
-    lastMid={
-      x:((t[0].clientX+t[1].clientX)/2-rect.left)/rect.width*W0,
-      y:((t[0].clientY+t[1].clientY)/2-rect.top)/rect.height*H0
+    lastMid = {
+      x: ((t[0].clientX+t[1].clientX)/2 - rect.left)/rect.width  * W0,
+      y: ((t[0].clientY+t[1].clientY)/2 - rect.top )/rect.height * H0
     };
   }
-},{passive:false});
-
+},{passive:true});
 svgEl.addEventListener('touchmove', e=>{
-  e.preventDefault();
-  if(e.touches.length===1 && tDragging){
-    const dx=e.touches[0].clientX-tDragStart.x;
-    const dy=e.touches[0].clientY-tDragStart.y;
-    if(Math.abs(dx)+Math.abs(dy)>4) tDragMoved=true;
-    const rect=svgEl.getBoundingClientRect();
-    const sc=rect.width/W0;
-    vx=tDragOrig.x+dx/sc;
-    vy=tDragOrig.y+dy/sc;
-    applyTransform();
-  } else if(e.touches.length===2 && lastDist){
+  if(e.touches.length===2 && lastDist){
+    e.preventDefault();
     const t=e.touches;
     const d=Math.hypot(t[0].clientX-t[1].clientX, t[0].clientY-t[1].clientY);
-    const factor=d/lastDist; lastDist=d;
+    const factor=d/lastDist;
+    lastDist=d;
     const wx=(lastMid.x-vx)/vscale;
     const wy=(lastMid.y-vy)/vscale;
     vscale=Math.max(0.8,Math.min(16,vscale*factor));
     vx=lastMid.x-wx*vscale;
     vy=lastMid.y-wy*vscale;
     applyTransform();
-  }
-},{passive:false});
-
-svgEl.addEventListener('touchend', e=>{
-  e.preventDefault();
-  if(e.touches.length===0){
-    if(tDragging && !tDragMoved && e.changedTouches.length===1){
-      const t=e.changedTouches[0];
-      const el=document.elementFromPoint(t.clientX,t.clientY);
-      if(el) el.dispatchEvent(new MouseEvent('click',{bubbles:true,clientX:t.clientX,clientY:t.clientY}));
-    }
-    tDragging=false; lastDist=null;
   }
 },{passive:false});
 
