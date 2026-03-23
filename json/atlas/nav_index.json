@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "geo",
+      "label": "Géographie",
+      "emoji": "🌍",
+      "layers": [
+        {
+          "id": "world",
+          "label": "Monde",
+          "emoji": "🌍",
+          "file": "layer_colors.json",
+          "key": "world"
+        },
+        {
+          "id": "demo",
+          "label": "Population",
+          "emoji": "👥",
+          "file": "layer_colors.json",
+          "key": "demo"
+        },
+        {
+          "id": "water",
+          "label": "Eau",
+          "emoji": "💧",
+          "file": "layer_colors.json",
+          "key": "water"
+        },
+        {
+          "id": "climat",
+          "label": "Climat",
+          "emoji": "🌡",
+          "file": "climat.json",
+          "key": null
+        }
+      ]
+    },
+    {
+      "id": "economie",
+      "label": "Économie",
+      "emoji": "💰",
+      "layers": [
+        {
+          "id": "energy",
+          "label": "PIB / Énergie",
+          "emoji": "⚡",
+          "file": "layer_colors.json",
+          "key": "energy"
+        },
+        {
+          "id": "energy-res",
+          "label": "Énergie fossile",
+          "emoji": "🛢",
+          "file": "ressources.json",
+          "key": null
+        },
+        {
+          "id": "minerais",
+          "label": "Minerais",
+          "emoji": "⛏",
+          "file": "ressources.json",
+          "key": null
+        },
+        {
+          "id": "maritime",
+          "label": "Routes maritimes",
+          "emoji": "🚢",
+          "file": "routes_maritimes.json",
+          "key": null
+        }
+      ]
+    },
+    {
+      "id": "histoire",
+      "label": "Histoire",
+      "emoji": "⚔️",
+      "sous_categories": [
+        {
+          "id": "empires",
+          "label": "Empires",
+          "emoji": "👑",
+          "layers": []
+        },
+        {
+          "id": "explorations",
+          "label": "Explorations",
+          "emoji": "⛵",
+          "layers": []
+        },
+        {
+          "id": "conflits",
+          "label": "Conflits & Guerres",
+          "emoji": "💥",
+          "layers": []
+        }
+      ]
+    },
+    {
+      "id": "environnement",
+      "label": "Environnement",
+      "emoji": "🌱",
+      "layers": []
+    }
+  ]
+}
