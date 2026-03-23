@@ -1,0 +1,209 @@
+{
+  "_meta": {
+    "title": "Câbles Sous-marins Internet",
+    "emoji": "🌐",
+    "source": "TeleGeography 2024"
+  },
+  "routes": [
+    {
+      "nom": "Trans-Atlantique",
+      "couleur": "#40a0e0",
+      "pts": [
+        [
+          -9.1,
+          38.7
+        ],
+        [
+          -30.0,
+          45.0
+        ],
+        [
+          -50.0,
+          48.0
+        ],
+        [
+          -60.0,
+          44.0
+        ],
+        [
+          -74.0,
+          40.7
+        ]
+      ]
+    },
+    {
+      "nom": "Trans-Pacifique",
+      "couleur": "#4060c0",
+      "pts": [
+        [
+          -122.4,
+          37.8
+        ],
+        [
+          -150.0,
+          35.0
+        ],
+        [
+          -170.0,
+          25.0
+        ],
+        [
+          170.0,
+          15.0
+        ],
+        [
+          140.0,
+          35.0
+        ],
+        [
+          139.7,
+          35.7
+        ]
+      ]
+    },
+    {
+      "nom": "Europe-Asie (SEA-ME-WE)",
+      "couleur": "#e08020",
+      "pts": [
+        [
+          -9.1,
+          38.7
+        ],
+        [
+          10.0,
+          37.0
+        ],
+        [
+          29.9,
+          31.2
+        ],
+        [
+          43.0,
+          12.0
+        ],
+        [
+          58.0,
+          22.0
+        ],
+        [
+          73.0,
+          18.0
+        ],
+        [
+          80.0,
+          6.0
+        ],
+        [
+          100.0,
+          2.0
+        ],
+        [
+          114.0,
+          22.0
+        ]
+      ]
+    },
+    {
+      "nom": "Europe-Afrique",
+      "couleur": "#20c060",
+      "pts": [
+        [
+          -9.1,
+          38.7
+        ],
+        [
+          0.0,
+          20.0
+        ],
+        [
+          -17.0,
+          14.7
+        ],
+        [
+          13.2,
+          -8.8
+        ],
+        [
+          18.0,
+          -34.0
+        ],
+        [
+          40.0,
+          -20.0
+        ],
+        [
+          55.0,
+          -20.0
+        ]
+      ]
+    },
+    {
+      "nom": "Méditerranée",
+      "couleur": "#a040a0",
+      "pts": [
+        [
+          -9.1,
+          38.7
+        ],
+        [
+          2.3,
+          41.4
+        ],
+        [
+          10.0,
+          37.0
+        ],
+        [
+          20.0,
+          36.0
+        ],
+        [
+          28.9,
+          41.0
+        ],
+        [
+          35.0,
+          33.0
+        ]
+      ]
+    }
+  ],
+  "hubs": [
+    {
+      "nom": "Marseille",
+      "lon": 5.4,
+      "lat": 43.3,
+      "desc": "Principal hub câbles en Méditerranée (15+ câbles)"
+    },
+    {
+      "nom": "Singapour",
+      "lon": 103.8,
+      "lat": 1.4,
+      "desc": "Nœud mondial — carrefour de l'Asie Pacifique"
+    },
+    {
+      "nom": "New York",
+      "lon": -74.0,
+      "lat": 40.7,
+      "desc": "Hub transatlantique majeur"
+    },
+    {
+      "nom": "Mumbai",
+      "lon": 72.9,
+      "lat": 19.1,
+      "desc": "Porte de l'Inde, hub régional Océan Indien"
+    },
+    {
+      "nom": "Fujairah (EAU)",
+      "lon": 56.3,
+      "lat": 25.1,
+      "desc": "Hub stratégique Golfe Persique-Asie"
+    },
+    {
+      "nom": "Tokyo",
+      "lon": 139.7,
+      "lat": 35.7,
+      "desc": "Hub Pacifique japonais"
+    }
+  ]
+}
