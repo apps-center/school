@@ -62,7 +62,8 @@
     "vol": "~116 000 navires/an",
     "desc": "21 km entre Espagne et Maroc. Porte d'entrée de la Méditerranée depuis l'Atlantique.",
     "risk": "Souveraineté de Gibraltar (UK vs Espagne). Point de passage migratoire majeur.",
-    "lat": 36.0
+    "lat": 36.0,
+    "lon": -5.5
   },
   {
     "id": "panama",
@@ -72,7 +73,8 @@
     "vol": "14 000 navires/an",
     "desc": "Raccourci entre Atlantique et Pacifique creusé en 1914. Évite 15 000 km autour du Cap Horn.",
     "risk": "Sécheresse 2023-2024 : niveau du lac Gatun trop bas, trafic réduit de 36%. Vulnérabilité climatique.",
-    "lat": 9.0
+    "lat": 9.0,
+    "lon": -79.5
   },
   {
     "id": "taiwan",
@@ -93,7 +95,8 @@
     "vol": "~20 000 navires/an (déviation)",
     "desc": "Extrémité sud de l'Afrique. Route alternative quand Suez est bloqué ou trop risqué.",
     "risk": "7 000 km de plus que Suez. Coût supplémentaire : ~1 M$ par voyage. Utilisé massivement en 2024 (crise houthie).",
-    "lon": 18.5
+    "lon": 18.5,
+    "lat": -34.5
   },
   {
     "id": "lombe",
@@ -103,7 +106,8 @@
     "vol": "Secondaire",
     "desc": "Entre Bali et Lombok (Indonésie). Alternative à Malacca pour les grands navires et sous-marins.",
     "risk": "Utilisé par les porte-avions US pour éviter le passage trop étroit de Malacca.",
-    "lon": 115.5
+    "lon": 115.5,
+    "lat": -8.5
   },
   {
     "id": "merschine",

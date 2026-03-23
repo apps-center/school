@@ -109,17 +109,17 @@ body{
 }
 #legend .leg-title{
   font-family:'Cinzel',serif;
-  font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;
-  color:rgba(232,223,196,.38);margin-right:8px;
+  font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;
+  color:rgba(232,223,196,.32);margin-right:6px;width:100%;text-align:center;
 }
 #legend .leg-item{
-  display:inline-flex;align-items:center;gap:9px;
+  display:inline-flex;align-items:center;gap:6px;
   font-family:'Cinzel',serif;
-  font-size:.85rem;letter-spacing:.06em;
-  color:rgba(232,223,196,.85);
+  font-size:.65rem;letter-spacing:.05em;
+  color:rgba(232,223,196,.82);
 }
 #legend .leg-sq{
-  width:16px;height:16px;border-radius:3px;flex-shrink:0;
+  width:12px;height:12px;border-radius:2px;flex-shrink:0;
 }
 #legend .leg-src{
   font-family:'Crimson Pro',serif;
@@ -251,6 +251,11 @@ body{
   .zoom-controls{bottom:12px;right:10px;}
   .zbtn{width:36px;height:36px;font-size:1.2rem;}
   .p-close{top:14px;right:14px;width:32px;height:32px;font-size:1.1rem;display:flex;align-items:center;justify-content:center;background:rgba(200,180,120,.08);border:1px solid rgba(200,180,120,.18);border-radius:50%;}
+  /* Légende compacte sur mobile */
+  #legend{gap:4px 12px;padding:6px 10px 8px;max-height:30vh;}
+  #legend .leg-item{font-size:.58rem;gap:5px;}
+  #legend .leg-sq{width:10px;height:10px;}
+  #legend .leg-title{font-size:.54rem;margin-bottom:2px;}
 }
 @media(max-width:380px){
   .cat-tab{padding:3px 7px;font-size:.52rem;}
