@@ -102,47 +102,32 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 .era-col .ctitle{color:var(--c);}
 
 /* MODAL */
-.moverlay{position:fixed;inset:0;z-index:1000;background:rgba(2,4,10,.88);
+.moverlay{position:fixed;inset:0;z-index:1000;background:rgba(2,4,10,.82);
   display:flex;align-items:center;justify-content:center;
-  padding:16px;opacity:0;pointer-events:none;transition:opacity .25s;}
+  padding:20px;opacity:0;pointer-events:none;transition:opacity .25s;}
 .moverlay.open{opacity:1;pointer-events:all;}
-.mbox{
-  background:linear-gradient(160deg,#1a2840 0%,#0f1c30 60%,#0c1626 100%);
-  border:1px solid rgba(200,180,120,.5);border-radius:10px;
-  box-shadow:0 12px 70px rgba(0,0,0,.95),0 0 0 1px rgba(200,180,120,.12),inset 0 1px 0 rgba(255,255,255,.04);
-  max-width:560px;width:100%;max-height:90vh;overflow-y:auto;
-  padding:36px 32px 32px;position:relative;
-  transform:translateY(16px) scale(.97);transition:transform .28s cubic-bezier(.22,1,.36,1);}
-.mbox::-webkit-scrollbar{width:4px;}
-.mbox::-webkit-scrollbar-track{background:transparent;}
-.mbox::-webkit-scrollbar-thumb{background:rgba(200,180,120,.25);border-radius:2px;}
+.mbox{background:#111c30;
+  border:1px solid rgba(200,180,120,.45);border-radius:8px;
+  box-shadow:0 8px 60px rgba(0,0,0,.9), 0 0 0 1px rgba(200,180,120,.1);
+  max-width:520px;width:100%;max-height:87vh;overflow-y:auto;
+  padding:32px 28px 28px;position:relative;
+  transform:translateY(14px) scale(.97);transition:transform .25s;}
 .moverlay.open .mbox{transform:none;}
-.mclose{
-  position:absolute;top:14px;right:14px;
-  background:rgba(255,255,255,.04);border:1px solid rgba(200,180,120,.18);
-  color:rgba(232,223,196,.5);font-size:.9rem;cursor:pointer;
-  width:30px;height:30px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  transition:color .18s,background .18s,border-color .18s;}
-.mclose:hover{color:var(--star);background:rgba(200,180,120,.12);border-color:rgba(200,180,120,.45);}
-.micon{font-size:2.6rem;margin-bottom:12px;display:block;}
-.mtag{display:inline-block;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;
-  padding:3px 12px;border-radius:3px;margin-bottom:12px;border:1px solid;opacity:.9;font-family:'Cinzel',serif;}
-.mdate{font-family:'Cinzel',serif;font-size:.92rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;margin-bottom:8px;color:var(--gold);}
-.mtitle{font-family:'Cinzel',serif;font-size:1.28rem;font-weight:900;line-height:1.25;margin-bottom:18px;color:#f0e8cc;letter-spacing:.02em;}
-.mintro{font-size:.96rem;line-height:1.72;color:rgba(232,223,196,.93);
-  margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid rgba(200,180,120,.2);}
-.mahead{font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;
-  color:rgba(212,168,67,.6);margin-bottom:14px;
-  display:flex;align-items:center;gap:8px;}
-.mahead::after{content:'';flex:1;height:1px;background:rgba(200,180,120,.15);}
-.anec{display:flex;gap:14px;margin-bottom:12px;align-items:flex-start;
-  padding:12px 14px;border-radius:6px;
-  background:rgba(0,0,0,.2);border:1px solid rgba(200,180,120,.08);}
-.anec:last-child{margin-bottom:0;}
-.abullet{font-size:1.15rem;flex-shrink:0;margin-top:2px;}
-.atext{font-size:.9rem;line-height:1.68;color:rgba(232,223,196,.88);}
-.atext b{color:#f0e0a0;font-style:normal;font-weight:700;}
+.mclose{position:absolute;top:11px;right:13px;background:none;border:none;
+  color:rgba(232,223,196,.35);font-size:1.2rem;cursor:pointer;padding:4px 8px;border-radius:3px;transition:color .18s,background .18s;}
+.mclose:hover{color:var(--star);background:rgba(255,255,255,.06);}
+.micon{font-size:2.1rem;margin-bottom:7px;display:block;}
+.mtag{display:inline-block;font-size:.57rem;letter-spacing:.17em;text-transform:uppercase;
+  padding:2px 9px;border-radius:2px;margin-bottom:9px;border:1px solid;opacity:.68;}
+.mdate{font-family:'Cinzel',serif;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;opacity:1;font-weight:700;margin-bottom:6px;}
+.mtitle{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:900;line-height:1.2;margin-bottom:11px;}
+.mintro{font-size:.88rem;line-height:1.58;color:rgba(232,223,196,.85);font-style:italic;
+  margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid rgba(200,180,120,.28);}
+.mahead{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;opacity:.38;margin-bottom:11px;}
+.anec{display:flex;gap:11px;margin-bottom:13px;align-items:flex-start;}
+.abullet{font-size:.95rem;flex-shrink:0;margin-top:1px;}
+.atext{font-size:.84rem;line-height:1.58;color:rgba(232,223,196,.88);}
+.atext b{color:var(--star);font-style:normal;}
 
 footer{position:relative;z-index:10;text-align:center;padding:0 20px 50px;
   color:rgba(232,223,196,.22);font-size:.74rem;letter-spacing:.1em;}
@@ -610,7 +595,7 @@ async function loadData() {
   const branches = ['cosmo', 'france', 'monde'];
   await Promise.all(branches.map(async branch => {
     try {
-      const res = await fetch('/json/' + branch + '.json');
+      const res = await fetch('/json/chronologie/' + branch + '.json');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       DATA[branch] = await res.json();
     } catch(e) {
