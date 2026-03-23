@@ -35,17 +35,17 @@
     "icon": "🍃"
   },
   "continental": {
-    "color": "#8870a0",
+    "color": "#7a6090",
     "label": "Continental",
     "icon": "❄️"
   },
   "subarctic": {
-    "color": "#a0c8d0",
+    "color": "#2d6b3a",
     "label": "Subarctique / Boréal",
     "icon": "🌲"
   },
   "polar": {
-    "color": "#dce8f0",
+    "color": "#e0eef8",
     "label": "Polaire / Toundra",
     "icon": "🧊"
   }
