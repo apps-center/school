@@ -1,51 +1,51 @@
 {
   "desert": {
-    "color": "#e8c44a",
+    "color": "#e8b030",
     "label": "Désert aride",
     "icon": "🏜"
   },
   "steppe": {
-    "color": "#d4963a",
+    "color": "#c87820",
     "label": "Semi-aride / Steppe",
     "icon": "🌾"
   },
   "tropical": {
-    "color": "#2eb84a",
+    "color": "#18a840",
     "label": "Forêt équatoriale",
     "icon": "🌴"
   },
   "monsoon": {
-    "color": "#48d870",
+    "color": "#38d060",
     "label": "Mousson tropicale",
     "icon": "🌧"
   },
   "mediterranean": {
-    "color": "#e8a840",
+    "color": "#e86020",
     "label": "Méditerranéen",
     "icon": "☀️"
   },
   "oceanic": {
-    "color": "#6ab8d4",
+    "color": "#4898c8",
     "label": "Tempéré océanique",
     "icon": "🌦"
   },
   "temperate": {
-    "color": "#5888c8",
+    "color": "#2860b0",
     "label": "Tempéré humide",
     "icon": "🍃"
   },
   "continental": {
-    "color": "#7890b0",
+    "color": "#8870a0",
     "label": "Continental",
     "icon": "❄️"
   },
   "subarctic": {
-    "color": "#98b8d8",
+    "color": "#a0c8d0",
     "label": "Subarctique / Boréal",
     "icon": "🌲"
   },
   "polar": {
-    "color": "#c8dcea",
+    "color": "#dce8f0",
     "label": "Polaire / Toundra",
     "icon": "🧊"
   }
