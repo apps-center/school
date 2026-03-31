@@ -897,42 +897,6 @@
         "kind": "histoire"
       },
       {
-        "icon": "⚓",
-        "tag": "Événement",
-        "date": "~1550 – 1815",
-        "title": "Les Corsaires — La Guerre de Course",
-        "desc": "Armés par le roi, les corsaires français pillent les navires ennemis en toute légalité. Jean Bart, Duguay-Trouin, Robert Surcouf — ces héros de Dunkerque et Saint-Malo terrorisent les marines anglaise et hollandaise sous Louis XIV et Napoléon.",
-        "anecdotes": [
-          {
-            "e": "⚓",
-            "t": "<b>Jean Bart, fils de pêcheur de Dunkerque,</b> captura plus de 80 navires ennemis. Louis XIV le convoqua à Versailles pour lui annoncer sa promotion. Impressionné, Jean Bart dit simplement : « Sire, vous avez bien fait. » La cour fut scandalisée — le roi éclata de rire."
-          },
-          {
-            "e": "🏴‍☠️",
-            "t": "<b>La différence entre corsaire et pirate :</b> le corsaire a une lettre de marque du roi — il opère légalement pour son pays. Le pirate vole pour lui seul. Surcouf, capturant un navire anglais, répondit à un officier : « Vous vous battez pour l'argent, nous nous battons pour l'honneur. »"
-          }
-        ],
-        "kind": "histoire"
-      },
-      {
-        "icon": "⛓️",
-        "tag": "Événement",
-        "date": "1640 – 1848",
-        "title": "Le Commerce Triangulaire",
-        "desc": "La France participe activement à la traite négrière atlantique. Nantes, Bordeaux et La Rochelle envoient des navires en Afrique, échangent des marchandises contre des esclaves, les déportent aux Antilles. Plus d'un million d'Africains sont ainsi déportés sous pavillon français.",
-        "anecdotes": [
-          {
-            "e": "🌊",
-            "t": "<b>Nantes fut le premier port négrier de France,</b> responsable de 43 % de la traite française — soit plus de 450 000 déportés. La fortune monumentale de la ville au XVIIIe siècle repose directement sur ce commerce."
-          },
-          {
-            "e": "✊",
-            "t": "<b>Haïti (Saint-Domingue) fut la colonie la plus riche du monde</b> grâce au travail forcé. En 1791, Toussaint Louverture mena la seule révolte d'esclaves victorieuse de l'Histoire. Napoléon envoya une armée — elle fut vaincue par la fièvre jaune et les insurgés."
-          }
-        ],
-        "kind": "histoire"
-      },
-      {
         "kind": "histoire",
         "icon": "📖",
         "date": "1664 – 1673",
@@ -1000,6 +964,42 @@
         "kind": "histoire"
       },
       {
+        "icon": "⚓",
+        "tag": "Événement",
+        "date": "~1550 – 1815",
+        "title": "Les Corsaires — La Guerre de Course",
+        "desc": "Armés par le roi, les corsaires français pillent les navires ennemis en toute légalité. Jean Bart, Duguay-Trouin, Robert Surcouf — ces héros de Dunkerque et Saint-Malo terrorisent les marines anglaise et hollandaise sous Louis XIV et Napoléon.",
+        "anecdotes": [
+          {
+            "e": "⚓",
+            "t": "<b>Jean Bart, fils de pêcheur de Dunkerque,</b> captura plus de 80 navires ennemis. Louis XIV le convoqua à Versailles pour lui annoncer sa promotion. Impressionné, Jean Bart dit simplement : « Sire, vous avez bien fait. » La cour fut scandalisée — le roi éclata de rire."
+          },
+          {
+            "e": "🏴‍☠️",
+            "t": "<b>La différence entre corsaire et pirate :</b> le corsaire a une lettre de marque du roi — il opère légalement pour son pays. Le pirate vole pour lui seul. Surcouf, capturant un navire anglais, répondit à un officier : « Vous vous battez pour l'argent, nous nous battons pour l'honneur. »"
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⛓️",
+        "tag": "Événement",
+        "date": "1640 – 1848",
+        "title": "Le Commerce Triangulaire",
+        "desc": "La France participe activement à la traite négrière atlantique. Nantes, Bordeaux et La Rochelle envoient des navires en Afrique, échangent des marchandises contre des esclaves, les déportent aux Antilles. Plus d'un million d'Africains sont ainsi déportés sous pavillon français.",
+        "anecdotes": [
+          {
+            "e": "🌊",
+            "t": "<b>Nantes fut le premier port négrier de France,</b> responsable de 43 % de la traite française — soit plus de 450 000 déportés. La fortune monumentale de la ville au XVIIIe siècle repose directement sur ce commerce."
+          },
+          {
+            "e": "✊",
+            "t": "<b>Haïti (Saint-Domingue) fut la colonie la plus riche du monde</b> grâce au travail forcé. En 1791, Toussaint Louverture mena la seule révolte d'esclaves victorieuse de l'Histoire. Napoléon envoya une armée — elle fut vaincue par la fièvre jaune et les insurgés."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "☠️",
         "tag": "Événement",
         "date": "1720 – 1722",
@@ -1036,6 +1036,24 @@
         "kind": "histoire"
       },
       {
+        "icon": "⚡",
+        "tag": "Philosophie",
+        "date": "1734",
+        "title": "Voltaire — Les Lumières & la Tolérance",
+        "desc": "François-Marie Arouet, dit Voltaire, symbole des Lumières : défenseur de la tolérance, ennemi du fanatisme. Candide et ses pamphlets incarnèrent la puissance de la plume contre l'arbitraire et l'injustice.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>« Écrasez l'infâme ! »</b> — le cri de guerre de Voltaire contre le fanatisme religieux. À 83 ans, à son retour triomphal à Paris, il mourut d'une apothéose : trop d'émotion et d'honneurs en une nuit."
+          },
+          {
+            "e": "😄",
+            "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Cette ironie dévastratrice en 30 pages reste inégalée."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "📚",
         "tag": "Philosophie",
         "date": "1751 – 1772",
@@ -1067,24 +1085,6 @@
           {
             "e": "🎯",
             "t": "<b>Voltaire se moqua du Canada :</b> « quelques arpents de neige » ne valaient pas la peine d'y envoyer des troupes. L'histoire lui donna largement tort — et les Québécois ne l'ont pas oublié."
-          }
-        ],
-        "kind": "histoire"
-      },
-      {
-        "icon": "⚡",
-        "tag": "Philosophie",
-        "date": "1734",
-        "title": "Voltaire — Les Lumières & la Tolérance",
-        "desc": "François-Marie Arouet, dit Voltaire, symbole des Lumières : défenseur de la tolérance, ennemi du fanatisme. Candide et ses pamphlets incarnèrent la puissance de la plume contre l'arbitraire et l'injustice.",
-        "anecdotes": [
-          {
-            "e": "✍️",
-            "t": "<b>« Écrasez l'infâme ! »</b> — le cri de guerre de Voltaire contre le fanatisme religieux. À 83 ans, à son retour triomphal à Paris, il mourut d'une apothéose : trop d'émotion et d'honneurs en une nuit."
-          },
-          {
-            "e": "😄",
-            "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Cette ironie dévastratrice en 30 pages reste inégalée."
           }
         ],
         "kind": "histoire"
