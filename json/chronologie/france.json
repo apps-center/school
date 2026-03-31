@@ -63,6 +63,24 @@
     "cls": "medieval",
     "events": [
       {
+        "icon": "🔱",
+        "tag": "Conquérant",
+        "date": "434 – 453",
+        "title": "Attila & les Huns — Le Fléau de Dieu",
+        "desc": "Attila unifie les tribus huns et ravage l'Europe de la Chine aux portes de Rome. En 451, il envahit la Gaule. La coalition romano-wisigothique l'arrête aux Champs Catalauniques (près de Châlons). C'est l'une des batailles les plus décisives de l'histoire de France.",
+        "anecdotes": [
+          {
+            "e": "🛡️",
+            "t": "<b>La bataille des Champs Catalauniques (451)</b> est l'une des plus grandes batailles de l'Antiquité tardive — peut-être 200 000 morts. Elle sauva la Gaule et peut-être la civilisation romano-chrétienne de l'effacement."
+          },
+          {
+            "e": "😱",
+            "t": "<b>Attila avait surnommé lui-même « le Fléau de Dieu ».</b> L'herbe ne repoussait pas là où son cheval avait marché, disait-on. Il mourut en 453 d'une simple hémorragie nasale lors de sa nuit de noces."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "⚡",
         "tag": "Événement",
         "date": "376 – 476",
@@ -375,15 +393,55 @@
         ]
       },
       {
+        "icon": "✝️",
+        "tag": "Ordre",
+        "date": "1119 – 1312",
+        "title": "Les Templiers — Moines & Guerriers",
+        "desc": "Fondé en 1119 à Jérusalem pour protéger les pèlerins, l'Ordre du Temple devient la première banque internationale d'Europe. Richissimes et puissants, les Templiers prêtent aux rois. Leur fortune attise la convoitise de Philippe le Bel.",
+        "anecdotes": [
+          {
+            "e": "🏦",
+            "t": "<b>Les Templiers inventèrent la lettre de crédit :</b> un pèlerin déposait de l'or en France et recevait un document qu'il échangeait à Jérusalem. Le principe de la banque moderne est né dans un ordre monastique médiéval."
+          },
+          {
+            "e": "🤫",
+            "t": "<b>Les « secrets » des Templiers alimentèrent des siècles de légendes :</b> Saint-Graal, Arche d'Alliance, trésors cachés. Leur richesse mystérieuse et leurs rites confidentiels nourrirent toutes les théories du complot de l'Occident."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🎰",
         "tag": "Événement",
         "date": "1307 – 1314",
-        "title": "Philippe le Bel & les Rois Maudits",
-        "desc": "Philippe IV supprime les Templiers. Le grand maître Jacques de Molay le maudit depuis son bûcher. Ses trois fils mourront en 14 ans sans héritier mâle.",
+        "title": "Philippe le Bel & la Chute des Templiers",
+        "desc": "Endetté jusqu'au cou envers les Templiers, Philippe IV fait arrêter tous leurs membres en France le 13 octobre 1307 — un vendredi. Sous la torture, les aveux s'accumulent. Il obtient du pape la dissolution de l'Ordre.",
         "anecdotes": [
           {
+            "e": "📅",
+            "t": "<b>Le vendredi 13 octobre 1307,</b> des milliers de Templiers furent arrêtés simultanément dans toute la France. Certains historiens voient dans cet événement l'origine de la superstition du « vendredi 13 »."
+          },
+          {
             "e": "📚",
-            "t": "<b>« Les Rois Maudits » de Maurice Druon</b> inspira directement George R.R. Martin pour Game of Thrones."
+            "t": "<b>« Les Rois Maudits » de Maurice Druon</b> s'inspirent directement de cette période. George R.R. Martin l'a lu avant d'écrire Game of Thrones — la Garde de Nuit ressemble étrangement aux Templiers."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🔥",
+        "tag": "Événement",
+        "date": "18 mars 1314",
+        "title": "Le Bûcher de Jacques de Molay",
+        "desc": "Le grand maître des Templiers, Jacques de Molay, est brûlé vif à Paris sur l'île de la Cité. Depuis les flammes, il maudit Philippe le Bel et le pape Clément V — tous deux mourront dans l'année. La malédiction des Templiers entre dans la légende.",
+        "anecdotes": [
+          {
+            "e": "💀",
+            "t": "<b>Philippe le Bel mourut 8 mois après de Molay</b>, à 46 ans, d'une cause inconnue. Le pape Clément V avait précédé sa mort d'un mois. Coïncidence ou malédiction — les chroniqueurs de l'époque n'en doutèrent pas."
+          },
+          {
+            "e": "🏰",
+            "t": "<b>Le trésor des Templiers ne fut jamais retrouvé.</b> Il aurait été évacué avant les arrestations. Sa localisation est l'une des plus grandes chasses au trésor de l'histoire — et alimente des recherches encore aujourd'hui."
           }
         ],
         "kind": "histoire"
@@ -393,11 +451,29 @@
         "tag": "Événement",
         "date": "1337 – 1453",
         "title": "Guerre de Cent Ans",
-        "desc": "France contre Angleterre pour la couronne. Défaite d'Azincourt (1415), redressement avec Jeanne d'Arc (1429), victoire finale française.",
+        "desc": "France contre Angleterre pour la couronne de France. Cent ans de batailles, d'occupations et de misère populaire, du règne de Philippe VI jusqu'à Charles VII. Redressement final grâce à Jeanne d'Arc (1429).",
         "anecdotes": [
           {
             "e": "🔥",
             "t": "<b>Jeanne d'Arc avait 17 ans</b> quand elle convainquit le roi de la laisser mener son armée. Brûlée à 19 ans. Canonisée en 1920 — 489 ans après son exécution."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏹",
+        "tag": "Bataille",
+        "date": "26 août 1346",
+        "title": "Crécy — Le Désastre de la Chevalerie Française",
+        "desc": "Première grande défaite de la Guerre de Cent Ans. L'armée française, pourtant trois fois supérieure en nombre, est écrasée par les archers gallois d'Édouard III. La chevalerie en armure charge sans ordre et s'effondre sous les flèches.",
+        "anecdotes": [
+          {
+            "e": "🏹",
+            "t": "<b>Les archers gallois tiraient 10 à 12 flèches par minute.</b> Les arbalétriers génois engagés par la France ne pouvaient en tirer que 2. La supériorité technologique des Anglais fut décisive — et humiliante."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Le roi de Bohême, aveugle, voulut quand même charger.</b> Il fit attacher ses cavaliers à lui pour le guider au combat. On les retrouva tous morts, chevaux liés ensemble. Son emblème — trois plumes — fut adopté par le Prince de Galles anglais et l'est encore aujourd'hui."
           }
         ],
         "kind": "histoire"
@@ -416,6 +492,132 @@
           {
             "e": "💸",
             "t": "<b>Les survivants héritèrent des terres des morts.</b> Les salaires explosèrent. La Peste accéléra la fin du servage en Europe."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "📚",
+        "tag": "Roi",
+        "date": "1364 – 1380",
+        "title": "Charles V — Le Sage",
+        "desc": "Après les désastres de Crécy et Poitiers, Charles V reconstruit la France avec méthode. Il réforme l'armée, réorganise les finances et reprend presque tout le territoire perdu aux Anglais, sans livrer une seule grande bataille.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>Charles V créa la première grande bibliothèque royale de France</b> — ancêtre de la Bibliothèque nationale. Il y rassembla plus de 900 manuscrits au Louvre, fortune intellectuelle immense pour l'époque."
+          },
+          {
+            "e": "🪙",
+            "t": "<b>Il fut le premier roi à instaurer une fiscalité permanente.</b> L'impôt sur le sel (gabelle) et sur les transactions lui permit de financer son armée professionnelle — une révolution administrative."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌀",
+        "tag": "Roi",
+        "date": "1380 – 1422",
+        "title": "Charles VI — Le Fol",
+        "desc": "Roi frappé de folie à partir de 1392 : crises de démence, il croit parfois être fait de verre. La France sombre dans la guerre civile entre Armagnacs et Bourguignons, ouvrant la porte aux Anglais.",
+        "anecdotes": [
+          {
+            "e": "🪟",
+            "t": "<b>Lors d'une crise, Charles VI croyait être fait de verre</b> et refusait qu'on le touche de peur de se briser. Il fallut coudre des barres de fer dans ses vêtements pour le rassurer. Un des cas psychiatriques les plus documentés du Moyen Âge."
+          },
+          {
+            "e": "🔥",
+            "t": "<b>Le Bal des Ardents (1393) :</b> lors d'une fête, des courtisans déguisés en sauvages prennent feu à cause des torches. Quatre morts. Charles VI n'échappe que par miracle — la duchesse de Berry le protège sous sa robe."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏹",
+        "tag": "Bataille",
+        "date": "25 octobre 1415",
+        "title": "Azincourt — La Catastrophe des Fleurs de Lys",
+        "desc": "Henri V d'Angleterre écrase une armée française cinq fois plus nombreuse. La noblesse française est décimée — plus de 6 000 morts côté français, une centaine côté anglais. La France, déjà ravagée par la folie de Charles VI, plie le genou.",
+        "anecdotes": [
+          {
+            "e": "🌧️",
+            "t": "<b>La pluie de la veille fut décisive.</b> Les chevaliers français en armure lourde s'enlisèrent dans la boue. Les archers anglais, plus légers, les abattirent avant même qu'ils puissent frapper. La météo changea l'histoire de France."
+          },
+          {
+            "e": "🎭",
+            "t": "<b>Shakespeare en fit une pièce immortelle</b> avec Henry V et son discours de la Saint-Crispin. « We few, we happy few, we band of brothers. » La défaite française est devenue un mythe anglais."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🔥",
+        "tag": "Événement",
+        "date": "30 mai 1431",
+        "title": "Le Bûcher de Jeanne d'Arc",
+        "desc": "Capturée par les Bourguignons puis vendue aux Anglais, Jeanne d'Arc est jugée pour hérésie à Rouen. Condamnée par un tribunal ecclésiastique, elle est brûlée vive à 19 ans. Réhabilitée en 1456. Canonisée en 1920.",
+        "anecdotes": [
+          {
+            "e": "💔",
+            "t": "<b>Le bourreau Geoffroy Therage dit qu'il « craignait d'être damné »</b> après l'exécution. Le cœur de Jeanne refusait de brûler. Sur ordre des Anglais, ses cendres furent jetées dans la Seine pour qu'aucune relique ne puisse être vénérée."
+          },
+          {
+            "e": "⚜️",
+            "t": "<b>Charles VII, qu'elle avait sauvé, ne fit rien pour la libérer.</b> Il fallut attendre 25 ans et la reconquête de Rouen pour qu'il lance le procès en réhabilitation — une nécessité politique autant que morale."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚜️",
+        "tag": "Roi",
+        "date": "1422 – 1461",
+        "title": "Charles VII — Le Victorieux",
+        "desc": "Surnommé « le petit roi de Bourges » par ses ennemis, il semblait perdu. Jeanne d'Arc le fit sacrer à Reims en 1429. Il chassa les Anglais, mit fin à la Guerre de Cent Ans (1453) et réunifie la France.",
+        "anecdotes": [
+          {
+            "e": "🗡️",
+            "t": "<b>Charles VII abandonna Jeanne d'Arc</b> quand les Bourguignons la capturèrent en 1430. Il ne fit rien pour la sauver. Vingt ans plus tard, il organisa son procès en réhabilitation — trop tard, mais politiquement utile."
+          },
+          {
+            "e": "🏹",
+            "t": "<b>Il créa la première armée permanente de France</b> en 1445 — les Compagnies d'Ordonnance. Pour la première fois, les soldats étaient payés régulièrement, disciplinés et entraînés. La chevalerie féodale improvisée disparaissait."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🕸️",
+        "tag": "Roi",
+        "date": "1461 – 1483",
+        "title": "Louis XI — L'Universelle Araignée",
+        "desc": "Roi diplomate et rusé, il tisse ses intrigues plutôt que de livrer bataille. Il soumet la Bourgogne, annexe la Provence et la Franche-Comté, achève l'unification territoriale de la France. Ses ennemis l'appellent « l'Araignée ».",
+        "anecdotes": [
+          {
+            "e": "🕸️",
+            "t": "<b>Louis XI préférait payer ses ennemis plutôt que les combattre.</b> La diplomatie et l'or lui coûtaient moins cher que les guerres. Machiavel s'en inspirera directement pour écrire Le Prince."
+          },
+          {
+            "e": "🐊",
+            "t": "<b>Il inventait des cages en fer trop petites pour se tenir debout,</b> surnommées ses « fillettes ». Son conseiller Balue y passa 11 ans. Cet homme qui haïssait la noblesse fut pourtant le bâtisseur décisif du royaume de France."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "📰",
+        "tag": "Invention",
+        "date": "~1450",
+        "title": "L'Imprimerie de Gutenberg",
+        "desc": "Johannes Gutenberg invente les caractères mobiles en plomb à Mayence. La Bible à 42 lignes est imprimée vers 1455. En quelques décennies, l'imprimerie se répand dans toute l'Europe — y compris en France dès 1470. La diffusion du savoir bascule pour toujours.",
+        "anecdotes": [
+          {
+            "e": "📖",
+            "t": "<b>Avant l'imprimerie, un moine copiait un livre en un an.</b> Gutenberg pouvait en produire 180 en quelques semaines. Le prix des livres s'effondra, l'alphabétisation explosa. La Réforme protestante, l'humanisme et la Renaissance en furent directement rendus possibles."
+          },
+          {
+            "e": "💸",
+            "t": "<b>Gutenberg mourut presque ruiné.</b> Son associé Fust lui réclama ses dettes en justice, saisit ses presses et récupéra l'essentiel des bénéfices. L'inventeur de l'imprimerie ne profita guère de sa révolution."
           }
         ],
         "kind": "histoire"
@@ -457,6 +659,42 @@
           }
         ],
         "kind": "histoire"
+      },
+      {
+        "icon": "🏇",
+        "tag": "Roi",
+        "date": "1547 – 1559",
+        "title": "Henri II — Mort dans un Tournoi",
+        "desc": "Fils de François Ier, Henri II poursuit la Renaissance mais est tué accidentellement lors d'un tournoi en 1559 : la lance de Gabriel de Montgomery lui transperce la visière et lui crève l'œil. Il agonise dix jours. Sa mort plonge la France dans la crise.",
+        "anecdotes": [
+          {
+            "e": "🔮",
+            "t": "<b>Nostradamus avait prédit la mort d'un « roi lion » au tournoi.</b> Catherine de Médicis, la reine, avait supplié Henri II de ne pas jouter ce jour-là. Il refusa — et la prophétie devint la preuve la plus célèbre de Nostradamus."
+          },
+          {
+            "e": "⚕️",
+            "t": "<b>Vésale, le plus grand anatomiste de l'époque, fut appelé à son chevet.</b> Pour comprendre la blessure, on fit décapiter quatre prisonniers condamnés à mort pour tester des lances sur leurs têtes. Henri II mourut quand même."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Roi",
+        "date": "1559 – 1560",
+        "title": "François II — Le Roi Enfant",
+        "desc": "Fils aîné d'Henri II, il monte sur le trône à 15 ans et meurt à 16 ans d'une otite foudroyante. Mari de Marie Stuart, reine d'Écosse. Son règne de 17 mois est dominé par les Guise et préfigure les guerres de Religion.",
+        "anecdotes": [
+          {
+            "e": "💍",
+            "t": "<b>François II épousa Marie Stuart à 14 ans.</b> Veuve à 17 ans, la reine d'Écosse rentra dans son pays — et finit décapitée par Élisabeth Ire d'Angleterre en 1587. Son bref passage en France reste l'une des romances tragiques de la royauté."
+          },
+          {
+            "e": "👂",
+            "t": "<b>Il mourut d'une mastoïdite —</b> une infection de l'oreille qui gagna le cerveau. Une balade antibiotique aurait suffi à changer le cours de l'histoire de France. Sa mort ouvrit la voie aux guerres de Religion qui ensanglanteraient la France pendant 40 ans."
+          }
+        ],
+        "kind": "histoire"
       }
     ]
   },
@@ -478,6 +716,24 @@
           {
             "e": "🗡️",
             "t": "<b>Ravaillac était un fanatique catholique</b> convaincu qu'Henri IV allait attaquer le pape. Il le poignarda dans son carrosse bloqué dans la rue de la Ferronnerie, le 14 mai 1610."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚜️",
+        "tag": "Roi",
+        "date": "1610 – 1643",
+        "title": "Louis XIII & le Cardinal de Richelieu",
+        "desc": "Fils d'Henri IV, Louis XIII règne avec l'ombre de Richelieu. Le Cardinal-Ministre centralise le pouvoir royal, écrase les Protestants à La Rochelle (1628) et fonde l'Académie française (1635). Le vrai maître de la France.",
+        "anecdotes": [
+          {
+            "e": "🎭",
+            "t": "<b>Richelieu fonda l'Académie française en 1635</b> pour normer la langue — et surveiller les intellectuels. Ses 40 membres « immortels » veillent encore sur le dictionnaire français près de 400 ans plus tard."
+          },
+          {
+            "e": "🗡️",
+            "t": "<b>Les Trois Mousquetaires d'Alexandre Dumas</b> se déroulent sous Louis XIII. Athos, Porthos, Aramis et d'Artagnan sont inspirés de personnages réels — et Richelieu y joue l'antagoniste."
           }
         ],
         "kind": "histoire"
@@ -519,6 +775,24 @@
         "kind": "histoire"
       },
       {
+        "icon": "🃏",
+        "tag": "Ministre",
+        "date": "1643 – 1661",
+        "title": "Mazarin — La Régence & la Fronde",
+        "desc": "Successeur de Richelieu, Mazarin gouverne en régent pour le jeune Louis XIV. Il surmonte la Fronde (1648-1653), révolte des nobles et du Parlement. Il façonne le futur Roi-Soleil et signe la Paix des Pyrénées (1659) qui fait de la France la première puissance européenne.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>Mazarin légua sa bibliothèque à Paris à sa mort.</b> Elle est devenue la Bibliothèque Mazarine — la plus ancienne bibliothèque publique de France, toujours ouverte au public aujourd'hui."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Louis XIV dut fuir Paris en pleine nuit à 10 ans, pendant la Fronde.</b> Ce traumatisme explique sa méfiance des grands seigneurs — et son choix de les enfermer dorés à Versailles, loin de tout pouvoir réel."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "☀️",
         "tag": "Roi",
         "date": "1643 – 1715",
@@ -532,6 +806,96 @@
           {
             "e": "💃",
             "t": "<b>Louis XIV était un danseur exceptionnel,</b> participant à au moins 40 ballets de cour. Le ballet classique est une invention royale française."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚓",
+        "tag": "Événement",
+        "date": "~1550 – 1815",
+        "title": "Les Corsaires — La Guerre de Course",
+        "desc": "Armés par le roi, les corsaires français pillent les navires ennemis en toute légalité. Jean Bart, Duguay-Trouin, Robert Surcouf — ces héros de Dunkerque et Saint-Malo terrorisent les marines anglaise et hollandaise sous Louis XIV et Napoléon.",
+        "anecdotes": [
+          {
+            "e": "⚓",
+            "t": "<b>Jean Bart, fils de pêcheur de Dunkerque,</b> captura plus de 80 navires ennemis. Louis XIV le convoqua à Versailles pour lui annoncer sa promotion. Impressionné, Jean Bart dit simplement : « Sire, vous avez bien fait. » La cour fut scandalisée — le roi éclata de rire."
+          },
+          {
+            "e": "🏴‍☠️",
+            "t": "<b>La différence entre corsaire et pirate :</b> le corsaire a une lettre de marque du roi — il opère légalement pour son pays. Le pirate vole pour lui seul. Surcouf, capturant un navire anglais, répondit à un officier : « Vous vous battez pour l'argent, nous nous battons pour l'honneur. »"
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⛓️",
+        "tag": "Événement",
+        "date": "1640 – 1848",
+        "title": "Le Commerce Triangulaire",
+        "desc": "La France participe activement à la traite négrière atlantique. Nantes, Bordeaux et La Rochelle envoient des navires en Afrique, échangent des marchandises contre des esclaves, les déportent aux Antilles. Plus d'un million d'Africains sont ainsi déportés sous pavillon français.",
+        "anecdotes": [
+          {
+            "e": "🌊",
+            "t": "<b>Nantes fut le premier port négrier de France,</b> responsable de 43 % de la traite française — soit plus de 450 000 déportés. La fortune monumentale de la ville au XVIIIe siècle repose directement sur ce commerce."
+          },
+          {
+            "e": "✊",
+            "t": "<b>Haïti (Saint-Domingue) fut la colonie la plus riche du monde</b> grâce au travail forcé. En 1791, Toussaint Louverture mena la seule révolte d'esclaves victorieuse de l'Histoire. Napoléon envoya une armée — elle fut vaincue par la fièvre jaune et les insurgés."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "☠️",
+        "tag": "Événement",
+        "date": "1720 – 1722",
+        "title": "La Grande Peste de Marseille",
+        "desc": "Le navire Grand-Saint-Antoine débarque la peste à Marseille. En deux ans, la ville perd la moitié de sa population — 50 000 morts sur 90 000 habitants. La Provence entière est frappée. C'est la dernière grande épidémie de peste en France.",
+        "anecdotes": [
+          {
+            "e": "🧱",
+            "t": "<b>On construisit un mur de la peste</b> de 27 km en Provence pour stopper la contagion. Quiconque le franchissait était passible de mort. Ce mur de pierre existe encore partiellement dans le Luberon."
+          },
+          {
+            "e": "🚢",
+            "t": "<b>Le capitaine du Grand-Saint-Antoine avait dissimulé des cas à bord</b> pour ne pas perdre sa cargaison de soieries du Levant. Sa cupidité tua 100 000 personnes. Il fut condamné — mais les marchands de Marseille avaient fait pression pour qu'on décharge le navire coûte que coûte."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "💎",
+        "tag": "Roi",
+        "date": "1715 – 1774",
+        "title": "Louis XV — Le Bien-Aimé",
+        "desc": "Arrière-petit-fils de Louis XIV, il hérite d'un royaume épuisé. D'abord adoré (« le Bien-Aimé »), son long règne voit la montée des philosophes des Lumières, la perte du Canada et des Indes, et la France glisser vers l'abîme financier.",
+        "anecdotes": [
+          {
+            "e": "💅",
+            "t": "<b>Madame de Pompadour,</b> favorite de Louis XV pendant 20 ans, fut l'une des femmes les plus influentes d'Europe. Elle protégea l'Encyclopédie, soutint Voltaire et orienta la politique étrangère sans jamais tenir de titre officiel."
+          },
+          {
+            "e": "😔",
+            "t": "<b>« Après moi, le déluge »</b> — phrase attribuée à Louis XV (ou à Mme de Pompadour). En mourant de la variole en 1774, il laissait la France au bord de la faillite et de la révolution."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌍",
+        "tag": "Événement",
+        "date": "1756 – 1763",
+        "title": "La Guerre de Sept Ans — La Première Guerre Mondiale",
+        "desc": "Souvent appelée la première guerre mondiale, elle oppose la France à l'Angleterre sur 5 continents. La France perd le Canada, la Louisiane et ses comptoirs en Inde. L'Angleterre devient la première puissance mondiale.",
+        "anecdotes": [
+          {
+            "e": "🍁",
+            "t": "<b>La France perdit le Canada (Nouvelle-France) en 1763.</b> Le traité de Paris força Louis XV à céder aussi la Louisiane à l'Espagne et ses comptoirs en Inde — un désastre colonial aux conséquences durables."
+          },
+          {
+            "e": "🎯",
+            "t": "<b>Voltaire se moqua du Canada :</b> « quelques arpents de neige » ne valaient pas la peine d'y envoyer des troupes. L'histoire lui donna largement tort — et les Québécois ne l'ont pas oublié."
           }
         ],
         "kind": "histoire"
@@ -757,6 +1121,24 @@
             "t": "<b>Notre-Dame de Paris (1831)</b> fut écrit exprès pour sauver la cathédrale de la démolition. Le roman créa un tel engouement populaire que Victor Hugo força le gouvernement à restaurer l'édifice. Un roman qui sauva un monument."
           }
         ]
+      },
+      {
+        "icon": "🏗️",
+        "tag": "Urbanisme",
+        "date": "1853 – 1870",
+        "title": "Haussmann — La Naissance de Paris Moderne",
+        "desc": "Mandaté par Napoléon III, le baron Haussmann détruit 20 000 immeubles et trace 137 km de grands boulevards. Il dote Paris d'égouts, de gaz, de parcs et de l'eau courante. La capitale médiévale disparaît — Paris moderne naît.",
+        "anecdotes": [
+          {
+            "e": "💥",
+            "t": "<b>350 000 Parisiens furent expulsés de force</b> pour laisser place aux travaux. Les quartiers populaires du centre furent rasés — certains voient dans cette opération le premier grand épisode de gentrification de l'histoire."
+          },
+          {
+            "e": "🗡️",
+            "t": "<b>Les grands boulevards avaient aussi une fonction militaire :</b> ils permettaient à l'armée de manœuvrer rapidement et empêchaient les barricades révolutionnaires. Napoléon III ne voulait pas revivre 1848."
+          }
+        ],
+        "kind": "histoire"
       }
     ]
   },
@@ -801,6 +1183,24 @@
         "kind": "histoire"
       },
       {
+        "icon": "✨",
+        "tag": "Époque",
+        "date": "1871 – 1914",
+        "title": "La Belle Époque",
+        "desc": "Entre la défaite de 1870 et la Grande Guerre, la France connaît une période de paix, de prospérité et d'innovations folles : électricité, automobile, cinéma, aviation. Paris est la capitale mondiale de la culture, de la mode et des arts.",
+        "anecdotes": [
+          {
+            "e": "🎬",
+            "t": "<b>Les frères Lumière projetèrent le premier film de l'histoire à Paris le 28 décembre 1895.</b> Les spectateurs paniquèrent en voyant un train arriver vers eux. Le cinéma était né — et il était français."
+          },
+          {
+            "e": "🥂",
+            "t": "<b>Le Moulin Rouge (1889), le cancan, Toulouse-Lautrec, les cafés-concerts :</b> Montmartre et Montparnasse attiraient les artistes du monde entier. Picasso, Modigliani, Hemingway — Paris était une fête."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "kind": "histoire",
         "icon": "📖",
         "date": "1871 – 1893",
@@ -816,6 +1216,24 @@
             "t": "<b>Zola préparait ses romans comme un journaliste-scientifique :</b> il passa des mois dans les mines du Nord pour écrire Germinal, remplissant des carnets de notes sur les conditions de travail réelles."
           }
         ]
+      },
+      {
+        "icon": "⚖️",
+        "tag": "Événement",
+        "date": "1894 – 1906",
+        "title": "L'Affaire Dreyfus — La France Déchirée",
+        "desc": "Le capitaine Alfred Dreyfus, officier juif, est accusé à tort de trahison et déporté à l'île du Diable. L'Affaire divise la France en deux : dreyfusards contre antidreyfusards. Elle révèle l'antisémitisme d'État et accélère la séparation de l'Église et de l'État (1905).",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>« J'accuse ! » de Zola (1898)</b> fut imprimé à 300 000 exemplaires. En une journée, la lettre ouverte au Président de la République transforma une affaire militaire en crise nationale — et changea le destin de Dreyfus."
+          },
+          {
+            "e": "🎯",
+            "t": "<b>Theodor Herzl, journaliste viennois, couvrit le procès de Dreyfus.</b> Le cri de « Mort aux Juifs ! » dans les rues de Paris — la ville des droits de l'homme — lui fit comprendre que l'assimilation était impossible. Il créa le mouvement sioniste l'année suivante."
+          }
+        ],
+        "kind": "histoire"
       },
       {
         "kind": "histoire",
@@ -849,6 +1267,42 @@
         "kind": "histoire"
       },
       {
+        "icon": "🎷",
+        "tag": "Époque",
+        "date": "1920 – 1929",
+        "title": "Les Années Folles",
+        "desc": "Après l'horreur de la Grande Guerre, la France explose de joie. Paris devient la capitale mondiale du jazz, de la mode, de la littérature d'avant-garde. Joséphine Baker, Coco Chanel, Hemingway, Fitzgerald — tout le monde veut vivre à Paris.",
+        "anecdotes": [
+          {
+            "e": "🎷",
+            "t": "<b>Joséphine Baker débarqua à Paris en 1925</b> et fit sensation avec sa « danse banane ». La France l'adopta comme sa star — dans un pays qui pratiquait aussi la ségrégation coloniale. Plus tard, elle rejoignit la Résistance et fut faite Commandeure de la Légion d'honneur."
+          },
+          {
+            "e": "👗",
+            "t": "<b>Coco Chanel libéra les femmes des corsets</b> et inventa la mode moderne : jersey, tailleur, cheveux courts, cigarettes. Le N°5 (1921) reste le parfum le plus vendu au monde un siècle plus tard."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "📉",
+        "tag": "Événement",
+        "date": "1929 – 1939",
+        "title": "La Crise de 1929 — Le Grand Krach",
+        "desc": "Le jeudi noir d'octobre 1929 s'étend de Wall Street à l'Europe. En France, la crise frappe plus lentement mais plus longuement. Chômage, instabilité politique, montée des extrêmes : le Front Populaire (1936) et ses acquis sociaux — congés payés, semaine de 40h — naissent directement de cette crise.",
+        "anecdotes": [
+          {
+            "e": "🏖️",
+            "t": "<b>Les premiers congés payés en France datent de 1936,</b> obtenus par le Front Populaire sous la pression des grèves. Des millions de Français prirent leur premier train pour la mer — des photos bouleversantes de familles ouvrières découvrant la plage pour la première fois."
+          },
+          {
+            "e": "📊",
+            "t": "<b>La Bourse de Paris perdit 60 % de sa valeur entre 1929 et 1932.</b> La crise économique alimenta directement la montée du fascisme en Europe — et prépara le terrain de la Seconde Guerre mondiale."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🔥",
         "tag": "Événement",
         "date": "1939 – 1945",
@@ -869,6 +1323,42 @@
     "cls": "contemp",
     "events": [
       {
+        "icon": "🌿",
+        "tag": "Guerre",
+        "date": "1946 – 1954",
+        "title": "La Guerre d'Indochine",
+        "desc": "La France tente de reprendre le contrôle de son empire colonial en Asie du Sud-Est face au Viêt-minh de Hô Chi Minh. La défaite de Diên Biên Phû (1954) met fin à la présence française en Indochine et annonce la fin de l'ère coloniale.",
+        "anecdotes": [
+          {
+            "e": "🎖️",
+            "t": "<b>Diên Biên Phû (mars-mai 1954) :</b> le général Giap encercla et écrasa 16 000 soldats français dans une cuvette. Ce fut la première défaite militaire d'une puissance européenne face à un mouvement de libération nationale — un choc mondial."
+          },
+          {
+            "e": "🌏",
+            "t": "<b>Les États-Unis prirent le relais de la France en Indochine.</b> Vingt ans plus tard, ils subirent la même humiliation au Vietnam — prouvant que la leçon française n'avait pas été entendue."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🇩🇿",
+        "tag": "Guerre",
+        "date": "1954 – 1962",
+        "title": "La Guerre d'Algérie",
+        "desc": "Huit ans de guerre entre la France et le FLN pour l'indépendance algérienne. 400 000 morts algériens, 30 000 soldats français. La torture, les massacres du 17 octobre 1961 à Paris, et l'exode des pieds-noirs laissent des plaies encore ouvertes.",
+        "anecdotes": [
+          {
+            "e": "🕊️",
+            "t": "<b>De Gaulle, rappelé au pouvoir pour « garder l'Algérie française »,</b> négocia finalement l'indépendance (accords d'Évian, 1962). Ceux qui l'avaient porté au pouvoir se sentirent trahis — l'OAS tenta de l'assassiner plusieurs fois."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Un million de pieds-noirs — Français nés en Algérie —</b> durent tout abandonner en quelques semaines. Leur intégration difficile en métropole et leur mémoire blessée marquent encore la politique française."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🗳️",
         "tag": "Événement",
         "date": "1958 – aujourd'hui",
@@ -882,6 +1372,24 @@
           {
             "e": "🌍",
             "t": "<b>La France fut l'un des 6 pays fondateurs de l'Europe</b> avec l'Allemagne. La réconciliation franco-allemande est le fondement de l'Union Européenne."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🧱",
+        "tag": "Événement",
+        "date": "1961 – 1989",
+        "title": "Le Mur de Berlin — La Guerre Froide en Béton",
+        "desc": "L'URSS fait ériger le mur de Berlin en une nuit, le 13 août 1961. La France, puissance occupante de Berlin-Ouest, est en première ligne de la Guerre Froide. La chute du Mur le 9 novembre 1989 ouvre la voie à la réunification allemande et transforme l'Europe.",
+        "anecdotes": [
+          {
+            "e": "🔨",
+            "t": "<b>Le 9 novembre 1989, personne n'avait ordonné d'ouvrir le mur.</b> Un porte-parole est-allemand annonça par erreur que les frontières étaient ouvertes « immédiatement ». Des millions de Berlinois se précipitèrent — et le mur tomba sous la pression de la foule."
+          },
+          {
+            "e": "🇫🇷",
+            "t": "<b>Mitterrand fut l'un des derniers à soutenir la réunification allemande.</b> Il craignait une Allemagne trop puissante. Kohl lui proposa en échange d'accélérer la monnaie unique européenne. C'est ainsi que l'euro naquit du Mur de Berlin."
           }
         ],
         "kind": "histoire"
