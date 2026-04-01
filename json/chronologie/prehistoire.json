@@ -23,7 +23,12 @@
             "t": "<b>Le Big Bang ne fait pas « bang » !</b> Il n'y a aucun son, parce qu'il n'y a pas encore d'espace pour propager des ondes sonores. Et il ne se produit pas en un seul endroit — il se produit <i>partout à la fois</i>, l'espace entier se dilatant simultanément. Aujourd'hui encore, l'univers continue de s'étendre dans toutes les directions."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Il y a combien de milliards d'années le Big Bang a-t-il eu lieu ?",
+          "r": "13,8 milliards d'années",
+          "hint": "C'est la première date de toute la chronologie"
+        }
       },
       {
         "icon": "☀️",
@@ -45,7 +50,12 @@
             "t": "<b>Nous sommes faits de poussière d'étoiles mortes.</b> Le carbone de ton corps, le fer dans ton sang, le calcium de tes os — tout ça a été fabriqué dans le cœur d'étoiles qui ont explosé avant la naissance du Soleil. Tu es littéralement un recyclage cosmique."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel pourcentage de la masse du système solaire le Soleil représente-t-il ?",
+          "r": "99,86 %",
+          "hint": "Toutes les planètes réunies ne font que 0,14 %"
+        }
       },
       {
         "icon": "🌍",
@@ -67,7 +77,12 @@
             "t": "<b>Sans la Lune, la Terre tanguerait comme une toupie ivre.</b> La Lune stabilise l'inclinaison de l'axe terrestre, ce qui rend notre climat prévisible sur de longues périodes. Sans elle, l'axe pencherait aléatoirement entre 0° et 85° — provoquant des saisons chaotiques qui auraient peut-être empêché l'apparition de la vie complexe."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "De combien de centimètres la Lune s'éloigne-t-elle de la Terre chaque année ?",
+          "r": "3,8 cm par an",
+          "hint": "À sa formation, elle était 15 fois plus proche"
+        }
       }
     ]
   },
@@ -95,7 +110,12 @@
             "t": "<b>La vie a transformé l'atmosphère entière.</b> L'air primitif était irrespirable — plein de CO₂, sans oxygène. Ce sont les bactéries photosynthétiques qui ont passé 2 milliards d'années à produire l'oxygène de l'atmosphère, rendant la vie animale possible. Chaque respiration que tu prends est le fruit du travail de micro-organismes disparus depuis longtemps."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Dans quel environnement est probablement apparue la première vie sur Terre ?",
+          "r": "Autour de cheminées hydrothermales sous-marines",
+          "hint": "À 300°C dans les profondeurs des océans primitifs"
+        }
       },
       {
         "icon": "🟢",
@@ -117,7 +137,12 @@
             "t": "<b>Certaines algues produisent du pétrole.</b> Le pétrole que les humains brûlent aujourd'hui est en grande partie constitué d'algues microscopiques mortes et compressées pendant des millions d'années. En brûlant de l'essence, tu brûles des algues préhistoriques — du soleil stocké depuis 50 à 300 millions d'années."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel pourcentage de l'oxygène mondial les algues marines produisent-elles encore aujourd'hui ?",
+          "r": "50 % — la moitié",
+          "hint": "Plus que toutes les forêts terrestres réunies"
+        }
       },
       {
         "icon": "🐚",
@@ -139,7 +164,12 @@
             "t": "<b>Certains animaux du Cambrien semblent sortis de la science-fiction.</b> L'Anomalocaris mesurait 1 mètre et avait deux griffes rotatives pour saisir ses proies. L'Hallucigenia marchait sur des épines et avait la tête à la place de la queue (on l'a découvert tardivement). Ces formes expérimentales ont disparu — mais elles montrent que l'évolution a testé des dizaines de « designs » avant d'en garder quelques-uns."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle invention biologique déclencha une 'course aux armements' entre prédateurs et proies au Cambrien ?",
+          "r": "L'œil",
+          "hint": "Avant, personne ne voyait — donc personne ne se cachait"
+        }
       },
       {
         "icon": "🌿",
@@ -161,7 +191,12 @@
             "t": "<b>Les plantes ont conquis la terre grâce aux champignons.</b> Les premières plantes terrestres ne pouvaient pas absorber assez d'eau et de minéraux seules. Elles ont formé une alliance avec des champignons : les champignons leur apportaient minéraux et eau, les plantes leur donnaient du sucre. Cette symbiose existe encore aujourd'hui — 90 % des plantes terrestres dépendent de champignons souterrains."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien d'années une forêt met-elle pour produire 1 cm de sol fertile ?",
+          "r": "1 000 ans",
+          "hint": "Les plantes ont littéralement fabriqué la terre depuis la roche nue"
+        }
       },
       {
         "icon": "🦕",
@@ -183,7 +218,12 @@
             "t": "<b>Le plus grand animal terrestre de tous les temps est un dinosaure.</b> L'Argentinosaurus mesurait jusqu'à 40 mètres de long et pesait peut-être 80 tonnes — autant que 12 éléphants. Son cœur pesait environ 200 kg. Ses œufs n'étaient pourtant pas plus gros qu'un ballon de foot : un bébé de quelques kilos devenait un monstre de 80 tonnes."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Pendant combien de millions d'années les dinosaures ont-ils dominé la Terre ?",
+          "r": "165 millions d'années",
+          "hint": "Soit 40 fois la durée d'existence de notre espèce"
+        }
       },
       {
         "icon": "☄️",
@@ -205,7 +245,12 @@
             "t": "<b>Sans l'astéroïde, tu n'existerais probablement pas.</b> Les mammifères étaient présents depuis 150 millions d'années — mais réduits à de petits animaux nocturnes, incapables de rivaliser avec les dinosaures. En les éliminant, l'astéroïde a libéré toutes les niches écologiques. En 10 millions d'années, les mammifères ont explosé en milliers d'espèces nouvelles — dont les primates, dont nous."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle est la date exacte de l'extinction des dinosaures, recalibrée en 2013 ?",
+          "r": "–66 millions d'années",
+          "hint": "Et non –65 Ma comme dans les anciens manuels"
+        }
       }
     ]
   },
@@ -233,7 +278,12 @@
             "t": "<b>La bipédie a probablement émergé dans les savanes africaines</b>, où les forêts se fragmentaient sous l'effet du climat. Marcher debout permettait de voir au-dessus des herbes hautes, de porter nourriture et enfants, et de moins surchauffer sous le soleil équatorial."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel est le nom du plus ancien fossile de notre lignée, découvert au Tchad ?",
+          "r": "Sahelanthropus tchadensis",
+          "hint": "Il vivait il y a 7 millions d'années — juste après la séparation avec les chimpanzés"
+        }
       },
       {
         "kind": "histoire",
@@ -254,7 +304,12 @@
             "e": "⏰",
             "t": "<b>1,5 million d'années sans changer de modèle.</b> C'est la plus longue tradition technologique de l'histoire humaine — et de loin. À titre de comparaison, l'écriture existe depuis 5 000 ans, et en 5 000 ans nous sommes passés des tablettes d'argile aux smartphones. Nos ancêtres, eux, ont utilisé le même design pendant 750 fois cette durée. Et curieusement, certains bifaces semblent trop beaux et trop symétriques pour n'être que des outils — peut-être les premiers objets fabriqués pour être admirés."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Pendant combien de millions d'années le biface a-t-il été utilisé sans modification ?",
+          "r": "1,5 million d'années",
+          "hint": "La plus longue tradition technologique de toute l'histoire humaine"
+        }
       },
       {
         "icon": "🔥",
@@ -276,7 +331,12 @@
             "t": "<b>Pourquoi les sources disent –1 Ma ET –500 000 ans ?</b> Parce qu'elles parlent de deux choses différentes. –1 Ma = premiers contacts avec le feu (opportuniste). –400 000 ans = feu maîtrisé, allumé et entretenu volontairement. Les deux sont vrais."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Dans quelle grotte d'Afrique du Sud se trouvent les premières traces de feu, vieilles d'un million d'années ?",
+          "r": "La grotte de Wonderwerk",
+          "hint": "Des os et végétaux brûlés y ont été retrouvés"
+        }
       },
       {
         "kind": "histoire",
@@ -297,7 +357,12 @@
             "e": "🔥",
             "t": "<b>Certaines pointes étaient durcies au feu.</b> En chauffant l'extrémité de bois vert à la bonne température (pas trop, sinon elle brûle), on densifie les fibres et on obtient une pointe deux fois plus dure. C'est la première transformation chimique intentionnelle d'un matériau par un être humain."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quelle ville allemande ont été retrouvées les 8 lances en bois vieilles de 400 000 ans ?",
+          "r": "Schöningen",
+          "hint": "Leur équilibre est identique à celui d'un javelot olympique moderne"
+        }
       },
       {
         "icon": "🧠",
@@ -319,7 +384,12 @@
             "t": "<b>Notre vrai super-pouvoir, c'est la coopération avec des inconnus.</b> Un chimpanzé ne coopère qu'avec des individus qu'il connaît personnellement. Sapiens peut coopérer avec des millions d'inconnus grâce à des croyances partagées — lois, religions, monnaies, nations. Une billet de banque n'a de valeur que parce que des millions de gens croient qu'il en a. Cette capacité à construire des « réalités imaginaires » collectives est probablement ce qui nous a permis de conquérir la planète."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Sur quel site marocain ont été découverts les fossiles d'Homo Sapiens les plus anciens (300 000 ans) ?",
+          "r": "Jebel Irhoud",
+          "hint": "Ces crânes ressemblent déjà aux nôtres, mais avec une boîte crânienne plus allongée"
+        }
       },
       {
         "kind": "histoire",
@@ -340,7 +410,12 @@
             "e": "🦣",
             "t": "<b>Cette lance est une arme de contact, pas de distance.</b> Lourde et solide, elle est faite pour frapper fort de près — plonger dans un flanc à bout portant, après s'être approché sous le vent. Chasser un mammouth avec ça demande un courage (ou une inconscience) difficilement imaginable aujourd'hui."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel matériau les Néandertaliens utilisaient-ils pour coller les pointes de silex sur leurs lances ?",
+          "r": "La résine de bouleau (goudron naturel)",
+          "hint": "Obtenue en chauffant l'écorce à 340°C en atmosphère pauvre en oxygène"
+        }
       },
       {
         "kind": "histoire",
@@ -361,7 +436,12 @@
             "e": "🧠",
             "t": "<b>Néandertal enterrait aussi ses morts.</b> Des sépultures néandertaliennes avec des pigments ont été trouvées à Shanidar (Irak, –60 000 ans). Même si leur interprétation est débattue, elles suggèrent que la conscience de la mort — et peut-être la spiritualité — ne sont pas une exclusivité de Sapiens."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Sur quel site d'Afrique du Sud ont été retrouvés les plus anciens bijoux connus, des coquillages percés ?",
+          "r": "Blombos Cave",
+          "hint": "Ces coquillages avaient été transportés à 35 km de la côte — preuve de valeur symbolique"
+        }
       },
       {
         "kind": "histoire",
@@ -382,7 +462,12 @@
             "e": "⚒️",
             "t": "<b>Tanner une peau prend plusieurs jours de travail collectif.</b> Gratter le gras, assouplir par mastication, fumer pour imperméabiliser. Ces techniques impliquent planification, spécialisation et transmission du savoir — les indices d'une organisation sociale déjà complexe, bien avant les villages."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel insecte parasite a permis aux scientifiques de dater l'apparition des vêtements à –80 000 ans ?",
+          "r": "Le pou de corps",
+          "hint": "Il diverge génétiquement du pou de tête dès que l'humain commence à se couvrir en permanence"
+        }
       },
       {
         "kind": "histoire",
@@ -399,7 +484,12 @@
             "e": "🌍",
             "t": "<b>Les Africains subsahariens sont génétiquement plus diversifiés</b> que tout le reste de l'humanité réuni. La diversité génétique mondiale s'est « étirée » à mesure que les migrations s'éloignaient de l'Afrique — chaque nouvelle population emportant un sous-ensemble du répertoire génétique précédent."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel détroit les premiers Homo Sapiens ont-ils franchi pour quitter l'Afrique il y a 70 000 ans ?",
+          "r": "Le détroit de Bab-el-Mandeb",
+          "hint": "Entre la Corne de l'Afrique et le Yémen actuel"
+        }
       },
       {
         "kind": "histoire",
@@ -416,7 +506,12 @@
             "e": "🦣",
             "t": "<b>À leur arrivée, l'Australie abritait une mégafaune extraordinaire :</b> wombats géants de la taille d'un rhinocéros, serpents de 7 mètres, oiseaux de 200 kg. La plupart disparurent dans les millénaires suivant l'arrivée des humains."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quelle distance océanique minimale les premiers humains ont-ils dû traverser pour atteindre l'Australie ?",
+          "r": "Au moins 90 km d'océan ouvert",
+          "hint": "Le niveau des mers était 60 m plus bas, mais ce bras de mer restait infranchissable à pied"
+        }
       },
       {
         "kind": "histoire",
@@ -433,7 +528,12 @@
             "e": "🎨",
             "t": "<b>Les Néandertaliens fabriquaient des bijoux, enterraient leurs morts et utilisaient des pigments.</b> Des fouilles récentes suggèrent qu'ils peignaient déjà des grottes en Espagne 65 000 ans avant Sapiens — ce seraient donc les premiers artistes de l'histoire."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel pourcentage d'ADN néandertalien les Européens et Asiatiques actuels portent-ils ?",
+          "r": "1 à 4 %",
+          "hint": "Héritage de croisements anciens entre Sapiens et Néandertaliens"
+        }
       },
       {
         "kind": "histoire",
@@ -450,7 +550,12 @@
             "e": "🕯️",
             "t": "<b>Les artistes travaillaient à la lueur de torches et de lampes à graisse</b>, dans l'obscurité totale à des centaines de mètres de l'entrée. Chauvet est classée au patrimoine mondial de l'UNESCO depuis 2014."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quel département français se trouve la grotte Chauvet, datant de –36 000 ans ?",
+          "r": "L'Ardèche",
+          "hint": "Elle contient plus de 400 figures d'animaux — dont des rhinocéros laineux et des lions des cavernes"
+        }
       },
       {
         "kind": "histoire",
@@ -471,7 +576,12 @@
             "e": "🎨",
             "t": "<b>Certains propulseurs sont de véritables chefs-d'œuvre sculptés.</b> Le propulseur au « faon aux oiseaux » de Mas-d'Azil (–13 000 ans, Ariège) représente un jeune cerf se retournant, sculpté dans du bois de renne avec un réalisme saisissant. L'arme de chasse comme objet d'art — preuve que l'esthétique et l'efficacité n'ont jamais été contradictoires pour Homo sapiens."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "À quelle vitesse une sagaie lancée au propulseur peut-elle atteindre sa cible ?",
+          "r": "150 km/h",
+          "hint": "Suffisant pour transpercer 10 cm de chair à 50 mètres"
+        }
       },
       {
         "kind": "histoire",
@@ -488,7 +598,12 @@
             "e": "🎶",
             "t": "<b>La musique est probablement bien plus ancienne</b> que ces flûtes — os creux, peaux tendues, voix humaine — mais les matériaux organiques ne se fossilisent pas. Ces flûtes sont simplement les premières à avoir survécu au temps."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quelle matière est taillée la flûte de Hohle Fels, la plus ancienne connue ?",
+          "r": "Un os de vautour fauve (le radius)",
+          "hint": "Elle possède 5 trous digitaux et peut encore produire des sons aujourd'hui"
+        }
       },
       {
         "kind": "histoire",
@@ -509,7 +624,12 @@
             "e": "❄️",
             "t": "<b>Le mammouth s'est éteint il y a ~4 000 ans</b> — soit 2 000 ans après les pyramides d'Égypte. Une petite population a survécu sur l'île Wrangel (Arctique sibérien) jusqu'en –2 000 av. J.-C. La chasse humaine et le réchauffement post-glaciaire ont conjugué leurs effets pour l'éliminer définitivement."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quel pays ont été retrouvées des huttes construites entièrement en os de mammouths ?",
+          "r": "En Ukraine (site de Mezhirich, –15 000 ans)",
+          "hint": "Leurs charpentes utilisaient des centaines de mandibules et fémurs soigneusement assemblés"
+        }
       },
       {
         "kind": "histoire",
@@ -530,7 +650,12 @@
             "e": "🌍",
             "t": "<b>L'aiguille a ouvert l'Arctique à l'humanité.</b> Sans vêtements parfaitement ajustés — couvrant mains, pieds et visage — survivre à –40°C est impossible. C'est l'aiguille, autant que le feu ou l'intelligence, qui a rendu possible le peuplement de la Béringie et des Amériques."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quelle région du monde les premières aiguilles à coudre préhistoriques ont-elles été retrouvées ?",
+          "r": "En Sibérie, à Denisova",
+          "hint": "Leur finesse rivalise avec nos aiguilles modernes"
+        }
       },
       {
         "kind": "histoire",
@@ -551,7 +676,12 @@
             "e": "🌡️",
             "t": "<b>La température moyenne en France était 8 à 10°C plus froide</b> qu'aujourd'hui. Paris ressemblait à la Sibérie actuelle. La fonte des glaces (–18 000 à –6 000 ans) fit monter les mers de 120 mètres, engloutissant des terres habitées — des villages entiers sous la mer du Nord — et déclenchant probablement les mythes universels du Déluge présents dans toutes les cultures."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "De combien de mètres le niveau des mers était-il plus bas au maximum glaciaire, vers –20 000 ans ?",
+          "r": "120 mètres plus bas",
+          "hint": "La Grande-Bretagne était reliée au continent, la Sibérie à l'Alaska"
+        }
       },
       {
         "kind": "histoire",
@@ -568,7 +698,12 @@
             "e": "🔥",
             "t": "<b>La cuisson des aliments dans l'eau</b> rendue possible par la poterie libère des nutriments inaccessibles autrement. Elle a probablement autant contribué à la santé humaine que la médecine."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quels pays ont été retrouvées les premières poteries connues de l'humanité ?",
+          "r": "En Chine et au Japon",
+          "hint": "Elles précèdent l'agriculture de 5 000 ans — inventées par des chasseurs-cueilleurs"
+        }
       },
       {
         "kind": "histoire",
@@ -585,7 +720,12 @@
             "e": "🔒",
             "t": "<b>La grotte originale est fermée au public depuis 1963</b> pour préserver les peintures, menacées par le CO₂ et les moisissures apportés par les visiteurs. Une réplique quasi parfaite, Lascaux IV, accueille aujourd'hui les touristes à quelques centaines de mètres du site original."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "En quelle année la grotte de Lascaux a-t-elle été fermée au public ?",
+          "r": "1963",
+          "hint": "Le CO₂ et les moisissures des visiteurs menaçaient les peintures vieilles de 17 000 ans"
+        }
       },
       {
         "kind": "histoire",
@@ -602,7 +742,12 @@
             "e": "🧬",
             "t": "<b>Toutes les races de chiens</b> — du chihuahua au saint-bernard — descendent d'une même population de loups domestiqués. La sélection humaine en 15 000 ans a créé une diversité morphologique sans équivalent dans la nature."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "De quel animal le chien domestique est-il issu ?",
+          "r": "Du loup gris",
+          "hint": "C'est le premier animal domestiqué — bien avant les vaches, moutons ou chevaux"
+        }
       },
       {
         "kind": "histoire",
@@ -619,7 +764,12 @@
             "e": "🧬",
             "t": "<b>Tous les Amérindiens descendent d'une seule vague migratoire</b> partie de Sibérie, dont les descendants ont été isolés des autres humains pendant 15 000 ans — la plus longue isolation d'une grande population humaine dans l'histoire. Certaines études suggèrent cependant des contacts côtiers polynésiens bien avant Colomb."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Par quel pont terrestre les premiers humains ont-ils rejoint l'Amérique depuis la Sibérie ?",
+          "r": "La Béringie",
+          "hint": "Une vaste plaine aujourd'hui engloutie sous le détroit de Béring"
+        }
       },
       {
         "icon": "🌾",
@@ -641,7 +791,12 @@
             "t": "<b>L'agriculture a peut-être rendu les humains moins heureux — et plus petits.</b> Les squelettes des premiers agriculteurs sont en moyenne 10 cm plus courts que ceux des chasseurs-cueilleurs qui les précèdent : signe de malnutrition, car un régime à base de céréales est bien moins varié que celui d'un nomade. Leur espérance de vie était plus courte, leurs dents plus cariées. Alors pourquoi ont-ils continué ? Probablement parce que l'agriculture nourrit dix fois plus de personnes par km² — et que la démographie fait le reste."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien d'heures par jour les chasseurs-cueilleurs travaillaient-ils en moyenne, avant l'agriculture ?",
+          "r": "Environ 4 heures par jour",
+          "hint": "L'agriculture a rendu les humains plus nombreux — mais aussi plus petits et moins en bonne santé"
+        }
       },
       {
         "kind": "histoire",
@@ -658,7 +813,12 @@
             "e": "⛏️",
             "t": "<b>Seulement 5 % du site a été fouillé.</b> Le géoradar révèle au moins 16 enceintes encore enfouies. Et le plus étrange : vers –8 000 av. J.-C., ses bâtisseurs ont délibérément enfoui le site sous des tonnes de terre, le préservant intact pendant 11 000 ans."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel pourcentage du site de Göbekli Tepe a été fouillé à ce jour ?",
+          "r": "5 %",
+          "hint": "Le géoradar révèle au moins 16 enceintes encore enfouies sous la terre"
+        }
       },
       {
         "kind": "histoire",
@@ -679,7 +839,12 @@
             "e": "⚕️",
             "t": "<b>Le taux de survie néolithique dépasse 50 %</b> d'après les études sur les séries de crânes. Soit les praticiens étaient bien plus compétents qu'on ne le croit, soit les indications chirurgicales — fractures ouvertes, hématomes sous-duraux après un coup — étaient précisément ciblées sur des cas qui nécessitaient vraiment l'intervention."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel est le taux de survie des patients trépanés au Néolithique, d'après l'étude des crânes ?",
+          "r": "Plus de 50 %",
+          "hint": "Les bords recalcifiés des trous prouvent que les patients ont survécu à l'opération"
+        }
       },
       {
         "kind": "histoire",
@@ -700,7 +865,12 @@
             "e": "🏗️",
             "t": "<b>Comment déplacer une dalle de 50 tonnes sans roue ni métal ?</b> Des reconstitutions expérimentales montrent que 200 personnes, des traîneaux en bois et des rouleaux suffisent. Ces chantiers impliquent une organisation complexe : spécialisation des tâches, stockage alimentaire pour nourrir les équipes, et une autorité — religieuse ou politique — capable de mobiliser des communautés entières pendant des décennies."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Combien de menhirs comptent les alignements de Carnac, en Bretagne ?",
+          "r": "Plus de 3 000 menhirs",
+          "hint": "Disposés en 11 rangées sur 4 km — le plus grand ensemble mégalithique du monde"
+        }
       },
       {
         "kind": "histoire",
@@ -721,7 +891,39 @@
             "e": "🗺️",
             "t": "<b>Le cheval a inventé la mondialisation antique.</b> La Route de la Soie n'aurait pas existé sans lui. Épidémies, religions et innovations techniques se sont propagées à travers l'Eurasie à la vitesse du galop — le cheval est le premier réseau de communication continental de l'histoire, bien avant l'écriture."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Dans quelle région les premiers chevaux ont-ils été domestiqués, vers –3 500 av. J.-C. ?",
+          "r": "Les steppes d'Eurasie (culture Botaï, Kazakhstan actuel)",
+          "hint": "La preuve : des résidus de lait de jument retrouvés sur des poteries"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "⚙️",
+        "tag": "Invention",
+        "date": "–3 500 av. J.-C.",
+        "title": "La Roue — L'Invention qui Change Tout",
+        "desc": "La roue apparaît en Mésopotamie et dans les steppes d'Eurasie vers –3 500 av. J.-C. — probablement à la même époque que la domestication du cheval, dont elle démultiplie l'utilité. La plus ancienne roue complète retrouvée est celle de Ljubljana (Slovénie, –3 350 av. J.-C.). D'abord utilisée pour les potiers, elle est rapidement adaptée aux chariots. Associée à l'axe fixe, elle révolutionne le transport, la guerre et l'agriculture.",
+        "anecdotes": [
+          {
+            "e": "🏺",
+            "t": "<b>La roue a été inventée pour la poterie avant les transports.</b> Le tour du potier, qui permet de façonner l'argile en la faisant tourner, précède le chariot de plusieurs siècles. Ce n'est qu'ensuite que quelqu'un a eu l'idée de mettre la roue sous un véhicule — une révolution dans la révolution."
+          },
+          {
+            "e": "🐎",
+            "t": "<b>La roue ne sert à rien sans routes — et sans animaux pour tirer.</b> Les Mésoaméricains connaissaient le principe de la roue (on en a retrouvé sur des jouets) mais ne l'utilisaient pas pour le transport : il n'y avait ni chevaux, ni bœufs, ni routes adaptées. Une invention n'est utile que dans l'écosystème qui permet de l'exploiter."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Le char de guerre à roues à rayons (–2 000 av. J.-C.) est l'arme absolue de l'Antiquité.</b> Léger, rapide, manœuvrable — il domine les champs de bataille pendant 1 500 ans. À la bataille de Qadesh (–1 274 av. J.-C.), Ramsès II et les Hittites alignèrent plusieurs milliers de chars. C'est la première grande bataille de chars de l'histoire — 3 200 ans avant la Seconde Guerre mondiale."
+          }
+        ],
+        "quiz": {
+          "q": "Quel était l'usage premier de la roue, avant son utilisation pour les transports ?",
+          "r": "Le tour du potier",
+          "hint": "Pour façonner l'argile en la faisant tourner — le chariot vint ensuite"
+        }
       },
       {
         "icon": "🧊",
@@ -739,7 +941,12 @@
             "t": "<b>Son ADN révèle qu'Ötzi est le cousin génétique</b> de nombreux Sardes et Corses actuels. Il était intolérant au lactose, avait les yeux marron et souffrait de maladie de Lyme."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Comment Ötzi est-il mort, selon les analyses scientifiques ?",
+          "r": "Assassiné — une pointe de flèche lui a sectionné une artère",
+          "hint": "Premier 'cold case' de l'histoire, vieux de 5 300 ans"
+        }
       },
       {
         "kind": "histoire",
@@ -760,28 +967,39 @@
             "e": "🦸",
             "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte un roi mi-dieu mi-humain, sa quête de l'immortalité et son amitié avec l'homme sauvage Enkidu. Elle contient aussi un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel est le nom du premier être humain dont on connaît le nom dans toute l'histoire ?",
+          "r": "Kushim",
+          "hint": "C'était un comptable d'Uruk — pas un roi, pas un héros"
+        }
       },
       {
         "kind": "histoire",
-        "icon": "🏛️",
-        "date": "–1 800 av. J.-C.",
-        "title": "Babylone — La Première Superpuissance",
-        "desc": "Au cœur de la Mésopotamie, Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la région et institue quelque chose de révolutionnaire : un code de lois écrit, gravé sur une stèle de 2,25 mètres, applicable à tous. Riche, bâtisseur, astronome et conquérante, Babylone invente en même temps le droit, les mathématiques avancées et la carte du monde.",
+        "icon": "✍️",
+        "tag": "Invention",
+        "date": "–3 200 av. J.-C.",
+        "title": "L'Écriture — La Fin de la Préhistoire",
+        "desc": "À Uruk (Mésopotamie), des administrateurs gravent des signes cunéiformes sur des tablettes d'argile pour gérer les stocks de grain et de bétail. C'est l'invention de l'écriture — et par définition, la fin de la Préhistoire. Tout ce qui précède, nous ne le connaissons que par l'archéologie. Tout ce qui suit, l'humanité peut se souvenir elle-même. Cette frontière invisible, tracée dans l'argile d'une ville irakienne, sépare le silence des origines de la parole de l'Histoire.",
         "anecdotes": [
           {
-            "e": "⚖️",
-            "t": "<b>Hammurabi a inventé l'État de droit — avec ses défauts.</b> Le Code d'Hammurabi (–1 754 av. J.-C.) est le premier grand recueil de lois de l'histoire : 282 articles gravés sur basalte noir, encore lisibles aujourd'hui au Louvre. Il prévoit la présomption d'innocence, la protection des veuves et orphelins, des salaires minimums. Mais aussi : « œil pour œil, dent pour dent » — avec des peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
-          },
-          {
-            "e": "🌟",
-            "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps et les angles.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce que les Babyloniens comptaient en base 60 — un système hérité des Sumériens, remarquablement pratique car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans entre le Tigre et l'Euphrate."
+            "e": "📊",
+            "t": "<b>L'écriture n'a pas été inventée pour la littérature — mais pour la comptabilité.</b> Les premières tablettes cunéiformes sont des reçus et des inventaires : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom. Pas un roi, pas un poète — un gestionnaire de stocks. La mémoire humaine a commencé par des tableurs."
           },
           {
             "e": "🌍",
-            "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre — évidemment. Autour, des régions mythiques habitées par des monstres. C'est une carte autant politique que géographique : placer ta ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
+            "t": "<b>L'écriture a été inventée de façon indépendante au moins 4 fois.</b> En Mésopotamie (–3 200), en Égypte (–3 100), en Chine (–1 200) et en Mésoamérique (–900 av. J.-C.) par les Olmèques. Chaque fois, c'est la complexité croissante des sociétés — gérer des impôts, des armées, des lois — qui rend la mémoire humaine seule insuffisante."
+          },
+          {
+            "e": "📅",
+            "t": "<b>La Préhistoire dure 3 millions d'années. L'Histoire écrite, 5 200 ans.</b> Si l'existence humaine était une journée de 24 heures, l'écriture serait apparue à 23h57. Tout Homère, la Bible, César, Shakespeare, la Révolution française, les deux guerres mondiales, internet — tout cela se passe dans les 3 dernières minutes de notre histoire."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quelle invention marque conventionnellement la fin de la Préhistoire et le début de l'Histoire ?",
+          "r": "L'écriture",
+          "hint": "Apparue vers –3 200 av. J.-C. à Uruk, en Mésopotamie"
+        }
       }
     ]
   }
