@@ -8,19 +8,19 @@
         "tag": "Événement",
         "date": "–13,8 milliards d'années",
         "title": "Naissance de l'Univers",
-        "desc": "Le Big Bang : espace, temps et matière apparaissent en une fraction de seconde. Toute l'énergie de l'univers concentrée en un point.",
+        "desc": "Avant le Big Bang : rien. Pas le vide — le vide, c'est quelque chose. Rien. Pas d'espace, pas de temps, pas de matière. Puis, en moins d'une fraction de seconde, tout ce qui existe jaillit d'un point plus petit qu'un atome. L'espace lui-même se met à gonfler à une vitesse vertigineuse. En 3 minutes, les premiers atomes se forment. L'univers vient de naître.",
         "anecdotes": [
           {
             "e": "🌡️",
-            "t": "<b>10 milliards de degrés</b> à la naissance — le cœur du Soleil n'est « que » 15 millions de degrés."
+            "t": "<b>Une chaleur impossible à imaginer.</b> À sa naissance, l'univers atteignait 10 milliards de milliards de degrés. Pour donner une idée : le cœur du Soleil n'est « que » 15 millions de degrés, et une bombe atomique produit quelques dizaines de millions de degrés. Le Big Bang dépasse tout ça à un point qui n'a pas de nom."
           },
           {
             "e": "🕰️",
-            "t": "<b>Le temps lui-même est né avec le Big Bang.</b> Demander « qu'y avait-il avant ? » n'a pas de sens : il n'y avait pas de « avant »."
+            "t": "<b>Le temps lui-même est né avec le Big Bang.</b> Poser la question « qu'y avait-il avant ? » n'a aucun sens — il n'y avait pas de « avant », parce qu'il n'y avait pas de temps. C'est comme demander ce qu'il y a au nord du pôle Nord. La question est mal posée."
           },
           {
             "e": "🔇",
-            "t": "<b>Le Big Bang ne fait pas « bang » !</b> Pas d'espace pour transmettre un son. L'explosion s'est produite partout à la fois."
+            "t": "<b>Le Big Bang ne fait pas « bang » !</b> Il n'y a aucun son, parce qu'il n'y a pas encore d'espace pour propager des ondes sonores. Et il ne se produit pas en un seul endroit — il se produit <i>partout à la fois</i>, l'espace entier se dilatant simultanément. Aujourd'hui encore, l'univers continue de s'étendre dans toutes les directions."
           }
         ],
         "kind": "histoire"
@@ -30,15 +30,19 @@
         "tag": "Événement",
         "date": "–4,6 milliards d'années",
         "title": "Naissance du Système Solaire",
-        "desc": "Un nuage de gaz s'effondre sur lui-même. Le Soleil s'allume. Les planètes se forment par accrétion de roches.",
+        "desc": "Un immense nuage de gaz et de poussières — restes d'étoiles mortes depuis longtemps — commence à s'effondrer sur lui-même sous l'effet de sa propre gravité. Au centre, la pression monte, la température grimpe jusqu'à déclencher la fusion nucléaire : le Soleil s'allume. Autour de lui, les restes du nuage s'agglomèrent en petits cailloux, puis en rochers, puis en planètes. Notre maison vient de se construire.",
         "anecdotes": [
           {
             "e": "⚖️",
-            "t": "<b>Le Soleil représente 99,86 % de la masse du système solaire.</b> Toutes les planètes réunies font à peine 0,14 %."
+            "t": "<b>Le Soleil pèse 99,86 % du système solaire.</b> Jupiter, Saturne, toutes les planètes, tous les astéroïdes, toutes les comètes — tout ça ensemble ne représente que 0,14 % de la masse totale. Le Soleil est tellement massif qu'il pourrait contenir 1,3 million de Terres."
           },
           {
-            "e": "🪐",
-            "t": "<b>Jupiter protège probablement la Terre</b> en capturant avec sa gravité les gros astéroïdes qui nous menaceraient."
+            "e": "🛡️",
+            "t": "<b>Jupiter est notre garde du corps cosmique.</b> Sa gravité colossale attire et dévie les gros astéroïdes qui, autrement, pourraient foncer vers la Terre. Sans Jupiter, notre planète aurait été bombardée des dizaines de fois plus souvent — et la vie telle qu'on la connaît n'aurait peut-être jamais pu s'installer durablement."
+          },
+          {
+            "e": "✨",
+            "t": "<b>Nous sommes faits de poussière d'étoiles mortes.</b> Le carbone de ton corps, le fer dans ton sang, le calcium de tes os — tout ça a été fabriqué dans le cœur d'étoiles qui ont explosé avant la naissance du Soleil. Tu es littéralement un recyclage cosmique."
           }
         ],
         "kind": "histoire"
@@ -48,15 +52,19 @@
         "tag": "Événement",
         "date": "–4,5 milliards d'années",
         "title": "Naissance de la Terre",
-        "desc": "La Terre se forme. La Lune naît d'un impact géant avec la proto-planète Théia. Les océans apparaissent.",
+        "desc": "La Terre se forme en agglomérant des millions de rochers en orbite. Mais à peine née, elle reçoit un impact catastrophique : une planète de la taille de Mars, baptisée Théia, la percute de plein fouet. L'explosion est si violente qu'une partie de la Terre et de Théia est projetée dans l'espace. Ces débris s'agglomèrent en orbite et forment la Lune. Pendant des millions d'années encore, des comètes bombardent la Terre — et lui apportent de l'eau.",
         "anecdotes": [
           {
             "e": "🌕",
-            "t": "<b>La Lune s'éloigne de 3,8 cm par an.</b> À sa formation, elle était 15 fois plus proche — un disque immense dans le ciel."
+            "t": "<b>La Lune rétrécit dans notre ciel depuis 4,5 milliards d'années.</b> Elle s'éloigne de 3,8 cm par an. À sa naissance, elle était 15 fois plus proche — un disque gigantesque qui couvrait 15° du ciel (contre 0,5° aujourd'hui). Les marées qu'elle provoquait étaient des centaines de fois plus puissantes que celles d'aujourd'hui."
           },
           {
             "e": "🌊",
-            "t": "<b>L'eau terrestre vient de l'espace :</b> comètes et astéroïdes riches en glace ont bombardé la Terre dans ses premiers millions d'années."
+            "t": "<b>L'eau de tes robinets vient de l'espace.</b> La Terre primitive était trop chaude pour conserver l'eau liquide. C'est le bombardement de comètes et d'astéroïdes riches en glace, pendant des centaines de millions d'années, qui a rempli les océans. La prochaine fois que tu bois un verre d'eau, pense aux comètes."
+          },
+          {
+            "e": "🌀",
+            "t": "<b>Sans la Lune, la Terre tanguerait comme une toupie ivre.</b> La Lune stabilise l'inclinaison de l'axe terrestre, ce qui rend notre climat prévisible sur de longues périodes. Sans elle, l'axe pencherait aléatoirement entre 0° et 85° — provoquant des saisons chaotiques qui auraient peut-être empêché l'apparition de la vie complexe."
           }
         ],
         "kind": "histoire"
@@ -72,15 +80,19 @@
         "tag": "Événement",
         "date": "–3,8 milliards d'années",
         "title": "Naissance de la Vie",
-        "desc": "Premières cellules procaryotes dans les océans primitifs, probablement autour de sources hydrothermales sous-marines.",
+        "desc": "Dans les océans primitifs brûlants, autour de cheminées hydrothermales crachant des minéraux à 300°C, quelque chose d'extraordinaire se produit : des molécules chimiques commencent à se copier elles-mêmes. Une membrane se forme pour les envelopper. La première cellule vient de naître — et avec elle, la vie. Ce minuscule événement va transformer toute la planète.",
         "anecdotes": [
           {
             "e": "🔬",
-            "t": "<b>Toute vie sur Terre partage le même code ADN</b> — bactérie ou être humain, mêmes 4 lettres chimiques. Nous sommes tous cousins."
+            "t": "<b>Un champignon, un cactus, un requin et toi partagez le même code ADN.</b> Toute vie sur Terre utilise exactement les mêmes 4 « lettres » chimiques pour écrire ses gènes. Cela prouve que vous descendez tous d'une même ancêtre commune — une bactérie unique apparue il y a 3,8 milliards d'années. Vous êtes tous cousins."
           },
           {
-            "e": "🧬",
-            "t": "<b>Nos mitochondries sont des bactéries apprivoisées.</b> Une cellule en avala une autre sans la digérer il y a 2 milliards d'années — elle est devenue notre centrale énergétique."
+            "e": "⚡",
+            "t": "<b>Tes cellules abritent des bactéries apprivoisées.</b> Il y a 2 milliards d'années, une cellule en avala une autre sans la digérer. La bactérie ingérée devint une centrale énergétique permanente : la mitochondrie. Chacune de tes 37 000 milliards de cellules contient ces anciennes bactéries, qui ont leur propre ADN, distinct du tien."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>La vie a transformé l'atmosphère entière.</b> L'air primitif était irrespirable — plein de CO₂, sans oxygène. Ce sont les bactéries photosynthétiques qui ont passé 2 milliards d'années à produire l'oxygène de l'atmosphère, rendant la vie animale possible. Chaque respiration que tu prends est le fruit du travail de micro-organismes disparus depuis longtemps."
           }
         ],
         "kind": "histoire"
@@ -90,11 +102,19 @@
         "tag": "Événement",
         "date": "–1,2 milliards d'années",
         "title": "Premières Algues",
-        "desc": "Les algues pluricellulaires apparaissent. Via endosymbiose, elles sont à l'origine des chloroplastes — base de la photosynthèse chez tous les végétaux futurs.",
+        "desc": "Une cellule avale une bactérie photosynthétique — et au lieu de la digérer, elle la garde prisonnière. Cette bactérie devient un chloroplaste, une mini-usine à capter la lumière du Soleil. Née de cet accident extraordinaire, l'algue pluricellulaire est l'ancêtre de toutes les plantes de la planète. Sans cet événement improbable, il n'y aurait ni forêts, ni fleurs, ni fruits — et probablement pas d'humains.",
         "anecdotes": [
           {
-            "e": "🌞",
-            "t": "<b>Les algues produisent encore aujourd'hui la moitié de l'oxygène mondial.</b> Sans elles, l'atmosphère serait irrespirable."
+            "e": "🌊",
+            "t": "<b>Les algues fabriquent la moitié de l'air que tu respires.</b> Pas les forêts — les océans. Le phytoplancton microscopique produit environ 50 % de l'oxygène mondial, silencieusement, en pleine mer. Une forêt amazonique entière produit à peu près autant d'oxygène qu'elle en consomme. Les véritables poumons de la planète sont sous l'eau."
+          },
+          {
+            "e": "🔁",
+            "t": "<b>L'endosymbiose : quand manger quelqu'un devient une association gagnant-gagnant.</b> Ce « bug » évolutif — avaler sans digérer — s'est produit au moins deux fois dans l'histoire de la vie, créant d'abord les mitochondries, puis les chloroplastes. Ces deux événements accidentels sont à l'origine de presque toute la vie complexe sur Terre."
+          },
+          {
+            "e": "🧪",
+            "t": "<b>Certaines algues produisent du pétrole.</b> Le pétrole que les humains brûlent aujourd'hui est en grande partie constitué d'algues microscopiques mortes et compressées pendant des millions d'années. En brûlant de l'essence, tu brûles des algues préhistoriques — du soleil stocké depuis 50 à 300 millions d'années."
           }
         ],
         "kind": "histoire"
@@ -104,15 +124,19 @@
         "tag": "Événement",
         "date": "~538,8 millions d'années",
         "title": "Explosion Cambrienne — Premiers Animaux",
-        "desc": "Début du Cambrien : diversification majeure des animaux marins en quelques millions d'années. La plupart des grands embranchements animaux modernes apparaissent dans les archives fossiles.",
+        "desc": "Pendant des milliards d'années, la vie est restée microscopique et molle. Puis, en quelques millions d'années — un claquement de doigts à l'échelle géologique — une explosion de formes de vie nouvelles envahit les océans. Des yeux, des pinces, des carapaces, des bouches, des nageoires apparaissent. La plupart des grandes familles d'animaux que l'on connaît aujourd'hui inventent leur plan de construction en même temps. Pourquoi ? On ne sait pas encore vraiment.",
         "anecdotes": [
           {
             "e": "👁️",
-            "t": "<b>Les yeux sont apparus au Cambrien</b> et ont déclenché une « course aux armements » entre prédateurs et proies."
+            "t": "<b>L'invention de l'œil a déclenché une course aux armements.</b> Avant le Cambrien, personne ne voyait — donc personne ne se cachait. Dès que des prédateurs ont pu voir leurs proies, les proies ont dû évoluer pour se camoufler, fuir plus vite, développer des carapaces. Cette compétition a fait exploser la diversité du vivant en un temps record. L'œil est probablement la plus grande invention de l'évolution."
           },
           {
-            "e": "🧮",
-            "t": "<b>97 % des espèces animales sont des invertébrés.</b> Les vertébrés (dont nous) sont une infime minorité."
+            "e": "🦀",
+            "t": "<b>97 % des animaux sont des invertébrés.</b> Les vertébrés — poissons, reptiles, mammifères, oiseaux, toi — ne représentent que 3 % des espèces animales connues. Les insectes seuls comptent plus d'un million d'espèces décrites. Nous, les vertébrés, sommes une toute petite branche dans un arbre du vivant dominé par des créatures sans colonne vertébrale."
+          },
+          {
+            "e": "🦂",
+            "t": "<b>Certains animaux du Cambrien semblent sortis de la science-fiction.</b> L'Anomalocaris mesurait 1 mètre et avait deux griffes rotatives pour saisir ses proies. L'Hallucigenia marchait sur des épines et avait la tête à la place de la queue (on l'a découvert tardivement). Ces formes expérimentales ont disparu — mais elles montrent que l'évolution a testé des dizaines de « designs » avant d'en garder quelques-uns."
           }
         ],
         "kind": "histoire"
@@ -121,12 +145,20 @@
         "icon": "🌿",
         "tag": "Événement",
         "date": "–470 millions d'années",
-        "title": "Plantes Terrestres",
-        "desc": "Les plantes colonisent les continents depuis les océans. Elles créeront les premiers sols et transformeront l'atmosphère.",
+        "title": "Les Plantes Conquièrent la Terre",
+        "desc": "Pendant des milliards d'années, les continents sont des déserts de roche nue, battus par le vent et les pluies acides. Aucune plante, aucun animal. Puis des algues vertes s'aventurent hors de l'eau et s'y adaptent — progressivement, leurs descendants inventent les racines, les tiges, les feuilles, les graines. En quelques dizaines de millions d'années, les continents se couvrent de vert. La vie terrestre peut enfin commencer.",
         "anecdotes": [
           {
             "e": "🪨",
-            "t": "<b>Les plantes ont créé les sols.</b> Avant elles, les continents n'étaient que roche nue et désert de pierre."
+            "t": "<b>Les plantes ont littéralement fabriqué le sol.</b> Avant elles, il n'y avait que de la roche pulvérisée, sans matière organique. Les racines des premières plantes ont fracturé la roche, les champignons ont décomposé les matières mortes, créant couche par couche la terre dans laquelle pousse aujourd'hui toute notre nourriture. Une forêt met 1 000 ans pour produire 1 cm de sol."
+          },
+          {
+            "e": "🌬️",
+            "t": "<b>Les forêts du Carbonifère ont provoqué une crise d'oxygène.</b> Vers –300 millions d'années, les forêts géantes produisaient tellement d'oxygène (35 % de l'atmosphère, contre 21 % aujourd'hui) que des incendies spontanés embrasaient régulièrement la planète entière. Les insectes géants de cette époque — libellules avec 70 cm d'envergure — pouvaient exister grâce à cet air suroxygéné."
+          },
+          {
+            "e": "🍄",
+            "t": "<b>Les plantes ont conquis la terre grâce aux champignons.</b> Les premières plantes terrestres ne pouvaient pas absorber assez d'eau et de minéraux seules. Elles ont formé une alliance avec des champignons : les champignons leur apportaient minéraux et eau, les plantes leur donnaient du sucre. Cette symbiose existe encore aujourd'hui — 90 % des plantes terrestres dépendent de champignons souterrains."
           }
         ],
         "kind": "histoire"
@@ -136,15 +168,19 @@
         "tag": "Événement",
         "date": "–230 millions d'années",
         "title": "Premiers Dinosaures",
-        "desc": "Les dinosaures domineront la Terre pendant 165 millions d'années, régnant sur mer, air et continents jusqu'à ce qu'un événement cataclysmique y mette fin.",
+        "desc": "Après une extinction massive qui a failli effacer toute la vie complexe (la Grande Extinction du Permien, –252 Ma, qui a tué 96 % des espèces marines), la vie repart de zéro. Parmi les survivants qui se disputent la Terre vide, un groupe se distingue : les dinosaures. Petits et discrets au départ, ils vont dominer chaque centimètre de la planète pendant 165 millions d'années — soit 40 fois la durée d'existence de notre espèce.",
         "anecdotes": [
           {
             "e": "🐦",
-            "t": "<b>Les oiseaux sont des dinosaures.</b> Scientifiquement, un moineau est un dinosaure à plumes. Ils n'ont pas totalement disparu."
+            "t": "<b>Les dinosaures ne se sont pas éteints — ils sont dans ton jardin.</b> Les oiseaux sont scientifiquement des dinosaures théropodes à plumes. Un moineau est plus proche d'un T-Rex que le T-Rex ne l'est d'un Stégosaure. La prochaine fois que tu vois un pigeon, regarde-le différemment : tu as sous les yeux l'un des derniers dinosaures vivants."
           },
           {
             "e": "🌍",
-            "t": "<b>Au Trias, tous les continents étaient fusionnés en Pangée.</b> Les premiers dinosaures pouvaient donc théoriquement se promener de l'Amérique du Sud actuelle jusqu'en Chine à pied sec."
+            "t": "<b>À la naissance des dinosaures, tous les continents étaient une seule île.</b> La Pangée rassemblait l'Amérique, l'Europe, l'Afrique, l'Asie et l'Antarctique en un seul bloc. Un dinosaure aurait pu marcher de l'Espagne actuelle jusqu'en Chine sans jamais traverser un océan — et c'est pourquoi on trouve des fossiles de dinosaures similaires sur des continents aujourd'hui séparés par des milliers de kilomètres."
+          },
+          {
+            "e": "🦕",
+            "t": "<b>Le plus grand animal terrestre de tous les temps est un dinosaure.</b> L'Argentinosaurus mesurait jusqu'à 40 mètres de long et pesait peut-être 80 tonnes — autant que 12 éléphants. Son cœur pesait environ 200 kg. Ses œufs n'étaient pourtant pas plus gros qu'un ballon de foot : un bébé de quelques kilos devenait un monstre de 80 tonnes."
           }
         ],
         "kind": "histoire"
@@ -154,19 +190,19 @@
         "tag": "Événement",
         "date": "–66 millions d'années",
         "title": "Extinction des Dinosaures",
-        "desc": "Un astéroïde de 10 km frappe la péninsule du Yucatán (cratère de Chicxulub). L'impact libère l'énergie d'un milliard de bombes atomiques. Les poussières et suies bloquent le Soleil pendant des années : les plantes meurent, les chaînes alimentaires s'effondrent. 75 % des espèces disparaissent. Les mammifères — discrets et nocturnes — survivent et héritent du monde.",
+        "desc": "Un mardi ordinaire, il y a 66 millions d'années. Un rocher de 10 km de diamètre — gros comme le Mont Blanc — pénètre l'atmosphère à 72 000 km/h. En quelques secondes, il percute le Yucatán (Mexique). L'énergie libérée est un milliard de fois celle de la bombe atomique d'Hiroshima. Les roches fondues retombent comme une pluie de feu. Un hiver de plusieurs années s'installe. 75 % des espèces disparaissent. Mais dans les terriers, de petits mammifères survivent.",
         "anecdotes": [
           {
             "e": "🌋",
-            "t": "<b>L'astéroïde n'était pas seul responsable.</b> Les trapps du Deccan (Inde) déversaient simultanément des millions de km³ de lave depuis 200 000 ans, empoisonnant l'atmosphère. L'astéroïde a peut-être achevé un monde déjà fragilisé."
+            "t": "<b>L'astéroïde n'agissait pas seul.</b> Au même moment, les trapps du Deccan (Inde actuelle) crachaient des millions de km³ de lave depuis déjà 200 000 ans, empoisonnant lentement l'atmosphère. L'astéroïde a peut-être achevé un monde déjà fragilisé. Deux catastrophes simultanées — le pire moment possible pour être un grand animal."
           },
           {
             "e": "🐦",
-            "t": "<b>Un seul groupe de dinosaures a survécu : les oiseaux.</b> Leur petite taille, leur capacité à voler et probablement leur régime à base de graines leur ont permis de traverser « l'hiver à impact » de plusieurs années. Aujourd'hui, il existe 10 000 espèces d'oiseaux — contre zéro grand dinosaure non-aviaire."
+            "t": "<b>Un seul groupe de dinosaures a survécu : les oiseaux.</b> Leur petite taille, leur capacité à voler, et probablement leur régime à base de graines (qui n'ont pas brûlé) leur ont permis de traverser « l'hiver à impact ». Aujourd'hui, 10 000 espèces d'oiseaux peuplent la planète. Les grands dinosaures non-aviaires ? Zéro."
           },
           {
-            "e": "🐀",
-            "t": "<b>Note : la date exacte est –66 Ma, pas –65 Ma</b> comme l'indiquaient les anciens manuels. La limite Crétacé-Paléogène (K-Pg) a été recalibrée en 2013 à 66,043 millions d'années."
+            "e": "🐭",
+            "t": "<b>Sans l'astéroïde, tu n'existerais probablement pas.</b> Les mammifères étaient présents depuis 150 millions d'années — mais réduits à de petits animaux nocturnes, incapables de rivaliser avec les dinosaures. En les éliminant, l'astéroïde a libéré toutes les niches écologiques. En 10 millions d'années, les mammifères ont explosé en milliers d'espèces nouvelles — dont les primates, dont nous."
           }
         ],
         "kind": "histoire"
@@ -202,17 +238,21 @@
       {
         "kind": "histoire",
         "icon": "🪨",
-        "date": "–1,7 MILLION D'ANNEES",
-        "title": "Le Biface",
-        "desc": "Le biface acheuléen est le premier outil façonné des deux côtés. Taillé dans le silex ou le quartzite, il est couteau, hache et grattoir à la fois. Il sera utilisé sans changement pendant 1,5 million d'années.",
+        "date": "–1,7 million d'années",
+        "title": "Le Biface — Premier Chef-d'Œuvre Humain",
+        "desc": "Homo erectus ramasse un bloc de silex brut et, à force de coups précis avec un percuteur en pierre, en fait émerger une lame symétrique, pointue, tranchante des deux côtés. Le biface acheuléen est à la fois couteau, hache, grattoir et racloir. Il peut trancher de la viande, briser un os pour en extraire la moelle, racler une peau, creuser la terre. Cet outil universel sera utilisé sur trois continents, quasiment sans modification, pendant 1,5 million d'années.",
         "anecdotes": [
           {
             "e": "🔪",
-            "t": "<b>Un biface bien taillé est plus tranchant qu'un scalpel chirurgical.</b> La technique de taille par percussion contrôlée est si difficile que peu de gens peuvent la reproduire aujourd'hui."
+            "t": "<b>Un biface bien taillé est plus tranchant qu'un scalpel chirurgical.</b> Un bord de silex fraîchement éclaté peut atteindre 1 à 3 nanomètres d'épaisseur — trois fois plus fin qu'une lame en acier inoxydable. Certains chirurgiens modernes utilisent encore des lames d'obsidienne (une roche volcanique) pour des opérations délicates, car elles causent moins de déchirures que l'acier."
+          },
+          {
+            "e": "🧠",
+            "t": "<b>Fabriquer un biface, c'est presque parler.</b> Les neurosciences ont montré que tailler un biface active les mêmes zones du cerveau que le langage — les régions de la planification, de la séquence et de l'abstraction. Pour faire émerger la forme finale, il faut visualiser mentalement un objet qui n'existe pas encore et enchaîner des dizaines de gestes précis dans le bon ordre. C'est l'une des premières preuves d'une pensée abstraite."
           },
           {
             "e": "⏰",
-            "t": "<b>1,5 million d'années sans innovation</b> — c'est la plus longue tradition technologique de l'histoire humaine. Nous innovons plus en un an que nos ancêtres en 100 000 ans."
+            "t": "<b>1,5 million d'années sans changer de modèle.</b> C'est la plus longue tradition technologique de l'histoire humaine — et de loin. À titre de comparaison, l'écriture existe depuis 5 000 ans, et en 5 000 ans nous sommes passés des tablettes d'argile aux smartphones. Nos ancêtres, eux, ont utilisé le même design pendant 750 fois cette durée. Et curieusement, certains bifaces semblent trop beaux et trop symétriques pour n'être que des outils — peut-être les premiers objets fabriqués pour être admirés."
           }
         ]
       },
@@ -242,16 +282,20 @@
         "icon": "🧠",
         "tag": "Événement",
         "date": "–300 000 ans",
-        "title": "Homo Sapiens",
-        "desc": "Notre espèce apparaît en Afrique (Jebel Irhoud, Maroc) et se dispersera sur toute la planète.",
+        "title": "Homo Sapiens — Notre Espèce Apparaît",
+        "desc": "Au Maroc, dans les rochers de Jebel Irhoud, des fossiles vieux de 300 000 ans révèlent les premiers visages reconnaissables comme les nôtres. Homo sapiens n'est pas apparu d'un coup, en un endroit unique : il a émergé progressivement, sur tout le continent africain, à partir de populations d'Homo heidelbergensis qui échangeaient gènes et innovations sur des millénaires. Ce qui nous distingue des autres humains n'est pas tant la taille du cerveau — Néandertal avait un cerveau aussi gros — que la façon dont nous nous en servons : imagination, symboles, réseaux sociaux étendus, et une capacité unique à coopérer avec des inconnus.",
         "anecdotes": [
           {
-            "e": "🧡",
-            "t": "<b>Nous avons des gènes néandertaliens.</b> Les Européens et Asiatiques portent 1 à 4 % d'ADN néandertalien — héritage de croisements anciens."
+            "e": "🌍",
+            "t": "<b>Tous les humains vivants sont des cousins très proches.</b> La diversité génétique de l'ensemble de l'humanité est inférieure à celle d'un seul groupe de 50 chimpanzés. Nous sommes une espèce étonnamment homogène — probablement parce qu'une catastrophe (peut-être l'éruption du Toba, –74 000 ans) a réduit notre population à quelques milliers d'individus, effaçant une grande partie de notre diversité génétique d'un coup."
           },
           {
-            "e": "🌏",
-            "t": "<b>Toute l'humanité descend d'un petit groupe africain</b> de ~1 000 à 10 000 individus ayant quitté l'Afrique il y a ~70 000 ans."
+            "e": "🧬",
+            "t": "<b>Nous avons des gènes de trois espèces humaines différentes.</b> Les Européens et Asiatiques portent 1 à 4 % d'ADN néandertalien. Les populations mélanésiennes portent jusqu'à 6 % d'ADN dénisovien (une troisième espèce humaine découverte en 2010). Et des traces d'une quatrième espèce encore inconnue ont été détectées dans l'ADN de certaines populations africaines. Nous ne sommes pas une espèce pure — nous sommes un mélange."
+          },
+          {
+            "e": "🤝",
+            "t": "<b>Notre vrai super-pouvoir, c'est la coopération avec des inconnus.</b> Un chimpanzé ne coopère qu'avec des individus qu'il connaît personnellement. Sapiens peut coopérer avec des millions d'inconnus grâce à des croyances partagées — lois, religions, monnaies, nations. Une billet de banque n'a de valeur que parce que des millions de gens croient qu'il en a. Cette capacité à construire des « réalités imaginaires » collectives est probablement ce qui nous a permis de conquérir la planète."
           }
         ],
         "kind": "histoire"
@@ -560,16 +604,20 @@
         "icon": "🌾",
         "tag": "Événement",
         "date": "–10 000 ans",
-        "title": "Révolution Néolithique",
-        "desc": "Agriculture et élevage au Croissant Fertile. Fin du nomadisme. Les premiers villages apparaissent — naissance de la civilisation.",
+        "title": "Révolution Néolithique — L'Invention du Futur",
+        "desc": "Pendant 300 000 ans, Homo sapiens a vécu en chassant et en cueillant — nomade, libre, bien nourri, travaillant environ 4 heures par jour. Puis, au Croissant Fertile (actuel Irak, Syrie, Turquie), quelque chose bascule : des groupes commencent à semer, à attendre, à récolter, à stocker. À élever des animaux. À construire des maisons permanentes. En apparence, c'est un progrès. En réalité, c'est aussi le début du travail épuisant, des inégalités, des guerres pour les terres, des épidémies et de la faim. La révolution agricole est l'une des décisions les plus ambiguës de l'histoire humaine.",
         "anecdotes": [
           {
             "e": "⏰",
-            "t": "<b>L'agriculture a inventé la notion de futur :</b> semer pour récolter plus tard. C'est l'origine des calendriers, de l'écriture et des contrats."
+            "t": "<b>L'agriculture a inventé le futur — et l'angoisse qui va avec.</b> Un chasseur-cueilleur vit dans le présent : il mange ce qu'il trouve aujourd'hui. Un agriculteur doit penser à dans six mois : préparer le sol, semer, irriguer, surveiller, stocker. Cette projection dans le temps a rendu nécessaires les calendriers, l'écriture (pour comptabiliser les récoltes), les contrats, les lois — et aussi l'inquiétude chronique pour l'avenir, qu'on appelle aujourd'hui le stress."
           },
           {
             "e": "🦠",
-            "t": "<b>Les premiers villages ont inventé les épidémies.</b> Vivre entassés avec des animaux a permis aux virus de franchir la barrière des espèces."
+            "t": "<b>Les premiers villages ont inventé les épidémies.</b> Avant l'agriculture, les humains vivaient en petits groupes dispersés — un virus qui tuait un groupe n'avait nulle part où aller. Dans un village dense où humains, vaches, cochons et poules cohabitent, les agents pathogènes sautent d'espèce en espèce et mutent à toute vitesse. La variole vient des vaches, la grippe des canards et cochons, la rougeole des chiens. Toutes les grandes pandémies de l'histoire naissent de l'élevage."
+          },
+          {
+            "e": "🤔",
+            "t": "<b>L'agriculture a peut-être rendu les humains moins heureux — et plus petits.</b> Les squelettes des premiers agriculteurs sont en moyenne 10 cm plus courts que ceux des chasseurs-cueilleurs qui les précèdent : signe de malnutrition, car un régime à base de céréales est bien moins varié que celui d'un nomade. Leur espérance de vie était plus courte, leurs dents plus cariées. Alors pourquoi ont-ils continué ? Probablement parce que l'agriculture nourrit dix fois plus de personnes par km² — et que la démographie fait le reste."
           }
         ],
         "kind": "histoire"
@@ -671,6 +719,48 @@
           }
         ],
         "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "kind": "histoire",
+    "icon": "🏙️",
+    "date": "–3 200 av. J.-C.",
+    "title": "Uruk & Ur — Les Premières Villes du Monde",
+    "desc": "En Mésopotamie (actuel Irak), entre le Tigre et l'Euphrate, naît quelque chose d'entièrement nouveau dans l'histoire humaine : la ville. Uruk dépasse 50 000 habitants — une densité humaine sans précédent. Pour gérer des stocks de milliers de jarres de grain, des centaines de troupeaux, des milliers d'ouvriers, les administrateurs inventent un système de notation : les premiers signes gravés sur argile. L'écriture vient d'être inventée — non pas pour raconter des poèmes, mais pour faire de la comptabilité.",
+    "anecdotes": [
+      {
+        "e": "✍️",
+        "t": "<b>L'écriture a été inventée pour noter des dettes, pas des histoires.</b> Les premières tablettes cunéiformes d'Uruk (–3 200 av. J.-C.) sont des reçus : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom dans l'histoire. Pas un roi, pas un héros — un comptable. La littérature attendra encore 500 ans."
+      },
+      {
+        "e": "⚰️",
+        "t": "<b>À Ur, les rois n'mouraient pas seuls.</b> Les fouilles des tombes royales d'Ur (–2 600 av. J.-C.) ont révélé des dizaines de serviteurs, gardes et musiciens enterrés vivants avec leur maître — après avoir probablement bu un poison. Dans une tombe, 74 personnes accompagnaient la reine dans la mort. La harpe d'or retrouvée auprès d'eux est aujourd'hui au British Museum."
+      },
+      {
+        "e": "🦸",
+        "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte un roi mi-dieu mi-humain, sa quête de l'immortalité et son amitié avec l'homme sauvage Enkidu. Elle contient aussi un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
+      }
+    ]
+  },
+  {
+    "kind": "histoire",
+    "icon": "🏛️",
+    "date": "–1 800 av. J.-C.",
+    "title": "Babylone — La Première Superpuissance",
+    "desc": "Au cœur de la Mésopotamie, Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la région et institue quelque chose de révolutionnaire : un code de lois écrit, gravé sur une stèle de 2,25 mètres, applicable à tous. Riche, bâtisseur, astronome et conquérante, Babylone invente en même temps le droit, les mathématiques avancées et la carte du monde.",
+    "anecdotes": [
+      {
+        "e": "⚖️",
+        "t": "<b>Hammurabi a inventé l'État de droit — avec ses défauts.</b> Le Code d'Hammurabi (–1 754 av. J.-C.) est le premier grand recueil de lois de l'histoire : 282 articles gravés sur basalte noir, encore lisibles aujourd'hui au Louvre. Il prévoit la présomption d'innocence, la protection des veuves et orphelins, des salaires minimums. Mais aussi : « œil pour œil, dent pour dent » — avec des peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
+      },
+      {
+        "e": "🌟",
+        "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps et les angles.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce que les Babyloniens comptaient en base 60 — un système hérité des Sumériens, remarquablement pratique car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans entre le Tigre et l'Euphrate."
+      },
+      {
+        "e": "🌍",
+        "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre — évidemment. Autour, des régions mythiques habitées par des monstres. C'est une carte autant politique que géographique : placer ta ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
       }
     ]
   }
