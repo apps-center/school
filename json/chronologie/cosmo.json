@@ -279,6 +279,27 @@
         "kind": "histoire"
       },
       {
+        "kind": "histoire",
+        "icon": "🌲",
+        "date": "–400 000 ans",
+        "title": "La Lance en Bois — Première Arme à Distance",
+        "desc": "À Schöningen (Allemagne), huit épieux en bois d'épicéa sont retrouvés intacts, vieux de 400 000 ans. Taillés en pointe, équilibrés comme des javelots modernes, ils sont l'œuvre d'Homo heidelbergensis. C'est la première arme conçue pour tuer à distance — et la preuve que nos ancêtres organisaient déjà des chasses collectives planifiées, et non de simples attaques au corps à corps.",
+        "anecdotes": [
+          {
+            "e": "🎯",
+            "t": "<b>Les lances de Schöningen sont aérodynamiquement parfaites.</b> Leur centre de gravité est placé au premier tiers — exactement comme un javelot olympique moderne. Ce n'est pas un hasard : leurs fabricants comprenaient instinctivement la physique du lancer, 400 000 ans avant Newton."
+          },
+          {
+            "e": "🐴",
+            "t": "<b>Retrouvées parmi des os de plus de 20 chevaux abattus</b>, ces lances prouvent une chasse collective organisée : rabattage, encerclement, mise à mort coordonnée. Homo heidelbergensis n'est pas un charognard opportuniste — c'est un chasseur stratège capable de planifier une opération à plusieurs individus."
+          },
+          {
+            "e": "🔥",
+            "t": "<b>Certaines pointes étaient durcies au feu.</b> En chauffant l'extrémité de bois vert à la bonne température (pas trop, sinon elle brûle), on densifie les fibres et on obtient une pointe deux fois plus dure. C'est la première transformation chimique intentionnelle d'un matériau par un être humain."
+          }
+        ]
+      },
+      {
         "icon": "🧠",
         "tag": "Événement",
         "date": "–300 000 ans",
@@ -299,6 +320,27 @@
           }
         ],
         "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🪨",
+        "date": "–250 000 ans",
+        "title": "La Lance à Pointe de Silex — L'Arme de Néandertal",
+        "desc": "Une révolution dans l'armement : on fixe une pointe de silex taillée sur une hampe en bois grâce à de la résine de bouleau chauffée et des ligatures en tendon. Cette technique — l'emmanchement — multiplie la puissance de pénétration et permet de remplacer la pointe seule sans refaire toute l'arme. C'est Homo heidelbergensis puis Néandertal qui perfectionnent ce système, pendant plus de 200 000 ans.",
+        "anecdotes": [
+          {
+            "e": "🧪",
+            "t": "<b>La résine de bouleau est le premier matériau manufacturé de l'histoire.</b> Pour l'obtenir, il faut chauffer l'écorce de bouleau à 340°C en atmosphère pauvre en oxygène — un processus en plusieurs étapes qui exige une connaissance précise de la chimie du feu. Des néandertaliens produisaient ce « goudron naturel » 200 000 ans avant que les humains modernes n'inventent quoi que ce soit de comparable."
+          },
+          {
+            "e": "🤝",
+            "t": "<b>L'emmanchement prouve une pensée en plusieurs étapes.</b> Fabriquer une lance emmanchée nécessite de trouver le bon bois, tailler le bon silex, récolter l'écorce, produire la résine, ligaturer avec précision — des opérations qui peuvent s'étaler sur plusieurs jours et plusieurs lieux. C'est de la planification différée : Néandertal pense à demain."
+          },
+          {
+            "e": "🦣",
+            "t": "<b>Cette lance est une arme de contact, pas de distance.</b> Lourde et solide, elle est faite pour frapper fort de près — plonger dans un flanc à bout portant, après s'être approché sous le vent. Chasser un mammouth avec ça demande un courage (ou une inconscience) difficilement imaginable aujourd'hui."
+          }
+        ]
       },
       {
         "kind": "histoire",
@@ -414,20 +456,20 @@
         "kind": "histoire",
         "icon": "🏹",
         "date": "–35 000 av. J.-C.",
-        "title": "Le Propulseur (Atlatl)",
-        "desc": "Le propulseur est un bras de levier qui rallonge artificiellement le bras du lanceur, multipliant par 3 la portée et la puissance d'une sagaie. Cette mécanique simple — un morceau d'os ou de bois avec un crochet — transforme radicalement les capacités de chasse à distance.",
+        "title": "Le Propulseur & la Sagaie — Un Système Révolutionnaire",
+        "desc": "Le propulseur (atlatl) et la sagaie ne sont pas deux inventions séparées : ils forment un système conçu ensemble. Le propulseur est un bras de levier en bois ou en os qui prolonge artificiellement le bras, multipliant par 3 la vitesse et la puissance du lancer. La sagaie est le projectile qui lui correspond : légère, fine, en os ou en ivoire de mammouth — inutile à la main, redoutable lancée. Ensemble, ils permettent de tuer à 80 mètres sans s'approcher du danger.",
         "anecdotes": [
           {
-            "e": "🎯",
-            "t": "<b>Le propulseur peut envoyer une sagaie à 100 mètres</b> avec une force suffisante pour transpercer un mammouth. Des tests balistiques modernes montrent que cette combinaison égale en puissance une arbalète médiévale — fabriquée uniquement avec os, bois et pierre."
+            "e": "⚙️",
+            "t": "<b>La sagaie n'est pas une lance améliorée — c'est un objet entièrement différent.</b> La lance à silex est lourde et solide, faite pour frapper à bout portant. La sagaie est fine, légère, aérodynamique : elle se briserait à l'impact d'un choc direct. Tout son design est optimisé pour voler vite et loin, pas pour résister. Chaque arme a sa logique propre."
           },
           {
-            "e": "🏹",
-            "t": "<b>L'arc et la flèche ne sont inventés que vers –20 000 ans</b> en Afrique du Sud. Le propulseur reste l'arme de chasse principale pendant 15 000 ans. Les Aztèques l'utilisaient encore à l'arrivée des Espagnols en 1519."
+            "e": "🎯",
+            "t": "<b>Des tests balistiques modernes ont mesuré les performances du système :</b> une sagaie lancée au propulseur atteint 150 km/h et peut transpercer 10 cm de chair à 50 mètres. Cette combinaison égale en puissance une arbalète médiévale — fabriquée uniquement avec de l'os, du bois et de la pierre. Les Aztèques utilisaient encore le propulseur à l'arrivée des Espagnols en 1519."
           },
           {
             "e": "🎨",
-            "t": "<b>Certains propulseurs sont de véritables sculptures.</b> Le propulseur au « faon aux oiseaux » de Mas-d'Azil (–13 000 ans, Ariège) est sculpté en bois de renne avec un réalisme animalier stupéfiant — l'arme de chasse comme objet d'art."
+            "t": "<b>Certains propulseurs sont de véritables chefs-d'œuvre sculptés.</b> Le propulseur au « faon aux oiseaux » de Mas-d'Azil (–13 000 ans, Ariège) représente un jeune cerf se retournant, sculpté dans du bois de renne avec un réalisme saisissant. L'arme de chasse comme objet d'art — preuve que l'esthétique et l'efficacité n'ont jamais été contradictoires pour Homo sapiens."
           }
         ]
       },
@@ -445,27 +487,6 @@
           {
             "e": "🎶",
             "t": "<b>La musique est probablement bien plus ancienne</b> que ces flûtes — os creux, peaux tendues, voix humaine — mais les matériaux organiques ne se fossilisent pas. Ces flûtes sont simplement les premières à avoir survécu au temps."
-          }
-        ]
-      },
-      {
-        "kind": "histoire",
-        "icon": "🗡️",
-        "date": "–30 000 av. J.-C.",
-        "title": "La Sagaie — Pointe de Chasse en Os",
-        "desc": "La sagaie est une pointe de projectile taillée dans l'os, le bois de renne ou l'ivoire de mammouth. Plus légère et plus solide que le silex, elle remplace les lances massives pour la chasse à longue distance. Lancée avec le propulseur, elle constitue l'arme de précision de l'Homo sapiens pendant 20 000 ans — jusqu'à l'invention de l'arc.",
-        "anecdotes": [
-          {
-            "e": "🦌",
-            "t": "<b>L'os et l'ivoire permettent des pointes que le silex ne peut pas imiter.</b> Une sagaie en bois de renne est à la fois plus légère qu'une pointe en silex et résistante aux chocs latéraux — sans se briser à l'impact. Les tailleurs choisissaient la matière première selon l'usage : silex pour le tranchant, os pour la robustesse, ivoire pour les pièces d'apparat."
-          },
-          {
-            "e": "🎨",
-            "t": "<b>Les sagaies étaient aussi des objets d'art statutaires.</b> Nombreuses sont gravées de motifs géométriques, de poissons ou de chevaux. Certaines, trop fragiles pour la chasse, semblent être des objets rituels ou des marqueurs de prestige social — dans une société où la maîtrise de l'artisanat donnait du rang."
-          },
-          {
-            "e": "🌍",
-            "t": "<b>La pointe de sagaie est la première pièce interchangeable de l'histoire.</b> On pouvait casser le manche, conserver la pointe et la remonter — une logique de réparation modulaire qui préfigure notre industrie moderne. Des pointes de sagaie ont été retrouvées à 500 km de leur matière première d'origine, preuve de réseaux d'échange continentaux."
           }
         ]
       },
