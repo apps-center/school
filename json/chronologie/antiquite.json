@@ -1,0 +1,252 @@
+[
+  {
+    "era": "✦ Gaule Celtique & Conquête Romaine",
+    "cls": "antique",
+    "events": [
+      {
+        "icon": "🌿",
+        "tag": "Peuple",
+        "date": "–800 av. J.-C.",
+        "title": "Les Gaulois & Celtes",
+        "desc": "Les Celtes s'étendent sur toute l'Europe. En Gaule, les druides transmettent le savoir oralement, les oppidums sont de véritables villes fortifiées pouvant abriter plusieurs milliers d'habitants. Loin des Astérix au casque ailé, les Gaulois sont des artisans, commerçants et guerriers d'une civilisation sophistiquée.",
+        "anecdotes": [
+          {
+            "e": "🎃",
+            "t": "<b>Samhain (1er novembre) est la fête celtique du Nouvel An</b>, ancêtre direct d'Halloween. Le voile entre le monde des vivants et des morts s'amincissait — les esprits erraient et les familles plaçaient des offrandes pour les apaiser. La tradition traversa l'Atlantique avec les immigrants irlandais au XIXe siècle."
+          },
+          {
+            "e": "💪",
+            "t": "<b>En 390 av. J.-C., les Gaulois saccagèrent Rome.</b> Brennus franchit les Alpes, battit l'armée romaine à l'Allia et occupa la ville entière — sauf le Capitole. En imposant sa rançon, il jeta son épée sur la balance : « Vae victis ! » (Malheur aux vaincus !) Les Romains n'oublièrent jamais cette humiliation."
+          },
+          {
+            "e": "🛡️",
+            "t": "<b>Les Gaulois inventèrent le savoir-faire métallurgique européen.</b> Leurs épées en fer étaient supérieures aux lames romaines. Ils inventèrent aussi le tonneau (remplaçant les amphores), le savon, la chaîne de transmission et le recuit de l'acier — autant d'innovations que Rome s'empressa d'adopter après la conquête."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚓",
+        "tag": "Fondation",
+        "date": "–600 av. J.-C.",
+        "title": "Fondation de Massalia — La Plus Vieille Ville de France",
+        "desc": "Des marins phocéens (Grecs d'Asie Mineure) fondent Massalia sur une calanque naturelle du littoral méditerranéen. C'est l'actuelle Marseille — la plus ancienne ville de France, 2 600 ans avant d'être le théâtre de l'hymne national. Cette colonie grecque introduit la vigne, l'olivier et l'écriture alphabétique en Gaule, et devient le principal port de commerce entre la Méditerranée et l'Europe continentale.",
+        "anecdotes": [
+          {
+            "e": "🍷",
+            "t": "<b>C'est par Marseille que la vigne est arrivée en France.</b> Les Grecs apportèrent les premiers ceps il y a 2 600 ans. Aujourd'hui, la France produit 7 milliards de bouteilles de vin par an — tout commence avec quelques boutures débarquées d'un navire phocéen dans le Vieux-Port."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Massalia était si puissante</b> qu'elle battait sa propre monnaie et possédait des comptoirs commerciaux jusqu'en Espagne et en Bretagne. Elle était l'alliée de Rome contre Carthage — ce qui lui valut la protection de la République romaine pendant 400 ans, bien avant la conquête de la Gaule."
+          },
+          {
+            "e": "🧭",
+            "t": "<b>Pythéas, navigateur massaliote du IVe siècle av. J.-C.</b>, fut le premier à contourner la Bretagne, à atteindre les îles Britanniques et peut-être même la Scandinavie. Il décrivit la « Thulé », terre mystérieuse du Grand Nord. Ses récits furent jugés invraisemblables par ses contemporains — et prouvés exacts par l'archéologie moderne."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "⚔️",
+        "tag": "Conquête",
+        "date": "–58 à –52 av. J.-C.",
+        "title": "La Guerre des Gaules — César Contre les Gaulois",
+        "desc": "En 8 ans, Jules César conquiert méthodiquement toute la Gaule au nom de Rome — officiellement pour « protéger » les alliés gaulois, en réalité pour s'enrichir et asseoir sa puissance politique à Rome. Dans ses Commentaires, il raconte lui-même cette guerre avec une précision glaçante. Selon ses propres chiffres : 1 million de Gaulois tués, 1 million réduits en esclavage.",
+        "anecdotes": [
+          {
+            "e": "📖",
+            "t": "<b>« La Gaule est divisée en trois parties. »</b> (Gallia est omnis divisa in partes tres) — c'est la première phrase des Commentaires de César, le livre le plus étudié en latin pendant des siècles. César était autant stratège militaire que génie de la communication : il envoyait ses rapports de victoire à Rome en temps réel pour nourrir sa gloire politique."
+          },
+          {
+            "e": "💀",
+            "t": "<b>La Guerre des Gaules fut un génocide selon les critères modernes.</b> César lui-même revendique un million de morts et un million d'esclaves sur une population estimée à 8-10 millions. Certaines tribus furent entièrement exterminées. Plutarque, à Rome, jugeait ces chiffres scandaleux."
+          },
+          {
+            "e": "🏆",
+            "t": "<b>César utilisa la Gaule pour financer sa prise du pouvoir à Rome.</b> Le butin — or, esclaves, rançons — fut colossal. Avec cet argent, il paya ses légions, corrompit les sénateurs et prépara le coup d'État qui le mena à la dictature perpétuelle — et finalement à son assassinat aux ides de mars –44."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🛡️",
+        "tag": "Événement",
+        "date": "–52 av. J.-C.",
+        "title": "Alésia — La Gaule Devient Romaine",
+        "desc": "Vercingétorix unifie les peuples gaulois dans un dernier sursaut de résistance. Après des victoires initiales, il est assiégé dans l'oppidum d'Alésia (Bourgogne). César construit une double enceinte de fortification de 40 km — pour assiéger Alésia tout en se défendant d'une armée de secours de 250 000 hommes. Après 6 semaines de siège, Vercingétorix se rend. La Gaule devient province romaine.",
+        "anecdotes": [
+          {
+            "e": "📖",
+            "t": "<b>On ne connaît Vercingétorix qu'à travers César, son ennemi.</b> Il n'existe aucune source gauloise — les druides transmettaient oralement, sans écriture. L'histoire de la Gaule a été entièrement écrite par ceux qui l'ont conquise. C'est toujours le vainqueur qui écrit l'histoire."
+          },
+          {
+            "e": "⛏️",
+            "t": "<b>Les fouilles archéologiques ont confirmé chaque détail de César</b> : fossés, palissades, tours de guet — tout a été retrouvé à Alise-Sainte-Reine. Le site d'Alésia est l'un des chantiers archéologiques les plus importants de France. La bataille que César décrit au millimètre est réelle."
+          },
+          {
+            "e": "🍷",
+            "t": "<b>La romanisation fut fulgurante et profonde.</b> En moins d'un siècle, les élites gauloises parlent latin, portent la toge, bâtissent des temples romains. La France parle encore ce latin transformé 2 000 ans plus tard — chaque mot français est un vestige de la conquête d'Alésia."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "⚙️",
+        "tag": "Invention",
+        "date": "~Ier siècle ap. J.-C.",
+        "title": "La Faucille & la Moissonneuse Gauloise",
+        "desc": "Les Gaulois romanisés perfectionnent la vallus — une moissonneuse tirée par un bœuf qui coupe les épis à hauteur d'épi. Décrite par Pline l'Ancien au Ier siècle, cette invention précède la moissonneuse industrielle de 1 800 ans et témoigne du génie technique gallo-romain, né de la fusion des savoir-faire gaulois et de l'organisation romaine.",
+        "anecdotes": [
+          {
+            "e": "🌾",
+            "t": "<b>La vallus gauloise fut décrite par Pline l'Ancien — puis complètement oubliée.</b> Elle ne fut « réinventée » qu'au XIXe siècle lors de la Révolution industrielle, par des ingénieurs qui ne savaient pas qu'ils recréaient quelque chose d'existant 1 800 ans plus tôt."
+          },
+          {
+            "e": "⚙️",
+            "t": "<b>Les Gaulois étaient d'excellents ingénieurs.</b> Ils inventèrent le tonneau en bois (remplaçant les amphores), le savon, la chaîne de transmission, le recuit de l'acier et la faucille à dents — toutes des innovations que Rome adopta et diffusa dans tout l'empire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "era": "✦ Gaule Romaine & Christianisation",
+    "cls": "antique",
+    "events": [
+      {
+        "icon": "🏙️",
+        "tag": "Fondation",
+        "date": "–15 av. J.-C.",
+        "title": "Lugdunum (Lyon) — Capitale des Gaules",
+        "desc": "L'empereur Auguste fait de Lugdunum (l'actuelle Lyon) la capitale administrative des Trois Gaules. Carrefour entre Rhin, Rhône et Loire, elle devient la deuxième ville de l'Empire après Rome, avec 50 000 à 80 000 habitants. Deux empereurs romains y naîtront : Claude et Caracalla. C'est par Lyon que le christianisme entre en Gaule.",
+        "anecdotes": [
+          {
+            "e": "🛣️",
+            "t": "<b>Toutes les routes gauloises partaient de Lyon.</b> Agrippa, le gendre d'Auguste, y fit construire le réseau routier en étoile de la Gaule : 4 grandes voies rayonnant vers l'Atlantique, la Manche, le Rhin et la Méditerranée. Ces routes romaines sont encore visibles sous certaines nationales françaises."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Claude, né à Lyon en –10 av. J.-C., devint empereur de Rome.</b> Dans un discours célèbre gravé sur bronze (retrouvé à Lyon), il plaida pour que les notables gaulois puissent accéder au Sénat romain — une révolution dans la conception de la citoyenneté. Ce texte est encore visible au musée de la Civilisation gallo-romaine de Lyon."
+          },
+          {
+            "e": "🩸",
+            "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Ses souffrances et sa sérénité frappèrent tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏛️",
+        "tag": "Architecture",
+        "date": "~19 av. J.-C.",
+        "title": "Le Pont du Gard — Le Génie Romain",
+        "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour alimenter Nîmes en eau potable. Sans ciment — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes, posés sans mortier. Il a traversé 2 000 ans intact.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>La pente du canal est de 34 cm sur 50 km</b> — soit 0,07 % d'inclinaison constante sur un demi-siècle de distance. Cette précision géodésique, maintenue dans un relief accidenté, sans instruments modernes, représente un exploit d'ingénierie que peu de civilisations pourraient reproduire avant le XIXe siècle."
+          },
+          {
+            "e": "💧",
+            "t": "<b>Nîmes recevait 40 000 m³ d'eau par jour</b> — soit 400 litres par habitant, davantage que la plupart des villes européennes au XIXe siècle. Les Romains avaient des fontaines publiques, des thermes, des toilettes à chasse d'eau et des égouts. Après la chute de Rome, l'Europe attendit 1 500 ans pour retrouver ce niveau de confort sanitaire."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur les pierres pour s'y retrouver lors du montage — certains de ces signes de tailleur sont encore visibles. En 2 siècles d'utilisation, une couche de calcaire de 5 cm s'est déposée sur les parois — elle préserve encore le canal aujourd'hui."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏟️",
+        "tag": "Époque",
+        "date": "Ier–IIe siècle ap. J.-C.",
+        "title": "La Gaule Romaine — Villes, Routes & Romanisation",
+        "desc": "Pendant deux siècles, la Gaule est l'une des provinces les plus riches et les plus pacifiées de l'empire. De Lugdunum à Lutetia, des dizaines de villes romaines naissent avec leurs forums, amphithéâtres, thermes, temples et aqueducs. La langue gauloise disparaît au profit du latin vulgaire — qui deviendra le français.",
+        "anecdotes": [
+          {
+            "e": "🗺️",
+            "t": "<b>La France doit son réseau routier aux Romains.</b> 30 000 km de routes pavées reliaient les villes gauloises à Rome. La Via Agrippa partait de Lyon vers Boulogne — itinéraire que suit encore en partie l'autoroute A6. Ces routes, construites pour les légions, furent utilisées pendant 1 500 ans après la chute de Rome."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>Les Arènes de Nîmes et le théâtre d'Orange</b> sont parmi les mieux conservés du monde romain — plus intacts que beaucoup de monuments à Rome même. Le Maison Carrée de Nîmes (–19 av. J.-C.) inspira Thomas Jefferson pour l'architecture du Capitole de Virginie : la Gaule romaine a influencé la démocratie américaine."
+          },
+          {
+            "e": "🗣️",
+            "t": "<b>Le français est du latin mal prononcé par des Gaulois.</b> Le mot « cheval » vient du latin vulgaire caballus (cheval de travail, pas equus le cheval noble). « Tête » vient de testa (pot de terre — les Gaulois utilisaient ce mot d'argot). « Maison » vient de mansionem. Parler français, c'est parler la langue des légionnaires de César."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏙️",
+        "tag": "Fondation",
+        "date": "Ier–IIe siècle ap. J.-C.",
+        "title": "Lutèce — La Naissance de Paris",
+        "desc": "Sur l'île de la Cité et la rive gauche de la Seine, les Romains développent Lutèce, chef-lieu de la tribu gauloise des Parisii. Forum, thermes (les arènes de Lutèce), amphithéâtre, temple — une ville romaine compacte de 8 000 à 10 000 habitants. Les thermes de Cluny, encore debout à Paris, datent de cette époque.",
+        "anecdotes": [
+          {
+            "e": "🛁",
+            "t": "<b>Les thermes de Cluny sont encore debout au cœur de Paris,</b> au coin du boulevard Saint-Michel. Construits au IIe siècle, leurs voûtes de 14 mètres de haut ont traversé 1 800 ans. Les Parisiens du Moyen Âge les appelèrent « les thermes de Julien » — ils croyaient que l'empereur Julien (qui vécut à Lutèce) les avait construits."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Lutèce tire son nom des Parisii</b>, tribu gauloise installée sur l'île de la Cité. « Lutetia » signifie peut-être « lieu marécageux » en gaulois — la Seine débordait régulièrement sur les rives basses. C'est pour ça que Paris se construisit d'abord en hauteur, sur la rive gauche collinaire, avant de descendre vers la Seine."
+          },
+          {
+            "e": "👑",
+            "t": "<b>En 360 ap. J.-C., les légions proclamèrent Julien Empereur à Lutèce</b> — contre la volonté de Constantinople. C'est l'une des rares fois où Paris fut le théâtre d'un coup d'État romain. Julien, dernier empereur paien, tenta en vain de stopper la montée du christianisme."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "✝️",
+        "tag": "Religion",
+        "date": "~250 ap. J.-C.",
+        "title": "Saint Denis & les Premiers Martyrs Chrétiens",
+        "desc": "Denis, premier évêque de Paris, est décapité sur la butte Montmartre (du latin Mons Martyrum — la colline des martyrs) lors des persécutions de l'empereur Dèce. Selon la légende, il ramassa sa tête et marcha jusqu'à l'endroit où il voulait être enterré — à 6 km au nord. La basilique Saint-Denis, future nécropole royale de France, y fut bâtie.",
+        "anecdotes": [
+          {
+            "e": "🚶",
+            "t": "<b>Un saint qui marche 6 km avec sa tête coupée à la main</b> s'appelle un céphalophore. Saint Denis est le plus célèbre de ces saints décapités de la tradition catholique. La légende, bien sûr, est symbolique — mais elle explique pourquoi tous les rois de France furent enterrés à Saint-Denis, à l'endroit désigné par le martyr."
+          },
+          {
+            "e": "🏰",
+            "t": "<b>La basilique Saint-Denis abrite les tombeaux de presque tous les rois de France</b> depuis Dagobert Ier (638) jusqu'à Louis XVIII (1824) — soit 1 186 ans de continuité dynastique dans un même lieu. Pendant la Révolution, les tombeaux furent profanés et les ossements des rois jetés dans des fosses communes."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Le christianisme arriva en Gaule par les routes commerciales romaines</b> — d'abord à Lyon et Marseille, villes cosmopolites. Les premiers chrétiens gaulois étaient souvent des marchands orientaux, des esclaves ou des soldats. La religion des persécutés devint celle des empereurs en moins de 60 ans — une révolution sans précédent."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌅",
+        "tag": "Événement",
+        "date": "313 ap. J.-C.",
+        "title": "L'Édit de Milan — La Victoire du Christianisme",
+        "desc": "L'empereur Constantin et son co-empereur Licinius proclament à Milan la liberté de culte dans tout l'Empire romain. Le christianisme, religion des persécutés depuis trois siècles, devient légal — puis bientôt officielle. En moins d'une génération, les temples gaulois ferment, les basiliques chrétiennes s'élèvent. L'Europe médiévale vient de naître.",
+        "anecdotes": [
+          {
+            "e": "⚔️",
+            "t": "<b>La veille de la bataille du pont Milvius (312),</b> Constantin aurait vu une croix lumineuse dans le ciel avec l'inscription « In hoc signo vinces » (Par ce signe tu vaincras). Il fit peindre la croix sur les boucliers de ses soldats — et remporta la victoire. Vision mystique, calcul politique, ou les deux ? Les historiens débattent encore."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>Constantin ne se fit baptiser que sur son lit de mort</b> en 337. Il avait passé sa vie à présider des conciles chrétiens tout en maintenant le culte solaire romain et en faisant assassiner son propre fils et sa femme. Le premier « empereur chrétien » est l'un des personnages les plus ambigus de l'histoire."
+          },
+          {
+            "e": "📅",
+            "t": "<b>L'Édit de Milan est aussi la naissance du calendrier que nous utilisons encore.</b> Constantin imposa le dimanche comme jour de repos (« dies Solis » — le jour du Soleil, puis jour du Seigneur). La semaine de 7 jours avec repos dominical, héritée de Rome et du christianisme, structure encore notre vie 1 700 ans plus tard."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  }
+]
