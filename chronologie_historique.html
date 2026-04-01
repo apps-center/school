@@ -217,7 +217,6 @@ footer{position:relative;z-index:10;text-align:center;padding:0 20px 50px;
 
   /* Flashcard quiz */
   .flashcard{padding:24px 18px;}
-  .fc-period{font-size:1.6rem;}
   .quiz-filter{gap:6px;}
   .qf-btn{padding:4px 10px;font-size:.6rem;}
 }
@@ -225,7 +224,6 @@ footer{position:relative;z-index:10;text-align:center;padding:0 20px 50px;
 @media(max-width:380px){
   h1{font-size:1.5rem;}
   .tab{padding:7px 10px;font-size:.62rem;}
-  .fc-period{font-size:1.3rem;}
 }
 
 /* DISCOVERY NODES */
@@ -313,37 +311,55 @@ header{padding:48px 20px 28px;}
   color:rgba(232,223,196,.4);margin-bottom:28px;}
 .quiz-score span{color:#60c8a0;font-weight:700;}
 
-.flashcard{width:min(520px,90vw);background:#0e1a2e;border:1px solid rgba(200,180,120,.3);
+/* ── FLASHCARD — système déclaratif ── */
+.flashcard{width:min(540px,90vw);background:#0e1a2e;border:1px solid rgba(200,180,120,.3);
   border-radius:8px;padding:36px 32px;text-align:center;
-  box-shadow:0 8px 50px rgba(0,0,0,.7);position:relative;
-  transform-style:preserve-3d;transition:transform .5s ease;}
-.flashcard.flipped{transform:rotateY(180deg);}
+  box-shadow:0 8px 50px rgba(0,0,0,.7);position:relative;}
 
-.fc-front, .fc-back{backface-visibility:hidden;}
-.fc-back{position:absolute;inset:0;padding:36px 32px;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;
-  background:#0e1a2e;border-radius:8px;
-  transform:rotateY(180deg);}
-
-.fc-kind{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;
-  color:rgba(232,223,196,.35);margin-bottom:20px;}
-.fc-period{font-family:'Cinzel',serif;font-size:2.2rem;font-weight:900;
-  color:var(--star);margin-bottom:10px;line-height:1.1;}
-.fc-teaser{font-size:.88rem;color:rgba(232,223,196,.5);font-style:italic;
-  margin-bottom:28px;line-height:1.5;min-height:40px;}
+/* Phase question */
+.qz-question-wrap{text-align:center;}
+.qz-meta{margin-bottom:20px;line-height:1.8;}
+.qz-question{font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;
+  color:var(--star);line-height:1.6;margin-bottom:24px;min-height:52px;}
+.qz-hint-btn{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+  padding:5px 14px;border-radius:20px;cursor:pointer;
+  border:1px solid rgba(200,180,120,.25);background:none;
+  color:rgba(232,223,196,.38);transition:all .2s;margin-bottom:14px;}
+.qz-hint-btn:hover{color:rgba(232,223,196,.75);border-color:rgba(200,180,120,.5);}
+.qz-hint-text{font-size:.82rem;color:rgba(200,180,120,.75);font-style:italic;
+  margin-bottom:18px;line-height:1.55;padding:10px 14px;
+  border:1px solid rgba(200,180,120,.15);border-radius:4px;
+  background:rgba(200,180,120,.05);text-align:left;display:none;}
 .fc-reveal-btn{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.18em;
-  text-transform:uppercase;padding:10px 26px;border-radius:3px;cursor:pointer;
+  text-transform:uppercase;padding:11px 28px;border-radius:3px;cursor:pointer;
   background:rgba(200,180,120,.1);border:1px solid rgba(200,180,120,.45);
-  color:var(--star);transition:all .2s;}
+  color:var(--star);transition:all .2s;margin-top:4px;}
 .fc-reveal-btn:hover{background:rgba(200,180,120,.22);}
 
-.fc-icon{font-size:2.4rem;margin-bottom:12px;}
-.fc-title{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:900;
-  color:var(--star);margin-bottom:10px;line-height:1.25;}
-.fc-desc{font-size:.84rem;color:rgba(232,223,196,.72);font-style:italic;
-  line-height:1.55;margin-bottom:18px;}
-.fc-anec{font-size:.78rem;color:rgba(232,223,196,.55);line-height:1.5;
-  border-top:1px solid rgba(200,180,120,.15);padding-top:14px;margin-top:4px;text-align:left;}
+/* Phase réponse */
+.qz-answer-wrap{display:none;flex-direction:column;align-items:center;gap:0;}
+.qz-question-small{font-size:.78rem;color:rgba(232,223,196,.38);
+  font-style:italic;margin-bottom:18px;line-height:1.45;}
+.qz-answer{font-family:'Cinzel',serif;font-size:1.25rem;font-weight:700;
+  color:#60c8a0;margin-bottom:26px;line-height:1.4;
+  padding:16px 20px;border:1px solid rgba(96,200,160,.22);
+  border-radius:6px;background:rgba(96,200,160,.06);width:100%;text-align:center;}
+.qz-answer-label{color:rgba(232,223,196,.35);font-weight:400;font-size:.62rem;
+  letter-spacing:.18em;text-transform:uppercase;display:block;
+  font-family:'Crimson Pro',serif;margin-bottom:8px;}
+.qz-judge{display:flex;gap:10px;justify-content:center;width:100%;}
+.qz-btn{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.12em;
+  text-transform:uppercase;padding:11px 18px;border-radius:3px;
+  cursor:pointer;transition:all .2s;flex:1;max-width:190px;}
+.qz-nope{background:rgba(220,60,60,.08);border:1px solid rgba(220,60,60,.3);
+  color:rgba(230,110,110,.9);}
+.qz-nope:hover{background:rgba(220,60,60,.2);border-color:rgba(220,60,60,.6);}
+.qz-knew{background:rgba(96,200,160,.1);border:1px solid rgba(96,200,160,.38);color:#60c8a0;}
+.qz-knew:hover{background:rgba(96,200,160,.24);border-color:rgba(96,200,160,.7);}
+
+/* No quiz message */
+.qz-empty{text-align:center;color:rgba(232,223,196,.45);font-size:.88rem;
+  font-style:italic;line-height:1.7;padding:20px 0;}
 
 .quiz-nav{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap;justify-content:center;}
 .qnav-btn{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;
@@ -464,7 +480,7 @@ body{padding-top:44px;}
 <div id="quiz-overlay">
   <div class="quiz-header">
     <h2>🎯 Mode Quiz</h2>
-    <p>Une période s'affiche — sauras-tu deviner l'événement ?</p>
+    <p>Réponds à voix haute, puis révèle la réponse</p>
   </div>
   <div class="quiz-filter" id="quiz-filter">
     <button class="qf-btn active" style="color:#e8dfc4;border-color:rgba(232,223,196,.4)" data-filter="all">Tout</button>
@@ -476,24 +492,36 @@ body{padding-top:44px;}
   </div>
   <div class="quiz-score">Question <span id="q-num">1</span> / <span id="q-total">20</span> &nbsp;·&nbsp; Score : <span id="q-score">0</span></div>
   <div class="quiz-progress" id="quiz-progress"></div>
+
   <div class="flashcard" id="flashcard">
-    <div class="fc-front" id="fc-front">
-      <div class="fc-kind" id="fc-kind"></div>
-      <div class="fc-period" id="fc-period"></div>
-      <div class="fc-teaser" id="fc-teaser"></div>
-      <button class="fc-reveal-btn" onclick="revealCard()">Révéler l'événement →</button>
+
+    <!-- Phase 1 : Question -->
+    <div class="qz-question-wrap" id="qz-question-wrap">
+      <div class="qz-meta" id="qz-meta"></div>
+      <div class="qz-question" id="qz-question"></div>
+      <button class="qz-hint-btn" id="qz-hint-btn" onclick="showHint()">💡 Indice</button>
+      <div class="qz-hint-text" id="qz-hint-text"></div>
+      <button class="fc-reveal-btn" onclick="revealCard()">Révéler la réponse →</button>
     </div>
-    <div class="fc-back" id="fc-back">
-      <span class="fc-icon" id="fc-icon"></span>
-      <div class="fc-title" id="fc-title"></div>
-      <div class="fc-desc" id="fc-desc"></div>
-      <div class="fc-anec" id="fc-anec"></div>
+
+    <!-- Phase 2 : Réponse + jugement -->
+    <div class="qz-answer-wrap" id="qz-answer-wrap">
+      <div class="qz-meta" id="qz-meta2"></div>
+      <div class="qz-question-small" id="qz-question-small"></div>
+      <div class="qz-answer" id="qz-answer">
+        <span class="qz-answer-label">Réponse</span>
+        <span id="qz-answer-text"></span>
+      </div>
+      <div class="qz-judge">
+        <button class="qz-btn qz-nope" onclick="markCard(false)">❌ Je ne savais pas</button>
+        <button class="qz-btn qz-knew" onclick="markCard(true)">✅ Je savais !</button>
+      </div>
     </div>
+
   </div>
+
   <div class="quiz-nav">
     <button class="qnav-btn" onclick="closeQuiz()">✕ Quitter</button>
-    <button class="qnav-btn" onclick="prevCard()">← Précédent</button>
-    <button class="qnav-btn primary" onclick="nextCard()">Suivant →</button>
   </div>
 </div>
 
@@ -697,7 +725,7 @@ function setupObs(){
 // (init déplacé dans loadData() pour s'exécuter après le rendu async)
 
 // ── QUIZ MODE ──
-let quizCards=[], quizIdx=0, quizScore=0, quizRevealed=false;
+let quizCards=[], quizIdx=0, quizScore=0;
 let activeFilters=new Set(['all','science','litterature','art','musique','histoire']);
 
 function buildQuizDeck(){
@@ -705,29 +733,33 @@ function buildQuizDeck(){
   for(const branch of ['prehistoire','antiquite','moyenage','tempsmodernes','contemporaine','france','monde']){
     for(const era of (DATA[branch]||[])){
       for(const ev of era.events){
-        all.push({...ev, _era:era.era, _branch:branch});
+        if(ev.quiz) all.push({...ev, _era:era.era, _branch:branch});
       }
     }
   }
-  // Filter
   const filtered = activeFilters.has('all') ? all : all.filter(ev=>{
     const k=ev.kind||'histoire';
     return activeFilters.has(k);
   });
-  // Shuffle
   return filtered.sort(()=>Math.random()-.5).slice(0,Math.min(20,filtered.length));
 }
 
 function startQuiz(){
   quizCards=buildQuizDeck();
-  quizIdx=0; quizScore=0; quizRevealed=false;
-  document.getElementById('q-total').textContent=quizCards.length;
-  renderQuizCard();
+  quizIdx=0; quizScore=0;
+  document.getElementById('q-total').textContent=quizCards.length||'—';
+  document.getElementById('q-score').textContent=0;
+  if(!quizCards.length){
+    document.getElementById('qz-question-wrap').innerHTML=
+      `<div class="qz-empty">⏳ Aucune question disponible pour ces filtres.<br>Les questions sont ajoutées progressivement dans chaque période.</div>
+       <button class="fc-reveal-btn" onclick="closeQuiz()" style="margin-top:20px">← Retour</button>`;
+    document.getElementById('qz-answer-wrap').style.display='none';
+  } else {
+    renderQuizCard();
+  }
   document.getElementById('quiz-overlay').classList.add('open');
   document.body.style.overflow='hidden';
-  // deactivate other tabs
   document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
-  document.getElementById('tab-quiz').classList.add('active');
 }
 
 function closeQuiz(){
@@ -745,35 +777,20 @@ function renderQuizCard(){
   const kindColors={'science':'#40c8e0','litterature':'#e0b840','art':'#e060b0','musique':'#60d080','histoire':'#d4a843'};
   const kindLabels={'science':'Science & Invention','litterature':'Littérature','art':'Art','musique':'Musique','histoire':'Événement historique'};
   const c=kindColors[kind]||'#d4a843';
-  
-  // Front
-  document.getElementById('fc-kind').textContent=kindLabels[kind]||kind;
-  document.getElementById('fc-kind').style.color=c;
-  document.getElementById('fc-period').textContent=card.date;
-  document.getElementById('fc-period').style.color=c;
-  
-  // Teaser: first 6 words of desc with "..." 
-  const words=(card.desc||'').split(' ');
-  const teaser=words.slice(0,8).join(' ')+(words.length>8?' …':'');
-  document.getElementById('fc-teaser').textContent=teaser;
-  
-  // Back
-  document.getElementById('fc-icon').textContent=card.icon||'✦';
-  document.getElementById('fc-title').textContent=card.title;
-  document.getElementById('fc-title').style.color=c;
-  document.getElementById('fc-desc').textContent=card.desc;
-  const firstAnec=(card.anecdotes||[])[0];
-  if(firstAnec){
-    document.getElementById('fc-anec').innerHTML=`${firstAnec.e} ${firstAnec.t}`;
-  } else {
-    document.getElementById('fc-anec').textContent='';
-  }
-  
-  // Reset flip
-  document.getElementById('flashcard').classList.remove('flipped');
-  quizRevealed=false;
-  
-  // Progress dots
+  const quiz=card.quiz;
+  const meta=`<span style="color:${c};font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">${kindLabels[kind]||kind}</span><span style="color:rgba(232,223,196,.25);margin:0 10px">·</span><span style="color:${c};font-size:.72rem;font-family:'Cinzel',serif;font-weight:700">${card.date}</span>`;
+  document.getElementById('qz-meta').innerHTML=meta;
+  document.getElementById('qz-meta2').innerHTML=meta;
+  document.getElementById('qz-question').textContent=quiz.q;
+  document.getElementById('qz-question-small').textContent=quiz.q;
+  document.getElementById('qz-answer-text').textContent=quiz.r;
+  const hintBtn=document.getElementById('qz-hint-btn');
+  const hintText=document.getElementById('qz-hint-text');
+  hintText.textContent=''; hintText.style.display='none';
+  if(quiz.hint){hintBtn.dataset.hint=quiz.hint;hintBtn.style.display='inline-block';}
+  else{hintBtn.style.display='none';}
+  document.getElementById('qz-question-wrap').style.display='block';
+  document.getElementById('qz-answer-wrap').style.display='none';
   document.getElementById('q-num').textContent=quizIdx+1;
   document.getElementById('q-score').textContent=quizScore;
   const prog=document.getElementById('quiz-progress');
@@ -785,30 +802,37 @@ function renderQuizCard(){
   });
 }
 
-function revealCard(){
-  document.getElementById('flashcard').classList.add('flipped');
-  quizRevealed=true;
-  quizScore++;
-  document.getElementById('q-score').textContent=quizScore;
-}
-
-function nextCard(){
-  if(quizIdx<quizCards.length-1){
-    quizIdx++;
-    renderQuizCard();
-  } else {
-    // End screen
-    document.getElementById('fc-front').innerHTML=
-      `<div class="fc-kind" style="color:#60c8a0;font-size:.9rem;margin-bottom:16px">🎉 Quiz terminé !</div>
-       <div class="fc-period" style="font-size:1.6rem;color:#60c8a0">${quizScore} / ${quizCards.length}</div>
-       <div class="fc-teaser" style="margin-top:12px">${quizScore===quizCards.length?'Parfait ! Tu es un expert de l\'histoire !':quizScore>quizCards.length*.7?'Très bien ! Encore un peu d\'entraînement…':'Continue à explorer la chronologie !'}</div>
-       <button class="fc-reveal-btn" onclick="startQuiz()" style="margin-top:8px">🔄 Rejouer</button>`;
-    document.getElementById('flashcard').classList.remove('flipped');
+function showHint(){
+  const hint=document.getElementById('qz-hint-btn').dataset.hint;
+  if(hint){
+    const t=document.getElementById('qz-hint-text');
+    t.textContent='💡 '+hint; t.style.display='block';
+    document.getElementById('qz-hint-btn').style.display='none';
   }
 }
 
-function prevCard(){
-  if(quizIdx>0){ quizIdx--; renderQuizCard(); }
+function revealCard(){
+  document.getElementById('qz-question-wrap').style.display='none';
+  document.getElementById('qz-answer-wrap').style.display='flex';
+}
+
+function markCard(knew){
+  if(knew){quizScore++;document.getElementById('q-score').textContent=quizScore;}
+  if(quizIdx<quizCards.length-1){
+    quizIdx++; renderQuizCard();
+  } else {
+    const pct=quizScore/quizCards.length;
+    const msg=pct===1?'🏆 Parfait ! Tu es un expert !':pct>=.7?'👍 Très bien ! Encore un effort…':'📚 Continue à explorer la chronologie !';
+    document.getElementById('qz-answer-wrap').style.display='none';
+    document.getElementById('qz-question-wrap').style.display='block';
+    document.getElementById('qz-question-wrap').innerHTML=
+      `<div style="text-align:center;padding:10px 0">
+        <div style="font-size:2.8rem;margin-bottom:16px">🎉</div>
+        <div style="font-family:'Cinzel',serif;font-size:2rem;font-weight:900;color:#60c8a0;margin-bottom:8px">${quizScore} / ${quizCards.length}</div>
+        <div style="font-size:.9rem;color:rgba(232,223,196,.5);margin-bottom:24px;letter-spacing:.05em">${msg}</div>
+        <button class="fc-reveal-btn" onclick="startQuiz()">🔄 Rejouer</button>
+      </div>`;
+  }
 }
 
 // Filter buttons
