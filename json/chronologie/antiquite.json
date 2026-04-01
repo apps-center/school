@@ -168,6 +168,122 @@
           }
         ],
         "kind": "histoire"
+      },
+      {
+        "icon": "📐",
+        "tag": "Sciences",
+        "date": "–625 à –100 av. J.-C.",
+        "title": "Thalès, Pythagore, Ptolémée — Les Savants Grecs",
+        "desc": "En deux siècles, la Grèce accomplit une révolution intellectuelle sans précédent : elle invente la démonstration mathématique, la philosophie, l'astronomie scientifique et la géographie rationnelle. Thalès de Milet (–624) prédit une éclipse solaire et mesure la hauteur des pyramides par les ombres. Pythagore (–570) lie mathématiques et musique. Euclide codifie la géométrie. Ptolémée (IIe siècle ap. J.-C.) construit un modèle du cosmos utilisé pendant 1 400 ans.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>Thalès calcula la hauteur de la pyramide de Khéops sans la gravir.</b> Il attendit le moment de la journée où son ombre égalait sa taille, puis mesura l'ombre de la pyramide. Sa méthode — les triangles semblables — est encore enseignée au collège 2 600 ans plus tard. C'est le premier exemple connu de raisonnement mathématique appliqué à un problème réel."
+          },
+          {
+            "e": "🎵",
+            "t": "<b>Pythagore découvrit que la musique obéit aux mathématiques.</b> En pinçant une corde tendue à la moitié, on obtient une note une octave plus haute — exactement. Les rapports 1/2, 2/3, 3/4 produisent des harmonies parfaites. Cette découverte le convainquit que l'univers entier était régi par des nombres. Il fonda une secte secrète dont les membres ne mangeaient pas de fèves — raison inconnue."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Rome — République, Empire & Grandeur",
+    "cls": "empire",
+    "events": [
+      {
+        "icon": "🏺",
+        "tag": "Civilisation",
+        "date": "–800 à –509 av. J.-C.",
+        "title": "Les Étrusques — La Civilisation Oubliée",
+        "desc": "Avant Rome, l'Italie centrale est dominée par les Étrusques — une civilisation sophistiquée dont l'origine reste mystérieuse. Ils bâtissent des villes, pratiquent le commerce méditerranéen, inventent l'alphabet latin (que les Romains adopteront), fondent des arènes et pratiquent la divination par les entrailles. Rome elle-même est d'abord gouvernée par des rois étrusques avant de les chasser en –509.",
+        "anecdotes": [
+          {
+            "e": "🔤",
+            "t": "<b>Tu écris avec l'alphabet étrusque.</b> Les Étrusques adaptèrent l'alphabet grec pour leur propre langue, et les Romains l'adaptèrent à leur tour pour le latin. Notre alphabet — A, B, C, D… — est un héritage étrusque transmis via Rome. Une civilisation dont on ne comprend plus la langue a façonné l'écriture de la moitié du monde."
+          },
+          {
+            "e": "🔮",
+            "t": "<b>Les Étrusques lisaient l'avenir dans les foies des animaux sacrifiés.</b> Des modèles de foies en bronze ont été retrouvés, divisés en régions correspondant aux dieux. Cette pratique — l'haruspicine — fut adoptée par les Romains et pratiquée officiellement jusqu'au IVe siècle ap. J.-C. Les généraux romains consultaient les entrailles avant toute bataille importante."
+          },
+          {
+            "e": "❓",
+            "t": "<b>On ne sait toujours pas d'où viennent les Étrusques.</b> Leur langue, non indo-européenne, n'est apparentée à aucune autre connue. Les anciens eux-mêmes débattaient : Hérodote disait qu'ils venaient d'Anatolie, Denys d'Halicarnasse qu'ils étaient autochtones. L'ADN ancien suggère aujourd'hui une origine anatolienne — Hérodote avait peut-être raison."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🐘",
+        "tag": "Guerres",
+        "date": "–264 à –146 av. J.-C.",
+        "title": "Les Guerres Puniques — Carthage & Hannibal",
+        "desc": "Trois guerres entre Rome et Carthage (actuelle Tunisie) pour la domination de la Méditerranée. La deuxième (–218 à –201) est la plus célèbre : le général carthaginois Hannibal traverse l'Espagne, franchit les Pyrénées et les Alpes avec 37 éléphants de guerre en plein hiver, descend en Italie et remporte des victoires stupéfiantes — avant d'être finalement repoussé. En –146, Rome rase Carthage et sème le sol de sel.",
+        "anecdotes": [
+          {
+            "e": "🐘",
+            "t": "<b>Hannibal traversa les Alpes avec 37 éléphants de guerre en novembre.</b> Sur les 90 000 hommes partis d'Espagne, moins de 30 000 atteignirent l'Italie — décimés par le froid, la neige et les embuscades gauloises. Pourtant, à Cannes (–216), Hannibal anéantit une armée romaine de 80 000 hommes avec 50 000 hommes — la manœuvre d'encerclement parfaite, encore étudiée dans les académies militaires."
+          },
+          {
+            "e": "🧂",
+            "t": "<b>« Carthage doit être détruite. »</b> Le sénateur Caton terminait chacun de ses discours par cette phrase — quel qu'en soit le sujet. En –146, Rome rasa la ville pierre par pierre et, selon la légende, sema le sol de sel pour qu'rien n'y pousse jamais. La rivale commerciale de Rome était effacée de la carte. L'expression « semer le sel » pour désigner une destruction totale vient de là."
+          },
+          {
+            "e": "🧠",
+            "t": "<b>Hannibal ne prit jamais Rome — et pourtant il avait gagné.</b> Après Cannes, rien ne s'opposait à lui militairement. Mais il attendit des renforts qui ne vinrent pas, espérant que les alliés de Rome se retourneraient contre elle. Ils ne le firent pas. La leçon que les généraux en tirèrent : une victoire tactique écrasante ne suffit pas — il faut la volonté politique de frapper le coup de grâce."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🔥",
+        "tag": "Emperuer",
+        "date": "54 à 68 ap. J.-C.",
+        "title": "Néron — L'Incendie de Rome & les Persécutions",
+        "desc": "Néron monte sur le trône à 17 ans. Son règne commence bien — il est conseillé par le philosophe Sénèque — puis déraille dans la tyrannie, les meurtres de proches (dont sa propre mère Agrippine) et la mégalomanie. En 64, un incendie ravage les deux tiers de Rome. Il accuse les chrétiens, les fait crucifier et brûler comme torches vivantes. Il est le premier persécuteur institutionnel du christianisme.",
+        "anecdotes": [
+          {
+            "e": "🎻",
+            "t": "<b>Néron ne jouait pas du violon pendant l'incendie de Rome</b> — le violon n'existait pas encore. La légende dit qu'il jouait de la cithare depuis sa terrasse en récitant ses propres poèmes sur la destruction de Troie. Mais les sources antiques contredisent les unes les autres. Ce qu'on sait : il profita de l'incendie pour construire sa Domus Aurea — un palais de 300 pièces avec un lac artificiel."
+          },
+          {
+            "e": "👩",
+            "t": "<b>Néron fit assassiner sa propre mère Agrippine.</b> Après plusieurs tentatives ratées (dont un bateau conçu pour couler), il envoya des soldats chez elle. Elle présenta sa poitrine au centurion : « Frappe ici, là d'où est sorti un tel fils. » Cette scène, rapportée par Tacite, est l'une des plus dramatiques de l'Antiquité — et illustre jusqu'où le pouvoir absolu peut mener."
+          },
+          {
+            "e": "😈",
+            "t": "<b>Dans l'Apocalypse de Jean, la « Bête » dont le nombre est 666 désigne probablement Néron.</b> En hébreu, les lettres de « Néron César » donnent la valeur numérique 666. Pour les chrétiens du Ier siècle, persécutés par Néron, ce chiffre était un code pour le désigner sans le nommer — une façon de critiquer l'Empire sans risquer la mort."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏟️",
+        "tag": "Monument",
+        "date": "72 à 80 ap. J.-C.",
+        "title": "Le Colisée — La Violence comme Spectacle",
+        "desc": "L'amphithéâtre Flavien — le Colisée — est inauguré par l'empereur Titus en 80 ap. J.-C. avec 100 jours de jeux consécutifs. 50 000 spectateurs, des combats de gladiateurs, des chasses d'animaux exotiques, des exécutions publiques. En 8 ans de construction, 100 000 tonnes de travertin. C'est le plus grand amphithéâtre jamais construit — et le symbole de l'utilisation politique du spectacle de masse.",
+        "anecdotes": [
+          {
+            "e": "👍",
+            "t": "<b>Le pouce levé ne signifiait pas « épargne-le ».</b> C'est l'inverse dans les sources antiques : le pouce levé (vers la poitrine, comme un coup d'épée) signifiait « tue-le », et le pouce baissé (caché dans le poing, comme une épée rengainée) signifiait « grâce ». Hollywood a inversé les symboles — et la confusion dure depuis des décennies."
+          },
+          {
+            "e": "🐅",
+            "t": "<b>Les Romains importèrent des milliers d'animaux sauvages pour les jeux.</b> Lions, tigres, éléphants, rhinocéros, girafes, hippopotames — tous amenés d'Afrique et d'Asie à grands frais. Certains historiens estiment qu'en 400 ans de jeux, le Colisée contribua à l'extinction locale du lion d'Afrique du Nord et à la disparition de l'éléphant d'Afrique du Nord. Le divertissement romain changea la faune d'un continent."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Le Colisée avait un velarium — une tente géante.</b> Plusieurs centaines de marins de la flotte de Rome manœuvraient des cordes et des mâts pour déployer une toile de lin sur les gradins les jours de soleil. Le Colisée avait aussi un sous-sol labyrinthique d'ascenseurs et de trappes pour faire surgir gladiateurs et animaux au milieu de l'arène — la machinerie d'un théâtre géant."
+          }
+        ],
+        "kind": "histoire"
       }
     ]
   },
@@ -294,7 +410,7 @@
       {
         "icon": "🏗️",
         "tag": "Architecture",
-        "date": "19 av. J.-C.",
+        "date": "–19 av. J.-C.",
         "title": "Le Pont du Gard — Le Génie Romain",
         "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour acheminer 40 000 m³ d'eau par jour vers Nîmes. Aucun mortier — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes. Il a traversé 2 000 ans pratiquement intact.",
         "anecdotes": [
@@ -398,6 +514,28 @@
         "kind": "histoire"
       },
       {
+        "icon": "⚔️",
+        "tag": "Crise",
+        "date": "235 à 284 ap. J.-C.",
+        "title": "La Crise du IIIe Siècle — Les Premières Invasions Barbares",
+        "desc": "En 50 ans, Rome connaît 50 empereurs — dont la plupart meurent assassinés. L'Empire s'effondre en trois tronçons. C'est le début des grandes invasions : vers 260 ap. J.-C., les Francs franchissent le Rhin pour la première fois et ravagent la Gaule du Nord. Les Wisigoths pillent les Balkans. Les Burgondes s'installent sur le Rhin. Rome tient — mais l'Empire n'est plus jamais vraiment stable.",
+        "anecdotes": [
+          {
+            "e": "👑",
+            "t": "<b>Entre 235 et 284, Rome eut 50 empereurs en 50 ans.</b> La plupart durèrent quelques mois avant d'être assassinés par leurs propres soldats. L'armée était devenue une machine à fabriquer et défaire des empereurs selon les soldes versées. Ce chaos interne explique autant que les invasions extérieures pourquoi l'Empire finit par céder."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Les Francs qui envahirent la Gaule vers 260 ap. J.-C.</b> sont les ancêtres directs des Français. Leur nom viendrait du germanique frank — « libre » ou « courageux ». Deux siècles plus tard, leur roi Clovis fondera le royaume de France. Les « barbares » qui ravagèrent la Gaule romaine devinrent les bâtisseurs de la France médiévale."
+          },
+          {
+            "e": "🔱",
+            "t": "<b>L'Empire gallo-romain (260–274 ap. J.-C.)</b> est une anecdote fascinante : pendant 14 ans, la Gaule, la Bretagne et l'Espagne se séparèrent de Rome pour former leur propre empire indépendant, avec leur propre succession d'empereurs. Rome était trop occupée à survivre pour les reconquérir. Cet « empire » fut finalement réabsorbé pacifiquement par Aurélien."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🌅",
         "tag": "Événement",
         "date": "313 ap. J.-C.",
@@ -415,6 +553,28 @@
           {
             "e": "📅",
             "t": "<b>Constantin imposa le dimanche comme jour de repos</b> (dies Solis — le jour du Soleil). La semaine de 7 jours avec repos dominical, héritée de Rome et du christianisme, structure encore nos vies 1 700 ans plus tard. Chaque week-end est un héritage de Constantin."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🗺️",
+        "tag": "Événement",
+        "date": "395 ap. J.-C.",
+        "title": "Théodose — La Division de l'Empire Romain",
+        "desc": "Le 17 janvier 395, l'empereur Théodose Ier meurt à Milan et divise l'Empire entre ses deux fils : Arcadius reçoit l'Orient (Constantinople), Honorius l'Occident (Rome). Cette séparation, pensée comme temporaire, sera définitive. En 380, Théodose avait déjà fait du christianisme la religion officielle de l'Empire — parachevant le travail de Constantin. L'Empire romain d'Occident survivra à peine 80 ans.",
+        "anecdotes": [
+          {
+            "e": "✝️",
+            "t": "<b>Théodose ferma tous les temples païens de l'Empire en 391.</b> Les Jeux Olympiques, célébrés sans interruption depuis –776, furent supprimés comme « fête païenne ». 12 siècles d'une tradition sportive unique effacés par décret. Les Jeux ne furent rétablis qu'en 1896 par Pierre de Coubertin — après 1 503 ans d'interruption."
+          },
+          {
+            "e": "💔",
+            "t": "<b>La division de 395 n'était pas censée être permanente.</b> C'était une pratique courante de partager l'Empire entre héritiers pour le gérer. Mais Arcadius et Honorius étaient trop faibles pour réunifier. L'Empire d'Occident s'effondra en 476. L'Empire d'Orient (Byzance) survécut encore 977 ans — jusqu'à la chute de Constantinople en 1453."
+          },
+          {
+            "e": "🕌",
+            "t": "<b>En faisant du christianisme la religion d'État, Théodose créa le modèle de l'État confessionnel</b> qui régit l'Europe pendant 1 400 ans. Toute dissidence religieuse devenait crime politique. Les hérétiques, les juifs et les derniers paiens furent persécutés par l'État. La séparation de l'Église et de l'État — que nous considérons normale — est une invention révolutionnaire des XVIIe–XVIIIe siècles."
           }
         ],
         "kind": "histoire"
