@@ -518,6 +518,14 @@ body{padding-top:44px;}
       </div>
     </div>
 
+    <!-- Phase 3 : Écran de fin — structure séparée, jamais détruite -->
+    <div class="qz-question-wrap" id="qz-end-screen" style="display:none;text-align:center;padding:10px 0">
+      <div id="qz-end-emoji" style="font-size:2.8rem;margin-bottom:16px"></div>
+      <div id="qz-end-score" style="font-family:'Cinzel',serif;font-size:2rem;font-weight:900;color:#60c8a0;margin-bottom:8px"></div>
+      <div id="qz-end-msg" style="font-size:.9rem;color:rgba(232,223,196,.5);margin-bottom:24px;letter-spacing:.05em"></div>
+      <button class="fc-reveal-btn" onclick="startQuiz()">🔄 Rejouer</button>
+    </div>
+
   </div>
 
   <div class="quiz-nav">
@@ -680,7 +688,7 @@ function openDiscModal(dv){
 }
 
 async function loadData() {
-  const branches = ['prehistoire', 'antiquite', 'moyenage', 'tempsmodernes', 'contemporaine', 'france', 'monde'];
+  const branches = ['prehistoire', 'antiquite', 'moyenage', 'tempsmodernes', 'contemporaine', 'monde'];
   await Promise.all(branches.map(async branch => {
     try {
       const res = await fetch('/json/chronologie/' + branch + '.json');
@@ -695,7 +703,6 @@ async function loadData() {
   renderBranch('moyenage');
   renderBranch('tempsmodernes');
   renderBranch('contemporaine');
-  renderBranch('france');
   renderBranch('monde');
   // Appelé ici, après que le DOM est réellement peuplé
   setTimeout(()=>{buildMarkers();rs();setupObs();},50);
@@ -730,7 +737,7 @@ let activeFilters=new Set(['all','science','litterature','art','musique','histoi
 
 function buildQuizDeck(){
   const all=[];
-  for(const branch of ['prehistoire','antiquite','moyenage','tempsmodernes','contemporaine','france','monde']){
+  for(const branch of ['prehistoire','antiquite','moyenage','tempsmodernes','contemporaine','monde']){
     for(const era of (DATA[branch]||[])){
       for(const ev of era.events){
         if(ev.quiz) all.push({...ev, _era:era.era, _branch:branch});
@@ -749,11 +756,15 @@ function startQuiz(){
   quizIdx=0; quizScore=0;
   document.getElementById('q-total').textContent=quizCards.length||'—';
   document.getElementById('q-score').textContent=0;
+  // Always reset all phases
+  document.getElementById('qz-end-screen').style.display='none';
+  document.getElementById('qz-answer-wrap').style.display='none';
   if(!quizCards.length){
-    document.getElementById('qz-question-wrap').innerHTML=
-      `<div class="qz-empty">⏳ Aucune question disponible pour ces filtres.<br>Les questions sont ajoutées progressivement dans chaque période.</div>
-       <button class="fc-reveal-btn" onclick="closeQuiz()" style="margin-top:20px">← Retour</button>`;
-    document.getElementById('qz-answer-wrap').style.display='none';
+    document.getElementById('qz-question-wrap').style.display='none';
+    document.getElementById('qz-end-screen').style.display='block';
+    document.getElementById('qz-end-emoji').textContent='⏳';
+    document.getElementById('qz-end-score').textContent='';
+    document.getElementById('qz-end-msg').textContent='Aucune question disponible pour ces filtres. Les questions sont ajoutées progressivement dans chaque période.';
   } else {
     renderQuizCard();
   }
@@ -821,17 +832,15 @@ function markCard(knew){
   if(quizIdx<quizCards.length-1){
     quizIdx++; renderQuizCard();
   } else {
+    // Show end screen without destroying question structure
     const pct=quizScore/quizCards.length;
     const msg=pct===1?'🏆 Parfait ! Tu es un expert !':pct>=.7?'👍 Très bien ! Encore un effort…':'📚 Continue à explorer la chronologie !';
+    document.getElementById('qz-question-wrap').style.display='none';
     document.getElementById('qz-answer-wrap').style.display='none';
-    document.getElementById('qz-question-wrap').style.display='block';
-    document.getElementById('qz-question-wrap').innerHTML=
-      `<div style="text-align:center;padding:10px 0">
-        <div style="font-size:2.8rem;margin-bottom:16px">🎉</div>
-        <div style="font-family:'Cinzel',serif;font-size:2rem;font-weight:900;color:#60c8a0;margin-bottom:8px">${quizScore} / ${quizCards.length}</div>
-        <div style="font-size:.9rem;color:rgba(232,223,196,.5);margin-bottom:24px;letter-spacing:.05em">${msg}</div>
-        <button class="fc-reveal-btn" onclick="startQuiz()">🔄 Rejouer</button>
-      </div>`;
+    document.getElementById('qz-end-emoji').textContent='🎉';
+    document.getElementById('qz-end-score').textContent=`${quizScore} / ${quizCards.length}`;
+    document.getElementById('qz-end-msg').textContent=msg;
+    document.getElementById('qz-end-screen').style.display='block';
   }
 }
 
