@@ -136,15 +136,37 @@
         "tag": "Événement",
         "date": "–230 millions d'années",
         "title": "Premiers Dinosaures",
-        "desc": "Les dinosaures domineront la Terre pendant 165 millions d'années avant d'être balayés par un astéroïde.",
+        "desc": "Les dinosaures domineront la Terre pendant 165 millions d'années, régnant sur mer, air et continents jusqu'à ce qu'un événement cataclysmique y mette fin.",
         "anecdotes": [
           {
             "e": "🐦",
             "t": "<b>Les oiseaux sont des dinosaures.</b> Scientifiquement, un moineau est un dinosaure à plumes. Ils n'ont pas totalement disparu."
           },
           {
-            "e": "☄️",
-            "t": "<b>L'astéroïde Chicxulub (–66 Ma)</b> libéra l'énergie d'un milliard de bombes atomiques. Les poussières bloquèrent le Soleil pendant des années."
+            "e": "🌍",
+            "t": "<b>Au Trias, tous les continents étaient fusionnés en Pangée.</b> Les premiers dinosaures pouvaient donc théoriquement se promener de l'Amérique du Sud actuelle jusqu'en Chine à pied sec."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "☄️",
+        "tag": "Événement",
+        "date": "–66 millions d'années",
+        "title": "Extinction des Dinosaures",
+        "desc": "Un astéroïde de 10 km frappe la péninsule du Yucatán (cratère de Chicxulub). L'impact libère l'énergie d'un milliard de bombes atomiques. Les poussières et suies bloquent le Soleil pendant des années : les plantes meurent, les chaînes alimentaires s'effondrent. 75 % des espèces disparaissent. Les mammifères — discrets et nocturnes — survivent et héritent du monde.",
+        "anecdotes": [
+          {
+            "e": "🌋",
+            "t": "<b>L'astéroïde n'était pas seul responsable.</b> Les trapps du Deccan (Inde) déversaient simultanément des millions de km³ de lave depuis 200 000 ans, empoisonnant l'atmosphère. L'astéroïde a peut-être achevé un monde déjà fragilisé."
+          },
+          {
+            "e": "🐦",
+            "t": "<b>Un seul groupe de dinosaures a survécu : les oiseaux.</b> Leur petite taille, leur capacité à voler et probablement leur régime à base de graines leur ont permis de traverser « l'hiver à impact » de plusieurs années. Aujourd'hui, il existe 10 000 espèces d'oiseaux — contre zéro grand dinosaure non-aviaire."
+          },
+          {
+            "e": "🐀",
+            "t": "<b>Note : la date exacte est –66 Ma, pas –65 Ma</b> comme l'indiquaient les anciens manuels. La limite Crétacé-Paléogène (K-Pg) a été recalibrée en 2013 à 66,043 millions d'années."
           }
         ],
         "kind": "histoire"
@@ -160,15 +182,19 @@
         "tag": "Événement",
         "date": "–7 millions d'années",
         "title": "Premiers Hominidés",
-        "desc": "Sahelanthropus tchadensis au Tchad — le plus ancien fossile de notre lignée, à la séparation avec les grands singes.",
+        "desc": "Sahelanthropus tchadensis (Tchad) — le plus ancien fossile de notre lignée, juste après la séparation évolutive avec les chimpanzés. Ce n'est pas encore un bipède à part entière, mais la position de son foramen magnum (le trou où la colonne vertébrale rejoint le crâne) suggère une posture plus verticale que celle des grands singes. La bipédie est un processus graduel, pas un événement unique.",
         "anecdotes": [
           {
-            "e": "🧬",
-            "t": "<b>98,7 % d'ADN commun avec les chimpanzés.</b> Cet infime écart suffit pourtant à tout changer."
+            "e": "🚶",
+            "t": "<b>La bipédie s'installe en plusieurs étapes :</b> Sahelanthropus (~7 Ma) est peut-être un bipède facultatif ; Orrorin tugenensis (~6 Ma, Kenya) montre des fémurs adaptés à la marche debout ; Ardipithecus ramidus (~4,4 Ma) est le premier bipède confirmé mais grimpe encore aux arbres ; Australopithecus afarensis (~3,2 Ma, dont la célèbre Lucy) est enfin un bipède habituel, avec un cerveau encore de taille simienne."
           },
           {
-            "e": "🚶",
-            "t": "<b>La bipédie est venue avant le gros cerveau</b> — nos ancêtres marchaient debout 2 millions d'années avant que leur cerveau grossisse."
+            "e": "🧬",
+            "t": "<b>98,7 % d'ADN commun avec les chimpanzés.</b> Cet infime écart suffit pourtant à tout changer. La bipédie, en libérant les mains, a ouvert la voie aux outils — et les outils ont nourri le développement du cerveau, dans une boucle évolutive de plusieurs millions d'années."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>La bipédie a probablement émergé dans les savanes africaines</b>, où les forêts se fragmentaient sous l'effet du climat. Marcher debout permettait de voir au-dessus des herbes hautes, de porter nourriture et enfants, et de moins surchauffer sous le soleil équatorial."
           }
         ],
         "kind": "histoire"
@@ -193,13 +219,21 @@
       {
         "icon": "🔥",
         "tag": "Événement",
-        "date": "–1 million d'années",
+        "date": "–1 million à –400 000 ans",
         "title": "Maîtrise du Feu",
-        "desc": "Homo erectus contrôle le feu. Révolution alimentaire : la cuisson libère plus de calories, permettant le développement d'un cerveau plus grand.",
+        "desc": "Homo erectus apprivoise le feu — mais à quelle date exacte ? Les sources se contredisent légitimement, car il y a deux seuils distincts. Vers –1 million d'années : premières traces de feu dans une grotte (os brûlés à Wonderwerk, Afrique du Sud), probablement feux récupérés dans la nature. Vers –400 000 à –500 000 ans : foyers intentionnels répétés et maîtrisés, confirmés sur de nombreux sites en Europe et au Proche-Orient. C'est cette seconde date qui marque la vraie domestication du feu.",
         "anecdotes": [
           {
             "e": "🌙",
-            "t": "<b>Le feu a inventé la soirée.</b> La veillée est probablement à l'origine du langage, des récits et des mythes."
+            "t": "<b>Le feu a inventé la soirée.</b> La veillée autour du feu est probablement à l'origine du langage élaboré, des récits, des mythes — et même du sommeil plus court des humains modernes par rapport aux grands singes."
+          },
+          {
+            "e": "🍖",
+            "t": "<b>La cuisson a transformé notre biologie.</b> La nourriture cuite libère 30 à 50 % de calories en plus et détruit les parasites. En cuisinant, Homo erectus a pu réduire ses intestins et agrandir son cerveau — deux processus liés, car un gros intestin consomme autant d'énergie qu'un gros cerveau."
+          },
+          {
+            "e": "📅",
+            "t": "<b>Pourquoi les sources disent –1 Ma ET –500 000 ans ?</b> Parce qu'elles parlent de deux choses différentes. –1 Ma = premiers contacts avec le feu (opportuniste). –400 000 ans = feu maîtrisé, allumé et entretenu volontairement. Les deux sont vrais."
           }
         ],
         "kind": "histoire"
@@ -221,6 +255,48 @@
           }
         ],
         "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🪬",
+        "date": "–100 000 ans",
+        "title": "Premières Parures & Sépultures",
+        "desc": "À Blombos Cave (Afrique du Sud), des coquillages percés sont enfilés en colliers — les plus anciens bijoux connus. Les morts commencent à être enterrés avec intention, parfois saupoudrés d'ocre rouge. C'est la naissance du symbolisme : l'humain ne vit plus seulement dans le présent, il imagine un passé (les ancêtres) et un futur (une vie après la mort).",
+        "anecdotes": [
+          {
+            "e": "🔴",
+            "t": "<b>L'ocre rouge est le premier pigment rituel de l'humanité.</b> Utilisé depuis –300 000 ans pour traiter les peaux, il acquiert un sens symbolique : retrouvé en grande quantité dans les sépultures, il évoque peut-être le sang, la vie, ou une croyance en un voyage après la mort."
+          },
+          {
+            "e": "🐚",
+            "t": "<b>Les coquillages de Blombos ont été transportés à 35 km de la côte</b> — preuve que leur valeur était symbolique, pas alimentaire. Des parures identiques retrouvées en Algérie et au Maroc à la même époque suggèrent un réseau d'échanges culturels à travers tout le continent africain."
+          },
+          {
+            "e": "🧠",
+            "t": "<b>Néandertal enterrait aussi ses morts.</b> Des sépultures néandertaliennes avec des pigments ont été trouvées à Shanidar (Irak, –60 000 ans). Même si leur interprétation est débattue, elles suggèrent que la conscience de la mort — et peut-être la spiritualité — ne sont pas une exclusivité de Sapiens."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🧥",
+        "date": "–80 000 ans",
+        "title": "Premiers Vêtements en Peaux",
+        "desc": "Des grattoirs spécialisés pour le travail des peaux apparaissent dans les sites préhistoriques d'Afrique et d'Europe. La preuve la plus inattendue vient de la génétique : les poux de corps divergent génétiquement des poux de tête il y a environ 83 000 ans — précisément quand les humains ont commencé à se couvrir de façon permanente.",
+        "anecdotes": [
+          {
+            "e": "🦟",
+            "t": "<b>Les poux ont daté nos vêtements.</b> En comparant l'ADN des poux de corps et de tête, les généticiens ont calculé leur séparation à ~83 000 ans. Les poux de corps ne peuvent vivre que dans des tissus : leur existence même prouve que des vêtements existaient à cette date. Un insecte parasite comme chronomètre préhistorique."
+          },
+          {
+            "e": "🧊",
+            "t": "<b>Sans vêtements en peaux taillées, coloniser l'Eurasie froide était impossible.</b> C'est la maîtrise du travail des peaux — gratter, assouplir, imperméabiliser par fumage — qui a permis à Homo sapiens de survivre aux hivers glaciaires là où même Néandertal, pourtant adapté au froid, ne dépassait guère le 55e parallèle."
+          },
+          {
+            "e": "⚒️",
+            "t": "<b>Tanner une peau prend plusieurs jours de travail collectif.</b> Gratter le gras, assouplir par mastication, fumer pour imperméabiliser. Ces techniques impliquent planification, spécialisation et transmission du savoir — les indices d'une organisation sociale déjà complexe, bien avant les villages."
+          }
+        ]
       },
       {
         "kind": "histoire",
@@ -294,16 +370,20 @@
         "kind": "histoire",
         "icon": "🏹",
         "date": "–35 000 av. J.-C.",
-        "title": "La Lance & le Propulseur",
-        "desc": "Le propulseur (atlatl) est un bras de levier qui multiplie par 3 la portée et la puissance d'une lance. Il permet de chasser à distance et transforme les rapports de force avec la faune.",
+        "title": "Le Propulseur (Atlatl)",
+        "desc": "Le propulseur est un bras de levier qui rallonge artificiellement le bras du lanceur, multipliant par 3 la portée et la puissance d'une sagaie. Cette mécanique simple — un morceau d'os ou de bois avec un crochet — transforme radicalement les capacités de chasse à distance.",
         "anecdotes": [
           {
             "e": "🎯",
-            "t": "<b>Le propulseur peut lancer une lance à 100 mètres</b> avec une force suffisante pour transpercer un mammouth. Une innovation qui permit aux Homo Sapiens de dominer tous les grands prédateurs."
+            "t": "<b>Le propulseur peut envoyer une sagaie à 100 mètres</b> avec une force suffisante pour transpercer un mammouth. Des tests balistiques modernes montrent que cette combinaison égale en puissance une arbalète médiévale — fabriquée uniquement avec os, bois et pierre."
           },
           {
             "e": "🏹",
-            "t": "<b>L'arc et la flèche</b> ne sont inventés que vers –20 000 ans en Afrique du Sud. Le propulseur est donc bien antérieur — et restera l'arme de chasse principale pendant des dizaines de millénaires."
+            "t": "<b>L'arc et la flèche ne sont inventés que vers –20 000 ans</b> en Afrique du Sud. Le propulseur reste l'arme de chasse principale pendant 15 000 ans. Les Aztèques l'utilisaient encore à l'arrivée des Espagnols en 1519."
+          },
+          {
+            "e": "🎨",
+            "t": "<b>Certains propulseurs sont de véritables sculptures.</b> Le propulseur au « faon aux oiseaux » de Mas-d'Azil (–13 000 ans, Ariège) est sculpté en bois de renne avec un réalisme animalier stupéfiant — l'arme de chasse comme objet d'art."
           }
         ]
       },
@@ -326,18 +406,85 @@
       },
       {
         "kind": "histoire",
+        "icon": "🗡️",
+        "date": "–30 000 av. J.-C.",
+        "title": "La Sagaie — Pointe de Chasse en Os",
+        "desc": "La sagaie est une pointe de projectile taillée dans l'os, le bois de renne ou l'ivoire de mammouth. Plus légère et plus solide que le silex, elle remplace les lances massives pour la chasse à longue distance. Lancée avec le propulseur, elle constitue l'arme de précision de l'Homo sapiens pendant 20 000 ans — jusqu'à l'invention de l'arc.",
+        "anecdotes": [
+          {
+            "e": "🦌",
+            "t": "<b>L'os et l'ivoire permettent des pointes que le silex ne peut pas imiter.</b> Une sagaie en bois de renne est à la fois plus légère qu'une pointe en silex et résistante aux chocs latéraux — sans se briser à l'impact. Les tailleurs choisissaient la matière première selon l'usage : silex pour le tranchant, os pour la robustesse, ivoire pour les pièces d'apparat."
+          },
+          {
+            "e": "🎨",
+            "t": "<b>Les sagaies étaient aussi des objets d'art statutaires.</b> Nombreuses sont gravées de motifs géométriques, de poissons ou de chevaux. Certaines, trop fragiles pour la chasse, semblent être des objets rituels ou des marqueurs de prestige social — dans une société où la maîtrise de l'artisanat donnait du rang."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>La pointe de sagaie est la première pièce interchangeable de l'histoire.</b> On pouvait casser le manche, conserver la pointe et la remonter — une logique de réparation modulaire qui préfigure notre industrie moderne. Des pointes de sagaie ont été retrouvées à 500 km de leur matière première d'origine, preuve de réseaux d'échange continentaux."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🦣",
+        "date": "–25 000 av. J.-C.",
+        "title": "La Grande Chasse au Mammouth",
+        "desc": "Le mammouth laineux est le pilier de l'économie paléolithique en Europe et en Sibérie. Un seul animal abattu fournit des centaines de kilos de viande, de la graisse pour les lampes et la cuisine, des peaux pour les vêtements et les tentes, des os pour les charpentes, de l'ivoire pour l'art. Ces chasses sont collectives et organisées — pas une simple prédation opportuniste.",
+        "anecdotes": [
+          {
+            "e": "🏕️",
+            "t": "<b>Des huttes construites entièrement en os de mammouths</b> ont été retrouvées en Ukraine (Mezhirich, –15 000 ans). Leurs charpentes utilisent des centaines de mandibules, fémurs et défenses soigneusement assemblés — une architecture sans un seul arbre, dans une steppe sans forêt. Preuve d'une économie du mammouth totale."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Les méthodes incluaient le rabattage collectif.</b> Des groupes encerclaient le troupeau et le poussaient vers des falaises, des marécages ou des zones enneigées où les animaux s'enlisaient. Une chasse réussie pouvait nourrir un groupe de 50 personnes pendant plusieurs semaines."
+          },
+          {
+            "e": "❄️",
+            "t": "<b>Le mammouth s'est éteint il y a ~4 000 ans</b> — soit 2 000 ans après les pyramides d'Égypte. Une petite population a survécu sur l'île Wrangel (Arctique sibérien) jusqu'en –2 000 av. J.-C. La chasse humaine et le réchauffement post-glaciaire ont conjugué leurs effets pour l'éliminer définitivement."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🪡",
+        "date": "–22 000 av. J.-C.",
+        "title": "L'Aiguille à Coudre",
+        "desc": "Taillée dans un fragment d'os ou de bois de renne, percée d'un chas minuscule avec un burin en silex : l'aiguille à coudre permet d'assembler des pièces de peau avec précision. On passe de la peau enroulée au vêtement taillé, cousu, ajusté au corps. Sans elle, coloniser la Sibérie glaciaire et atteindre les Amériques est impossible.",
+        "anecdotes": [
+          {
+            "e": "🔬",
+            "t": "<b>Percer un chas de 1 mm dans un os de 2 mm sans le briser</b> exige une maîtrise technique extraordinaire. Les aiguilles préhistoriques retrouvées à Denisova (Sibérie) rivalisent en finesse avec nos aiguilles modernes — preuve d'un geste chirurgical transmis de génération en génération pendant des millénaires."
+          },
+          {
+            "e": "🧵",
+            "t": "<b>Le fil était fait de tendons de renne, de fibres végétales ou de crin.</b> Des textiles végétaux torsadés (lin sauvage) datant de –30 000 ans ont été retrouvés en Géorgie — des humains filaient et tissaient bien avant l'agriculture. La mode est plus vieille que l'écriture de 25 000 ans."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>L'aiguille a ouvert l'Arctique à l'humanité.</b> Sans vêtements parfaitement ajustés — couvrant mains, pieds et visage — survivre à –40°C est impossible. C'est l'aiguille, autant que le feu ou l'intelligence, qui a rendu possible le peuplement de la Béringie et des Amériques."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
         "icon": "❄️",
         "date": "–20 000 av. J.-C.",
         "title": "Maximum Glaciaire",
-        "desc": "Pic de la dernière ère glaciaire : les glaces couvrent l'Europe du Nord, les Alpes et les Pyrénées. Le niveau des mers est 120 mètres plus bas qu'aujourd'hui. La Grande-Bretagne est reliée au continent, la Sibérie à l'Alaska. L'humanité se réfugie dans des refuges tempérés.",
+        "desc": "Pic de la dernière ère glaciaire : les glaces couvrent l'Europe du Nord, les Alpes et les Pyrénées. Le niveau des mers est 120 mètres plus bas qu'aujourd'hui. Des continents entiers sont reliés à pied. L'humanité se réfugie dans des zones tempérées épargnées par les glaces.",
         "anecdotes": [
           {
             "e": "🗺️",
-            "t": "<b>La carte du monde est méconnaissable :</b> la Manche n'existe pas, la mer du Nord est une vaste plaine herbeuse parcourue par les mammouths. Les Pays-Bas actuels sont à 500 km de l'océan. C'est dans ces plaines aujourd'hui englouties que vivaient nos ancêtres de Lascaux."
+            "t": "<b>La carte du monde est méconnaissable :</b> la Manche n'existe pas, la mer du Nord est une vaste plaine herbeuse (le « Doggerland ») parcourue par les mammouths. Les Pays-Bas actuels sont à 500 km de l'océan. C'est dans ces plaines aujourd'hui englouties que vivaient nos ancêtres de Lascaux."
+          },
+          {
+            "e": "🌉",
+            "t": "<b>Les ponts terrestres du monde à –20 000 ans :</b> 🌏 <b>Béringie</b> (Sibérie → Alaska) : 1 500 km de large, vaste steppe peuplée de mammouths — les premiers Américains passent là. 🇬🇧 <b>Doggerland</b> (France → Angleterre → Danemark) : la Grande-Bretagne est un cap européen, on pouvait aller à Londres à pied depuis Paris. 🌴 <b>Sundaland</b> (Malaisie → Sumatra, Java, Bornéo) : l'Asie du Sud-Est forme un seul continent, Bali et Java étant reliés à la péninsule malaise. 🦘 <b>Sahul</b> (Australie → Nouvelle-Guinée → Tasmanie) : ces trois terres ne forment qu'un seul continent austral. 🐘 <b>Sri Lanka → Inde</b> : le détroit de Palk est une plaine sèche. 🌾 <b>Îles japonaises</b> : Kyūshū et Hokkaidō sont reliées à la Sibérie et à la Corée par des zones côtières accessibles."
           },
           {
             "e": "🌡️",
-            "t": "<b>La température moyenne en France était 8 à 10°C plus froide</b> qu'aujourd'hui. Paris ressemblait à la Sibérie actuelle. La fonte des glaces (–18 000 à –6 000 ans) fit monter les mers de 120 mètres, engloutissant des terres habitées et déclenchant probablement les mythes universels du Déluge."
+            "t": "<b>La température moyenne en France était 8 à 10°C plus froide</b> qu'aujourd'hui. Paris ressemblait à la Sibérie actuelle. La fonte des glaces (–18 000 à –6 000 ans) fit monter les mers de 120 mètres, engloutissant des terres habitées — des villages entiers sous la mer du Nord — et déclenchant probablement les mythes universels du Déluge présents dans toutes les cultures."
           }
         ]
       },
@@ -410,6 +557,24 @@
         ]
       },
       {
+        "icon": "🌾",
+        "tag": "Événement",
+        "date": "–10 000 ans",
+        "title": "Révolution Néolithique",
+        "desc": "Agriculture et élevage au Croissant Fertile. Fin du nomadisme. Les premiers villages apparaissent — naissance de la civilisation.",
+        "anecdotes": [
+          {
+            "e": "⏰",
+            "t": "<b>L'agriculture a inventé la notion de futur :</b> semer pour récolter plus tard. C'est l'origine des calendriers, de l'écriture et des contrats."
+          },
+          {
+            "e": "🦠",
+            "t": "<b>Les premiers villages ont inventé les épidémies.</b> Vivre entassés avec des animaux a permis aux virus de franchir la barrière des espèces."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "kind": "histoire",
         "icon": "🏛️",
         "date": "–9 500 av. J.-C.",
@@ -427,22 +592,67 @@
         ]
       },
       {
-        "icon": "🌾",
-        "tag": "Événement",
-        "date": "–10 000 ans",
-        "title": "Révolution Néolithique",
-        "desc": "Agriculture et élevage au Croissant Fertile. Fin du nomadisme. Les premiers villages apparaissent — naissance de la civilisation.",
+        "kind": "histoire",
+        "icon": "💀",
+        "date": "–6 500 av. J.-C.",
+        "title": "La Trépanation — Première Chirurgie",
+        "desc": "Des crânes néolithiques retrouvés en Europe et au Proche-Orient portent des trous soigneusement percés avec des outils en silex — et des bords recalcifiés, prouvant que les patients ont survécu. C'est la plus ancienne opération chirurgicale connue : on ouvre le crâne pour soigner des fractures, des hématomes, des crises convulsives, ou lors de rituels. L'humanité opère le cerveau 8 500 ans avant l'antisepsie.",
         "anecdotes": [
           {
-            "e": "⏰",
-            "t": "<b>L'agriculture a inventé la notion de futur :</b> semer pour récolter plus tard. C'est l'origine des calendriers, de l'écriture et des contrats."
+            "e": "🧠",
+            "t": "<b>Certains individus ont subi plusieurs trépanations et survécu à toutes.</b> Un crâne retrouvé en France porte cinq ouvertures cicatrisées à des stades différents. Les chirurgiens néolithiques connaissaient probablement des anesthésiants naturels (plantes, alcool fermenté) et maintenaient les plaies propres, peut-être avec des résines antibactériennes."
           },
           {
-            "e": "🦠",
-            "t": "<b>Les premiers villages ont inventé les épidémies.</b> Vivre entassés avec des animaux a permis aux virus de franchir la barrière des espèces."
+            "e": "🌍",
+            "t": "<b>La trépanation est apparue indépendamment sur tous les continents.</b> En Europe, en Afrique, en Amérique précolombienne et en Polynésie — sans contact entre ces populations. C'est une invention que l'humanité a faite au moins 5 ou 6 fois séparément, face aux mêmes besoins médicaux universels."
+          },
+          {
+            "e": "⚕️",
+            "t": "<b>Le taux de survie néolithique dépasse 50 %</b> d'après les études sur les séries de crânes. Soit les praticiens étaient bien plus compétents qu'on ne le croit, soit les indications chirurgicales — fractures ouvertes, hématomes sous-duraux après un coup — étaient précisément ciblées sur des cas qui nécessitaient vraiment l'intervention."
           }
-        ],
-        "kind": "histoire"
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🗿",
+        "date": "–4 500 av. J.-C.",
+        "title": "Menhirs, Dolmens & Carnac",
+        "desc": "En Bretagne, des milliers de menhirs sont dressés en alignements sur des kilomètres. Les dolmens — chambres funéraires collectives en dalles de pierre — parsèment l'Europe de l'Atlantique à la mer du Nord. Ces monuments néolithiques exigent des centaines de personnes, des chantiers planifiés sur des décennies, et une astronomie précise : la plupart sont orientés sur les solstices.",
+        "anecdotes": [
+          {
+            "e": "🇫🇷",
+            "t": "<b>Les alignements de Carnac</b> (Morbihan) comptent plus de 3 000 menhirs disposés en 11 rangées parallèles sur 4 km — le plus grand ensemble mégalithique du monde. Le Grand Menhir Brisé, aujourd'hui couché, pesait 280 tonnes. Stonehenge, plus célèbre, est construit 1 500 ans plus tard."
+          },
+          {
+            "e": "☀️",
+            "t": "<b>Les dolmens étaient des tombes collectives transgénérationnelles.</b> Certains contiennent plus de 200 squelettes accumulés sur des siècles — les mêmes familles enterrées génération après génération. L'entrée de Newgrange (Irlande, –3 200 av. J.-C.) est alignée exactement sur le soleil levant du solstice d'hiver : la lumière illumine la chambre funéraire pendant 17 minutes, une seule fois par an."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Comment déplacer une dalle de 50 tonnes sans roue ni métal ?</b> Des reconstitutions expérimentales montrent que 200 personnes, des traîneaux en bois et des rouleaux suffisent. Ces chantiers impliquent une organisation complexe : spécialisation des tâches, stockage alimentaire pour nourrir les équipes, et une autorité — religieuse ou politique — capable de mobiliser des communautés entières pendant des décennies."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🐎",
+        "date": "–3 500 av. J.-C.",
+        "title": "Domestication du Cheval",
+        "desc": "Dans les steppes d'Eurasie (culture Botaï, Kazakhstan actuel), des éleveurs néolithiques domestiquent le cheval sauvage. C'est une révolution de la mobilité, de la guerre et du commerce : l'humain peut désormais se déplacer 10 fois plus vite, porter des charges lourdes sur des milliers de kilomètres. En moins de 2 000 ans, le cheval transforme toutes les civilisations du monde connu.",
+        "anecdotes": [
+          {
+            "e": "🥛",
+            "t": "<b>La preuve de la domestication vient du lait.</b> Des résidus de graisse de lait de jument sur des poteries Botaï confirment que ces peuples traitaient les juments. L'ADN montre que tous les chevaux domestiques actuels descendent d'une unique population de la steppe pontique — une domestication qui a littéralement changé l'histoire de l'humanité."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Le cheval a révolutionné la guerre en quelques siècles.</b> Un cavalier peut charger à 60 km/h, se replier, encercler — impossible à pied. La diffusion de la culture yamna (steppe pontique, –3 000 av. J.-C.) a propagé les langues indo-européennes — ancêtres du français, de l'anglais, du russe et du sanskrit — de l'Inde à l'Irlande, portées par des populations montées."
+          },
+          {
+            "e": "🗺️",
+            "t": "<b>Le cheval a inventé la mondialisation antique.</b> La Route de la Soie n'aurait pas existé sans lui. Épidémies, religions et innovations techniques se sont propagées à travers l'Eurasie à la vitesse du galop — le cheval est le premier réseau de communication continental de l'histoire, bien avant l'écriture."
+          }
+        ]
       },
       {
         "icon": "🧊",
