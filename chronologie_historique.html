@@ -455,8 +455,11 @@ body{padding-top:44px;}
     <button class="cta-btn" id="cta-explore" onclick="document.querySelector('.tabs').scrollIntoView({behavior:'smooth'})">
       ✦ Commencer l'exploration
     </button>
-    <button class="cta-btn cta-quiz" id="cta-quiz-header" onclick="startQuiz()">
-      🎯 Mode Quiz
+    <button class="cta-btn cta-quiz" id="cta-quiz-header" onclick="startQuiz('question')">
+      🎯 Quiz Questions
+    </button>
+    <button class="cta-btn cta-quiz" onclick="startQuiz('date')" style="background:rgba(96,160,220,.08);border-color:rgba(96,160,220,.4);color:#60a0dc;">
+      🗓️ Quiz Dates
     </button>
   </div>
 </header>
@@ -479,8 +482,18 @@ body{padding-top:44px;}
 <!-- QUIZ OVERLAY -->
 <div id="quiz-overlay">
   <div class="quiz-header">
-    <h2>🎯 Mode Quiz</h2>
-    <p>Réponds à voix haute, puis révèle la réponse</p>
+    <h2 id="quiz-mode-title">🎯 Mode Quiz</h2>
+    <p id="quiz-mode-sub">Réponds à voix haute, puis révèle la réponse</p>
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:10px;">
+      <button onclick="startQuiz('question')" id="qmode-q"
+        style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+        padding:5px 14px;border-radius:20px;cursor:pointer;border:1px solid rgba(96,200,160,.5);
+        background:rgba(96,200,160,.12);color:#60c8a0;transition:all .2s">🎯 Questions</button>
+      <button onclick="startQuiz('date')" id="qmode-d"
+        style="font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+        padding:5px 14px;border-radius:20px;cursor:pointer;border:1px solid rgba(96,160,220,.35);
+        background:none;color:rgba(96,160,220,.7);transition:all .2s">🗓️ Dates</button>
+    </div>
   </div>
   <div class="quiz-filter" id="quiz-filter">
     <button class="qf-btn active" style="color:#e8dfc4;border-color:rgba(232,223,196,.4)" data-filter="all">Tout</button>
@@ -732,39 +745,71 @@ function setupObs(){
 // (init déplacé dans loadData() pour s'exécuter après le rendu async)
 
 // ── QUIZ MODE ──
-let quizCards=[], quizIdx=0, quizScore=0;
+let quizCards=[], quizIdx=0, quizScore=0, quizMode='question';
 let activeFilters=new Set(['all','science','litterature','art','musique','histoire']);
+
+const KIND_COLORS_Q={'science':'#40c8e0','litterature':'#e0b840','art':'#e060b0','musique':'#60d080','histoire':'#d4a843'};
+const KIND_LABELS_Q={'science':'Science & Invention','litterature':'Littérature','art':'Art','musique':'Musique','histoire':'Événement historique'};
+const ALL_BRANCHES=['prehistoire','antiquite','moyenage','tempsmodernes','contemporaine','monde'];
 
 function buildQuizDeck(){
   const all=[];
-  for(const branch of ['prehistoire','antiquite','moyenage','tempsmodernes','contemporaine','monde']){
+  for(const branch of ALL_BRANCHES){
     for(const era of (DATA[branch]||[])){
       for(const ev of era.events){
-        if(ev.quiz) all.push({...ev, _era:era.era, _branch:branch});
+        if(ev.quiz) all.push({...ev,_era:era.era,_branch:branch});
       }
     }
   }
-  const filtered = activeFilters.has('all') ? all : all.filter(ev=>{
-    const k=ev.kind||'histoire';
-    return activeFilters.has(k);
-  });
+  const filtered=activeFilters.has('all')?all:all.filter(ev=>activeFilters.has(ev.kind||'histoire'));
   return filtered.sort(()=>Math.random()-.5).slice(0,Math.min(20,filtered.length));
 }
 
-function startQuiz(){
-  quizCards=buildQuizDeck();
+function buildDateQuizDeck(){
+  const all=[];
+  for(const branch of ALL_BRANCHES){
+    for(const era of (DATA[branch]||[])){
+      for(const ev of era.events){
+        if(ev.date&&ev.title){
+          // Randomly assign direction for each card
+          const dir=Math.random()>.5?'date2event':'event2date';
+          all.push({...ev,_era:era.era,_branch:branch,_dir:dir});
+        }
+      }
+    }
+  }
+  const filtered=activeFilters.has('all')?all:all.filter(ev=>activeFilters.has(ev.kind||'histoire'));
+  return filtered.sort(()=>Math.random()-.5).slice(0,Math.min(20,filtered.length));
+}
+
+function startQuiz(mode='question'){
+  quizMode=mode;
+  quizCards=mode==='date'?buildDateQuizDeck():buildQuizDeck();
   quizIdx=0; quizScore=0;
   document.getElementById('q-total').textContent=quizCards.length||'—';
   document.getElementById('q-score').textContent=0;
-  // Always reset all phases
+
+  // Update header
+  const isDate=mode==='date';
+  document.getElementById('quiz-mode-title').textContent=isDate?'🗓️ Quiz Dates':'🎯 Quiz Questions';
+  document.getElementById('quiz-mode-sub').textContent=isDate?
+    'Trouve la date ou l\'événement — réponds à voix haute':
+    'Réponds à voix haute, puis révèle la réponse';
+  // Highlight active mode button
+  document.getElementById('qmode-q').style.opacity=isDate?'.45':'1';
+  document.getElementById('qmode-d').style.opacity=isDate?'1':'.45';
+  // Show/hide filters (irrelevant for date quiz)
+  document.getElementById('quiz-filter').style.display=isDate?'none':'flex';
+
   document.getElementById('qz-end-screen').style.display='none';
   document.getElementById('qz-answer-wrap').style.display='none';
+
   if(!quizCards.length){
     document.getElementById('qz-question-wrap').style.display='none';
     document.getElementById('qz-end-screen').style.display='block';
     document.getElementById('qz-end-emoji').textContent='⏳';
     document.getElementById('qz-end-score').textContent='';
-    document.getElementById('qz-end-msg').textContent='Aucune question disponible pour ces filtres. Les questions sont ajoutées progressivement dans chaque période.';
+    document.getElementById('qz-end-msg').textContent='Aucune question disponible pour ces filtres.';
   } else {
     renderQuizCard();
   }
@@ -785,23 +830,9 @@ function renderQuizCard(){
   if(!quizCards.length) return;
   const card=quizCards[quizIdx];
   const kind=card.kind||'histoire';
-  const kindColors={'science':'#40c8e0','litterature':'#e0b840','art':'#e060b0','musique':'#60d080','histoire':'#d4a843'};
-  const kindLabels={'science':'Science & Invention','litterature':'Littérature','art':'Art','musique':'Musique','histoire':'Événement historique'};
-  const c=kindColors[kind]||'#d4a843';
-  const quiz=card.quiz;
-  const meta=`<span style="color:${c};font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">${kindLabels[kind]||kind}</span><span style="color:rgba(232,223,196,.25);margin:0 10px">·</span><span style="color:${c};font-size:.72rem;font-family:'Cinzel',serif;font-weight:700">${card.date}</span>`;
-  document.getElementById('qz-meta').innerHTML=meta;
-  document.getElementById('qz-meta2').innerHTML=meta;
-  document.getElementById('qz-question').textContent=quiz.q;
-  document.getElementById('qz-question-small').textContent=quiz.q;
-  document.getElementById('qz-answer-text').textContent=quiz.r;
-  const hintBtn=document.getElementById('qz-hint-btn');
-  const hintText=document.getElementById('qz-hint-text');
-  hintText.textContent=''; hintText.style.display='none';
-  if(quiz.hint){hintBtn.dataset.hint=quiz.hint;hintBtn.style.display='inline-block';}
-  else{hintBtn.style.display='none';}
-  document.getElementById('qz-question-wrap').style.display='block';
-  document.getElementById('qz-answer-wrap').style.display='none';
+  const c=KIND_COLORS_Q[kind]||'#d4a843';
+
+  // Progress dots
   document.getElementById('q-num').textContent=quizIdx+1;
   document.getElementById('q-score').textContent=quizScore;
   const prog=document.getElementById('quiz-progress');
@@ -811,6 +842,65 @@ function renderQuizCard(){
     d.className='qp-dot'+(i<quizIdx?' done':i===quizIdx?' current':'');
     prog.appendChild(d);
   });
+
+  if(quizMode==='date'){
+    renderDateCard(card,c,kind);
+  } else {
+    renderQuestionCard(card,c,kind);
+  }
+
+  document.getElementById('qz-question-wrap').style.display='block';
+  document.getElementById('qz-answer-wrap').style.display='none';
+  document.getElementById('qz-end-screen').style.display='none';
+}
+
+function renderQuestionCard(card,c,kind){
+  const quiz=card.quiz;
+  // ── FIX SPOILER : on n'affiche PAS la date dans la question ──
+  // Seulement la catégorie — la date apparaît dans la phase réponse
+  const metaQ=`<span style="color:${c};font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">${KIND_LABELS_Q[kind]||kind}</span>`;
+  const metaA=`<span style="color:${c};font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">${KIND_LABELS_Q[kind]||kind}</span><span style="color:rgba(232,223,196,.25);margin:0 10px">·</span><span style="color:${c};font-size:.72rem;font-family:'Cinzel',serif;font-weight:700">${card.date}</span>`;
+  document.getElementById('qz-meta').innerHTML=metaQ;
+  document.getElementById('qz-meta2').innerHTML=metaA;
+  document.getElementById('qz-question').textContent=quiz.q;
+  document.getElementById('qz-question-small').textContent=quiz.q;
+  document.getElementById('qz-answer-text').textContent=quiz.r;
+  const hintBtn=document.getElementById('qz-hint-btn');
+  const hintText=document.getElementById('qz-hint-text');
+  hintText.textContent=''; hintText.style.display='none';
+  if(quiz.hint){hintBtn.dataset.hint=quiz.hint;hintBtn.style.display='inline-block';}
+  else{hintBtn.style.display='none';}
+}
+
+function renderDateCard(card,c,kind){
+  const dir=card._dir;
+  const isDate2Event=dir==='date2event';
+  // Hide hint in date mode
+  document.getElementById('qz-hint-btn').style.display='none';
+  document.getElementById('qz-hint-text').style.display='none';
+  document.getElementById('qz-hint-text').textContent='';
+
+  if(isDate2Event){
+    // Question : date → trouver l'événement
+    document.getElementById('qz-meta').innerHTML=
+      `<span style="color:#60a0dc;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">📅 Que s'est-il passé à cette date ?</span>`;
+    document.getElementById('qz-meta2').innerHTML=
+      `<span style="color:#60a0dc;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">📅 ${card.date}</span>`;
+    document.getElementById('qz-question').textContent=card.date;
+    document.getElementById('qz-question').style.fontSize='1.6rem';
+    document.getElementById('qz-question-small').textContent='Que s\'est-il passé à cette date ?';
+    document.getElementById('qz-answer-text').textContent=card.title;
+  } else {
+    // Question : événement → trouver la date
+    document.getElementById('qz-meta').innerHTML=
+      `<span style="color:#60a0dc;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">📅 Quand cela s'est-il passé ?</span>`;
+    document.getElementById('qz-meta2').innerHTML=
+      `<span style="color:${c};font-size:.6rem;letter-spacing:.2em;text-transform:uppercase">${KIND_LABELS_Q[kind]||kind}</span>`;
+    document.getElementById('qz-question').textContent=card.title;
+    document.getElementById('qz-question').style.fontSize='';  // reset
+    document.getElementById('qz-question-small').textContent=card.title;
+    document.getElementById('qz-answer-text').textContent=card.date;
+  }
 }
 
 function showHint(){
@@ -825,6 +915,8 @@ function showHint(){
 function revealCard(){
   document.getElementById('qz-question-wrap').style.display='none';
   document.getElementById('qz-answer-wrap').style.display='flex';
+  // Reset font size that may have been set by date mode
+  document.getElementById('qz-question').style.fontSize='';
 }
 
 function markCard(knew){
@@ -832,7 +924,6 @@ function markCard(knew){
   if(quizIdx<quizCards.length-1){
     quizIdx++; renderQuizCard();
   } else {
-    // Show end screen without destroying question structure
     const pct=quizScore/quizCards.length;
     const msg=pct===1?'🏆 Parfait ! Tu es un expert !':pct>=.7?'👍 Très bien ! Encore un effort…':'📚 Continue à explorer la chronologie !';
     document.getElementById('qz-question-wrap').style.display='none';
