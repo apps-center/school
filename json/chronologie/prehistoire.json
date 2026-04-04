@@ -56,7 +56,7 @@
           "r": "99,86 %",
           "hint": "Toutes les planètes réunies ne font que 0,14 %"
         },
-        "img": "creation_syst_solaire.png",
+        "img": "creation_syst_solaire.webp",
         "imgCredit": "Illustration IA"
       },
       {
@@ -85,7 +85,7 @@
           "r": "3,8 cm par an",
           "hint": "À sa formation, elle était 15 fois plus proche"
         },
-        "img": "naissance_planetes.png",
+        "img": "naissance_planetes.webp",
         "imgCredit": "Illustration IA"
       }
     ]
@@ -288,7 +288,7 @@
           "r": "Sahelanthropus tchadensis",
           "hint": "Il vivait il y a 7 millions d'années — juste après la séparation avec les chimpanzés"
         },
-        "img": "bipedie.png",
+        "img": "bipedie.webp",
         "imgCredit": "Illustration IA"
       },
       {
@@ -343,7 +343,7 @@
           "r": "La grotte de Wonderwerk",
           "hint": "Des os et végétaux brûlés y ont été retrouvés"
         },
-        "img": "feu_prehistoire.png",
+        "img": "feu_prehistoire.webp",
         "imgCredit": "Illustration IA"
       },
       {
@@ -498,7 +498,7 @@
           "r": "Le détroit de Bab-el-Mandeb",
           "hint": "Entre la Corne de l'Afrique et le Yémen actuel"
         },
-        "img": "sortie_afrique.png",
+        "img": "sortie_afrique.webp",
         "imgCredit": "Illustration IA"
       },
       {
@@ -566,7 +566,7 @@
           "r": "L'Ardèche",
           "hint": "Elle contient plus de 400 figures d'animaux — dont des rhinocéros laineux et des lions des cavernes"
         },
-        "img": "peintures_rupestres.png",
+        "img": "peintures_rupestres.webp",
         "imgCredit": "Illustration IA"
       },
       {
