@@ -366,6 +366,40 @@ h1,-webkit-text-fill-color{-webkit-backface-visibility:hidden;backface-visibilit
 
 /* push content below nav */
 .bar{margin-top:42px;}
+
+/* ── Onglets panel ── */
+.p-tabs{display:flex;gap:3px;margin-bottom:14px;flex-wrap:wrap;}
+.p-tab{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border:1px solid rgba(200,180,120,.15);border-radius:3px;background:none;color:rgba(232,223,196,.42);cursor:pointer;transition:all .18s;white-space:nowrap;}
+.p-tab.active{background:rgba(200,180,120,.12);color:var(--star);border-color:rgba(200,180,120,.45);}
+.p-tab:hover:not(.active){color:rgba(232,223,196,.7);border-color:rgba(200,180,120,.28);}
+.p-section{display:none;}.p-section.visible{display:block;}
+.p-text{font-size:.78rem;line-height:1.6;color:rgba(232,223,196,.78);margin-bottom:10px;}
+.p-list{margin:0 0 12px;padding:0;list-style:none;}
+.p-list li{font-size:.76rem;line-height:1.5;padding:4px 10px 4px 16px;margin-bottom:3px;border-radius:3px;color:rgba(232,223,196,.82);position:relative;}
+.p-list li::before{content:'›';position:absolute;left:4px;color:rgba(200,180,120,.5);}
+.p-list.gold  li{background:rgba(212,168,67,.05); border-left:2px solid rgba(212,168,67,.25);}
+.p-list.blue  li{background:rgba(60,140,220,.05);  border-left:2px solid rgba(60,140,220,.25);}
+.p-list.green li{background:rgba(60,190,130,.05);  border-left:2px solid rgba(60,190,130,.25);}
+.p-list.red   li{background:rgba(220,70,50,.05);   border-left:2px solid rgba(220,70,50,.25);}
+.p-list.orange li{background:rgba(220,140,40,.05); border-left:2px solid rgba(220,140,40,.25);}
+.kstats-4{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px;}
+.p-sub{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(232,223,196,.28);margin:12px 0 5px;padding-bottom:4px;border-bottom:1px solid rgba(200,180,120,.08);}
+.p-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px;}
+.chip{font-size:.62rem;padding:3px 9px;border-radius:10px;white-space:nowrap;}
+.chip-blue {background:rgba(60,140,220,.08);border:1px solid rgba(60,140,220,.30);color:rgba(160,200,255,.85);}
+.chip-red  {background:rgba(220,80,80,.08); border:1px solid rgba(220,80,80,.30); color:rgba(230,160,160,.85);}
+.chip-green{background:rgba(60,190,130,.08);border:1px solid rgba(60,190,130,.30);color:rgba(140,230,190,.85);}
+.idh-badge{display:inline-block;padding:2px 8px;border-radius:3px;font-family:'Cinzel',serif;font-size:.7rem;font-weight:700;margin-bottom:8px;}
+.idh-vh{background:rgba(60,190,130,.12);border:1px solid rgba(60,190,130,.4);color:rgba(140,230,190,.9);}
+.idh-h {background:rgba(212,168,67,.10); border:1px solid rgba(212,168,67,.4); color:rgba(230,200,120,.9);}
+.idh-m {background:rgba(220,140,40,.10); border:1px solid rgba(220,140,40,.4); color:rgba(240,180,100,.9);}
+.idh-l {background:rgba(220,70,50,.10);  border:1px solid rgba(220,70,50,.4);  color:rgba(240,150,130,.9);}
+.stab{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;padding:3px 9px;border-radius:3px;margin-bottom:8px;}
+.stab-s{background:rgba(60,190,130,.1); border:1px solid rgba(60,190,130,.3);color:rgba(140,230,190,.9);}
+.stab-t{background:rgba(220,140,40,.1); border:1px solid rgba(220,140,40,.3);color:rgba(240,180,100,.9);}
+.stab-i{background:rgba(220,70,50,.1);  border:1px solid rgba(220,70,50,.3); color:rgba(240,150,130,.9);}
+.stab-a{background:rgba(150,90,200,.1); border:1px solid rgba(150,90,200,.3);color:rgba(200,160,240,.9);}
+  
 </style>
 </head>
 <body>
@@ -642,28 +676,17 @@ function setLayer(layer){
 
 /* ── Country panel ── */
 function onClickCountry(c){
-  // Ignore if user was dragging
   if(dragMoved){ dragMoved=false; return; }
-
-  /* Remove previous highlight */
   document.querySelectorAll('.land').forEach(p=> p.classList.remove('sel'));
-
-  /* Highlight clicked country */
   const el = document.querySelector('.land[data-id="'+c.id+'"]');
-  if(el){
-    el.classList.add('sel');
-    el.parentNode.appendChild(el); // bring to front
-  }
+  if(el){ el.classList.add('sel'); el.parentNode.appendChild(el); }
   selectedIso = c.id;
-
-  const fiche = FICHES[c.id];
-  renderPanel(c, fiche);
+  renderPanel(c, FICHES[c.id]);
 }
 
 function renderPanel(c, fiche){
-  const ps = document.getElementById('panel-scroll');
+  const ps  = document.getElementById('panel-scroll');
   const cap = CAPITALS[c.id] || '';
-  const capHtml = cap ? '<span style="font-size:.7rem;letter-spacing:.06em;font-style:normal">🏛 '+cap+'</span>' : '';
 
   if(!fiche){
     ps.innerHTML =
@@ -671,22 +694,102 @@ function renderPanel(c, fiche){
       +'<button class="p-close" onclick="closePanel()">✕</button>'
       +'<div style="font-size:2.2rem;margin-bottom:8px">🌍</div>'
       +'<div class="p-name">'+c.name+'</div>'
-      +(cap ? '<div class="p-capital">🏛 '+cap+'</div>' : '')
+      +(cap?'<div class="p-capital">🏛 '+cap+'</div>':'')
       +'<div class="p-continent">'+c.cont+'</div>'
       +'<div class="p-divider"></div>'
-      +'<div class="p-nodata">'
-      +'Fiche détaillée en cours de rédaction.<br><br>'
-      +'Consultez les fiches disponibles : États-Unis, Chine, Russie, Inde, Brésil, Allemagne.'
-      +'</div>'
+      +'<div class="p-nodata">Fiche détaillée en cours de rédaction.</div>'
       +'</div>';
+
+  } else if(fiche.histoire){
+    // ── Nouveau format détaillé ──
+    const f = fiche;
+    const tabs = [
+      {id:'histoire',icon:'⚔️',lbl:'Histoire'},
+      {id:'politique',icon:'🏛',lbl:'Politique'},
+      {id:'economie',icon:'💰',lbl:'Économie'},
+      {id:'societe',icon:'👥',lbl:'Société'},
+      {id:'environnement',icon:'🌱',lbl:'Enviro'},
+      {id:'importance',icon:'⭐',lbl:'Importance'},
+    ];
+    let h =
+      '<div style="position:relative">'
+      +'<button class="p-close" onclick="closePanel()">✕</button>'
+      +'<div style="font-size:2.2rem;margin-bottom:6px">'+(f.flag||'🌍')+'</div>'
+      +'<div class="p-name">'+f.name+'</div>'
+      +(cap?'<div class="p-capital">🏛 '+cap+'</div>':'')
+      +'<div class="p-continent">'+(f.continent||c.cont)+'</div>'
+      +'<div class="p-divider"></div>'
+      +'<div class="kstats-4">'
+      +_ks(f.population||'—','Population')
+      +_ks((f.economie&&f.economie.pib)||'—','PIB')
+      +_ks(f.superficie||'—','Superficie')
+      +_ks((f.societe&&f.societe.idh)||'—','IDH')
+      +'</div>'
+      +'<div class="p-tabs">'
+      +tabs.map((t,i)=>'<button class="p-tab'+(i===0?' active':'')+'" onclick="switchTab(\''+t.id+'\')" id="ptab-'+t.id+'">'+t.icon+' '+t.lbl+'</button>').join('')
+      +'</div>';
+
+    tabs.forEach((t,i)=>{
+      h+='<div class="p-section'+(i===0?' visible':'')+'" id="psec-'+t.id+'">';
+      const s = f[t.id];
+      if(!s){ h+='<p class="p-text">—</p>'; }
+      else switch(t.id){
+        case 'histoire':
+          h+=_sub('📅 Indépendance')+_txt(s.independance)
+            +_sub('📜 Événements majeurs')+_lst(s.evenements_majeurs,'gold')
+            +_sub('🌐 Rôle historique')+_txt(s.role_historique);
+          break;
+        case 'politique':
+          h+=_sub('🏛 Régime')+_txt(s.regime)
+            +_sub('👤 Chef de l\'État')+_txt(s.chef_etat,'color:var(--gold)')
+            +_sub('📊 Stabilité')+_stab(s.stabilite)
+            +_sub('🤝 Alliances')+_chips(s.alliances,'chip-blue');
+          break;
+        case 'economie':
+          h+=_sub('💰 PIB')+_txt('<strong>Nominal :</strong> '+s.pib+(s.pib_hab?'<br><strong>Par hab :</strong> '+s.pib_hab:''))
+            +_sub('⛏ Ressources')+_lst(s.ressources,'gold')
+            +_sub('🏭 Secteurs')+_lst(s.secteurs,'blue')
+            +_sub('🏙 Grandes villes')+_lst(s.grandes_villes,'green')
+            +_sub('📈 Places éco.')+_lst(s.places_economiques,'orange')
+            +_sub('🚢 Voies de comm.')+_lst(s.voies_communication);
+          break;
+        case 'societe':
+          h+=_sub('👥 Démographie')+_txt(s.demographie)
+            +_sub('🌡 IDH')+_idh(s.idh)
+            +_sub('📚 Éducation')+_txt(s.education)
+            +_sub('🏥 Santé')+_txt(s.sante)
+            +_sub('⚖️ Inégalités')+_txt(s.inegalites)
+            +_sub('🏙 Urbanisation')+_txt(s.urbanisation);
+          break;
+        case 'environnement':
+          h+=_sub('🏭 Pollution')+_txt(s.pollution)
+            +_sub('♻️ Dév. durable')+_txt(s.dev_durable)
+            +_sub('🔬 Recherche')+_txt(s.recherche)
+            +_sub('🛡 Militaire')+_txt(s.militaire)
+            +_sub('⚡ Défis')+_lst(s.defis,'red');
+          break;
+        case 'importance':
+          h+=_sub('⚔️ Historique')+_txt(s.historique)
+            +_sub('💰 Économique')+_txt(s.economique)
+            +_sub('🌐 Géopolitique')+_txt(s.geopolitique)
+            +_sub('✅ Atouts')+_lst(s.atouts,'green')
+            +_sub('⚠️ Fragilités')+_lst(s.fragilites,'red');
+          break;
+      }
+      h+='</div>';
+    });
+    h+='</div>';
+    ps.innerHTML = h;
+
   } else {
+    // ── Ancien format (deps/vulns/roles/tensions) ──
     const f = fiche;
     ps.innerHTML =
       '<div style="position:relative">'
       +'<button class="p-close" onclick="closePanel()">✕</button>'
       +'<div style="font-size:2.2rem;margin-bottom:8px">'+f.flag+'</div>'
       +'<div class="p-name">'+f.name+'</div>'
-      +(cap ? '<div class="p-capital">🏛 '+cap+'</div>' : '')
+      +(cap?'<div class="p-capital">🏛 '+cap+'</div>':'')
       +'<div class="p-continent">'+c.cont+'</div>'
       +'<div class="p-divider"></div>'
       +'<div class="kstats">'
@@ -694,30 +797,49 @@ function renderPanel(c, fiche){
       +'<div class="kstat"><div class="kstat-val">'+f.pib+'</div><div class="kstat-lbl">PIB</div></div>'
       +'</div>'
       +'<div class="p-sec"><div class="p-sec-title">Dépendances critiques</div>'
-      +f.deps.map(d=>'<div class="item item-dep">'+d+'</div>').join('')
-      +'</div>'
+      +f.deps.map(d=>'<div class="item item-dep">'+d+'</div>').join('')+'</div>'
       +'<div class="p-sec"><div class="p-sec-title">Vulnérabilités</div>'
-      +f.vulns.map(d=>'<div class="item item-vuln">'+d+'</div>').join('')
-      +'</div>'
+      +f.vulns.map(d=>'<div class="item item-vuln">'+d+'</div>').join('')+'</div>'
       +'<div class="p-sec"><div class="p-sec-title">Rôles mondiaux</div>'
-      +f.roles.map(d=>'<div class="item item-role">'+d+'</div>').join('')
-      +'</div>'
+      +f.roles.map(d=>'<div class="item item-role">'+d+'</div>').join('')+'</div>'
       +'<div class="p-sec"><div class="p-sec-title">Tensions actives</div>'
       +'<div class="tension-chips">'
       +f.tensions.map(t=>'<span class="tchip">'+t+'</span>').join('')
-      +'</div></div>'
-      +'</div>';
+      +'</div></div></div>';
   }
-
   document.getElementById('panel').classList.add('open');
 }
 
 function closePanel(){
   document.getElementById('panel').classList.remove('open');
-  document.querySelectorAll('.land').forEach(p=>{
-    p.classList.remove('sel');
-  });
+  document.querySelectorAll('.land').forEach(p=> p.classList.remove('sel'));
   selectedIso = null;
+}
+
+function switchTab(id){
+  document.querySelectorAll('.p-tab').forEach(b=> b.classList.toggle('active', b.id==='ptab-'+id));
+  document.querySelectorAll('.p-section').forEach(s=> s.classList.toggle('visible', s.id==='psec-'+id));
+  document.getElementById('panel-scroll').scrollTop = 0;
+}
+
+/* helpers */
+function _ks(v,l){ return '<div class="kstat"><div class="kstat-val" style="font-size:.76rem;word-break:break-word;line-height:1.2">'+v+'</div><div class="kstat-lbl">'+l+'</div></div>'; }
+function _sub(t){ return '<div class="p-sub">'+t+'</div>'; }
+function _txt(t,st){ return t?'<p class="p-text"'+(st?' style="'+st+'"':'')+'>'+t+'</p>':''; }
+function _lst(a,c){ return a&&a.length?'<ul class="p-list'+(c?' '+c:'')+'">'+ a.map(i=>'<li>'+i+'</li>').join('')+'</ul>':''; }
+function _chips(a,c){ return a&&a.length?'<div class="p-chips">'+a.map(i=>'<span class="chip '+c+'">'+i+'</span>').join('')+'</div>':''; }
+function _idh(v){
+  if(!v) return '';
+  const n=parseFloat(v);
+  const c=n>=0.9?'idh-vh':n>=0.7?'idh-h':n>=0.55?'idh-m':'idh-l';
+  return '<span class="idh-badge '+c+'">'+v+'</span>';
+}
+function _stab(t){
+  if(!t) return '';
+  const l=t.toLowerCase();
+  const c=l.includes('stable')&&!l.includes('in')?'stab-s':l.includes('autoritaire')||l.includes('absolu')||l.includes('parti unique')?'stab-a':l.includes('instable')||l.includes('fragile')?'stab-i':'stab-t';
+  const dot={'stab-s':'#3cbe82','stab-t':'#dc8c28','stab-i':'#dc4632','stab-a':'#9660c8'}[c]||'#888';
+  return '<div class="stab '+c+'"><span style="width:8px;height:8px;border-radius:50%;background:'+dot+';display:inline-block"></span>'+t+'</div>';
 }
 
 // ── ZOOM & PAN ──
