@@ -37,7 +37,7 @@ h1 { font-family: 'Cinzel', serif; font-weight: 900; font-size: clamp(1.7rem, 4.
   transition: transform .72s cubic-bezier(.4,0,.2,1);
   cursor: pointer;
 }
-.fc-wrap:not(.flipped):hover { filter: brightness(1.04); }
+
 .fc-wrap.flipped { transform: rotateY(180deg); }
 .fc-wrap.no-anim { transition: none !important; }
 
@@ -51,8 +51,8 @@ h1 { font-family: 'Cinzel', serif; font-weight: 900; font-size: clamp(1.7rem, 4.
 
 /* RECTO */
 .face-front { background: var(--card-bg); display: flex; flex-direction: column; }
-.face-front img { width: 100%; height: 400px; object-fit: cover; display: block; transition: transform .4s ease; }
-.fc-wrap:not(.flipped):hover .face-front img { transform: scale(1.02); }
+.face-front img { width: 100%; height: 400px; object-fit: cover; display: block; }
+
 .front-footer { flex: 1; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 20px; border-top: 1px solid var(--border); }
 .flip-hint { font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--text-dim); }
 .flip-arrow { color: var(--gold); opacity: .7; font-size: 1rem; }
