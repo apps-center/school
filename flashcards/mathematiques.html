@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards Mathématiques — L'Encyclopédie des Explorateurs</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #060a14; --gold: #d4a843; --gold-dim: rgba(200,180,120,0.18);
+  --text: #e8dfc4; --text-dim: rgba(232,223,196,0.48);
+  --card-bg: rgba(8,13,26,0.94); --border: rgba(200,180,120,0.18);
+  --blue: #4a9edd; --blue-dim: rgba(74,158,221,0.15);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Crimson Pro', Georgia, serif; min-height: 100vh; overflow-x: hidden; user-select: none; }
+#stars-canvas { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+.content { position: relative; z-index: 1; }
+
+/* BACK */
+.back{position:fixed;top:22px;left:24px;z-index:100;font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:rgba(212,168,67,.5);text-decoration:none;display:flex;align-items:center;gap:8px;transition:color .2s;}
+.back:hover{color:#d4a843;}
+
+/* HEADER */
+header { text-align: center; padding: 52px 20px 28px; }
+.enc-label { font-size: .72rem; letter-spacing: .38em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 14px; }
+h1 { font-family: 'Cinzel', serif; font-weight: 900; font-size: clamp(1.7rem, 4.5vw, 3.2rem); background: linear-gradient(135deg, #a8d8f0, #4a9edd 38%, #7bc4f0 68%, #e0f4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1.1; }
+.tagline { margin-top: 10px; font-size: .95rem; color: var(--text-dim); font-style: italic; }
+.divider { height: 1px; background: var(--gold-dim); max-width: 300px; margin: 20px auto; }
+
+/* FILTRE THÈME */
+.filter-bar { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; padding: 0 20px 20px; max-width: 700px; margin: 0 auto; }
+.filter-btn { font-family: 'Cinzel', serif; font-size: .55rem; letter-spacing: .16em; text-transform: uppercase; padding: 6px 14px; border-radius: 3px; border: 1px solid var(--border); background: rgba(6,10,20,.9); color: var(--text-dim); cursor: pointer; transition: all .2s; }
+.filter-btn:hover, .filter-btn.active { border-color: rgba(74,158,221,.6); color: var(--blue); background: rgba(74,158,221,.08); }
+.filter-btn.active { box-shadow: 0 0 12px rgba(74,158,221,.15); }
+
+/* PROGRESS */
+.progress-wrap { max-width: 520px; margin: 0 auto 28px; text-align: center; }
+.progress-text { font-family: 'Cinzel', serif; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 10px; }
+.progress-bar { height: 2px; background: var(--gold-dim); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--blue); transition: width .4s ease; border-radius: 2px; }
+
+/* FLASHCARD */
+.stage { display: flex; justify-content: center; align-items: center; perspective: 1400px; padding: 8px 0 20px; }
+.fc-wrap {
+  width: 420px; max-width: 88vw; height: 480px;
+  position: relative; transform-style: preserve-3d;
+  transition: transform .72s cubic-bezier(.4,0,.2,1);
+  cursor: pointer;
+}
+.fc-wrap.flipped { transform: rotateY(180deg); }
+.fc-wrap.no-anim { transition: none !important; }
+
+.face {
+  position: absolute; inset: 0; border-radius: 14px;
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 60px rgba(0,0,0,.7), 0 0 0 1px rgba(200,180,120,.06);
+  overflow: hidden;
+}
+
+/* RECTO — question */
+.face-front {
+  background: var(--card-bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 40px 36px 24px;
+}
+.face-front::before { content: ''; position: absolute; inset: 0; border-radius: 14px; background: radial-gradient(ellipse at 50% 0%, rgba(74,158,221,.06) 0%, transparent 65%); pointer-events: none; }
+
+/* image géométrie */
+.face-front.has-img { padding: 0; justify-content: flex-start; }
+.face-front.has-img img { width: 100%; height: 320px; object-fit: cover; display: block; }
+.face-front.has-img .q-text { padding: 16px 24px; }
+
+.q-category { font-size: .6rem; letter-spacing: .24em; text-transform: uppercase; color: var(--blue); border: 1px solid rgba(74,158,221,.35); padding: 4px 14px; border-radius: 3px; margin-bottom: 28px; opacity: .9; }
+.q-text { font-family: 'Cinzel', serif; font-size: 1.05rem; font-weight: 700; color: var(--text); line-height: 1.55; }
+.q-sub { font-size: .88rem; color: var(--text-dim); font-style: italic; margin-top: 12px; font-family: 'Crimson Pro', serif; }
+.front-footer { position: absolute; bottom: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 20px; border-top: 1px solid var(--border); background: rgba(6,10,20,.6); }
+.flip-hint { font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--text-dim); }
+.flip-arrow { color: var(--gold); opacity: .7; font-size: 1rem; }
+
+/* VERSO — réponse */
+.face-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(145deg, #0a1220 0%, #0d1f38 50%, #0a1628 100%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 44px 36px; border-color: rgba(74,158,221,.3);
+}
+.face-back::before { content: ''; position: absolute; inset: 0; border-radius: 14px; background: radial-gradient(ellipse at 50% 20%, rgba(74,158,221,.07) 0%, transparent 65%); pointer-events: none; }
+.b-category { font-size: .6rem; letter-spacing: .22em; text-transform: uppercase; color: var(--blue); border: 1px solid rgba(74,158,221,.4); padding: 4px 16px; border-radius: 3px; margin-bottom: 24px; opacity: .9; }
+.b-answer { font-family: 'Cinzel', serif; font-size: 1.6rem; font-weight: 900; background: linear-gradient(135deg, #a8d8f0, #4a9edd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 18px; line-height: 1.3; }
+.b-question { font-family: 'Cinzel', serif; font-size: .88rem; font-weight: 700; color: rgba(232,223,196,.55); line-height: 1.4; margin-bottom: 18px; }
+.b-explain { font-size: .92rem; line-height: 1.75; color: rgba(232,223,196,.58); font-style: italic; max-width: 300px; }
+
+/* OVERLAY */
+.overlay { position: absolute; inset: 0; border-radius: 14px; background: #000; z-index: 30; opacity: 0; pointer-events: none; transition: opacity 0.28s ease; }
+.overlay.dark { opacity: 1; }
+@keyframes iris {
+  from { clip-path: inset(50% 50% 50% 50% round 8px); }
+  to   { clip-path: inset(0% 0% 0% 0% round 14px); }
+}
+.face-front.iris { animation: iris 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+/* BUTTONS */
+.controls { display: flex; justify-content: center; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+.btn { font-family: 'Cinzel', serif; font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; padding: 11px 26px; border-radius: 4px; border: 1px solid var(--border); background: rgba(6,10,20,.9); color: var(--text-dim); cursor: pointer; transition: all .2s; }
+.btn:hover { border-color: rgba(200,180,120,.5); color: var(--text); background: rgba(200,180,120,.07); }
+.btn-gold { border-color: rgba(212,168,67,.6); color: var(--gold); background: rgba(212,168,67,.07); }
+.btn-gold:hover { background: rgba(212,168,67,.16); box-shadow: 0 0 18px rgba(212,168,67,.2); }
+.btn-green { border-color: rgba(94,196,138,.5); color: #5ec48a; }
+.btn-green:hover { background: rgba(94,196,138,.1); }
+.btn-red { border-color: rgba(232,80,80,.5); color: #e84848; }
+.btn-red:hover { background: rgba(232,80,80,.1); }
+.review-row { display: flex; justify-content: center; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+.review-label { text-align: center; margin-top: 16px; font-size: .65rem; letter-spacing: .18em; text-transform: uppercase; color: var(--text-dim); }
+
+/* COUNTERS */
+.known-bar { max-width: 520px; margin: 20px auto 0; display: flex; gap: 20px; justify-content: center; }
+.known-stat { font-family: 'Cinzel', serif; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-dim); }
+.known-stat span { color: var(--text); font-weight: 700; }
+
+/* STRIP */
+.strip { display: flex; gap: 8px; overflow-x: auto; padding: 12px 20px; scrollbar-width: none; }
+.strip::-webkit-scrollbar { display: none; }
+.thumb-text { width: 52px; height: 38px; border-radius: 4px; border: 1px solid var(--border); flex-shrink: 0; opacity: .45; transition: opacity .2s; cursor: pointer; background: rgba(74,158,221,.1); display:flex; align-items:center; justify-content:center; font-size:.55rem; font-family:'Cinzel',serif; color:rgba(74,158,221,.7); text-align:center; padding:2px; }
+.thumb-text:hover { opacity: .7; }
+.thumb-text.cur { opacity: 1; border-color: var(--blue); }
+
+@media (max-width: 600px) {
+  .fc-wrap { height: 440px; }
+  .b-answer { font-size: 1.25rem; }
+}
+</style>
+</head>
+<body>
+<canvas id="stars-canvas"></canvas>
+<a class="back" href="/flashcards/index.html">← Flashcards</a>
+<div class="content">
+
+  <header>
+    <div class="enc-label">L'Encyclopédie des Explorateurs</div>
+    <h1>Flashcards Mathématiques</h1>
+    <div class="tagline">Définitions, formules, méthodes — maîtrise les bases</div>
+  </header>
+
+  <div class="filter-bar" id="filter-bar">
+    <button class="filter-btn active" onclick="filterBy('all')">Tout</button>
+    <button class="filter-btn" onclick="filterBy('Fractions')">Fractions</button>
+    <button class="filter-btn" onclick="filterBy('Arithmétique')">Arithmétique</button>
+    <button class="filter-btn" onclick="filterBy('Nombres relatifs')">Relatifs</button>
+    <button class="filter-btn" onclick="filterBy('Proportionnalité')">Proportionnalité</button>
+    <button class="filter-btn" onclick="filterBy('Algèbre')">Algèbre</button>
+    <button class="filter-btn" onclick="filterBy('Géométrie')">Géométrie</button>
+    <button class="filter-btn" onclick="filterBy('Grandeurs')">Grandeurs</button>
+  </div>
+
+  <div style="padding: 0 20px 80px;">
+
+    <div class="progress-wrap">
+      <div class="progress-text" id="p-text">Carte 1 / 100</div>
+      <div class="progress-bar"><div class="progress-fill" id="p-fill" style="width:0%"></div></div>
+    </div>
+
+    <div class="stage">
+      <div class="fc-wrap" id="fc" onclick="flipCard()">
+        <div class="overlay" id="overlay"></div>
+        <div class="face face-front" id="front">
+          <div class="q-category" id="fc-cat"></div>
+          <div class="q-text" id="fc-q"></div>
+          <div class="q-sub" id="fc-sub"></div>
+          <div class="front-footer">
+            <span class="flip-arrow">↩</span>
+            <span class="flip-hint">Cliquez pour révéler</span>
+          </div>
+        </div>
+        <div class="face face-back">
+          <div class="b-category" id="fc-cat2"></div>
+          <div class="b-question" id="fc-q2"></div>
+          <div class="b-answer" id="fc-ans"></div>
+          <div class="b-explain" id="fc-exp"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="btn" onclick="prevCard()">← Précédente</button>
+      <button class="btn btn-gold" onclick="nextCard()">Suivante →</button>
+      <button class="btn" onclick="shuffleCards()">🔀 Mélanger</button>
+    </div>
+
+    <div class="review-label">Après avoir révélé la carte :</div>
+    <div class="review-row">
+      <button class="btn btn-green" onclick="markKnown()">✓ Je savais</button>
+      <button class="btn btn-red" onclick="markReview()">↩ À revoir</button>
+    </div>
+
+    <div class="known-bar">
+      <div class="known-stat">Connues : <span id="k-count">0</span></div>
+      <div class="known-stat">À revoir : <span id="r-count">0</span></div>
+      <div class="known-stat">Restantes : <span id="rem-count">100</span></div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="strip" id="strip"></div>
+  </div>
+
+</div>
+<script>
+const ALL_CARDS = [
+  // ── FRACTIONS (15 cartes) ──────────────────────────────────────────────
+  { id:1,  cat:"Fractions", q:"Qu'est-ce qu'une fraction irréductible ?", ans:"Une fraction dont numérateur et dénominateur n'ont aucun diviseur commun autre que 1.", exp:"Ex : 3/4 est irréductible. 6/8 ne l'est pas car on peut simplifier par 2." },
+  { id:2,  cat:"Fractions", q:"Comment simplifier 18/24 ?", ans:"3/4", exp:"On divise numérateur et dénominateur par leur PGCD = 6. 18÷6 = 3, 24÷6 = 4." },
+  { id:3,  cat:"Fractions", q:"Comment comparer 3/4 et 5/8 ?", ans:"3/4 > 5/8", exp:"On réduit au même dénominateur : 3/4 = 6/8. Comme 6/8 > 5/8, alors 3/4 > 5/8." },
+  { id:4,  cat:"Fractions", q:"Calculer 2/5 de 30.", ans:"12", exp:"2/5 × 30 = 60/5 = 12." },
+  { id:5,  cat:"Fractions", q:"Additionner 1/3 + 1/4.", ans:"7/12", exp:"Dénominateur commun = 12. 4/12 + 3/12 = 7/12." },
+  { id:6,  cat:"Fractions", q:"Multiplier 2/3 × 3/5.", ans:"6/15 = 2/5", exp:"On multiplie numérateurs entre eux et dénominateurs entre eux : (2×3)/(3×5) = 6/15 = 2/5." },
+  { id:7,  cat:"Fractions", q:"Écriture décimale de 7/10 ?", ans:"0,7", exp:"7 divisé par 10 = 0,7." },
+  { id:8,  cat:"Fractions", q:"Peut-on faire 1/2 + 1/3 = 2/5 ?", ans:"Non !", exp:"On ne peut pas additionner les numérateurs et dénominateurs séparément. Résultat correct : 5/6." },
+  { id:9,  cat:"Fractions", q:"Quelle fraction est égale à 0,25 ?", ans:"1/4", exp:"0,25 = 25/100 = 1/4 après simplification par 25." },
+  { id:10, cat:"Fractions", q:"Calculer 3/4 − 1/3.", ans:"5/12", exp:"Dénominateur commun = 12. 9/12 − 4/12 = 5/12." },
+  { id:11, cat:"Fractions", q:"Diviser 3/4 ÷ 2.", ans:"3/8", exp:"Diviser par 2 = multiplier par 1/2. 3/4 × 1/2 = 3/8." },
+  { id:12, cat:"Fractions", q:"Simplifier 21/28.", ans:"3/4", exp:"PGCD de 21 et 28 = 7. 21÷7 = 3, 28÷7 = 4." },
+  { id:13, cat:"Fractions", q:"Quelle fraction de 60 vaut 20 ?", ans:"1/3", exp:"20/60 = 1/3." },
+  { id:14, cat:"Fractions", q:"Écrire 0,6 sous forme de fraction irréductible.", ans:"3/5", exp:"0,6 = 6/10 = 3/5 en divisant par 2." },
+  { id:15, cat:"Fractions", q:"Comparer 2/3 et 3/5.", ans:"2/3 > 3/5", exp:"Dénominateur commun = 15 : 10/15 > 9/15." },
+
+  // ── ARITHMÉTIQUE (12 cartes) ───────────────────────────────────────────
+  { id:16, cat:"Arithmétique", q:"Critère de divisibilité par 3 ?", ans:"La somme des chiffres est divisible par 3.", exp:"Ex : 123 → 1+2+3 = 6, divisible par 3. Donc 123 est divisible par 3." },
+  { id:17, cat:"Arithmétique", q:"Critère de divisibilité par 9 ?", ans:"La somme des chiffres est divisible par 9.", exp:"Ex : 729 → 7+2+9 = 18, divisible par 9." },
+  { id:18, cat:"Arithmétique", q:"Critère de divisibilité par 2 ?", ans:"Le dernier chiffre est pair (0, 2, 4, 6, 8).", exp:"Ex : 348 est divisible par 2 car il finit par 8." },
+  { id:19, cat:"Arithmétique", q:"29 est-il un nombre premier ?", ans:"Oui.", exp:"29 n'a aucun diviseur entre 2 et 5 (√29 ≈ 5,4). Il est donc premier." },
+  { id:20, cat:"Arithmétique", q:"Qu'est-ce qu'un nombre premier ?", ans:"Un entier > 1 qui n'a que 1 et lui-même comme diviseurs.", exp:"Exemples : 2, 3, 5, 7, 11, 13, 17, 19, 23..." },
+  { id:21, cat:"Arithmétique", q:"Que vaut 10³ ?", ans:"1 000", exp:"10³ = 10 × 10 × 10 = 1 000." },
+  { id:22, cat:"Arithmétique", q:"Décomposer 60 en facteurs premiers.", ans:"60 = 2² × 3 × 5", exp:"60 ÷ 2 = 30 ÷ 2 = 15 ÷ 3 = 5. Donc 2² × 3 × 5." },
+  { id:23, cat:"Arithmétique", q:"Qu'est-ce qu'un multiple de 7 ?", ans:"Un nombre obtenu en multipliant 7 par un entier.", exp:"Multiples de 7 : 7, 14, 21, 28, 35..." },
+  { id:24, cat:"Arithmétique", q:"PGCD de 12 et 18 ?", ans:"6", exp:"Diviseurs de 12 : 1,2,3,4,6,12. Diviseurs de 18 : 1,2,3,6,9,18. Le plus grand commun est 6." },
+  { id:25, cat:"Arithmétique", q:"Critère de divisibilité par 5 ?", ans:"Le dernier chiffre est 0 ou 5.", exp:"Ex : 235 et 420 sont divisibles par 5." },
+  { id:26, cat:"Arithmétique", q:"Que vaut 2⁵ ?", ans:"32", exp:"2⁵ = 2×2×2×2×2 = 32." },
+  { id:27, cat:"Arithmétique", q:"Que signifie a⁰ pour tout a ≠ 0 ?", ans:"a⁰ = 1", exp:"Toute base non nulle élevée à la puissance 0 vaut 1." },
+
+  // ── NOMBRES RELATIFS (13 cartes) ──────────────────────────────────────
+  { id:28, cat:"Nombres relatifs", q:"Quel est l'opposé de −8 ?", ans:"+8", exp:"L'opposé d'un nombre change son signe." },
+  { id:29, cat:"Nombres relatifs", q:"Lequel est plus grand : −3 ou −7 ?", ans:"−3", exp:"Sur une droite graduée, −3 est plus à droite que −7." },
+  { id:30, cat:"Nombres relatifs", q:"Calculer (−4) + (+9).", ans:"+5", exp:"On soustrait 4 à 9 : 9 − 4 = 5, et on garde le signe du plus grand en valeur absolue." },
+  { id:31, cat:"Nombres relatifs", q:"Calculer (−6) − (+2).", ans:"−8", exp:"Soustraire +2, c'est ajouter −2 : −6 + (−2) = −8." },
+  { id:32, cat:"Nombres relatifs", q:"Signe de (−3) × (−5) ?", ans:"Positif (+15)", exp:"Moins × Moins = Plus. Règle des signes pour la multiplication." },
+  { id:33, cat:"Nombres relatifs", q:"Calculer (−7) × (+2).", ans:"−14", exp:"Moins × Plus = Moins." },
+  { id:34, cat:"Nombres relatifs", q:"Distance à zéro de −12 ?", ans:"12", exp:"La distance à zéro est la valeur absolue : |−12| = 12." },
+  { id:35, cat:"Nombres relatifs", q:"Calculer (−18) ÷ (−3).", ans:"+6", exp:"Moins ÷ Moins = Plus. 18 ÷ 3 = 6." },
+  { id:36, cat:"Nombres relatifs", q:"Calculer (+5) − (−3).", ans:"+8", exp:"Soustraire −3, c'est ajouter +3 : 5 + 3 = 8." },
+  { id:37, cat:"Nombres relatifs", q:"Ranger dans l'ordre croissant : −5 ; +2 ; −1 ; 0.", ans:"−5 < −1 < 0 < +2", exp:"On lit de gauche à droite sur la droite graduée." },
+  { id:38, cat:"Nombres relatifs", q:"Calculer −3 + (−4) + 7.", ans:"0", exp:"−3 − 4 + 7 = −7 + 7 = 0." },
+  { id:39, cat:"Nombres relatifs", q:"Que vaut (−1)⁴ ?", ans:"+1", exp:"Exposant pair → résultat positif. (−1)⁴ = 1." },
+  { id:40, cat:"Nombres relatifs", q:"Que vaut (−2)³ ?", ans:"−8", exp:"Exposant impair → résultat négatif. −2 × −2 × −2 = −8." },
+
+  // ── PROPORTIONNALITÉ (12 cartes) ──────────────────────────────────────
+  { id:41, cat:"Proportionnalité", q:"Comment reconnaître un tableau de proportionnalité ?", ans:"On passe d'une ligne à l'autre en multipliant toujours par le même nombre.", exp:"Ce nombre s'appelle le coefficient de proportionnalité." },
+  { id:42, cat:"Proportionnalité", q:"Si 1 cahier coûte 2 €, combien coûtent 7 cahiers ?", ans:"14 €", exp:"7 × 2 = 14. Situation directement proportionnelle." },
+  { id:43, cat:"Proportionnalité", q:"Calculer 25 % de 80.", ans:"20", exp:"25 % = 1/4. 80 ÷ 4 = 20." },
+  { id:44, cat:"Proportionnalité", q:"Calculer 10 % de 350.", ans:"35", exp:"10 % = 1/10. 350 ÷ 10 = 35." },
+  { id:45, cat:"Proportionnalité", q:"Augmenter 60 de 20 %.", ans:"72", exp:"20 % de 60 = 12. 60 + 12 = 72. (ou 60 × 1,2 = 72)" },
+  { id:46, cat:"Proportionnalité", q:"Réduire 50 de 10 %.", ans:"45", exp:"10 % de 50 = 5. 50 − 5 = 45. (ou 50 × 0,9 = 45)" },
+  { id:47, cat:"Proportionnalité", q:"À l'échelle 1:100, 3 cm représentent combien en réalité ?", ans:"3 m", exp:"3 cm × 100 = 300 cm = 3 m." },
+  { id:48, cat:"Proportionnalité", q:"Vitesse pour 150 km en 3 h ?", ans:"50 km/h", exp:"v = d/t = 150/3 = 50 km/h." },
+  { id:49, cat:"Proportionnalité", q:"Quelle est la formule v = d/t en mots ?", ans:"Vitesse = Distance ÷ Temps", exp:"On peut aussi écrire d = v × t et t = d/v." },
+  { id:50, cat:"Proportionnalité", q:"Quel multiplicateur correspond à +15 % ?", ans:"× 1,15", exp:"Pour augmenter de 15 %, on multiplie par 1 + 0,15 = 1,15." },
+  { id:51, cat:"Proportionnalité", q:"Quel multiplicateur correspond à −30 % ?", ans:"× 0,70", exp:"Pour réduire de 30 %, on multiplie par 1 − 0,30 = 0,70." },
+  { id:52, cat:"Proportionnalité", q:"5 stylos coûtent 7,50 €. Combien coûte 1 stylo ?", ans:"1,50 €", exp:"7,50 ÷ 5 = 1,50. Passage par l'unité." },
+
+  // ── ALGÈBRE (13 cartes) ───────────────────────────────────────────────
+  { id:53, cat:"Algèbre", q:"Traduire 'le double de x augmenté de 3'.", ans:"2x + 3", exp:"Double = × 2, augmenté de 3 = + 3." },
+  { id:54, cat:"Algèbre", q:"Calculer 3x + 2 pour x = 4.", ans:"14", exp:"3 × 4 + 2 = 12 + 2 = 14." },
+  { id:55, cat:"Algèbre", q:"Réduire 3x + 5x.", ans:"8x", exp:"On additionne les termes semblables : (3+5)x = 8x." },
+  { id:56, cat:"Algèbre", q:"Développer 4(x + 2).", ans:"4x + 8", exp:"On distribue : 4 × x + 4 × 2 = 4x + 8." },
+  { id:57, cat:"Algèbre", q:"Factoriser 5x + 10.", ans:"5(x + 2)", exp:"On met 5 en facteur : 5 × x + 5 × 2 = 5(x + 2)." },
+  { id:58, cat:"Algèbre", q:"Résoudre x + 7 = 12.", ans:"x = 5", exp:"On soustrait 7 des deux membres : x = 12 − 7 = 5." },
+  { id:59, cat:"Algèbre", q:"Résoudre 3x = 18.", ans:"x = 6", exp:"On divise les deux membres par 3 : x = 18 ÷ 3 = 6." },
+  { id:60, cat:"Algèbre", q:"Résoudre x/4 = 5.", ans:"x = 20", exp:"On multiplie les deux membres par 4 : x = 5 × 4 = 20." },
+  { id:61, cat:"Algèbre", q:"Réduire 5a + 3b − 2a + b.", ans:"3a + 4b", exp:"On regroupe les termes en a et en b : (5−2)a + (3+1)b." },
+  { id:62, cat:"Algèbre", q:"Développer 3(2x − 1).", ans:"6x − 3", exp:"3 × 2x − 3 × 1 = 6x − 3." },
+  { id:63, cat:"Algèbre", q:"Résoudre 2x − 3 = 7.", ans:"x = 5", exp:"2x = 7 + 3 = 10, puis x = 10 ÷ 2 = 5." },
+  { id:64, cat:"Algèbre", q:"Que signifie 'factoriser' ?", ans:"Écrire une expression comme un produit de facteurs.", exp:"Ex : 6x + 9 = 3(2x + 3). On met le facteur commun en évidence." },
+  { id:65, cat:"Algèbre", q:"Résoudre 4x + 1 = 2x + 9.", ans:"x = 4", exp:"4x − 2x = 9 − 1 → 2x = 8 → x = 4." },
+
+  // ── GÉOMÉTRIE (20 cartes) ─────────────────────────────────────────────
+  { id:66, cat:"Géométrie", q:"Somme des angles d'un triangle ?", ans:"180°", exp:"Toujours, quel que soit le triangle." },
+  { id:67, cat:"Géométrie", q:"Deux angles complémentaires font combien ?", ans:"90°", exp:"Complémentaires = leur somme vaut 90°." },
+  { id:68, cat:"Géométrie", q:"Deux angles supplémentaires font combien ?", ans:"180°", exp:"Supplémentaires = leur somme vaut 180°." },
+  { id:69, cat:"Géométrie", q:"Propriété des angles opposés par le sommet ?", ans:"Ils sont égaux.", exp:"Quand deux droites se croisent, les angles 'en face' sont toujours égaux." },
+  { id:70, cat:"Géométrie", q:"Dans des droites parallèles coupées par une sécante, les angles alternes-internes sont…", ans:"Égaux.", exp:"C'est une propriété fondamentale des droites parallèles." },
+  { id:71, cat:"Géométrie", q:"Caractéristique d'un triangle équilatéral ?", ans:"Ses 3 côtés sont égaux et ses 3 angles valent 60°.", exp:"Equi-latéral = côtés égaux." },
+  { id:72, cat:"Géométrie", q:"Dans un triangle rectangle, comment s'appelle le côté opposé à l'angle droit ?", ans:"L'hypoténuse.", exp:"C'est toujours le plus long côté du triangle rectangle." },
+  { id:73, cat:"Géométrie", q:"Formule du périmètre d'un rectangle ?", ans:"P = 2 × (longueur + largeur)", exp:"Ex : rectangle 5 cm × 3 cm → P = 2 × (5+3) = 16 cm." },
+  { id:74, cat:"Géométrie", q:"Formule de l'aire d'un rectangle ?", ans:"A = longueur × largeur", exp:"Ex : 5 cm × 3 cm = 15 cm²." },
+  { id:75, cat:"Géométrie", q:"Formule de l'aire d'un triangle ?", ans:"A = (base × hauteur) ÷ 2", exp:"La hauteur est perpendiculaire à la base." },
+  { id:76, cat:"Géométrie", q:"Formule du périmètre d'un cercle ?", ans:"P = 2πr (ou πd)", exp:"r = rayon, d = diamètre. π ≈ 3,14." },
+  { id:77, cat:"Géométrie", q:"Formule de l'aire d'un disque ?", ans:"A = πr²", exp:"r = rayon. Ex : r=3 cm → A = π×9 ≈ 28,3 cm²." },
+  { id:78, cat:"Géométrie", q:"Relation entre rayon et diamètre ?", ans:"d = 2r (le diamètre = 2 fois le rayon)", exp:"Ou encore r = d/2." },
+  { id:79, cat:"Géométrie", q:"Définition d'un parallélogramme ?", ans:"Quadrilatère dont les côtés opposés sont parallèles.", exp:"Rectangle, losange et carré sont des parallélogrammes particuliers." },
+  { id:80, cat:"Géométrie", q:"Propriété des diagonales d'un parallélogramme ?", ans:"Elles se coupent en leur milieu.", exp:"C'est une propriété utile pour reconnaître un parallélogramme." },
+  { id:81, cat:"Géométrie", q:"Un carré est-il à la fois rectangle et losange ?", ans:"Oui.", exp:"Le carré a 4 angles droits (rectangle) et 4 côtés égaux (losange)." },
+  { id:82, cat:"Géométrie", q:"La symétrie axiale conserve-t-elle les longueurs ?", ans:"Oui.", exp:"La symétrie est une isométrie : elle conserve distances, aires et angles." },
+  { id:83, cat:"Géométrie", q:"Dans le point A(3 ; −2), quelle est l'abscisse ?", ans:"3", exp:"Dans (x ; y), l'abscisse est toujours en premier." },
+  { id:84, cat:"Géométrie", q:"Qu'est-ce que le milieu d'un segment ?", ans:"Le point situé à égale distance des deux extrémités.", exp:"Pour trouver le milieu M de [AB] : xM = (xA + xB)/2 et yM = (yA + yB)/2." },
+  { id:85, cat:"Géométrie", q:"Aire d'un parallélogramme ?", ans:"A = base × hauteur", exp:"La hauteur est perpendiculaire à la base (pas le côté oblique !)." },
+
+  // ── GRANDEURS & MESURES (15 cartes) ───────────────────────────────────
+  { id:86, cat:"Grandeurs", q:"1 m = combien de cm ?", ans:"100 cm", exp:"Centi = 1/100. Donc 1 m = 100 cm." },
+  { id:87, cat:"Grandeurs", q:"1 km = combien de m ?", ans:"1 000 m", exp:"Kilo = 1 000. Donc 1 km = 1 000 m." },
+  { id:88, cat:"Grandeurs", q:"1 m² = combien de cm² ?", ans:"10 000 cm²", exp:"1 m = 100 cm, donc 1 m² = 100 × 100 = 10 000 cm²." },
+  { id:89, cat:"Grandeurs", q:"1 cm³ = combien de mL ?", ans:"1 mL", exp:"Correspondance directe : 1 cm³ = 1 mL = 1 cc." },
+  { id:90, cat:"Grandeurs", q:"1 L = combien de cm³ ?", ans:"1 000 cm³", exp:"1 L = 1 dm³ = 1 000 cm³." },
+  { id:91, cat:"Grandeurs", q:"Volume d'un cube d'arête 3 cm ?", ans:"27 cm³", exp:"V = a³ = 3³ = 3 × 3 × 3 = 27 cm³." },
+  { id:92, cat:"Grandeurs", q:"Volume d'un pavé droit (formule) ?", ans:"V = longueur × largeur × hauteur", exp:"Ex : 4 cm × 3 cm × 2 cm = 24 cm³." },
+  { id:93, cat:"Grandeurs", q:"1 heure = combien de secondes ?", ans:"3 600 secondes", exp:"1 h = 60 min × 60 s = 3 600 s." },
+  { id:94, cat:"Grandeurs", q:"1 kg = combien de g ?", ans:"1 000 g", exp:"Kilo = 1 000. Donc 1 kg = 1 000 g." },
+  { id:95, cat:"Grandeurs", q:"Convertir 2,5 km en m.", ans:"2 500 m", exp:"2,5 × 1 000 = 2 500 m." },
+  { id:96, cat:"Grandeurs", q:"Convertir 3h 45min en minutes.", ans:"225 minutes", exp:"3 × 60 + 45 = 180 + 45 = 225 min." },
+  { id:97, cat:"Grandeurs", q:"Aire d'un triangle de base 8 cm et hauteur 5 cm ?", ans:"20 cm²", exp:"A = (8 × 5) ÷ 2 = 40 ÷ 2 = 20 cm²." },
+  { id:98, cat:"Grandeurs", q:"Périmètre d'un carré de côté 6 cm ?", ans:"24 cm", exp:"P = 4 × 6 = 24 cm." },
+  { id:99, cat:"Grandeurs", q:"1 dm = combien de mm ?", ans:"100 mm", exp:"1 dm = 10 cm = 100 mm." },
+  { id:100,cat:"Grandeurs", q:"Convertir 450 min en heures et minutes.", ans:"7 h 30 min", exp:"450 ÷ 60 = 7 h et reste 30 min." },
+];
+
+/* ── ÉTAT ── */
+let deck=[], idx=0, flipped=false, knownSet=new Set(), reviewSet=new Set();
+let currentFilter='all';
+
+/* ── FILTRE ── */
+function filterBy(cat){
+  currentFilter=cat;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  event.target.classList.add('active');
+  deck = cat==='all' ? shuffle([...ALL_CARDS]) : shuffle(ALL_CARDS.filter(c=>c.cat===cat));
+  idx=0; flipped=false; knownSet.clear(); reviewSet.clear();
+  updateCounters(); buildStrip(); advance();
+}
+
+/* ── LOAD ── */
+function loadContent(){
+  const card=deck[idx];
+  document.getElementById('fc-cat').textContent  = card.cat;
+  document.getElementById('fc-cat2').textContent = card.cat;
+  document.getElementById('fc-q').textContent    = card.q;
+  document.getElementById('fc-q2').textContent   = card.q;
+  document.getElementById('fc-ans').textContent  = card.ans;
+  document.getElementById('fc-exp').textContent  = card.exp||'';
+  const pct=(idx/deck.length)*100;
+  document.getElementById('p-text').textContent=`Carte ${idx+1} / ${deck.length}`;
+  document.getElementById('p-fill').style.width=pct+'%';
+  document.querySelectorAll('#strip .thumb-text').forEach((el,i)=>el.classList.toggle('cur',i===idx));
+}
+
+/* ── ADVANCE ── */
+function advance(){
+  const ov=document.getElementById('overlay'), fr=document.getElementById('front'), wrap=document.getElementById('fc');
+  ov.classList.add('dark');
+  setTimeout(()=>{
+    wrap.classList.add('no-anim');
+    wrap.classList.remove('flipped');
+    flipped=false;
+    fr.classList.remove('iris');
+    loadContent();
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      wrap.classList.remove('no-anim');
+      ov.classList.remove('dark');
+      fr.classList.add('iris');
+    }));
+  }, 280);
+}
+
+/* ── FLIP ── */
+function flipCard(){
+  if(flipped){ idx=(idx+1)%deck.length; advance(); }
+  else { flipped=true; document.getElementById('fc').classList.add('flipped'); }
+}
+
+/* ── NAV ── */
+function nextCard(){ idx=(idx+1)%deck.length; advance(); }
+function prevCard(){ idx=(idx-1+deck.length)%deck.length; advance(); }
+function shuffleCards(){ deck=shuffle([...deck]); idx=0; flipped=false; knownSet.clear(); reviewSet.clear(); updateCounters(); buildStrip(); advance(); }
+function markKnown(){ knownSet.add(deck[idx].id); reviewSet.delete(deck[idx].id); updateCounters(); idx=(idx+1)%deck.length; advance(); }
+function markReview(){ reviewSet.add(deck[idx].id); knownSet.delete(deck[idx].id); const c=deck.splice(idx,1)[0]; deck.splice(Math.min(idx+3,deck.length),0,c); updateCounters(); if(idx>=deck.length)idx=0; advance(); }
+
+/* ── UI ── */
+function updateCounters(){
+  document.getElementById('k-count').textContent=knownSet.size;
+  document.getElementById('r-count').textContent=reviewSet.size;
+  document.getElementById('rem-count').textContent=deck.length-knownSet.size-reviewSet.size;
+}
+function buildStrip(){
+  const strip=document.getElementById('strip'); strip.innerHTML='';
+  deck.forEach((card,i)=>{
+    const d=document.createElement('div');
+    d.className='thumb-text'+(i===0?' cur':'');
+    d.textContent=card.cat.slice(0,4);
+    d.onclick=()=>{idx=i;advance();};
+    d.title=card.q;
+    strip.appendChild(d);
+  });
+}
+
+/* ── UTILS ── */
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
+
+/* ── CLAVIER ── */
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();nextCard();}
+  if(e.key==='ArrowLeft'){e.preventDefault();prevCard();}
+  if(e.key==='Enter'){e.preventDefault();flipCard();}
+  if(e.key==='k'||e.key==='K')markKnown();
+  if(e.key==='r'||e.key==='R')markReview();
+});
+
+/* ── STARS ── */
+(function(){
+  const c=document.getElementById('stars-canvas'),ctx=c.getContext('2d');let stars=[];
+  function resize(){c.width=innerWidth;c.height=innerHeight;}
+  function init(){resize();stars=Array.from({length:180},()=>({x:Math.random(),y:Math.random(),r:Math.random()*1.2+.15,a:Math.random()*.5+.08,speed:Math.random()*.0004+.00015,phase:Math.random()*Math.PI*2}));}
+  let t=0;function draw(){t++;ctx.clearRect(0,0,c.width,c.height);for(const s of stars){const f=s.a*(.65+.35*Math.sin(t*s.speed*80+s.phase));ctx.beginPath();ctx.arc(s.x*c.width,s.y*c.height,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(200,225,255,${f})`;ctx.fill();}requestAnimationFrame(draw);}
+  addEventListener('resize',init);init();draw();
+})();
+
+/* ── BOOT ── */
+deck=shuffle([...ALL_CARDS]);
+buildStrip();
+loadContent();
+</script>
+</body>
+</html>
