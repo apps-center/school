@@ -47,8 +47,8 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.7rem,4.5vw,3.2re
 .b-explain{font-size:.88rem;line-height:1.75;color:rgba(232,223,196,.55);font-style:italic;max-width:300px;}
 .overlay{position:absolute;inset:0;border-radius:14px;background:#000;z-index:30;opacity:0;pointer-events:none;transition:opacity 0.28s ease;}
 .overlay.dark{opacity:1;}
-@keyframes iris{from{clip-path:inset(50% 50% 50% 50% round 8px);}to{clip-path:inset(0% 0% 0% 0% round 14px);}}
-.face-front.iris{animation:iris 0.55s cubic-bezier(0.22,1,0.36,1) forwards;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+.face-front.iris{animation:fadeIn 0.35s ease forwards;}
 .controls{display:flex;justify-content:center;gap:12px;margin-top:20px;flex-wrap:wrap;}
 .btn{font-family:'Cinzel',serif;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;padding:11px 26px;border-radius:4px;border:1px solid var(--border);background:rgba(6,10,20,.9);color:var(--text-dim);cursor:pointer;transition:all .2s;}
 .btn:hover{border-color:rgba(200,180,120,.5);color:var(--text);background:rgba(200,180,120,.07);}
