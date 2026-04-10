@@ -15,7 +15,8 @@
             "t": "<b>La Bastille ne contenait que 7 prisonniers</b> ce jour-là : 4 faussaires, 2 fous et 1 noble. La grande forteresse symbole de la tyrannie était presque vide."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_prise_de_la_Bastille_en_feu.webp"
       },
       {
         "icon": "⚖️",
@@ -29,7 +30,8 @@
             "t": "<b>Danton, qui avait voté la Terreur, fut guillotiné sur ordre de Robespierre.</b> Sur l'échafaud : « Tu me suivras, Robespierre ! » Il avait raison — 3 mois plus tard."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "👑",
@@ -47,7 +49,8 @@
             "t": "<b>Lors de son sacre, il prit la couronne des mains du pape et se couronna lui-même</b> — il ne voulait pas devoir sa couronne à l'Église."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏭",
@@ -65,7 +68,8 @@
             "t": "<b>Les enfants travaillaient dans les mines dès 5 ans.</b> La première loi limitant le travail des enfants date de 1841 — elle interdit aux moins de 8 ans de travailler. En dessous de 12 ans, la journée était limitée à 8 heures. Un « progrès » qui laisse rêveur."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/revolution_industrielle.webp"
       },
       {
         "kind": "histoire",
@@ -82,7 +86,8 @@
             "e": "🏰",
             "t": "<b>Notre-Dame de Paris (1831)</b> fut écrit exprès pour sauver la cathédrale de la démolition. Le roman créa un tel engouement populaire que Victor Hugo força le gouvernement à restaurer l'édifice. Un roman qui sauva un monument."
           }
-        ]
+        ],
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "icon": "🦅",
@@ -100,7 +105,8 @@
             "t": "<b>Sedan (1870) : Napoléon III se rendit en personne à Guillaume Ier de Prusse.</b> L'Empereur des Français, malade, douloureux, capturé — la nouvelle provoqua la révolution à Paris et la fin de l'Empire en 48 heures."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Les_victoires_de_Napoléon_III.webp"
       },
       {
         "icon": "🏗️",
@@ -118,7 +124,8 @@
             "t": "<b>Les grands boulevards avaient aussi une fonction militaire :</b> ils permettaient à l'armée de manœuvrer rapidement et empêchaient les barricades révolutionnaires. Napoléon III ne voulait pas revivre 1848."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       }
     ]
   },
@@ -195,7 +202,8 @@
             "e": "🔬",
             "t": "<b>Zola préparait ses romans comme un journaliste-scientifique :</b> il passa des mois dans les mines du Nord pour écrire Germinal, remplissant des carnets de notes sur les conditions de travail réelles."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -230,7 +238,8 @@
             "t": "<b>La Tour Eiffel fut sauvée par la radio :</b> son antenne émit les premiers signaux TSF en 1903. Pendant la Guerre, elle intercepta des communications ennemies — dont celles qui permirent d'arrêter Mata Hari."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "⚖️",
@@ -248,7 +257,8 @@
             "t": "<b>Theodor Herzl, journaliste viennois, couvrit le procès de Dreyfus.</b> Le cri de « Mort aux Juifs ! » dans les rues de Paris — la ville des droits de l'homme — lui fit comprendre que l'assimilation était impossible. Il créa le mouvement sioniste l'année suivante."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_procès_de_Dreyfus_sous_tension.webp"
       },
       {
         "icon": "🪖",
@@ -330,7 +340,8 @@
             "t": "<b>Sur Omaha Beach, les Américains perdirent 2 000 hommes en quelques heures.</b> Les images de Spielberg dans Il faut sauver le soldat Ryan sont fidèles : les soldats mouraient avant même de toucher le sable. Aucune préparation n'avait neutralisé les bunkers allemands."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       }
     ]
   },
@@ -390,7 +401,8 @@
             "t": "<b>La France fut l'un des 6 pays fondateurs de l'Europe</b> avec l'Allemagne. La réconciliation franco-allemande est le fondement de l'Union Européenne."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "✊",
@@ -426,7 +438,8 @@
             "t": "<b>Mitterrand fut l'un des derniers à soutenir la réunification allemande.</b> Il craignait une Allemagne trop puissante. Kohl lui proposa en échange d'accélérer la monnaie unique européenne. C'est ainsi que l'euro naquit du Mur de Berlin."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       }
     ]
   }

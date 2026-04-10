@@ -23,7 +23,8 @@
             "t": "<b>Les « Générations Volées » (1910-1970) :</b> le gouvernement australien enleva systématiquement les enfants aborigènes de leurs familles pour les « assimiler ». Des milliers perdirent leur langue, leur culture et leur famille."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🧠",
@@ -108,7 +109,8 @@
             "e": "🌍",
             "t": "<b>Les Aztèques connaissaient la roue</b> mais ne l'utilisaient pas pour le transport — ils n'avaient pas d'animaux de trait. Ils s'en servaient uniquement dans des jouets d'enfants."
           }
-        ]
+        ],
+        "img": "histoire/Atelier_de_charpentier_ancien.webp"
       },
       {
         "kind": "histoire",
@@ -125,7 +127,8 @@
             "e": "🔍",
             "t": "<b>Le cunéiforme fut déchiffré en 1857</b> grâce à l'inscription trilingue de Behistun — le « Rosette de la Mésopotamie »."
           }
-        ]
+        ],
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "icon": "🔺",
@@ -147,7 +150,8 @@
             "t": "<b>Les bâtisseurs des pyramides étaient des artisans payés</b> en pain, bière et viande — pas des esclaves. Bâtir la pyramide était un honneur religieux."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "🏙️",
@@ -178,7 +182,8 @@
             "e": "🪈",
             "t": "<b>La plus ancienne flûte connue</b> (–40 000 ans, Allemagne) est taillée dans un os de vautour. La musique est l'un des comportements les plus anciens de notre espèce — bien avant l'agriculture."
           }
-        ]
+        ],
+        "img": "histoire/Homme_préhistorique_jouant_une_flûte_osseuse.webp"
       },
       {
         "kind": "histoire",
@@ -191,7 +196,8 @@
             "e": "🖼️",
             "t": "<b>La perspective frontale égyptienne</b> — où chaque partie du corps est montrée sous son angle le plus caractéristique (tête de profil, épaules de face, jambes de profil) — n'est pas un manque de talent mais un choix délibéré pour la clarté."
           }
-        ]
+        ],
+        "img": "histoire/La_construction_des_pyramides_égyptiennes.webp"
       },
       {
         "kind": "histoire",
@@ -244,7 +250,8 @@
             "t": "<b>« Phénicien » vient du grec « phoinix » (pourpre).</b> Leur colorant pourpre extrait de murex était si rare qu'il fallait 12 000 escargots pour teindre un seul vêtement — réservé aux rois."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏛️",
@@ -377,7 +384,8 @@
             "t": "<b>À Cannes (–216 av. J.-C.),</b> Hannibal encercla et détruisit 85 000 Romains avec 40 000 hommes. La manœuvre d'encerclement parfaite, encore étudiée dans les académies militaires."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       },
       {
         "icon": "⚡",
@@ -515,7 +523,8 @@
             "t": "<b>La Grande Muraille n'est pas visible de la Lune :</b> c'est un mythe. Sa largeur (~5 m) est trop petite pour être vue à l'œil nu depuis l'espace."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🐺",
@@ -551,7 +560,8 @@
             "t": "<b>En moins de 4 siècles,</b> une religion persécutée devint la religion d'État de l'empire le plus puissant du monde. Une révolution historique sans précédent."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "kind": "histoire",
@@ -630,7 +640,8 @@
             "t": "<b>Le « Feu Grégeois »</b> brûlait sur l'eau et ne pouvait être éteint. Il détruisit plusieurs flottes arabes. Sa formule reste inconnue à ce jour."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       }
     ]
   },
@@ -672,7 +683,8 @@
             "t": "<b>L'empire fut détruit en 1591 par une armée marocaine armée de mousquets</b> — les premières armes à feu en Afrique subsaharienne. La technologie changea l'équilibre des puissances."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/sortie_afrique.webp"
       },
       {
         "icon": "⡐",
@@ -690,7 +702,8 @@
             "t": "<b>Les Espagnols brûlèrent presque tous les livres mayas.</b> Il n'en reste que 4. Une destruction culturelle irréparable — l'équivalent de brûler toutes les bibliothèques d'Europe."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "kind": "histoire",
@@ -703,7 +716,8 @@
             "e": "💰",
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
-        ]
+        ],
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "🌙",
@@ -721,7 +735,8 @@
             "t": "<b>En 80 ans, l'islam s'étendit de l'Espagne à l'Inde.</b> Une vitesse d'expansion sans précédent — Rome avait mis 5 siècles pour bâtir son empire."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "📚",
@@ -761,7 +776,8 @@
             "t": "<b>La Garde Varègue</b> était une unité d'élite de l'armée byzantine composée exclusivement de Vikings nordiques. Les empereurs byzantins leur faisaient plus confiance qu'à leurs propres soldats."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏯",
@@ -779,7 +795,8 @@
             "t": "<b>En 1274 et 1281, deux typhons</b> (les « kamikaze » — vent divin) détruisirent la flotte mongole qui tentait d'envahir le Japon. Les Japonais en conclurent que les dieux les protégeaient."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏹",
@@ -801,7 +818,8 @@
             "t": "<b>La destruction de Bagdad (1258) par les Mongols</b> fut une catastrophe culturelle : la Grande Bibliothèque fut détruite. On dit que le Tigre coula noir d'encre."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Gengis_Khan_sur_les_steppes_mongoles.webp"
       },
       {
         "kind": "histoire",
@@ -818,7 +836,8 @@
             "e": "🐰",
             "t": "<b>La suite de Fibonacci</b> (1, 1, 2, 3, 5, 8, 13...) apparaît partout dans la nature : pétales de fleurs, spirales de coquillages, disposition des graines de tournesol. Une des formules les plus magiques des mathématiques."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -835,7 +854,8 @@
             "e": "💣",
             "t": "<b>Bacon chiffra sa recette de poudre à canon</b> en anagramme pour éviter d'être condamné. Son code ne fut déchiffré qu'en 1904 — 637 ans après avoir été écrit."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -958,7 +978,8 @@
             "t": "<b>La Chine abandonna ensuite l'exploration</b> par décision politique. Si elle avait continué, l'histoire du monde aurait été radicalement différente."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏔️",
@@ -994,7 +1015,8 @@
             "t": "<b>Les survivants héritèrent des terres des morts.</b> La Peste accéléra paradoxalement la fin du servage en Europe et modifia les rapports de force sociaux."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/peste.webp"
       },
       {
         "icon": "💀",
@@ -1012,7 +1034,8 @@
             "t": "<b>La chute de Byzance accéléra la Renaissance italienne :</b> les savants grecs qui fuyaient apportèrent en Italie des manuscrits anciens que l'Europe croyait perdus."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_siège_de_Constantinople,_1453.webp"
       },
       {
         "icon": "🖨️",
@@ -1030,7 +1053,8 @@
             "t": "<b>Gutenberg mourut ruiné :</b> son associé Fust lui prit ses presses par un procès. L'inventeur de l'imprimerie ne profita pas de son invention."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Gutenberg.webp"
       },
       {
         "kind": "histoire",
@@ -1047,7 +1071,8 @@
             "e": "⚙️",
             "t": "<b>La production d'acier en Europe</b> multiplia par 10 en moins d'un siècle après le haut-fourneau. Sans lui, pas de Révolution industrielle — les machines à vapeur nécessitaient des pièces en fonte usinées."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🌏",
@@ -1079,7 +1104,8 @@
             "t": "<b>Luther brassait de la bière avec sa femme Katharina.</b> La Réforme et la bière : deux spécialités allemandes."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       }
     ]
   },
@@ -1134,7 +1160,8 @@
             "t": "<b>L'Afrique en 1900 :</b> 90 % du continent était sous domination européenne. Les frontières tracées sans égard aux peuples créent encore aujourd'hui des conflits."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -1215,7 +1242,8 @@
             "e": "🚂",
             "t": "<b>En 1800, 80 % des humains travaillaient la terre.</b> En 1900, l'Angleterre était urbanisée à 80 %. La machine à vapeur fit cette transformation en 100 ans — contre 10 000 ans pour la révolution agricole."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",

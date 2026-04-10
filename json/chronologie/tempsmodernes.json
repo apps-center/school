@@ -15,7 +15,8 @@
             "t": "<b>Léonard de Vinci mourut en France à 67 ans.</b> La Joconde, qu'il avait emportée, devint propriété de François Ier et finit au Louvre."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "📖",
@@ -51,7 +52,8 @@
             "t": "<b>Vésale, le plus grand anatomiste de l'époque, fut appelé à son chevet.</b> Pour comprendre la blessure, on fit décapiter quatre prisonniers condamnés à mort pour tester des lances sur leurs têtes. Henri II mourut quand même."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "👑",
@@ -105,7 +107,8 @@
             "t": "<b>Le pape Grégoire XIII fit sonner les cloches de Rome et frapper une médaille commémorative.</b> Le roi d'Espagne rit pour la première fois de sa vie, dit-on. En Angleterre et dans les pays protestants, l'horreur fut totale — et durable."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Massacre_de_la_Saint-Barthélemy_à_Paris.webp"
       }
     ]
   },
@@ -147,7 +150,8 @@
             "t": "<b>Louis XIII finit par exiler sa propre mère deux fois.</b> Poussée par Richelieu, la rupture entre la reine mère et son fils fut définitive en 1631. Elle mourut seule à Cologne en 1642, ruinée et oubliée."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/marie_de_medecis_conspirant.webp"
       },
       {
         "icon": "⚜️",
@@ -165,7 +169,8 @@
             "t": "<b>Les Trois Mousquetaires d'Alexandre Dumas</b> se déroulent sous Louis XIII. Athos, Porthos, Aramis et d'Artagnan sont inspirés de personnages réels — et Richelieu y joue l'antagoniste."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Cardinal_Richelieu_surveillant_le_siège_de_La_Rochelle.webp"
       },
       {
         "icon": "🎭",
@@ -237,7 +242,8 @@
             "t": "<b>Louis XIV était un danseur exceptionnel,</b> participant à au moins 40 ballets de cour. Le ballet classique est une invention royale française."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
       },
       {
         "icon": "👑",
@@ -286,7 +292,8 @@
             "e": "😤",
             "t": "<b>Tartuffe fut interdite dès sa première représentation</b> en 1664, jugée scandaleuse par l'Église. Louis XIV la défendit. La bataille entre Molière et les dévots dura 5 ans avant que la pièce puisse être jouée librement."
           }
-        ]
+        ],
+        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
       },
       {
         "icon": "🎭",
@@ -354,7 +361,8 @@
             "t": "<b>La différence entre corsaire et pirate :</b> le corsaire a une lettre de marque du roi — il opère légalement pour son pays. Le pirate vole pour lui seul. Surcouf, capturant un navire anglais, répondit à un officier : « Vous vous battez pour l'argent, nous nous battons pour l'honneur. »"
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "⛓️",
@@ -372,7 +380,8 @@
             "t": "<b>Haïti (Saint-Domingue) fut la colonie la plus riche du monde</b> grâce au travail forcé. En 1791, Toussaint Louverture mena la seule révolte d'esclaves victorieuse de l'Histoire. Napoléon envoya une armée — elle fut vaincue par la fièvre jaune et les insurgés."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_commerce_triangulaire_transatlantique.webp"
       },
       {
         "icon": "☠️",
@@ -390,7 +399,8 @@
             "t": "<b>Le capitaine du Grand-Saint-Antoine avait dissimulé des cas à bord</b> pour ne pas perdre sa cargaison de soieries du Levant. Sa cupidité tua 100 000 personnes. Il fut condamné — mais les marchands de Marseille avaient fait pression pour qu'on décharge le navire coûte que coûte."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/peste.webp"
       },
       {
         "icon": "💎",
@@ -462,7 +472,8 @@
             "t": "<b>Voltaire se moqua du Canada :</b> « quelques arpents de neige » ne valaient pas la peine d'y envoyer des troupes. L'histoire lui donna largement tort — et les Québécois ne l'ont pas oublié."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Bataille_de_la_guerre_de_Sept_Ans.webp"
       },
       {
         "icon": "🌿",

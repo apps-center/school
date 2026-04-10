@@ -28,7 +28,8 @@
           "q": "Quel est le nom du premier être humain dont on connaît le nom dans l'histoire ?",
           "r": "Kushim — un comptable d'Uruk",
           "hint": "Pas un roi, pas un héros : son nom figure sur une tablette d'inventaire de grain"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🪨",
@@ -55,7 +56,8 @@
           "q": "De quelle région du Pays de Galles proviennent les bluestones de Stonehenge, transportées sur 240 km ?",
           "r": "Les collines de Preseli (Pembrokeshire)",
           "hint": "Ces blocs de 4 tonnes furent acheminés en partie par voie maritime"
-        }
+        },
+        "img": "histoire/Levée_du_ciel_à_Stonehenge.webp"
       },
       {
         "icon": "🏛️",
@@ -82,7 +84,8 @@
           "q": "Combien d'articles contient le Code d'Hammurabi, et où est-il conservé aujourd'hui ?",
           "r": "282 articles — gravés sur basalte, conservés au Louvre à Paris",
           "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       }
     ]
   },
@@ -115,7 +118,8 @@
           "q": "Quelle est la précision de l'alignement cardinal de la Grande Pyramide ?",
           "r": "0,05 degré — plus précis que l'Observatoire de Paris construit 4 400 ans plus tard",
           "hint": "Ses quatre faces pointent vers le nord, sud, est et ouest avec une exactitude stupéfiante"
-        }
+        },
+        "img": "histoire/La_construction_des_pyramides_égyptiennes.webp"
       },
       {
         "icon": "☀️",
@@ -142,7 +146,8 @@
           "q": "Quel est le premier traité de paix international connu, signé par Ramsès II ?",
           "r": "Le traité de Qadesh (–1 259 av. J.-C.), avec le roi hittite Hattusili III",
           "hint": "Une copie est accrochée au siège de l'ONU à New York"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🐍",
@@ -202,7 +207,8 @@
           "q": "Quelle est la date traditionnelle de la destruction du premier Temple de Jérusalem, qui provoqua l'exil des Hébreux à Babylone ?",
           "r": "–586 av. J.-C.",
           "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
-        }
+        },
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "kind": "histoire",
@@ -229,7 +235,8 @@
           "q": "Quel est le nom de la fête juive qui commémore chaque année la libération d'Égypte sous Moïse ?",
           "r": "La Pâque (Pessah)",
           "hint": "Le repas du Seder rejoue symboliquement la nuit de la fuite — pain sans levain, herbes amères, agneau"
-        }
+        },
+        "img": "histoire/Moïse_et_le_buisson_ardent.webp"
       },
       {
         "kind": "histoire",
@@ -337,7 +344,8 @@
           "q": "Quel personnage, ancien persécuteur des chrétiens, fut le principal propagateur du christianisme dans tout l'Empire romain ?",
           "r": "Paul de Tarse (saint Paul)",
           "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
-        }
+        },
+        "img": "histoire/naissance_planetes.webp"
       }
     ]
   },
@@ -451,7 +459,8 @@
           "q": "Aristote fut le précepteur de quel futur conquérant, qu'il instruisit à partir de ses 13 ans ?",
           "r": "Alexandre le Grand",
           "hint": "Alexandre dormait avec l'Iliade annotée par Aristote sous son oreiller"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🌍",
@@ -592,7 +601,8 @@
           "q": "Combien d'éléphants de guerre Hannibal emmena-t-il lors de la traversée des Alpes en –218 ?",
           "r": "37 éléphants",
           "hint": "En novembre, en plein hiver — sur 90 000 hommes partis, moins de 30 000 atteignirent l'Italie"
-        }
+        },
+        "img": "histoire/Hannibal_traversant_les_Alpes_enneigées.webp"
       },
       {
         "kind": "histoire",
@@ -646,7 +656,8 @@
           "q": "Dans quelle œuvre biblique le nombre 666 désigne-t-il probablement Néron en code hébreu ?",
           "r": "L'Apocalypse de Jean",
           "hint": "Les lettres de 'Néron César' en hébreu donnent la valeur numérique 666"
-        }
+        },
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       },
       {
         "icon": "🏟️",
@@ -673,7 +684,8 @@
           "q": "Que signifiait réellement le pouce levé dans les combats de gladiateurs, contrairement à la légende hollywoodienne ?",
           "r": "Tuer le vaincu (et non l'épargner) — le pouce caché dans le poing signifiait la grâce",
           "hint": "Hollywood a inversé le symbole — le pouce levé imitait un coup d'épée"
-        }
+        },
+        "img": "histoire/Construction_du_Colisée_à_Rome.webp"
       },
       {
         "kind": "histoire",
@@ -700,7 +712,8 @@
           "q": "Quelle est la longueur du Mur d'Hadrien, construit en 122 ap. J.-C. pour délimiter la frontière nord de l'Empire romain ?",
           "r": "118 km",
           "hint": "Il traversait toute l'Angleterre d'est en ouest, de la mer du Nord à la mer d'Irlande"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       }
     ]
   },
@@ -733,7 +746,8 @@
           "q": "Quelle fête celtique du Nouvel An est l'ancêtre direct d'Halloween ?",
           "r": "Samhain, célébrée le 1er novembre",
           "hint": "Le voile entre monde des vivants et des morts s'amincissait ce soir-là"
-        }
+        },
+        "img": "histoire/L'attaque_des_Gaulois_à_Rome.webp"
       },
       {
         "icon": "⚓",
@@ -787,7 +801,8 @@
           "q": "Combien de Gaulois César revendique-t-il avoir tués ou réduits en esclavage dans ses Commentaires ?",
           "r": "1 million tués et 1 million réduits en esclavage",
           "hint": "Sur une population estimée à 8-10 millions — Plutarque lui-même trouvait ces chiffres scandaleux"
-        }
+        },
+        "img": "histoire/L'attaque_des_Gaulois_à_Rome.webp"
       },
       {
         "icon": "🛡️",
@@ -874,7 +889,8 @@
           "q": "Quelle est la pente du canal du Pont du Gard sur ses 50 km de longueur ?",
           "r": "34 cm de dénivelé sur 50 km — soit 0,07 % d'inclinaison",
           "hint": "Cette précision géodésique sans instruments modernes reste un exploit d'ingénierie"
-        }
+        },
+        "img": "histoire/pont_du_gard.webp"
       },
       {
         "kind": "histoire",
@@ -897,7 +913,8 @@
           "q": "Quel écrivain latin du Ier siècle a décrit la vallus, moissonneuse gauloise inventée 1 800 ans avant l'ère industrielle ?",
           "r": "Pline l'Ancien",
           "hint": "Cette machine fut oubliée puis réinventée au XIXe siècle par des ingénieurs qui l'ignoraient"
-        }
+        },
+        "img": "histoire/L'attaque_des_Gaulois_à_Rome.webp"
       },
       {
         "icon": "🏟️",
@@ -951,7 +968,8 @@
           "q": "Quel vestige romain du IIe siècle est encore debout aujourd'hui au cœur de Paris, boulevard Saint-Michel ?",
           "r": "Les thermes de Cluny",
           "hint": "Leurs voûtes de 14 mètres de haut ont traversé 1 800 ans"
-        }
+        },
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "✝️",
@@ -1032,7 +1050,8 @@
           "q": "Quelle vision Constantin aurait-il eue la veille de la bataille du pont Milvius en 312 ?",
           "r": "Une croix lumineuse dans le ciel avec l'inscription 'In hoc signo vinces' (Par ce signe tu vaincras)",
           "hint": "Il fit peindre la croix sur les boucliers de ses soldats — et remporta la victoire"
-        }
+        },
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       },
       {
         "icon": "🗺️",
@@ -1059,7 +1078,8 @@
           "q": "Quelle tradition sportive antique Théodose supprima-t-il en 393 ap. J.-C. comme 'fête païenne' ?",
           "r": "Les Jeux Olympiques",
           "hint": "Célébrés sans interruption depuis –776 — ils ne reprirent qu'en 1896, après 1 503 ans"
-        }
+        },
+        "img": "histoire/La_division_de_l'Empire_romain.webp"
       }
     ]
   }

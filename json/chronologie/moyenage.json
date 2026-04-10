@@ -19,7 +19,8 @@
             "t": "<b>L'Empire d'Orient (Byzance) survécut encore 977 ans</b> après 476 — jusqu'en 1453. Rome ne mourut pas vraiment ce jour-là."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       },
       {
         "icon": "🔱",
@@ -37,7 +38,8 @@
             "t": "<b>Attila avait surnommé lui-même « le Fléau de Dieu ».</b> L'herbe ne repoussait pas là où son cheval avait marché, disait-on. Il mourut en 453 d'une simple hémorragie nasale lors de sa nuit de noces."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Attila.webp"
       }
     ]
   },
@@ -61,7 +63,8 @@
             "t": "<b>Clovis élimina méthodiquement tous ses rivaux francs,</b> y compris ses cousins. À sa mort, il était le seul roi franc vivant."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "👑",
@@ -79,7 +82,8 @@
             "t": "<b>La tradition d'enterrer les rois à Saint-Denis</b> qu'il instaura dura jusqu'à Louis XVIII en 1824 — soit 1 185 ans de continuité."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
       },
       {
         "icon": "😴",
@@ -145,7 +149,8 @@
             "t": "<b>Il mesurait environ 1,92 m</b> — confirmé par ses ossements à Aix-la-Chapelle. Il dominait physiquement toute son assemblée."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🛶",
@@ -167,7 +172,8 @@
             "t": "<b>Rollon refusa de s'agenouiller devant le roi pour l'hommage féodal.</b> Un de ses hommes souleva le pied du roi pour l'embrasser — et le bascula à la renverse sous les éclats de rire des Vikings. Ce moment humiliant pour la royauté capétienne est rapporté par plusieurs chroniqueurs. Rollon avait clairement compris qu'il négociait en position de force."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "kind": "histoire",
@@ -208,7 +214,8 @@
             "t": "<b>Le Mont Saint-Michel résista aux Anglais pendant 116 ans</b>, tout au long de la Guerre de Cent Ans. Il devint le symbole de la résistance française."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/mont_saint_michel.webp"
       },
       {
         "icon": "🏰",
@@ -222,7 +229,8 @@
             "t": "<b>Hugues fut choisi parce que les grands seigneurs le jugeaient moins dangereux.</b> Ils pensaient pouvoir le contrôler. Ils se trompèrent."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "✝️",
@@ -244,7 +252,8 @@
             "t": "<b>Les croisés importèrent en Europe tout ce qu'ils découvrirent en Orient.</b> Les épices, le sucre, les agrumes, le coton, les moulins à vent, les chiffres arabes (et donc zéro), la transmission d'Aristote via les savants arabes — sans les croisades, la Renaissance européenne aurait été retardée de siècles. La rencontre violente avec l'Orient fut aussi une révolution culturelle."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/urbain2_croisades.webp"
       },
       {
         "icon": "👑",
@@ -284,7 +293,8 @@
             "t": "<b>Les « secrets » des Templiers alimentèrent des siècles de légendes :</b> Saint-Graal, Arche d'Alliance, trésors cachés. Leur richesse mystérieuse et leurs rites confidentiels nourrirent toutes les théories du complot de l'Occident."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/templiers.webp"
       },
       {
         "kind": "histoire",
@@ -301,7 +311,8 @@
             "e": "🏰",
             "t": "<b>Notre-Dame de Paris (1163-1345)</b> est l'exemple parfait : ses arcs-boutants permettent des murs de verre et une hauteur de 35 mètres sous voûte. Une prouesse d'ingénierie médiévale."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -318,7 +329,8 @@
             "e": "🎓",
             "t": "<b>Le système « licence-maîtrise-doctorat »</b> inventé par les universités médiévales est encore celui que nous utilisons aujourd'hui, 850 ans plus tard."
           }
-        ]
+        ],
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "⛪",
@@ -336,7 +348,8 @@
             "t": "<b>Victor Hugo écrivit Notre-Dame de Paris (1831)</b> pour sauver la cathédrale de la démolition. Le roman créa un tel engouement que le gouvernement finança sa restauration."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "kind": "histoire",
@@ -353,7 +366,8 @@
             "e": "⚙️",
             "t": "<b>Don Quichotte attaque des moulins à vent</b> (Cervantes, 1605) en les prenant pour des géants. À cette époque, les moulins étaient si omniprésents dans le paysage qu'ils étaient devenus le symbole même du progrès technique."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🗺️",
@@ -367,7 +381,8 @@
             "t": "<b>Il ordonna le pavage de Paris</b> parce qu'il était incommodé par les odeurs depuis son palais. Paris reçut ses premières rues pavées grâce à sa sensibilité olfactive."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -384,7 +399,8 @@
             "e": "🧲",
             "t": "<b>La boussole pointe vers le nord magnétique,</b> pas le nord géographique. Cette déclinaison magnétique, découverte au XVe siècle, dut être compensée dans tous les calculs de navigation — une subtilité qui causa bien des naufrages."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🌳",
@@ -398,7 +414,8 @@
             "t": "<b>Louis IX racheta la « couronne d'épines »</b> pour une fortune colossale. Pour l'abriter, il fit construire la Sainte-Chapelle — encore visible aujourd'hui."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Saint_Louis_dispense_la_justice_sous_le_chêne.webp"
       },
       {
         "kind": "histoire",
@@ -433,7 +450,8 @@
             "t": "<b>« Les Rois Maudits » de Maurice Druon</b> s'inspirent directement de cette période. George R.R. Martin l'a lu avant d'écrire Game of Thrones — la Garde de Nuit ressemble étrangement aux Templiers."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/templiers.webp"
       },
       {
         "icon": "🔥",
@@ -451,7 +469,8 @@
             "t": "<b>Le trésor des Templiers ne fut jamais retrouvé.</b> Il aurait été évacué avant les arrestations. Sa localisation est l'une des plus grandes chasses au trésor de l'histoire — et alimente des recherches encore aujourd'hui."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Jacques_de_Molay_devant_Notre-Dame.webp"
       },
       {
         "icon": "💀",
@@ -473,7 +492,8 @@
             "t": "<b>La règle excluant les femmes du trône fut inventée à la hâte en 1316.</b> Quand Louis X mourut, sa fille Jeanne était l'héritière logique — mais les barons refusèrent une reine. On exhuma la loi salique franque pour justifier l'exclusion des femmes. Cette règle, improvisée pour régler une succession difficile, régit la monarchie française jusqu'en 1792 — et causa directement la Guerre de Cent Ans."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_fin_de_la_lignée_capétienne.webp"
       },
       {
         "icon": "⚔️",
@@ -505,7 +525,8 @@
             "t": "<b>Le roi de Bohême, aveugle, voulut quand même charger.</b> Il fit attacher ses cavaliers à lui pour le guider au combat. On les retrouva tous morts, chevaux liés ensemble. Son emblème — trois plumes — fut adopté par le Prince de Galles anglais et l'est encore aujourd'hui."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
       },
       {
         "icon": "💀",
@@ -523,7 +544,8 @@
             "t": "<b>Les survivants héritèrent des terres des morts.</b> Les salaires explosèrent. La Peste accéléra la fin du servage en Europe."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/peste.webp"
       },
       {
         "icon": "📚",
@@ -581,7 +603,8 @@
             "t": "<b>La réconciliation de 1435 sauva la France.</b> Au traité d'Arras, Philippe le Bon abandonna l'alliance anglaise en échange de compensations territoriales et d'excuses solennelles pour le meurtre de son père. Ce retournement diplomatique — 16 ans après Azincourt — permit à Charles VII et Jeanne d'Arc de reconquérir la France. Sans Arras, la France serait peut-être restée anglaise."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🏹",
@@ -599,7 +622,8 @@
             "t": "<b>Shakespeare en fit une pièce immortelle</b> avec Henry V et son discours de la Saint-Crispin. « We few, we happy few, we band of brothers. » La défaite française est devenue un mythe anglais."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "⚜️",
@@ -635,7 +659,8 @@
             "t": "<b>Charles VII, qu'elle avait sauvé, ne fit rien pour la libérer.</b> Il fallut attendre 25 ans et la reconquête de Rouen pour qu'il lance le procès en réhabilitation — une nécessité politique autant que morale."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/jeanne-d-arc.webp"
       },
       {
         "icon": "🕸️",
@@ -653,7 +678,8 @@
             "t": "<b>Il inventait des cages en fer trop petites pour se tenir debout,</b> surnommées ses « fillettes ». Son conseiller Balue y passa 11 ans. Cet homme qui haïssait la noblesse fut pourtant le bâtisseur décisif du royaume de France."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
       },
       {
         "icon": "📰",
@@ -671,7 +697,8 @@
             "t": "<b>Gutenberg mourut presque ruiné.</b> Son associé Fust lui réclama ses dettes en justice, saisit ses presses et récupéra l'essentiel des bénéfices. L'inventeur de l'imprimerie ne profita guère de sa révolution."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Gutenberg.webp"
       }
     ]
   }

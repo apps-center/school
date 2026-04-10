@@ -28,7 +28,8 @@
           "q": "Il y a combien de milliards d'années le Big Bang a-t-il eu lieu ?",
           "r": "13,8 milliards d'années",
           "hint": "C'est la première date de toute la chronologie"
-        }
+        },
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "☀️",
@@ -117,7 +118,8 @@
           "q": "Dans quel environnement est probablement apparue la première vie sur Terre ?",
           "r": "Autour de cheminées hydrothermales sous-marines",
           "hint": "À 300°C dans les profondeurs des océans primitifs"
-        }
+        },
+        "img": "histoire/naissance_planetes.webp"
       },
       {
         "icon": "🟢",
@@ -144,7 +146,8 @@
           "q": "Quel pourcentage de l'oxygène mondial les algues marines produisent-elles encore aujourd'hui ?",
           "r": "50 % — la moitié",
           "hint": "Plus que toutes les forêts terrestres réunies"
-        }
+        },
+        "img": "histoire/Vue_préhistorique_sur_une_mer_d'algues.webp"
       },
       {
         "icon": "🐚",
@@ -171,7 +174,8 @@
           "q": "Quelle invention biologique déclencha une 'course aux armements' entre prédateurs et proies au Cambrien ?",
           "r": "L'œil",
           "hint": "Avant, personne ne voyait — donc personne ne se cachait"
-        }
+        },
+        "img": "histoire/Écosystème_préhistorique_sous-marin_du_Cambrien.webp"
       },
       {
         "icon": "🌿",
@@ -225,7 +229,8 @@
           "q": "Pendant combien de millions d'années les dinosaures ont-ils dominé la Terre ?",
           "r": "165 millions d'années",
           "hint": "Soit 40 fois la durée d'existence de notre espèce"
-        }
+        },
+        "img": "histoire/Le_rugissement_du_T-Rex_au_coucher_du_soleil.webp"
       },
       {
         "icon": "☄️",
@@ -252,7 +257,8 @@
           "q": "Quelle est la date exacte de l'extinction des dinosaures, recalibrée en 2013 ?",
           "r": "–66 millions d'années",
           "hint": "Et non –65 Ma comme dans les anciens manuels"
-        }
+        },
+        "img": "histoire/Le_rugissement_du_T-Rex_au_coucher_du_soleil.webp"
       }
     ]
   },
@@ -445,7 +451,8 @@
           "q": "Sur quel site d'Afrique du Sud ont été retrouvés les plus anciens bijoux connus, des coquillages percés ?",
           "r": "Blombos Cave",
           "hint": "Ces coquillages avaient été transportés à 35 km de la côte — preuve de valeur symbolique"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -587,7 +594,8 @@
           "q": "À quelle vitesse une sagaie lancée au propulseur peut-elle atteindre sa cible ?",
           "r": "150 km/h",
           "hint": "Suffisant pour transpercer 10 cm de chair à 50 mètres"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -609,7 +617,8 @@
           "q": "Dans quelle matière est taillée la flûte de Hohle Fels, la plus ancienne connue ?",
           "r": "Un os de vautour fauve (le radius)",
           "hint": "Elle possède 5 trous digitaux et peut encore produire des sons aujourd'hui"
-        }
+        },
+        "img": "histoire/Homme_préhistorique_jouant_une_flûte_osseuse.webp"
       },
       {
         "kind": "histoire",
@@ -635,7 +644,8 @@
           "q": "Dans quel pays ont été retrouvées des huttes construites entièrement en os de mammouths ?",
           "r": "En Ukraine (site de Mezhirich, –15 000 ans)",
           "hint": "Leurs charpentes utilisaient des centaines de mandibules et fémurs soigneusement assemblés"
-        }
+        },
+        "img": "histoire/Chasseurs_sur_la_savane_au_lever_du_soleil.webp"
       },
       {
         "kind": "histoire",
@@ -661,7 +671,8 @@
           "q": "Dans quelle région du monde les premières aiguilles à coudre préhistoriques ont-elles été retrouvées ?",
           "r": "En Sibérie, à Denisova",
           "hint": "Leur finesse rivalise avec nos aiguilles modernes"
-        }
+        },
+        "img": "histoire/Aiguille_en_os_sur_pierre_éclairée.webp"
       },
       {
         "kind": "histoire",
@@ -709,7 +720,8 @@
           "q": "Dans quels pays ont été retrouvées les premières poteries connues de l'humanité ?",
           "r": "En Chine et au Japon",
           "hint": "Elles précèdent l'agriculture de 5 000 ans — inventées par des chasseurs-cueilleurs"
-        }
+        },
+        "img": "histoire/Modelage_d'un_pot_en_argile.webp"
       },
       {
         "kind": "histoire",
@@ -731,7 +743,8 @@
           "q": "En quelle année la grotte de Lascaux a-t-elle été fermée au public ?",
           "r": "1963",
           "hint": "Le CO₂ et les moisissures des visiteurs menaçaient les peintures vieilles de 17 000 ans"
-        }
+        },
+        "img": "histoire/Artiste_préhistorique_peignant_un_cheval.webp"
       },
       {
         "kind": "histoire",
@@ -753,7 +766,8 @@
           "q": "De quel animal le chien domestique est-il issu ?",
           "r": "Du loup gris",
           "hint": "C'est le premier animal domestiqué — bien avant les vaches, moutons ou chevaux"
-        }
+        },
+        "img": "histoire/L'homme_préhistorique_et_son_chien.webp"
       },
       {
         "kind": "histoire",
@@ -802,7 +816,8 @@
           "q": "Combien d'heures par jour les chasseurs-cueilleurs travaillaient-ils en moyenne, avant l'agriculture ?",
           "r": "Environ 4 heures par jour",
           "hint": "L'agriculture a rendu les humains plus nombreux — mais aussi plus petits et moins en bonne santé"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -824,7 +839,8 @@
           "q": "Quel pourcentage du site de Göbekli Tepe a été fouillé à ce jour ?",
           "r": "5 %",
           "hint": "Le géoradar révèle au moins 16 enceintes encore enfouies sous la terre"
-        }
+        },
+        "img": "histoire/Lever_de_soleil_sur_Göbekli_Tepe.webp"
       },
       {
         "kind": "histoire",
@@ -850,7 +866,8 @@
           "q": "Quel est le taux de survie des patients trépanés au Néolithique, d'après l'étude des crânes ?",
           "r": "Plus de 50 %",
           "hint": "Les bords recalcifiés des trous prouvent que les patients ont survécu à l'opération"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -876,7 +893,8 @@
           "q": "Combien de menhirs comptent les alignements de Carnac, en Bretagne ?",
           "r": "Plus de 3 000 menhirs",
           "hint": "Disposés en 11 rangées sur 4 km — le plus grand ensemble mégalithique du monde"
-        }
+        },
+        "img": "histoire/Lever_de_soleil_sur_les_menhirs_de_Bretagne.webp"
       },
       {
         "kind": "histoire",
@@ -929,7 +947,8 @@
           "q": "Quel était l'usage premier de la roue, avant son utilisation pour les transports ?",
           "r": "Le tour du potier",
           "hint": "Pour façonner l'argile en la faisant tourner — le chariot vint ensuite"
-        }
+        },
+        "img": "histoire/Atelier_de_charpentier_ancien.webp"
       },
       {
         "icon": "🧊",
@@ -978,7 +997,8 @@
           "q": "Quel est le nom du premier être humain dont on connaît le nom dans toute l'histoire ?",
           "r": "Kushim",
           "hint": "C'était un comptable d'Uruk — pas un roi, pas un héros"
-        }
+        },
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -1005,7 +1025,8 @@
           "q": "Quelle invention marque conventionnellement la fin de la Préhistoire et le début de l'Histoire ?",
           "r": "L'écriture",
           "hint": "Apparue vers –3 200 av. J.-C. à Uruk, en Mésopotamie"
-        }
+        },
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       }
     ]
   }
