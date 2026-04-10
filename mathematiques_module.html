@@ -273,23 +273,27 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
       <div class="demo-intro">Dans tout triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés : <strong>c² = a² + b²</strong></div>
     </div>
     <div class="demo-svg-zone">
-      <svg viewBox="0 0 280 240" xmlns="http://www.w3.org/2000/svg" id="svg-pythagore">
-        <!-- Triangle rectangle -->
-        <polygon points="80,190 80,80 190,190" fill="rgba(74,158,221,.18)" stroke="#4a9edd" stroke-width="2"/>
-        <rect x="80" y="178" width="12" height="12" fill="none" stroke="#d4a843" stroke-width="1.5"/>
-        <!-- Carré sur a (vertical) -->
-        <polygon points="80,80 44,80 44,190 80,190" fill="rgba(212,168,67,.2)" stroke="#d4a843" stroke-width="1.5" class="anim-fill anim-delay-1"/>
-        <!-- Carré sur b (horizontal) -->
-        <polygon points="80,190 80,226 190,226 190,190" fill="rgba(94,196,138,.18)" stroke="#5ec48a" stroke-width="1.5" class="anim-fill anim-delay-2"/>
-        <!-- Carré sur c (hypoténuse) -->
-        <polygon points="80,80 190,190 244,136 134,26" fill="rgba(232,80,80,.15)" stroke="#e84848" stroke-width="1.5" class="anim-fill anim-delay-3"/>
-        <!-- Labels -->
-        <text x="55" y="140" fill="#d4a843" font-size="14" font-family="Cinzel,serif" font-weight="700">a</text>
-        <text x="130" y="218" fill="#5ec48a" font-size="14" font-family="Cinzel,serif" font-weight="700">b</text>
-        <text x="178" y="110" fill="#e84848" font-size="14" font-family="Cinzel,serif" font-weight="700">c</text>
-        <text x="52" y="108" fill="rgba(212,168,67,.65)" font-size="10" font-family="serif">a²</text>
-        <text x="118" y="218" fill="rgba(94,196,138,.65)" font-size="10" font-family="serif">b²</text>
-        <text x="178" y="72" fill="rgba(232,80,80,.65)" font-size="10" font-family="serif">c²</text>
+      <svg viewBox="0 0 280 295" xmlns="http://www.w3.org/2000/svg" id="svg-pythagore">
+        <!-- Carré sur a (côté vertical = 66px) -->
+        <polygon points="90,190 90,124 24,124 24,190" fill="rgba(212,168,67,.22)" stroke="#d4a843" stroke-width="2" class="anim-fill anim-delay-1"/>
+        <!-- Carré sur b (côté horizontal = 88px) -->
+        <polygon points="90,190 178,190 178,278 90,278" fill="rgba(94,196,138,.2)" stroke="#5ec48a" stroke-width="2" class="anim-fill anim-delay-2"/>
+        <!-- Carré sur c (hypoténuse = 110px) -->
+        <polygon points="90,124 178,190 244,102 156,36" fill="rgba(232,80,80,.18)" stroke="#e84848" stroke-width="2" class="anim-fill anim-delay-3"/>
+        <!-- Triangle rectangle 3-4-5 par-dessus -->
+        <polygon points="90,190 90,124 178,190" fill="rgba(74,158,221,.25)" stroke="#4a9edd" stroke-width="2.5"/>
+        <!-- Angle droit -->
+        <rect x="90" y="178" width="12" height="12" fill="none" stroke="#e8dfc4" stroke-width="1.5"/>
+        <!-- Labels côtés -->
+        <text x="79" y="162" text-anchor="middle" fill="#d4a843" font-size="13" font-family="Cinzel,serif" font-weight="700">a</text>
+        <text x="134" y="208" text-anchor="middle" fill="#5ec48a" font-size="13" font-family="Cinzel,serif" font-weight="700">b</text>
+        <text x="148" y="158" text-anchor="middle" fill="#e84848" font-size="13" font-family="Cinzel,serif" font-weight="700">c</text>
+        <!-- Labels carrés -->
+        <text x="57" y="160" text-anchor="middle" fill="rgba(212,168,67,.8)" font-size="11" font-family="serif">a²</text>
+        <text x="134" y="240" text-anchor="middle" fill="rgba(94,196,138,.8)" font-size="11" font-family="serif">b²</text>
+        <text x="200" y="78" text-anchor="middle" fill="rgba(232,80,80,.8)" font-size="11" font-family="serif">c²</text>
+        <!-- Vérif : 3²+4²=5² -->
+        <text x="140" y="292" text-anchor="middle" fill="rgba(232,223,196,.4)" font-size="9" font-family="serif">3² + 4² = 5²  →  9 + 16 = 25 ✓</text>
       </svg>
     </div>
     <div class="demo-explication">
