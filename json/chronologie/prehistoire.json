@@ -399,7 +399,8 @@
           "q": "Sur quel site marocain ont été découverts les fossiles d'Homo Sapiens les plus anciens (300 000 ans) ?",
           "r": "Jebel Irhoud",
           "hint": "Ces crânes ressemblent déjà aux nôtres, mais avec une boîte crânienne plus allongée"
-        }
+        },
+        "img": "histoire/sortie_afrique.webp"
       },
       {
         "kind": "histoire",
@@ -425,7 +426,8 @@
           "q": "Quel matériau les Néandertaliens utilisaient-ils pour coller les pointes de silex sur leurs lances ?",
           "r": "La résine de bouleau (goudron naturel)",
           "hint": "Obtenue en chauffant l'écorce à 340°C en atmosphère pauvre en oxygène"
-        }
+        },
+        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
       },
       {
         "kind": "histoire",
@@ -523,7 +525,8 @@
           "q": "Quelle distance océanique minimale les premiers humains ont-ils dû traverser pour atteindre l'Australie ?",
           "r": "Au moins 90 km d'océan ouvert",
           "hint": "Le niveau des mers était 60 m plus bas, mais ce bras de mer restait infranchissable à pied"
-        }
+        },
+        "img": "histoire/Traversée_en_mer_au_coucher_du_soleil.webp"
       },
       {
         "kind": "histoire",
@@ -698,7 +701,8 @@
           "q": "De combien de mètres le niveau des mers était-il plus bas au maximum glaciaire, vers –20 000 ans ?",
           "r": "120 mètres plus bas",
           "hint": "La Grande-Bretagne était reliée au continent, la Sibérie à l'Alaska"
-        }
+        },
+        "img": "histoire/Crépuscule_sur_l'immensité_glacée.webp"
       },
       {
         "kind": "histoire",
@@ -920,7 +924,8 @@
           "q": "Dans quelle région les premiers chevaux ont-ils été domestiqués, vers –3 500 av. J.-C. ?",
           "r": "Les steppes d'Eurasie (culture Botaï, Kazakhstan actuel)",
           "hint": "La preuve : des résidus de lait de jument retrouvés sur des poteries"
-        }
+        },
+        "img": "histoire/Premier_contact_au_lever_du_soleil.webp"
       },
       {
         "kind": "histoire",

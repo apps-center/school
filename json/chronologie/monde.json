@@ -42,7 +42,8 @@
             "t": "<b>Les ancêtres des Amérindiens</b> traversèrent le détroit de Béring (alors à sec) il y a ~15 000 à 20 000 ans et peuplèrent l'Amérique de la Sibérie jusqu'à la Patagonie en quelques millénaires."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/sortie_afrique.webp"
       },
       {
         "icon": "🧊",
@@ -1195,7 +1196,8 @@
             "e": "🌊",
             "t": "<b>Newton inventa aussi le calcul infinitésimal</b> (simultanément avec Leibniz). Ces deux inventions — gravitation et calcul — sont les fondements de toute la physique et ingénierie modernes."
           }
-        ]
+        ],
+        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
       },
       {
         "kind": "histoire",
