@@ -29,7 +29,7 @@
           "r": "Kushim — un comptable d'Uruk",
           "hint": "Pas un roi, pas un héros : son nom figure sur une tablette d'inventaire de grain"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Ville antique de Sumer en soirée.webp"
       },
       {
         "icon": "🪨",
@@ -85,7 +85,7 @@
           "r": "282 articles — gravés sur basalte, conservés au Louvre à Paris",
           "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
       }
     ]
   },
@@ -147,7 +147,7 @@
           "r": "Le traité de Qadesh (–1 259 av. J.-C.), avec le roi hittite Hattusili III",
           "hint": "Une copie est accrochée au siège de l'ONU à New York"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Ramsès II devant ses temples majestueux.webp"
       },
       {
         "icon": "🐍",
@@ -174,13 +174,14 @@
           "q": "Combien de langues Cléopâtre VII parlait-elle, selon les sources antiques ?",
           "r": "9 langues",
           "hint": "Elle était la première de sa lignée ptolémaïque à parler égyptien"
-        }
+        },
+        "img": "histoire/Cléopâtre surplombant Alexandrie au crépuscule.webp"
       }
     ]
   },
   {
     "era": "✦ Religions & Textes Fondateurs",
-    "cls": "religio",
+    "cls": "religion",
     "events": [
       {
         "kind": "histoire",
@@ -208,7 +209,7 @@
           "r": "–586 av. J.-C.",
           "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Babylone_antique_et_ses_merveilles.webp"
       },
       {
         "kind": "histoire",
@@ -460,7 +461,7 @@
           "r": "Alexandre le Grand",
           "hint": "Alexandre dormait avec l'Iliade annotée par Aristote sous son oreiller"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Aristote et ses étudiants à Athènes.webp"
       },
       {
         "icon": "🌍",
@@ -487,7 +488,8 @@
           "q": "Quel était le nom du cheval d'Alexandre le Grand, auquel il dédia une ville en Inde ?",
           "r": "Bucéphale — la ville s'appelait Bucéphalie",
           "hint": "Alexandre avait dompté ce cheval à 16 ans en comprenant qu'il avait peur de son ombre"
-        }
+        },
+        "img": "histoire/Alexandre le Grand en pleine bataille.webp"
       },
       {
         "kind": "histoire",
@@ -514,7 +516,8 @@
           "q": "Quelle est la seule des 7 Merveilles du monde antique encore debout aujourd'hui ?",
           "r": "Les Pyramides de Gizeh (Égypte)",
           "hint": "Les 6 autres ont été détruites par des séismes, incendies ou pillages entre le IIIe et le XVe siècle"
-        }
+        },
+        "img": "histoire/Les sept merveilles du monde antique.webp"
       },
       {
         "icon": "📐",
@@ -541,7 +544,8 @@
           "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
           "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
           "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
-        }
+        },
+        "img": "histoire/Les savants de l'Antiquité grecque.webp"
       }
     ]
   },
@@ -574,7 +578,8 @@
           "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
           "r": "L'alphabet latin",
           "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
-        }
+        },
+        "img": "histoire/"
       },
       {
         "icon": "🐘",
@@ -629,11 +634,12 @@
           "q": "Quelle conjuration Cicéron déjoua-t-il en –63 av. J.-C., sauvant la République romaine ?",
           "r": "La conjuration de Catilina",
           "hint": "Son discours commence par la phrase célèbre : 'Jusqu'à quand, Catilina, abuseras-tu de notre patience ?'"
-        }
+        },
+        "img": "histoire/Cicéron dans le forum romain.webp"
       },
       {
         "icon": "🔥",
-        "tag": "Emperuer",
+        "tag": "Empereur",
         "date": "54 à 68 ap. J.-C.",
         "title": "Néron — L'Incendie de Rome & les Persécutions",
         "desc": "Néron monte sur le trône à 17 ans. Son règne commence bien — il est conseillé par le philosophe Sénèque — puis déraille dans la tyrannie, les meurtres de proches (dont sa propre mère Agrippine) et la mégalomanie. En 64, un incendie ravage les deux tiers de Rome. Il accuse les chrétiens, les fait crucifier et brûler comme torches vivantes. Il est le premier persécuteur institutionnel du christianisme.",
@@ -657,7 +663,7 @@
           "r": "L'Apocalypse de Jean",
           "hint": "Les lettres de 'Néron César' en hébreu donnent la valeur numérique 666"
         },
-        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
+        "img": "histoire/L'incendie de Rome sous Néron.webp"
       },
       {
         "icon": "🏟️",
@@ -713,7 +719,7 @@
           "r": "118 km",
           "hint": "Il traversait toute l'Angleterre d'est en ouest, de la mer du Nord à la mer d'Irlande"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Soldats romains au coucher du soleil.webp"
       }
     ]
   },
@@ -774,7 +780,8 @@
           "q": "Quelle culture a fondé Marseille vers –600 av. J.-C. et introduit la vigne en France ?",
           "r": "Les Phocéens, des marins grecs d'Asie Mineure",
           "hint": "Massalia est la plus ancienne ville de France — 2 600 ans avant l'hymne national"
-        }
+        },
+        "img": "histoire/Fondation de Massalia au crépuscule.webp"
       },
       {
         "icon": "⚔️",
@@ -829,8 +836,9 @@
           "q": "Quelle longueur mesurait la double enceinte de fortification construite par César autour d'Alésia ?",
           "r": "40 km de double enceinte",
           "hint": "Pour assiéger Vercingétorix tout en se défendant d'une armée de secours de 250 000 hommes"
-        }
-      }
+        },
+        "img": "histoire/alesia.webp"
+      },
     ]
   },
   {
@@ -941,7 +949,8 @@
           "q": "Quel monument romain de Nîmes inspira Thomas Jefferson pour l'architecture du Capitole de Virginie ?",
           "r": "La Maison Carrée de Nîmes",
           "hint": "Plus intacte que bien des monuments à Rome même, construite vers –19 av. J.-C."
-        }
+        },
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
       },
       {
         "icon": "🏙️",
@@ -969,7 +978,7 @@
           "r": "Les thermes de Cluny",
           "hint": "Leurs voûtes de 14 mètres de haut ont traversé 1 800 ans"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Lutèce au crépuscule, forum animé.webp"
       },
       {
         "icon": "✝️",
@@ -996,7 +1005,8 @@
           "q": "D'où vient le nom de Montmartre, la butte de Paris où Saint Denis fut décapité ?",
           "r": "Du latin Mons Martyrum — la colline des martyrs",
           "hint": "Selon la légende, Denis ramassa sa tête et marcha 6 km jusqu'à l'endroit où il voulait être enterré"
-        }
+        },
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚔️",
@@ -1023,7 +1033,8 @@
           "q": "Combien d'empereurs Rome eut-elle entre 235 et 284 ap. J.-C. ?",
           "r": "50 empereurs en 50 ans",
           "hint": "La plupart furent assassinés par leurs propres soldats après quelques mois de règne"
-        }
+        },
+        "img": "histoire/L'attaque des barbares à l'aube.webp"
       },
       {
         "icon": "🌅",
@@ -1051,7 +1062,7 @@
           "r": "Une croix lumineuse dans le ciel avec l'inscription 'In hoc signo vinces' (Par ce signe tu vaincras)",
           "hint": "Il fit peindre la croix sur les boucliers de ses soldats — et remporta la victoire"
         },
-        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
+        "img": "histoire/L'édiction de l'Édit de Milan.webp"
       },
       {
         "icon": "🗺️",
