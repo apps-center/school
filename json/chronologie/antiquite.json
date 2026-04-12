@@ -346,7 +346,7 @@
           "r": "Paul de Tarse (saint Paul)",
           "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/La promesse divine sous les étoiles.webp"
       }
     ]
   },
@@ -578,8 +578,7 @@
           "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
           "r": "L'alphabet latin",
           "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
-        },
-        "img": "histoire/"
+        }
       },
       {
         "icon": "🐘",
@@ -1005,8 +1004,7 @@
           "q": "D'où vient le nom de Montmartre, la butte de Paris où Saint Denis fut décapité ?",
           "r": "Du latin Mons Martyrum — la colline des martyrs",
           "hint": "Selon la légende, Denis ramassa sa tête et marcha 6 km jusqu'à l'endroit où il voulait être enterré"
-        },
-        "img": "histoire/.webp"
+        }
       },
       {
         "icon": "⚔️",
