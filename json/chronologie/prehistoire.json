@@ -799,7 +799,7 @@
           "r": "La Béringie",
           "hint": "Une vaste plaine aujourd'hui engloutie sous le détroit de Béring"
         },
-        "img": "histoire/Groupe_préhistorique_dans_la_tempête_de_neige.webp"
+        "img": "histoire/peuplement_amerique_traversée_béring.webp"
       },
       {
         "icon": "🌾",
@@ -827,7 +827,7 @@
           "r": "Environ 4 heures par jour",
           "hint": "L'agriculture a rendu les humains plus nombreux — mais aussi plus petits et moins en bonne santé"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Village néolithique en fin d'après-midi.webp"
       },
       {
         "kind": "histoire",
@@ -877,7 +877,7 @@
           "r": "Plus de 50 %",
           "hint": "Les bords recalcifiés des trous prouvent que les patients ont survécu à l'opération"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/trepanations-neolithiques-688po.webp"
       },
       {
         "kind": "histoire",
@@ -982,7 +982,8 @@
           "q": "Comment Ötzi est-il mort, selon les analyses scientifiques ?",
           "r": "Assassiné — une pointe de flèche lui a sectionné une artère",
           "hint": "Premier 'cold case' de l'histoire, vieux de 5 300 ans"
-        }
+        },
+        "img": "histoire/otzi.webp"
       },
       {
         "kind": "histoire",
