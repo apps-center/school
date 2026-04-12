@@ -259,7 +259,7 @@
           "r": "–66 millions d'années",
           "hint": "Et non –65 Ma comme dans les anciens manuels"
         },
-        "img": "histoire/Le_rugissement_du_T-Rex_au_coucher_du_soleil.webp"
+        "img": "histoire/Chute_d'astéroïde_et_fuite_des_dinosaures.webp"
       }
     ]
   },
@@ -293,7 +293,7 @@
           "r": "Sahelanthropus tchadensis",
           "hint": "Il vivait il y a 7 millions d'années — juste après la séparation avec les chimpanzés"
         },
-        "img": "bipedie.webp"
+        "img": "histoire/bipedie.webp"
       },
       {
         "kind": "histoire",
@@ -348,7 +348,7 @@
           "r": "La grotte de Wonderwerk",
           "hint": "Des os et végétaux brûlés y ont été retrouvés"
         },
-        "img": "feu_prehistoire.webp"
+        "img": "histoire/feu_prehistoire.webp"
       },
       {
         "kind": "histoire",
@@ -403,7 +403,7 @@
           "r": "Jebel Irhoud",
           "hint": "Ces crânes ressemblent déjà aux nôtres, mais avec une boîte crânienne plus allongée"
         },
-        "img": "histoire/sortie_afrique.webp"
+        "img": "histoire/Chasseurs_sur_la_savane_au_lever_du_soleil.webp"
       },
       {
         "kind": "histoire",
@@ -430,7 +430,7 @@
           "r": "La résine de bouleau (goudron naturel)",
           "hint": "Obtenue en chauffant l'écorce à 340°C en atmosphère pauvre en oxygène"
         },
-        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
+        "img": "histoire/Confrontation_préhistorique_dans_la_nuit.webp"
       },
       {
         "kind": "histoire",
@@ -457,7 +457,7 @@
           "r": "Blombos Cave",
           "hint": "Ces coquillages avaient été transportés à 35 km de la côte — preuve de valeur symbolique"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Mains_préhistoriques_tissant_des_coquillages.webp"
       },
       {
         "kind": "histoire",
@@ -483,7 +483,8 @@
           "q": "Quel insecte parasite a permis aux scientifiques de dater l'apparition des vêtements à –80 000 ans ?",
           "r": "Le pou de corps",
           "hint": "Il diverge génétiquement du pou de tête dès que l'humain commence à se couvrir en permanence"
-        }
+        },
+        "img": "histoire/Chasse_dans_la_tempête_de_neige.webp"
       },
       {
         "kind": "histoire",
@@ -506,7 +507,7 @@
           "r": "Le détroit de Bab-el-Mandeb",
           "hint": "Entre la Corne de l'Afrique et le Yémen actuel"
         },
-        "img": "sortie_afrique.webp"
+        "img": "histoire/sortie_afrique.webp"
       },
       {
         "kind": "histoire",
@@ -551,7 +552,8 @@
           "q": "Quel pourcentage d'ADN néandertalien les Européens et Asiatiques actuels portent-ils ?",
           "r": "1 à 4 %",
           "hint": "Héritage de croisements anciens entre Sapiens et Néandertaliens"
-        }
+        },
+        "img": "histoire/Homme_des_Neandertals_dans_la_neige.webp"
       },
       {
         "kind": "histoire",
@@ -574,7 +576,7 @@
           "r": "L'Ardèche",
           "hint": "Elle contient plus de 400 figures d'animaux — dont des rhinocéros laineux et des lions des cavernes"
         },
-        "img": "peintures_rupestres.webp"
+        "img": "histoire/peintures_rupestres.webp"
       },
       {
         "kind": "histoire",
@@ -651,7 +653,7 @@
           "r": "En Ukraine (site de Mezhirich, –15 000 ans)",
           "hint": "Leurs charpentes utilisaient des centaines de mandibules et fémurs soigneusement assemblés"
         },
-        "img": "histoire/Chasseurs_sur_la_savane_au_lever_du_soleil.webp"
+        "img": "histoire/Homme_des_Neandertals_dans_la_neige.webp"
       },
       {
         "kind": "histoire",
