@@ -318,7 +318,8 @@
           "q": "Sous quel nom désigne-t-on la traduction en grec de la Bible hébraïque, réalisée vers –250 av. J.-C. à Alexandrie ?",
           "r": "La Septante (ou LXX)",
           "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
-        }
+        },
+        "img": "histoire/L'Ancien Testament et les prophètes.webp"
       },
       {
         "kind": "histoire",
@@ -379,7 +380,8 @@
           "q": "Quel est le premier mot de l'Iliade d'Homère, qui donne le thème central de l'épopée ?",
           "r": "Mênis — la colère (d'Achille contre Agamemnon)",
           "hint": "Ce mot ouvre le premier grand texte littéraire de l'Occident"
-        }
+        },
+         "img": "histoire/L'Iliade et l'Odyssée de Homère.webp"
       },
       {
         "kind": "histoire",
@@ -406,7 +408,8 @@
           "q": "Comment s'appelle la bataille navale de –480 av. J.-C. où la Grèce détruisit la flotte perse de Xerxès ?",
           "r": "La bataille de Salamine",
           "hint": "Thémistocle attira la flotte perse dans un détroit étroit où sa supériorité numérique devenait un piège"
-        }
+        },
+         "img": "histoire/L'Iliade et l'Odyssée de Homère.webp"
       },
       {
         "icon": "🏛️",
@@ -433,7 +436,8 @@
           "q": "De quelle façon Socrate fut-il condamné à mort par ses concitoyens athéniens en –399 ?",
           "r": "Il dut boire la ciguë (un poison)",
           "hint": "Condamné pour 'corrompre la jeunesse et nier les dieux' — il refusa l'exil"
-        }
+        },
+         "img": "histoire/Athènes _ démocratie et philosophie.webp"
       },
       {
         "kind": "histoire",
@@ -1004,7 +1008,8 @@
           "q": "D'où vient le nom de Montmartre, la butte de Paris où Saint Denis fut décapité ?",
           "r": "Du latin Mons Martyrum — la colline des martyrs",
           "hint": "Selon la légende, Denis ramassa sa tête et marcha 6 km jusqu'à l'endroit où il voulait être enterré"
-        }
+        },
+        "img": "histoire/Saint Denis et les martyrs chrétiens.webp"
       },
       {
         "icon": "⚔️",
