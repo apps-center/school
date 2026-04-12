@@ -29,7 +29,7 @@
           "r": "13,8 milliards d'années",
           "hint": "C'est la première date de toute la chronologie"
         },
-        "img": "histoire/Naissance_de_l'univers_lumineux.webp.webp"
+        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
       },
       {
         "icon": "☀️",
@@ -57,7 +57,7 @@
           "r": "99,86 %",
           "hint": "Toutes les planètes réunies ne font que 0,14 %"
         },
-        "img": "creation_syst_solaire.webp"
+        "img": "histoire/creation_syst_solaire.webp"
       },
       {
         "icon": "🌍",
@@ -85,7 +85,7 @@
           "r": "3,8 cm par an",
           "hint": "À sa formation, elle était 15 fois plus proche"
         },
-        "img": "naissance_planetes.webp"
+        "img": "histoire/naissance_planetes.webp"
       }
     ]
   },
@@ -119,7 +119,7 @@
           "r": "Autour de cheminées hydrothermales sous-marines",
           "hint": "À 300°C dans les profondeurs des océans primitifs"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Vents_hydrothermaux_et_vie_abyssale.webp"
       },
       {
         "icon": "🟢",
