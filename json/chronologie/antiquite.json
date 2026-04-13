@@ -11,16 +11,12 @@
         "desc": "Entre le Tigre et l'Euphrate (actuel Irak), naît quelque chose d'entièrement nouveau : la ville. Uruk dépasse 50 000 habitants — une densité humaine sans précédent. Pour gérer des milliers de jarres de grain et des troupeaux entiers, les administrateurs inventent les premiers signes gravés sur argile. L'écriture vient de naître — non pas pour raconter des histoires, mais pour faire de la comptabilité.",
         "anecdotes": [
           {
-            "e": "✍️",
-            "t": "<b>L'écriture a été inventée par un comptable, pas un poète.</b> La plus ancienne tablette connue (Uruk, –3 200 av. J.-C.) est un reçu : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom dans l'histoire. La littérature attendra encore 500 ans."
+            "i": "📜",
+            "t": "<b>L'écriture a été inventée par un comptable, pas un poète.</b> La plus ancienne tablette connue (Uruk, –3 200 av. J.-C.) est un reçu : «&nbsp;29 mesures de grain versées à l'entrepôt.&nbsp;» La comptabilité précède la poésie de mille ans."
           },
           {
-            "e": "⚰️",
-            "t": "<b>À Ur, les rois ne mouraient pas seuls.</b> Les fouilles des tombes royales (–2 600 av. J.-C.) ont révélé des dizaines de serviteurs, gardes et musiciens enterrés vivants avec leur maître — après avoir probablement bu un poison collectif. Dans une tombe, 74 personnes accompagnaient la reine dans la mort. La harpe d'or retrouvée est aujourd'hui au British Museum."
-          },
-          {
-            "e": "🦸",
-            "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte sa quête de l'immortalité et contient un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
+            "i": "🏙️",
+            "t": "<b>Uruk était la plus grande ville du monde.</b> Avec ses 50 000 habitants entourés de 9 km de remparts, Uruk est sans équivalent en –3 500 av. J.-C. Sa démesure inspire le mythe de la Tour de Babel selon certains historiens."
           }
         ],
         "kind": "histoire",
@@ -74,16 +70,16 @@
         "desc": "Sous le règne de Khéops, 20 000 ouvriers — pas des esclaves, des artisans organisés en équipes — érigent la Grande Pyramide en 20 ans. 2,3 millions de blocs de calcaire, chacun pesant en moyenne 2,5 tonnes. Pendant 3 800 ans, la pyramide de Khéops est le plus grand bâtiment du monde. Son alignement avec le nord géographique est précis à 0,05 degrés. On ne sait toujours pas exactement comment.",
         "anecdotes": [
           {
-            "e": "🧱",
-            "t": "<b>Les ouvriers étaient payés, logés, soignés — et en grève.</b> Des papyrus retrouvés montrent la première grève ouvrière connue de l'histoire, sous Ramsès III (–1170 av. J.-C.) : les artisans du village de Deir el-Médineh cessèrent le travail parce que leurs rations de grain avaient du retard. L'Égypte antique avait des syndicats avant la lettre."
+            "i": "👷",
+            "t": "<b>Les ouvriers étaient payés, logés, soignés — et en grève.</b> Des papyrus retrouvés montrent la première grève ouvrière connue de l'histoire, sous Ramsès III (–1 170). Les artisans du tombeau royal cessèrent le travail : «&nbsp;Nous avons faim et soif&nbsp;; nous n'avons pas de vêtements&nbsp;; nous n'avons pas de poisson&nbsp;; nous n'avons pas de légumes.&nbsp;»"
           },
           {
-            "e": "🌟",
-            "t": "<b>L'alignement de la Grande Pyramide est stupéfiant.</b> Ses quatre faces pointent vers le nord, le sud, l'est et l'ouest avec une précision de 0,05 degré — mieux que l'Observatoire de Paris construit 4 400 ans plus tard. Les égyptologues débattent encore des méthodes utilisées pour atteindre cette précision sans instruments modernes."
+            "i": "🧭",
+            "t": "<b>L'alignement de la Grande Pyramide est stupéfiant.</b> Ses quatre faces pointent vers le nord, le sud, l'est et l'ouest avec une précision de 0,05 degré — mieux que la plupart des bâtiments modernes. Comment ? Probablement par observation des étoiles circumpolaires."
           },
           {
-            "e": "🐪",
-            "t": "<b>Cléopâtre vivait plus près de nous que de la construction des pyramides.</b> Cléopâtre VII est morte en –30 av. J.-C. — soit 2 490 ans après Khéops. Pour nous, Cléopâtre est l'Antiquité lointaine. Pour elle, Khéops était aussi loin que l'est Vercingétorix pour nous. L'Égypte antique a duré trois fois plus longtemps que toute l'ère chrétienne."
+            "i": "⏳",
+            "t": "<b>Les pyramides étaient déjà vieilles de 2 000 ans quand les premiers pharaons les visitèrent comme touristes.</b> Thoutmosis IV (–1 400) fit déjà restaurer le Sphinx, jugé antique et mystérieux de son époque."
           }
         ],
         "kind": "histoire",
@@ -156,16 +152,12 @@
         "desc": "Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la Mésopotamie et grave sur une stèle de basalte de 2,25 mètres le premier grand code de lois de l'histoire : 282 articles applicables à tous. En même temps, les Babyloniens inventent les mathématiques avancées, prédisent les éclipses, et dessinent la première carte du monde.",
         "anecdotes": [
           {
-            "e": "⚖️",
-            "t": "<b>Le Code d'Hammurabi est encore lisible aujourd'hui — au Louvre.</b> Il prévoit la présomption d'innocence, la protection des veuves et des salaires minimums. Mais aussi : peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
+            "i": "⚖️",
+            "t": "<b>Le Code d'Hammurabi est encore lisible aujourd'hui — au Louvre.</b> Gravé vers –1 754 sur une stèle de basalte de 2,25 m, il prévoit la présomption d'innocence, la protection des veuves et des orphelins, et des salaires minimums. Il inspire encore les juristes aujourd'hui."
           },
           {
-            "e": "🌟",
-            "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce qu'ils comptaient en base 60 — un système remarquable car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans."
-          },
-          {
-            "e": "🌍",
-            "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre. C'est une carte autant politique que géographique : placer sa ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
+            "i": "⏰",
+            "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps.</b> Pourquoi une heure fait 60 minutes ? Pourquoi un cercle fait 360 degrés ? Les Babyloniens de cette époque utilisaient un système de calcul en base 60 (sexagésimal) hérité des Sumériens. Nous l'utilisons encore 4 000 ans plus tard."
           }
         ],
         "kind": "histoire",
@@ -239,15 +231,19 @@
       {
         "title": "La Guerre de Troie",
         "date": "–1 250 av. J.-C.",
-        "tag": "Guerre",
+        "tag": "Mythe épique",
         "icon": "🐴",
-        "desc": "Selon la tradition, le prince troyen Pâris enlève Hélène, épouse du roi de Sparte Ménélas. Une coalition grecque assiège Troie pendant dix ans. La ruse du cheval de bois — offert en cadeau, rempli de soldats — permet aux Grecs de s'infiltrer et d'incendier la ville. L'historicité de cet événement reste débattue, mais des fouilles à Hisarlik (Turquie) révèlent bien une cité détruite vers 1200 av. J.-C.",
+        "desc": "Selon la tradition épique grecque, le prince troyen Pâris enlève Hélène, épouse du roi de Sparte Ménélas. Une coalition grecque assiège Troie pendant dix ans. La ruse du cheval de bois permet aux Grecs de s'infiltrer et d'incendier la ville. L'historicité de cet événement est débattue : des fouilles à Hisarlik (Turquie) révèlent bien une cité détruite vers –1 200, mais rien ne confirme le récit d'Homère.",
         "kind": "histoire",
         "img": "histoire/Le_cheval_de_Troie_entre_dans_la_ville.webp",
         "anecdotes": [
           {
             "i": "📖",
-            "t": "L'Iliade d'Homère ne raconte pas toute la guerre — seulement 51 jours de la 10e année. Le cheval de Troie n'y apparaît pas ! C'est dans l'Odyssée et l'Énéide de Virgile qu'il est décrit."
+            "t": "<b>Mythe ou histoire ?</b> L'Iliade d'Homère — composée vers –800, soit 450 ans après les faits supposés — ne se présente pas comme un récit historique mais comme une épopée héroïque. Le cheval de Troie n'y apparaît même pas : c'est l'Odyssée qui le mentionne. Les archéologues ont trouvé à Hisarlik des traces de destructions violentes vers –1 200, mais aucun cheval."
+          },
+          {
+            "i": "🏺",
+            "t": "<b>Homère écrit 450 ans après les faits qu'il décrit.</b> C'est comme si un auteur d'aujourd'hui racontait la Guerre de Cent Ans (1337-1453) sans aucune source écrite — uniquement à partir de chansons orales transmises de génération en génération."
           }
         ],
         "quiz": {
@@ -276,24 +272,103 @@
         }
       },
       {
+        "icon": "⚓",
+        "tag": "Civilisation",
+        "date": "–1 200 à –146 av. J.-C.",
+        "title": "Les Phéniciens — Marchands & Inventeurs de l'Alphabet",
+        "kind": "histoire",
+        "desc": "Peuple de marins et de commerçants établis sur les côtes de l'actuel Liban (Tyr, Sidon, Byblos), les Phéniciens sont les grands explorateurs de la Méditerranée antique. Leurs vaisseaux atteignent l'Espagne, l'Afrique de l'Ouest et peut-être les îles britanniques. Mais leur legs le plus durable est invisible : l'alphabet consonantique de 22 lettres qu'ils diffusent partout où ils commercent. Les Grecs l'adoptent et ajoutent les voyelles — donnant naissance à l'alphabet que le monde entier utilise encore aujourd'hui.",
+        "anecdotes": [
+          {
+            "i": "🔤",
+            "t": "<b>Notre alphabet a 3 200 ans et vient des Phéniciens.</b> Les lettres A, B, C dérivent du phénicien aleph (tête de bœuf 𐤀), beth (maison 𐤁), gimel (chameau 𐤂). En retournant la lettre 'A' vous verrez encore la tête de bœuf cornu des origines phéniciennes."
+          },
+          {
+            "i": "🏺",
+            "t": "<b>Le mot 'Bible' vient de Byblos — une ville phénicienne.</b> Les Grecs importaient le papyrus égyptien via le port de Byblos, si bien qu'ils appelèrent 'byblos' tout support d'écriture, puis 'biblia' leurs livres. La ville phénicienne a donné son nom à la Bible."
+          },
+          {
+            "i": "⛵",
+            "t": "<b>Les Phéniciens ont peut-être circumnavigué l'Afrique 2 000 ans avant Vasco de Gama.</b> Hérodote rapporte qu'une expédition phénicienne commanditée par le pharaon Néchao II (–600) aurait fait le tour du continent africain en 3 ans — en voyant le soleil au nord, preuve qu'ils avaient franchi l'équateur."
+          }
+        ],
+        "quiz": {
+          "q": "Combien de lettres comptait l'alphabet phénicien original ?",
+          "r": "22 lettres (consonnes uniquement)",
+          "hint": "Pas de voyelles — les lecteurs les devinaient selon le contexte, comme en arabe et hébreu aujourd'hui"
+        }
+      },
+      {
+        "icon": "🪨",
+        "tag": "Récit biblique",
+        "date": "~–1 020 av. J.-C.",
+        "title": "David & Goliath — Le Berger contre le Géant",
+        "kind": "histoire",
+        "img": "histoire/David_et_Goliath_sur_le_champ_de_bataille.webp",
+        "desc": "Selon la Bible (1er livre de Samuel), les Israélites affrontent les Philistins dans la vallée d'Éla. Goliath, guerrier philistin de plus de deux mètres, défie en combat singulier le camp adverse. Aucun soldat n'ose répondre — jusqu'à David, jeune berger sans armure. Il tue Goliath d'un seul projectile lancé à la fronde, tranchant ensuite la tête du géant avec sa propre épée. David deviendra roi et fondera la dynastie qui règnera sur Israël et Juda pendant quatre siècles.",
+        "anecdotes": [
+          {
+            "i": "🎯",
+            "t": "<b>La fronde n'est pas un jouet d'enfant.</b> Entre les mains d'un expert, elle propulse un projectile de pierre à plus de 100 km/h — aussi puissant qu'une balle de pistolet. Les armées antiques comptaient des bataillons de frondeurs professionnels. David, berger habitué à chasser les loups, était probablement un tireur d'élite."
+          },
+          {
+            "i": "🧬",
+            "t": "<b>Goliath souffrait peut-être d'acromégalie.</b> Cette maladie hormonale (excès d'hormone de croissance) provoque une croissance anormale ET une vue très déficiente — ce qui expliquerait qu'il ait besoin d'un écuyer pour guider ses pas et qu'il n'ait pas vu le projectile venir. Le géant avait peut-être un talon d'Achille médical."
+          },
+          {
+            "i": "📜",
+            "t": "<b>L'historicité de David est attestée extrabibliquement.</b> La 'stèle de Tel Dan' (–835), découverte en 1993, mentionne la 'Maison de David' — première référence non biblique à ce personnage. David n'est donc pas qu'un personnage légendaire : il a bien existé et régnait sur une entité politique reconnue."
+          }
+        ],
+        "quiz": {
+          "q": "Dans quelle vallée se déroula selon la Bible le combat entre David et Goliath ?",
+          "r": "La vallée d'Éla",
+          "hint": "Un affrontement qui donna naissance à l'expression 'combat de David contre Goliath'"
+        }
+      },
+      {
+        "icon": "🕌",
+        "tag": "Ville sacrée",
+        "date": "–1 000 à aujourd'hui",
+        "title": "Jérusalem — La Ville aux Trois Religions",
+        "kind": "histoire",
+        "desc": "David conquiert Jérusalem vers –1000 av. J.-C. et en fait la capitale du royaume d'Israël. Son fils Salomon y bâtit le Premier Temple. En trois mille ans, la ville sera conquise, détruite et reconstruite plus de vingt fois : par Babylone (–586), Alexandre (–332), Rome (–63 puis 70 ap. J.-C.), les Croisés (1099), Saladin (1187), les Ottomans (1517). Chaque conquête laisse ses pierres et ses prières. Aujourd'hui encore, juifs, chrétiens et musulmans se disputent ce kilomètre carré de la Vieille Ville.",
+        "img": "histoire/Vue_panoramique_de_la_vieille_ville_de_Jérusalem.webp",
+        "anecdotes": [
+          {
+            "i": "🕍",
+            "t": "<b>Jérusalem est la ville la plus conquise de l'histoire.</b> Elle a changé de mains au moins 44 fois en 4 000 ans — assiégée 23 fois, capturée et reprise 44 fois, détruite deux fois entièrement. Aucune autre ville au monde n'a concentré autant de violence sacrée sur si peu d'espace."
+          },
+          {
+            "i": "🗿",
+            "t": "<b>Le Mur des Lamentations, l'Église du Saint-Sépulcre et le Dôme du Rocher sont distants de 500 mètres.</b> Dans ce rayon, les trois plus grandes religions monothéistes ont leur site le plus sacré : le lieu de la résurrection du Christ, le mur de l'ancien Temple juif, et le rocher d'où le prophète Mahomet serait monté au ciel."
+          }
+        ],
+        "quiz": {
+          "q": "Quel roi hébreu fit de Jérusalem sa capitale vers –1000 av. J.-C. ?",
+          "r": "Le roi David",
+          "hint": "Il est aussi célèbre pour avoir vaincu un géant philistin avec une fronde"
+        }
+      },
+      {
         "kind": "histoire",
         "icon": "✡️",
         "tag": "Religion",
-        "date": "–1 800 à –586 av. J.-C.",
+        "date": "–1 800 à –1 200 av. J.-C.",
         "title": "La Naissance du Judaïsme — Le Premier Monothéisme",
-        "desc": "Le judaïsme est la première grande religion monothéiste de l'histoire — l'idée révolutionnaire qu'il n'existe qu'un seul Dieu, universel et invisible, qui a conclu une alliance (berith) avec un peuple. Abraham (~–1800) quitte Ur de Chaldée et reçoit la promesse divine. Moïse (~–1250) reçoit les Tables de la Loi sur le Sinaï et libère les Hébreux d'Égypte. L'exil à Babylone (–586) sera le creuset où les textes sacrés sont mis par écrit et où l'identité juive se forge dans l'adversité.",
+        "desc": "Selon la tradition biblique, Abraham quitte Ur en Chaldée et conclut une alliance (berith) avec un Dieu unique et universel — idée révolutionnaire dans un monde polythéiste. Cette figure fondatrice est commune aux trois monothéismes : judaïsme, christianisme et islam. L'historicité d'Abraham fait débat : aucune source extrabiblique ne le mentionne, mais la tradition orale qu'il représente correspond à des migrations de peuples sémites réelles vers –1 800.",
         "anecdotes": [
           {
-            "e": "🌍",
-            "t": "<b>Le monothéisme est une révolution philosophique sans précédent.</b> Toutes les civilisations antiques — égyptienne, mésopotamienne, grecque, romaine — pratiquaient le polythéisme. Un seul dieu pour tout l'univers, invisible, sans représentation possible, qui exige un comportement moral et non des sacrifices : cette idée a profondément bouleversé l'histoire. Les deux autres grands monothéismes — christianisme et islam — sont des héritiers directs du judaïsme."
+            "i": "✡️",
+            "t": "<b>Le monothéisme est une révolution philosophique sans précédent.</b> Toutes les civilisations antiques adoraient des panthéons de dieux liés à des territoires. L'idée qu'il n'existe qu'un seul Dieu, universel et invisible, est une rupture radicale — qui bouleversera l'histoire du monde pendant 3 000 ans."
           },
           {
-            "e": "📖",
-            "t": "<b>Les 10 commandements furent reçus deux fois.</b> Moïse brise les premières tables en découvrant le veau d'or, et doit remonter au Sinaï pour en recevoir de nouvelles. Ce récit dit quelque chose d'important : la Loi divine doit être méritée. La tradition juive distingue la Torah écrite (les cinq livres de Moïse) et la Torah orale — les interprétations transmises de génération en génération, mises par écrit dans le Talmud."
+            "i": "📜",
+            "t": "<b>Abraham est la figure commune des trois grands monothéismes.</b> Pour les juifs, il est l'ancêtre du peuple élu. Pour les chrétiens, le père de la foi. Pour les musulmans, Ibrahim est un prophète et le constructeur de la Kaaba à La Mecque. Trois religions, une racine commune."
           },
           {
-            "e": "🏙️",
-            "t": "<b>L'exil à Babylone (–586 à –538) est le moment fondateur de la Bible.</b> Déportés après la destruction du Temple par Nabuchodonosor, les Hébreux se retrouvent sans terre et sans temple — leur foi doit survivre sans lieu physique. C'est là qu'ils codifient leurs textes, développent la synagogue (maison de prière sans sacrifice), et forgent l'identité juive telle qu'elle existe encore : une identité portée par le Livre, pas par un territoire."
+            "i": "🐐",
+            "t": "<b>Le 'bouc émissaire' vient d'un rituel hébreu décrit dans le Lévitique.</b> Une fois par an, le Grand Prêtre posait les mains sur un bouc en confessant publiquement tous les péchés du peuple — les lui 'transférant' symboliquement. Le bouc était ensuite chassé vivant dans le désert, emportant les fautes collectives. Ce rituel de Yom Kippour (le Grand Pardon) donnera l'expression que nous utilisons encore aujourd'hui pour désigner celui sur qui on fait retomber la faute des autres."
           }
         ],
         "quiz": {
@@ -306,22 +381,18 @@
       {
         "kind": "histoire",
         "icon": "🌊",
-        "tag": "Récit fondateur",
+        "tag": "Tradition biblique",
         "date": "–1 250 av. J.-C.",
         "title": "Moïse & l'Exode — La Libération d'Égypte",
-        "desc": "Selon la Bible, le peuple hébreu est réduit en esclavage en Égypte pendant plusieurs générations. Moïse, hébreu élevé à la cour du Pharaon, reçoit de Dieu une mission au buisson ardent : libérer son peuple. Face au Pharaon qui refuse, dix plaies s'abattent sur l'Égypte. La dernière — la mort des premiers-nés — brise la résistance de Pharaon. Les Hébreux fuient, traversent la mer Rouge, et errent 40 ans dans le désert du Sinaï. Sur la montagne sainte, Moïse reçoit les Tables de la Loi : les Dix Commandements.",
+        "desc": "Selon la Bible, le peuple hébreu est réduit en esclavage en Égypte. Moïse, hébreu élevé à la cour du Pharaon, reçoit de Dieu une mission au buisson ardent : libérer son peuple. Les dix plaies d'Égypte, la traversée de la mer Rouge, les Tables de la Loi reçues au Sinaï — ces récits fondent l'identité juive. <em>Note : aucun document égyptien ne mentionne cet Exode, et l'archéologie du Sinaï n'a pas retrouvé de traces d'un campement de masse. L'événement est historiquement non confirmé mais theólogiquement fondateur.</em>",
         "anecdotes": [
           {
-            "e": "📅",
-            "t": "<b>La Pâque juive (Pessah) commémore l'Exode chaque année depuis 3 000 ans.</b> Le repas du Seder — agneau, herbes amères, pain sans levain (la matsa) — rejoue symboliquement la nuit de la fuite d'Égypte. C'est la fête la plus ancienne du judaïsme, et c'est lors d'un Seder de Pâque que Jésus célébra la Cène avec ses disciples — créant ainsi le lien direct entre Exode et christianisme."
+            "i": "🌊",
+            "t": "<b>L'archéologie n'a pas retrouvé de trace d'un Exode massif.</b> Aucun document égyptien ne mentionne une fuite hébraïque ni une série de plaies. Le désert du Sinaï, fouillé intensivement, n'a livré aucun artefact d'un campement de 600 000 personnes pendant 40 ans. Cela ne signifie pas que l'événement n'a pas eu lieu — mais son ampleur biblique est probablement symbolique."
           },
           {
-            "e": "🔬",
-            "t": "<b>L'archéologie n'a pas retrouvé de trace d'un Exode massif.</b> Aucun document égyptien ne mentionne une fuite hébraïque, et le désert du Sinaï ne livre aucune trace d'une population de plusieurs centaines de milliers de personnes pendant 40 ans. Cela ne signifie pas que l'Exode n'a pas eu lieu — peut-être à plus petite échelle — mais rappelle que la Bible est avant tout un texte théologique, pas un rapport historique."
-          },
-          {
-            "e": "💡",
-            "t": "<b>Le buisson ardent qui brûle sans se consumer est l'une des images les plus fortes de toute la Bible.</b> Moïse demande à Dieu son nom — et reçoit une réponse énigmatique : « Je suis celui qui suis » (Ehyeh asher ehyeh). Pas un nom propre, mais une affirmation d'existence pure, hors du temps. Cette formule a occupé les philosophes et théologiens pendant 3 000 ans — et reste irréductible à une traduction définitive."
+            "i": "🕯️",
+            "t": "<b>La Pâque juive (Pessah) commémore l'Exode chaque année depuis 3 000 ans.</b> Le repas du Seder — pain sans levain, herbes amères, agneau — reconstitue rituellement la nuit de la fuite. C'est l'une des célébrations religieuses les plus anciennes encore pratiquées dans le monde."
           }
         ],
         "quiz": {
@@ -337,19 +408,19 @@
         "tag": "Monument",
         "date": "–970 à –586 av. J.-C.",
         "title": "Le Temple de Salomon — La Maison de Dieu",
-        "desc": "Le roi Salomon, fils de David, fait construire à Jérusalem le Premier Temple — demeure de Dieu et écrin de l'Arche d'Alliance. La construction dure 7 ans et mobilise 180 000 ouvriers selon les textes. Le Temple est le centre religieux et politique du royaume unifié d'Israël. Détruit par Nabuchodonosor en –586, il sera reconstruit (Second Temple, –516) puis agrandi par Hérode le Grand, avant d'être définitivement rasé par les Romains de Titus en 70 ap. J.-C. Il n'en reste que le Mur des Lamentations.",
+        "desc": "Le roi Salomon, fils de David, fait construire à Jérusalem le Premier Temple vers –970 av. J.-C. — demeure de Dieu et écrin de l'Arche d'Alliance selon la Bible. Sa construction aurait duré 7 ans. En –586, Nabuchodonosor II rase le Temple et déporte les élites juives à Babylone : c'est la destruction du Premier Temple, catastrophe fondatrice du judaïsme. <em>Note : aucune preuve archéologique directe du Temple de Salomon n'a été retrouvée à ce jour.</em>",
         "anecdotes": [
           {
-            "e": "📦",
-            "t": "<b>L'Arche d'Alliance contenait les Tables de la Loi reçues par Moïse.</b> Selon la Bible, elle était une boîte en bois d'acacia plaquée d'or, surmontée de deux chérubins aux ailes déployées. Elle disparaît lors de la destruction du temple en –586 — et son sort reste l'un des plus grands mystères de l'histoire. Les théories vont de la destruction à Babylone à la conservation en Éthiopie (à Aksoum), où l'Église orthodoxe dit la détenir encore."
+            "i": "📦",
+            "t": "<b>L'Arche d'Alliance contenait les Tables de la Loi reçues par Moïse.</b> Selon la Bible, c'était une boîte en bois d'acacia plaquée d'or, surmontée de deux chérubins. Elle disparaît de l'histoire lors de la destruction du Temple en –586. Son sort reste l'un des plus grands mystères de l'Antiquité."
           },
           {
-            "e": "🧱",
-            "t": "<b>Le Mur des Lamentations est le seul vestige du Second Temple.</b> Ce mur de soutènement construit par Hérode le Grand (~–20 av. J.-C.) est le lieu de prière le plus saint du judaïsme. Juifs, chrétiens et musulmans se disputent depuis des siècles le contrôle de l'Esplanade des Mosquées / Mont du Temple — l'endroit le plus disputé de toute l'histoire humaine, quelques hectares de pierre à Jérusalem."
+            "i": "👑",
+            "t": "<b>Salomon était réputé pour sa sagesse — et pour ses 700 femmes.</b> La Bible lui attribue un harem de 700 épouses royales et 300 concubines. Ses alliances matrimoniales avec les filles des rois voisins reflètent la diplomatie de l'époque : on scelle les traités par des mariages."
           },
           {
-            "e": "👑",
-            "t": "<b>Salomon était réputé pour sa sagesse — et pour ses 700 femmes.</b> La Bible lui attribue un harem de 700 épouses de rang royal et 300 concubines. Si le chiffre est symbolique, il dit l'ampleur des alliances diplomatiques du règne. C'est aussi Salomon qui aurait écrit le Cantique des Cantiques — le poème d'amour le plus célèbre de la Bible, dont l'interprétation (profane ou mystique ?) divise encore théologiens et littéraires."
+            "i": "🐐",
+            "t": "<b>Le 'bouc émissaire' vient d'un rituel hébreu décrit dans le Lévitique.</b> Une fois par an, le Grand Prêtre posait les mains sur un bouc en confessant publiquement tous les péchés du peuple — les lui 'transférant' symboliquement. Le bouc était ensuite chassé vivant dans le désert, emportant les fautes collectives. Ce rituel de Yom Kippour (le Grand Pardon) donnera l'expression que nous utilisons encore aujourd'hui pour désigner celui sur qui on fait retomber la faute des autres."
           }
         ],
         "quiz": {
@@ -499,6 +570,30 @@
           "hint": "Massalia est la plus ancienne ville de France — 2 600 ans avant l'hymne national"
         },
         "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
+      },
+      {
+        "icon": "🐪",
+        "tag": "Commerce",
+        "date": "–400 à –100 av. J.-C.",
+        "title": "Pétra & les Routes Caravanières",
+        "desc": "Au cœur du désert jordanien, le peuple nabatéen taille dans la roche rose une ville extraordinaire : Pétra. Carrefour entre l'Arabie, l'Égypte et la Méditerranée, elle contrôle le commerce des épices, de l'encens, de la soie et de l'or. Ses ingénieurs maîtrisent l'eau dans le désert grâce à un réseau de citernes et de canaux invisible depuis l'extérieur. Au premier siècle avant J.-C., Pétra est l'une des villes les plus riches du monde.",
+        "kind": "histoire",
+        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp",
+        "anecdotes": [
+          {
+            "i": "🏛️",
+            "t": "<b>Le Trésor (Al-Khazneh) n'est pas un trésor.</b> Cette façade taillée dans le roc de 43 mètres de haut était en réalité un mausolée royal. Les Bédouins pensaient qu'une urne au sommet contenait des trésors — ils la criblèrent de balles pour la faire s'ouvrir. Elle est en pierre solide."
+          },
+          {
+            "i": "💧",
+            "t": "<b>Les Nabatéens ont vaincu le désert par l'ingénierie.</b> Leurs canaux et citernes collectaient chaque goutte de pluie et de rosée. Pétra pouvait alimenter 30 000 habitants dans un désert aride — une prouesse d'ingénierie hydraulique sans équivalent dans l'Antiquité."
+          }
+        ],
+        "quiz": {
+          "q": "Dans quelle roche la ville de Pétra est-elle principalement sculptée ?",
+          "r": "Dans le grès rose-rouge",
+          "hint": "La couleur de la roche lui vaut parfois le surnom de 'ville rose'"
+        }
       },
       {
         "icon": "🏛️",
@@ -915,6 +1010,33 @@
         "img": "histoire/Néron contemple la ville en flammes.webp"
       },
       {
+        "icon": "🔥",
+        "tag": "Catastrophe",
+        "date": "70 ap. J.-C.",
+        "title": "Titus Détruit le Temple — La Diaspora Juive",
+        "kind": "histoire",
+        "desc": "En l'an 70, le général romain Titus écrase la grande révolte juive et rase Jérusalem. Le Second Temple — reconstruit par Hérode le Grand à partir de –20 av. J.-C. — est incendié et détruit. C'est la deuxième destruction du Temple, la plus traumatisante de l'histoire juive. Plus d'un million de Juifs périssent selon Josèphe. Des centaines de milliers sont déportés ou réduits en esclavage. Commence la grande Diaspora : les Juifs, sans terre ni Temple, deviendront le 'peuple du Livre', dispersé dans tout l'Empire.",
+        "anecdotes": [
+          {
+            "i": "🕍",
+            "t": "<b>Le Mur des Lamentations est le seul vestige du Second Temple.</b> Ce mur de soutènement — pas un mur du Temple lui-même, mais la plateforme sur laquelle il était bâti — est depuis 2 000 ans le lieu de prière le plus sacré du judaïsme. On y glisse encore des billets de prières dans les fissures entre les pierres."
+          },
+          {
+            "i": "🕎",
+            "t": "<b>La destruction du Temple a transformé le judaïsme en profondeur.</b> Sans Temple, sans sacrifices, sans prêtres — comment pratiquer ? Les rabbins inventent alors une nouvelle forme de judaïsme centré sur la prière, l'étude de la Torah et la synagogue. C'est ce judaïsme rabbinique qui survit jusqu'à aujourd'hui."
+          },
+          {
+            "i": "🏛️",
+            "t": "<b>L'Arc de Titus à Rome célèbre encore cette victoire.</b> Érigé en 81 ap. J.-C., il représente le défilé triomphal avec la Menorah (le chandelier à 7 branches) et les trésors du Temple. Pendant des siècles, les Juifs de Rome refusaient de passer sous cet arc par respect pour les victimes."
+          }
+        ],
+        "quiz": {
+          "q": "Quel objet sacré du Temple de Jérusalem est représenté sur l'Arc de Titus à Rome ?",
+          "r": "La Menorah (chandelier à 7 branches)",
+          "hint": "Ce candélabre à sept branches est encore aujourd'hui le symbole de l'État d'Israël"
+        }
+      },
+      {
         "title": "Pompéi — La Ville Engloutie",
         "date": "79 ap. J.-C.",
         "tag": "Catastrophe",
@@ -1050,6 +1172,54 @@
           "hint": "Cette précision géodésique sans instruments modernes reste un exploit d'ingénierie"
         },
         "img": "histoire/pont_du_gard.webp"
+      },
+      {
+        "icon": "🏛️",
+        "tag": "Société",
+        "date": "Ier–IIe siècle ap. J.-C.",
+        "title": "La Vie dans une Villa Romaine — Art de Vivre à la Romaine",
+        "desc": "La villa romaine est bien plus qu'une maison : c'est une institution. Autour de l'atrium (cour centrale avec bassin), se déploient triclinium (salle à manger), tablinum (bureau du pater familias), jardins à colonnades et bains privés. Les sols de mosaïque, les fresques aux murs, les sculptures dans les jardins témoignent d'un raffinement qui ne sera retrouvé en Europe qu'à la Renaissance. En Gaule, ce modèle se diffuse massivement au Ier siècle : les aristocrates gaulois adoptent le mode de vie romain tout en conservant leurs langues et traditions.",
+        "kind": "histoire",
+        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp",
+        "anecdotes": [
+          {
+            "i": "🍷",
+            "t": "<b>Le repas romain était une performance sociale.</b> Au triclinium, on mangeait allongé sur des lits inclinés (les lectii). L'ordre des places reflétait la hiérarchie sociale. Un repas d'apparat (convivium) pouvait durer 4 à 6 heures, entrecoupé de musique, de poésie et de débats philosophiques."
+          },
+          {
+            "i": "🚿",
+            "t": "<b>Les Romains se lavaient tous les jours — chose rare dans l'Antiquité.</b> Les thermes publics (accessibles pour une somme modique) étaient des centres sociaux : on s'y baignait dans des bassins à différentes températures (frigidarium, tepidarium, caldarium), mais aussi on y discutait affaires, politique et philosophie."
+          }
+        ],
+        "quiz": {
+          "q": "Comment appelait-on la pièce centrale d'une maison romaine, dotée d'un bassin pour recueillir l'eau de pluie ?",
+          "r": "L'atrium",
+          "hint": "Ce mot a donné 'atrium' en français moderne, désignant encore aujourd'hui un hall central ouvert"
+        }
+      },
+      {
+        "icon": "🌾",
+        "tag": "Agriculture",
+        "date": "Ier–IIe siècle ap. J.-C.",
+        "title": "L'Agriculture Romaine en Gaule — La Révolution des Techniques",
+        "desc": "La conquête romaine apporte en Gaule une véritable révolution agricole. Le moulin à eau remplace le broyage à la main. La charrue à roues améliore le labour. La faucille à encoches (vallus) permet de moissonner mécaniquement — inventée par les Gaulois et adoptée par Rome. Les vignes, l'olivier, les vergers fruitiers se multiplient. Les grandes villae rusticae organisent une agriculture rationalisée qui nourrit les villes. La Gaule devient le grenier à blé de l'Empire.",
+        "kind": "histoire",
+        "img": "histoire/Le_semeur_au_lever_du_soleil.webp",
+        "anecdotes": [
+          {
+            "i": "🍇",
+            "t": "<b>La vigne en France, c'est une invention romaine.</b> Avant la conquête, les Gaulois buvaient de la bière et importaient le vin à prix d'or depuis l'Italie. Les Romains plantent les premières vignes en Narbonnaise dès –125 av. J.-C. Bordeaux, Bourgogne, Alsace — les grands vignobles français sont d'origine romaine."
+          },
+          {
+            "i": "⚙️",
+            "t": "<b>Le vallus gaulois est la première moissonneuse-batteuse de l'histoire.</b> Cette machine à peignes tirée par un âne coupait les épis directement dans le champ. Elle disparaît avec l'Empire romain et ne sera réinventée qu'au XIXe siècle. 1 800 ans de régression technologique."
+          }
+        ],
+        "quiz": {
+          "q": "Quel boisson les Gaulois consommaient-ils avant que les Romains introduisent massivement la vigne en Gaule ?",
+          "r": "La bière (cervoise)",
+          "hint": "Une boisson fermentée à base de céréales, encore populaire dans les pays du Nord"
+        }
       },
       {
         "kind": "histoire",
@@ -1263,22 +1433,18 @@
       {
         "kind": "histoire",
         "icon": "📜",
-        "tag": "Texte fondateur",
+        "tag": "Histoire des textes",
         "date": "–600 à –200 av. J.-C.",
-        "title": "L'Ancien Testament — La Bible Hébraïque",
-        "desc": "L'Ancien Testament (ou Tanakh en hébreu) rassemble les textes sacrés du judaïsme : la Torah (les cinq livres de Moïse), les Prophètes (Isaïe, Jérémie, Ézéchiel…) et les Écrits (Psaumes, Proverbes, Job…). Si certains textes remontent au Xe siècle avant J.-C., c'est surtout l'exil babylonien (–586 à –538) qui accélère leur mise par écrit définitive. Vers –250 av. J.-C., à Alexandrie, 70 rabbins le traduisent en grec : c'est la Septante, version qui sera citée par les auteurs chrétiens.",
+        "title": "La Rédaction de la Bible Hébraïque",
+        "desc": "Les textes qui formeront la Bible hébraïque (Tanakh) ne sont pas écrits par Moïse mais compilés et mis par écrit principalement lors de l'exil à Babylone (–586) et dans les siècles qui suivent. La Torah (les cinq premiers livres), les Prophètes et les Écrits sont progressivement rassemblés, débattus et canonisés. C'est moins un événement qu'un long processus de mémoire collective mise en mots.",
         "anecdotes": [
           {
-            "e": "📚",
-            "t": "<b>L'Ancien Testament est la bibliothèque la plus traduite et copiée de l'histoire.</b> Écrit en hébreu et en araméen, traduit en grec (Septante, –250), en latin (Vulgate, 405 ap. J.-C. par saint Jérôme), puis dans toutes les langues du monde. Il a influencé le droit, la littérature, l'art et la politique de l'ensemble de la civilisation occidentale pendant 3 000 ans — même pour ceux qui ne l'ont jamais lu."
+            "i": "📚",
+            "t": "<b>La Bible est une bibliothèque, pas un livre.</b> Le mot 'Bible' vient du grec 'biblia' — les livres. Elle rassemble 73 textes (pour les catholiques) rédigés sur plus de 1 000 ans, par des dizaines d'auteurs, en trois langues (hébreu, araméen, grec), dans des genres très différents : loi, poésie, histoire, prophétie, sagesse, épopée."
           },
           {
-            "e": "🔬",
-            "t": "<b>L'archéologie confirme certains récits bibliques — et en nuance d'autres.</b> L'existence de David est attestée par une inscription extrabiblique (stèle de Tel Dan, –840). L'Exode d'Égypte n'a laissé aucune trace archéologique identifiable, mais le Sinaï a été habité. La Bible est un texte religieux rédigé sur des siècles par des auteurs multiples — ni histoire objective, ni pure fiction."
-          },
-          {
-            "e": "✍️",
-            "t": "<b>Le livre de Job soulève une question que 3 000 ans n'ont pas résolue.</b> Pourquoi les justes souffrent-ils ? Job, homme parfait, perd tout : ses enfants, sa fortune, sa santé — sans avoir faute. La réponse finale de Dieu est : 'Où étais-tu quand j'ai fondé la Terre ?' Pas une explication, mais une mise en perspective de l'infiniment petit de l'humain face au cosmos. La question reste ouverte."
+            "i": "📜",
+            "t": "<b>Les manuscrits de la mer Morte (1947) ont révolutionné notre compréhension.</b> Découverts dans des grottes près de Qumrân, ces textes datant de –200 à 70 ap. J.-C. sont les plus vieux manuscrits bibliques connus. Ils confirment que le texte a été remarquablement bien préservé à travers les siècles."
           }
         ],
         "quiz": {
