@@ -1384,7 +1384,7 @@
         "title": "L'Agriculture Romaine en Gaule — La Révolution des Techniques",
         "desc": "La conquête romaine apporte en Gaule une véritable révolution agricole. Le moulin à eau remplace le broyage à la main. La charrue à roues améliore le labour. La faucille à encoches (vallus) permet de moissonner mécaniquement — inventée par les Gaulois et adoptée par Rome. Les vignes, l'olivier, les vergers fruitiers se multiplient. Les grandes villae rusticae organisent une agriculture rationalisée qui nourrit les villes. La Gaule devient le grenier à blé de l'Empire.",
         "kind": "histoire",
-        "img": "histoire/Récolte de blé dans la campagne romaine.webp",
+        "img": "histoire/Le_semeur_au_lever_du_soleil.webp",
         "anecdotes": [
           {
             "i": "🍇",
@@ -1423,7 +1423,7 @@
           "r": "Pline l'Ancien",
           "hint": "Cette machine fut oubliée puis réinventée au XIXe siècle par des ingénieurs qui l'ignoraient"
         },
-        "img": "histoire/Récolte de blé dans la campagne romaine.webp"
+        "img": "histoire/moissonneuse gauloise.webp"
       },
       {
         "icon": "🏟️",
