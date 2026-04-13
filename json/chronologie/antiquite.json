@@ -50,7 +50,7 @@
           "r": "En argile cuite",
           "hint": "Un matériau abondant en Mésopotamie, entre le Tigre et l'Euphrate"
         },
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "title": "Unification de l'Égypte — Ménès & la Double Couronne",
@@ -242,7 +242,7 @@
             "t": "Son épouse Néfertiti est l'une des femmes les plus représentées de l'Antiquité. Son buste au musée de Berlin est l'une des œuvres d'art les plus célèbres au monde."
           }
         ],
-        "img": "histoire/La_destruction_des_anciens_dieux_à_Amarna.webp"
+        "img": "histoire/La destruction des anciens dieux à Amarna.webp"
       },
       {
         "title": "Toutankhamon — Le Pharaon Enfant",
@@ -257,7 +257,7 @@
             "t": "La 'malédiction du pharaon' : plusieurs membres de l'équipe de fouille meurent dans les années suivantes. En réalité, des bactéries et des moisissures piégées 3 000 ans dans la tombe sont la cause la plus probable."
           }
         ],
-        "img": "histoire/Le_jeune_pharaon_et_ses_trésors.webp"
+        "img": "histoire/Le jeune pharaon et ses trésors.webp"
       },
       {
         "icon": "☀️",
@@ -405,7 +405,7 @@
         "title": "Jérusalem — La Ville aux Trois Religions",
         "kind": "histoire",
         "desc": "David conquiert Jérusalem vers –1000 av. J.-C. et en fait la capitale du royaume d'Israël. Son fils Salomon y bâtit le Premier Temple. En trois mille ans, la ville sera conquise, détruite et reconstruite plus de vingt fois : par Babylone (–586), Alexandre (–332), Rome (–63 puis 70 ap. J.-C.), les Croisés (1099), Saladin (1187), les Ottomans (1517). Chaque conquête laisse ses pierres et ses prières. Aujourd'hui encore, juifs, chrétiens et musulmans se disputent ce kilomètre carré de la Vieille Ville.",
-        "img": "histoire/Vue_panoramique_de_la_vieille_ville_de_Jérusalem.webp",
+        "img": "histoire/Jérusalem ancienne sous la lumière dorée.webp",
         "anecdotes": [
           {
             "i": "🕍",
@@ -448,7 +448,7 @@
           "r": "Les Tables de la Loi reçues par Moïse au mont Sinaï",
           "hint": "L'Arche disparaît en –586 lors de la destruction du Temple — son sort reste un mystère"
         },
-        "img": "histoire/Temple de Salomon et l Arche sainte.webp"
+        "img": "histoire/Temple de Salomon et l'Arche sainte.webp"
       },
       {
         "title": "Création de Carthage — La Rivale de Rome",
@@ -463,7 +463,7 @@
             "t": "'Carthago delenda est' — Carthage doit être détruite. Caton l'Ancien terminait chacun de ses discours au Sénat par cette phrase, quel que soit le sujet traité. En 146 av. J.-C., Rome rase la ville et, selon la légende, sème son sol de sel pour qu'elle ne repousse jamais."
           }
         ],
-        "img": "histoire/La_fondation_de_Carthage_par_Didon.webp"
+        "img": "histoire/La fondation de Carthage par Didon.webp"
       },
       {
         "kind": "histoire",
@@ -515,7 +515,7 @@
           "r": "La Septante (ou LXX)",
           "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
         },
-        "img": "histoire/Moïse et les prophètes sous l orage.webp"
+        "img": "histoire/Moïse et les prophètes sous l'orage.webp"
       }
     ]
   },
@@ -589,7 +589,7 @@
           "r": "Une louve",
           "hint": "Un animal symbole de Rome encore aujourd'hui"
         },
-        "img": "histoire/fondation_de_rome.webp"
+        "img": "histoire/fondation de rome.webp"
       },
       {
         "icon": "⚓",
@@ -673,7 +673,7 @@
           "r": "La bataille de Salamine",
           "hint": "Thémistocle attira la flotte perse dans un détroit étroit où sa supériorité numérique devenait un piège"
         },
-        "img": "histoire/Batailles_iconiques_des_guerres_gréco-perses.webp"
+        "img": "histoire/Batailles iconiques des guerres gréco-perses.webp"
       },
       {
         "title": "Socrate, Platon — La Philosophie Occidentale",
@@ -777,7 +777,7 @@
           "r": "Bucéphale — la ville s'appelait Bucéphalie",
           "hint": "Alexandre avait dompté ce cheval à 16 ans en comprenant qu'il avait peur de son ombre"
         },
-        "img": "histoire/Diogène_et_l_agora_d_Athènes.webp"
+        "img": "histoire/Diogène et l'agora d'Athènes.webp"
       },
       {
         "kind": "histoire",
@@ -805,7 +805,7 @@
           "r": "« Ôte-toi de mon soleil. »",
           "hint": "Alexandre, ébloui, déclara : 'Si je n'étais pas Alexandre, je voudrais être Diogène'"
         },
-        "img": "histoire/Diogène_et_l_agora_d_Athènes.webp"
+        "img": "histoire/Diogène et l'agora d'Athènes.webp"
       },
       {
         "icon": "🐪",
@@ -944,7 +944,7 @@
           "r": "Alea jacta est (le sort en est jeté)",
           "hint": "Une phrase en latin qui signifie qu'il n'y a plus de retour en arrière"
         },
-        "img": "histoire/Jules_César___de_général_à_empereur.webp"
+        "img": "histoire/Jules César _ de général à empereur.webp"
       },
       {
         "icon": "⚔️",
@@ -1125,7 +1125,7 @@
           "r": "Paul de Tarse (saint Paul)",
           "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
         },
-        "img": "histoire/La_Nativité_sous_l_étoile_brillante.webp"
+        "img": "histoire/La Nativité sous l'étoile brillante.webp"
       },
       {
         "icon": "🔥",
@@ -1181,7 +1181,7 @@
           "r": "La Menorah (chandelier à 7 branches)",
           "hint": "Ce candélabre à sept branches est encore aujourd'hui le symbole de l'État d'Israël"
         },
-        "img": "histoire/La_chute_de_Jérusalem_sous_siège.webp"
+        "img": "histoire/La chute de Jérusalem sous siège.webp"
       },
       {
         "kind": "histoire",
@@ -1229,7 +1229,7 @@
           "r": "6 mètres",
           "hint": "Une couche suffisante pour dissimuler une ville entière pendant 17 siècles"
         },
-        "img": "histoire/L'éruption de Pompéi en 79 après J-C_.webp"
+        "img": "histoire/L'éruption de Pompéi en 79 après J.-C..webp"
       },
       {
         "icon": "🏟️",
@@ -1599,7 +1599,7 @@
           "r": "Romulus Augustule",
           "hint": "Il portait le nom du fondateur légendaire de Rome — une ironie de l'histoire"
         },
-        "img": "histoire/La_chute_de_Rome__476_après_J_-C_.webp"
+        "img": "histoire/La chute de Rome, 476 après J.-C..webp"
       }
     ]
   }
