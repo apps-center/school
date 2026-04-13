@@ -30,7 +30,7 @@
           "r": "Kushim — un comptable d'Uruk",
           "hint": "Pas un roi, pas un héros : son nom figure sur une tablette d'inventaire de grain"
         },
-        "img": "histoire/Ville antique de Sumer en soirée.webp"
+        "img": "histoire/croissant_fertile.webp"
       },
       {
         "title": "L'Invention de l'Écriture — Cunéiforme & Hiéroglyphes",
@@ -171,7 +171,7 @@
           "r": "282 articles — gravés sur basalte, conservés au Louvre à Paris",
           "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
         },
-        "img": "histoire/La ville de Babylone animée.webp"
+        "img": "histoire/babylone_vers_-1800.webp"
       },
       {
         "kind": "histoire",
@@ -199,7 +199,7 @@
           "r": "–586 av. J.-C.",
           "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
         },
-        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
+        "img": "histoire/Histoire_ancienne_du_judaïsme_en_triptyque.webp"
       },
       {
         "kind": "histoire",
@@ -444,7 +444,7 @@
           "r": "Les Tables de la Loi reçues par Moïse au mont Sinaï",
           "hint": "L'Arche disparaît en –586 lors de la destruction du Temple — son sort reste un mystère"
         },
-        "img": "histoire/Noé guide les animaux vers l'Arche.webp"
+        "img": "histoire/Temple_de_Salomon_et_l_Arche_sainte.webp"
       },
       {
         "title": "Création de Carthage — La Rivale de Rome",
@@ -485,7 +485,8 @@
           "q": "Quel roi perse libéra les Juifs exilés à Babylone en –538, dans le premier décret de tolérance religieuse connu de l'histoire ?",
           "r": "Cyrus le Grand (Cyrus II de Perse)",
           "hint": "Il est le seul non-Juif appelé 'messie' dans la Bible — et son Édit est exposé à l'ONU"
-        }
+        },
+        "img": "histoire/Cyrus_libère_les_captifs_juifs.webp"
       },
       {
         "kind": "histoire",
@@ -1038,7 +1039,7 @@
           "r": "Claude (Claudius)",
           "hint": "Il plaida au Sénat pour que les notables gaulois puissent accéder aux plus hautes fonctions romaines"
         },
-        "img": "histoire/"
+        "img": "histoire/Lugdunum_à_son_apogée.webp"
       },
       {
         "icon": "🏗️",
@@ -1141,7 +1142,8 @@
           "q": "Quel objet sacré du Temple de Jérusalem est représenté sur l'Arc de Titus à Rome ?",
           "r": "La Menorah (chandelier à 7 branches)",
           "hint": "Ce candélabre à sept branches est encore aujourd'hui le symbole de l'État d'Israël"
-        }
+        },
+        "img": "histoire/La_destruction_du_Temple_de_Salomon_par_Nabuchodonosor.webp"
       },
       {
         "kind": "histoire",
