@@ -20,7 +20,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "🔱",
@@ -39,7 +39,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Attila.webp"
+        "img": "histoire/Atila.webp"
       }
     ]
   },
@@ -64,7 +64,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Le_baptême_de_Clovis_à_Reims.webp"
       },
       {
         "icon": "👑",
@@ -97,7 +97,8 @@
             "t": "<b>Couper les cheveux d'un roi mérovingien équivalait à l'abdiquer.</b> Plusieurs furent tonsurés de force et envoyés au monastère."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
       }
     ]
   },
@@ -117,7 +118,8 @@
             "t": "<b>Charles Martel était né illégitime.</b> Emprisonné par sa belle-mère, il s'évada et prit le pouvoir. Le sauveur de l'Europe chrétienne était un bâtard en fuite."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "⚜️",
@@ -131,7 +133,8 @@
             "t": "<b>La « donation de Pépin » (754) :</b> il offrit au pape des terres en Italie en échange de sa légitimation. Naissance des États pontificaux, qui dureront jusqu'en 1870."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
       },
       {
         "icon": "👑",
@@ -150,7 +153,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/sacre_charlemagne.webp"
       },
       {
         "icon": "🛶",
@@ -173,7 +176,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/raids_vikings.webp"
       },
       {
         "kind": "histoire",
@@ -190,7 +193,8 @@
             "e": "⚔️",
             "t": "<b>L'étrier changea la guerre.</b> Le cavalier stabilisé peut frapper avec toute la force de son cheval. C'est ce qui rendit la chevalerie lourde possible — et domina les champs de bataille pendant 700 ans."
           }
-        ]
+        ],
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       }
     ]
   },
@@ -230,7 +234,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Le_seigneur_et_le_vassal_supérieur.webp"
       },
       {
         "icon": "✝️",
@@ -275,7 +279,8 @@
             "t": "<b>La cour d'Aliénor inventa la poésie courtoise et l'amour romantique.</b> Elle protégea les troubadours, imposa les codes de la chevalerie et de l'amour courtois — l'idée qu'on pouvait aimer sans posséder, servir une dame sans espoir de récompense. Ces codes littéraires, nés à Poitiers dans les années 1170, sont l'ancêtre direct de toute la littérature romantique occidentale."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La cour de la reine Aliénor.webp"
       },
       {
         "icon": "✝️",
@@ -312,7 +317,7 @@
             "t": "<b>Notre-Dame de Paris (1163-1345)</b> est l'exemple parfait : ses arcs-boutants permettent des murs de verre et une hauteur de 35 mètres sous voûte. Une prouesse d'ingénierie médiévale."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/arc_boutant.webp"
       },
       {
         "kind": "histoire",
@@ -330,7 +335,7 @@
             "t": "<b>Le système « licence-maîtrise-doctorat »</b> inventé par les universités médiévales est encore celui que nous utilisons aujourd'hui, 850 ans plus tard."
           }
         ],
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "⛪",
@@ -367,7 +372,7 @@
             "t": "<b>Don Quichotte attaque des moulins à vent</b> (Cervantes, 1605) en les prenant pour des géants. À cette époque, les moulins étaient si omniprésents dans le paysage qu'ils étaient devenus le symbole même du progrès technique."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "🗺️",
@@ -382,7 +387,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/La_bataille_de_Bouvines_en_1214.webp"
       },
       {
         "kind": "histoire",
@@ -400,7 +405,7 @@
             "t": "<b>La boussole pointe vers le nord magnétique,</b> pas le nord géographique. Cette déclinaison magnétique, découverte au XVe siècle, dut être compensée dans tous les calculs de navigation — une subtilité qui causa bien des naufrages."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
       },
       {
         "icon": "🌳",
@@ -432,7 +437,8 @@
             "e": "🏛️",
             "t": "<b>L'École de Notre-Dame de Paris</b> (Léonin, Pérotin, XIIe s.) est le premier grand centre de composition polyphonique de l'histoire. Les musiciens venaient du monde entier étudier à Paris — la musique classique occidentale est née à Notre-Dame."
           }
-        ]
+        ],
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "icon": "🎰",
@@ -507,7 +513,8 @@
             "t": "<b>Jeanne d'Arc avait 17 ans</b> quand elle convainquit le roi de la laisser mener son armée. Brûlée à 19 ans. Canonisée en 1920 — 489 ans après son exécution."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
       },
       {
         "icon": "🏹",
@@ -563,7 +570,8 @@
             "t": "<b>Il fut le premier roi à instaurer une fiscalité permanente.</b> L'impôt sur le sel (gabelle) et sur les transactions lui permit de financer son armée professionnelle — une révolution administrative."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "🌀",
@@ -581,7 +589,8 @@
             "t": "<b>Le Bal des Ardents (1393) :</b> lors d'une fête, des courtisans déguisés en sauvages prennent feu à cause des torches. Quatre morts. Charles VI n'échappe que par miracle — la duchesse de Berry le protège sous sa robe."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "⚔️",
@@ -604,7 +613,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "🏹",
@@ -623,7 +632,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Bataille d'Azincourt sous la pluie.webp"
       },
       {
         "icon": "⚜️",
@@ -641,7 +650,8 @@
             "t": "<b>Il créa la première armée permanente de France</b> en 1445 — les Compagnies d'Ordonnance. Pour la première fois, les soldats étaient payés régulièrement, disciplinés et entraînés. La chevalerie féodale improvisée disparaissait."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "🔥",
