@@ -86,9 +86,10 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 /* IMAGE MINIATURE côté opposé à la carte */
 .ev-img{width:calc(50% - 54px);flex-shrink:0;display:flex;align-items:stretch;}
 .ev-img img{width:100%;height:100%;object-fit:cover;border-radius:5px;
-  border:1px solid rgba(200,180,120,.18);opacity:.75;
-  transition:opacity .3s,transform .3s,box-shadow .3s;cursor:pointer;display:block;}
-.ev:hover .ev-img img{opacity:1;transform:scale(1.025);box-shadow:0 4px 20px rgba(0,0,0,.5);}
+  border:1px solid rgba(200,180,120,.25);opacity:1;
+  box-shadow:0 4px 20px rgba(0,0,0,.5);cursor:pointer;display:block;
+  transition:transform .3s;}
+.ev:hover .ev-img img{transform:scale(1.025);}
 .ev-img-placeholder{width:calc(50% - 54px);flex-shrink:0;}
 
 .ctag{display:inline-block;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;
