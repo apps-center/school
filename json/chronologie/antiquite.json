@@ -1,6 +1,11 @@
 [
   {
-    "era": "✦ Premières Civilisations — −4000 à −2000",
+    "era": "⬛ HAUTE ANTIQUITÉ",
+    "cls": "antique",
+    "events": []
+  },
+  {
+    "era": "✦ Premières Civilisations — −3500 à −2000",
     "cls": "antique",
     "events": [
       {
@@ -141,7 +146,7 @@
     ]
   },
   {
-    "era": "✦ Égypte & Proche-Orient — −2000 à −800",
+    "era": "✦ Égypte, Mésopotamie & Récits Fondateurs — −2000 à −1200",
     "cls": "antique",
     "events": [
       {
@@ -167,6 +172,58 @@
           "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
         },
         "img": "histoire/La ville de Babylone animée.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "✡️",
+        "tag": "Religion",
+        "date": "–1 800 à –1 200 av. J.-C.",
+        "title": "La Naissance du Judaïsme — Le Premier Monothéisme",
+        "desc": "Selon la tradition biblique, Abraham quitte Ur en Chaldée et conclut une alliance (berith) avec un Dieu unique et universel — idée révolutionnaire dans un monde polythéiste. Cette figure fondatrice est commune aux trois monothéismes : judaïsme, christianisme et islam. L'historicité d'Abraham fait débat : aucune source extrabiblique ne le mentionne, mais la tradition orale qu'il représente correspond à des migrations de peuples sémites réelles vers –1 800.",
+        "anecdotes": [
+          {
+            "i": "✡️",
+            "t": "<b>Le monothéisme est une révolution philosophique sans précédent.</b> Toutes les civilisations antiques adoraient des panthéons de dieux liés à des territoires. L'idée qu'il n'existe qu'un seul Dieu, universel et invisible, est une rupture radicale — qui bouleversera l'histoire du monde pendant 3 000 ans."
+          },
+          {
+            "i": "📜",
+            "t": "<b>Abraham est la figure commune des trois grands monothéismes.</b> Pour les juifs, il est l'ancêtre du peuple élu. Pour les chrétiens, le père de la foi. Pour les musulmans, Ibrahim est un prophète et le constructeur de la Kaaba à La Mecque. Trois religions, une racine commune."
+          },
+          {
+            "i": "🐐",
+            "t": "<b>Le 'bouc émissaire' vient d'un rituel hébreu décrit dans le Lévitique.</b> Une fois par an, le Grand Prêtre posait les mains sur un bouc en confessant publiquement tous les péchés du peuple — les lui 'transférant' symboliquement. Le bouc était ensuite chassé vivant dans le désert, emportant les fautes collectives. Ce rituel de Yom Kippour (le Grand Pardon) donnera l'expression que nous utilisons encore aujourd'hui pour désigner celui sur qui on fait retomber la faute des autres."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle est la date traditionnelle de la destruction du premier Temple de Jérusalem, qui provoqua l'exil des Hébreux à Babylone ?",
+          "r": "–586 av. J.-C.",
+          "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
+        },
+        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🌊",
+        "tag": "Tradition biblique",
+        "date": "–1 250 av. J.-C.",
+        "title": "Moïse & l'Exode — La Libération d'Égypte",
+        "desc": "Selon la Bible, le peuple hébreu est réduit en esclavage en Égypte. Moïse, hébreu élevé à la cour du Pharaon, reçoit de Dieu une mission au buisson ardent : libérer son peuple. Les dix plaies d'Égypte, la traversée de la mer Rouge, les Tables de la Loi reçues au Sinaï — ces récits fondent l'identité juive. <em>Note : aucun document égyptien ne mentionne cet Exode, et l'archéologie du Sinaï n'a pas retrouvé de traces d'un campement de masse. L'événement est historiquement non confirmé mais theólogiquement fondateur.</em>",
+        "anecdotes": [
+          {
+            "i": "🌊",
+            "t": "<b>L'archéologie n'a pas retrouvé de trace d'un Exode massif.</b> Aucun document égyptien ne mentionne une fuite hébraïque ni une série de plaies. Le désert du Sinaï, fouillé intensivement, n'a livré aucun artefact d'un campement de 600 000 personnes pendant 40 ans. Cela ne signifie pas que l'événement n'a pas eu lieu — mais son ampleur biblique est probablement symbolique."
+          },
+          {
+            "i": "🕯️",
+            "t": "<b>La Pâque juive (Pessah) commémore l'Exode chaque année depuis 3 000 ans.</b> Le repas du Seder — pain sans levain, herbes amères, agneau — reconstitue rituellement la nuit de la fuite. C'est l'une des célébrations religieuses les plus anciennes encore pratiquées dans le monde."
+          }
+        ],
+        "quiz": {
+          "q": "Quel est le nom de la fête juive qui commémore chaque année la libération d'Égypte sous Moïse ?",
+          "r": "La Pâque (Pessah)",
+          "hint": "Le repas du Seder rejoue symboliquement la nuit de la fuite — pain sans levain, herbes amères, agneau"
+        },
+        "img": "histoire/Moïse_et_le_buisson_ardent.webp"
       },
       {
         "title": "Akhenaton — Le Pharaon Hérétique",
@@ -297,7 +354,18 @@
           "r": "22 lettres (consonnes uniquement)",
           "hint": "Pas de voyelles — les lecteurs les devinaient selon le contexte, comme en arabe et hébreu aujourd'hui"
         }
-      },
+      }
+    ]
+  },
+  {
+    "era": "⬛ ANTIQUITÉ MOYENNE",
+    "cls": "antique",
+    "events": []
+  },
+  {
+    "era": "✦ Proche-Orient & Méditerranée — −1200 à −600",
+    "cls": "antique",
+    "events": [
       {
         "icon": "🪨",
         "tag": "Récit biblique",
@@ -352,58 +420,6 @@
       },
       {
         "kind": "histoire",
-        "icon": "✡️",
-        "tag": "Religion",
-        "date": "–1 800 à –1 200 av. J.-C.",
-        "title": "La Naissance du Judaïsme — Le Premier Monothéisme",
-        "desc": "Selon la tradition biblique, Abraham quitte Ur en Chaldée et conclut une alliance (berith) avec un Dieu unique et universel — idée révolutionnaire dans un monde polythéiste. Cette figure fondatrice est commune aux trois monothéismes : judaïsme, christianisme et islam. L'historicité d'Abraham fait débat : aucune source extrabiblique ne le mentionne, mais la tradition orale qu'il représente correspond à des migrations de peuples sémites réelles vers –1 800.",
-        "anecdotes": [
-          {
-            "i": "✡️",
-            "t": "<b>Le monothéisme est une révolution philosophique sans précédent.</b> Toutes les civilisations antiques adoraient des panthéons de dieux liés à des territoires. L'idée qu'il n'existe qu'un seul Dieu, universel et invisible, est une rupture radicale — qui bouleversera l'histoire du monde pendant 3 000 ans."
-          },
-          {
-            "i": "📜",
-            "t": "<b>Abraham est la figure commune des trois grands monothéismes.</b> Pour les juifs, il est l'ancêtre du peuple élu. Pour les chrétiens, le père de la foi. Pour les musulmans, Ibrahim est un prophète et le constructeur de la Kaaba à La Mecque. Trois religions, une racine commune."
-          },
-          {
-            "i": "🐐",
-            "t": "<b>Le 'bouc émissaire' vient d'un rituel hébreu décrit dans le Lévitique.</b> Une fois par an, le Grand Prêtre posait les mains sur un bouc en confessant publiquement tous les péchés du peuple — les lui 'transférant' symboliquement. Le bouc était ensuite chassé vivant dans le désert, emportant les fautes collectives. Ce rituel de Yom Kippour (le Grand Pardon) donnera l'expression que nous utilisons encore aujourd'hui pour désigner celui sur qui on fait retomber la faute des autres."
-          }
-        ],
-        "quiz": {
-          "q": "Quelle est la date traditionnelle de la destruction du premier Temple de Jérusalem, qui provoqua l'exil des Hébreux à Babylone ?",
-          "r": "–586 av. J.-C.",
-          "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
-        },
-        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
-      },
-      {
-        "kind": "histoire",
-        "icon": "🌊",
-        "tag": "Tradition biblique",
-        "date": "–1 250 av. J.-C.",
-        "title": "Moïse & l'Exode — La Libération d'Égypte",
-        "desc": "Selon la Bible, le peuple hébreu est réduit en esclavage en Égypte. Moïse, hébreu élevé à la cour du Pharaon, reçoit de Dieu une mission au buisson ardent : libérer son peuple. Les dix plaies d'Égypte, la traversée de la mer Rouge, les Tables de la Loi reçues au Sinaï — ces récits fondent l'identité juive. <em>Note : aucun document égyptien ne mentionne cet Exode, et l'archéologie du Sinaï n'a pas retrouvé de traces d'un campement de masse. L'événement est historiquement non confirmé mais theólogiquement fondateur.</em>",
-        "anecdotes": [
-          {
-            "i": "🌊",
-            "t": "<b>L'archéologie n'a pas retrouvé de trace d'un Exode massif.</b> Aucun document égyptien ne mentionne une fuite hébraïque ni une série de plaies. Le désert du Sinaï, fouillé intensivement, n'a livré aucun artefact d'un campement de 600 000 personnes pendant 40 ans. Cela ne signifie pas que l'événement n'a pas eu lieu — mais son ampleur biblique est probablement symbolique."
-          },
-          {
-            "i": "🕯️",
-            "t": "<b>La Pâque juive (Pessah) commémore l'Exode chaque année depuis 3 000 ans.</b> Le repas du Seder — pain sans levain, herbes amères, agneau — reconstitue rituellement la nuit de la fuite. C'est l'une des célébrations religieuses les plus anciennes encore pratiquées dans le monde."
-          }
-        ],
-        "quiz": {
-          "q": "Quel est le nom de la fête juive qui commémore chaque année la libération d'Égypte sous Moïse ?",
-          "r": "La Pâque (Pessah)",
-          "hint": "Le repas du Seder rejoue symboliquement la nuit de la fuite — pain sans levain, herbes amères, agneau"
-        },
-        "img": "histoire/Moïse_et_le_buisson_ardent.webp"
-      },
-      {
-        "kind": "histoire",
         "icon": "🕍",
         "tag": "Monument",
         "date": "–970 à –586 av. J.-C.",
@@ -429,6 +445,20 @@
           "hint": "L'Arche disparaît en –586 lors de la destruction du Temple — son sort reste un mystère"
         },
         "img": "histoire/Noé guide les animaux vers l'Arche.webp"
+      },
+      {
+        "title": "Création de Carthage — La Rivale de Rome",
+        "date": "–814 av. J.-C.",
+        "tag": "Fondation",
+        "icon": "⚓",
+        "desc": "La reine phénicienne Didon fonde Carthage ('Qart Hadasht' — la nouvelle ville) sur les côtes de l'actuelle Tunisie. En quelques siècles, Carthage devient la plus grande cité du monde méditerranéen occidental, avec 500 000 habitants. Sa marine contrôle toute la Méditerranée occidentale — jusqu'à ce que Rome l'anéantisse en 146 av. J.-C.",
+        "kind": "histoire",
+        "anecdotes": [
+          {
+            "i": "🔥",
+            "t": "'Carthago delenda est' — Carthage doit être détruite. Caton l'Ancien terminait chacun de ses discours au Sénat par cette phrase, quel que soit le sujet traité. En 146 av. J.-C., Rome rase la ville et, selon la légende, sème son sol de sel pour qu'elle ne repousse jamais."
+          }
+        ]
       },
       {
         "kind": "histoire",
@@ -458,23 +488,33 @@
         }
       },
       {
-        "title": "Création de Carthage — La Rivale de Rome",
-        "date": "–814 av. J.-C.",
-        "tag": "Fondation",
-        "icon": "⚓",
-        "desc": "La reine phénicienne Didon fonde Carthage ('Qart Hadasht' — la nouvelle ville) sur les côtes de l'actuelle Tunisie. En quelques siècles, Carthage devient la plus grande cité du monde méditerranéen occidental, avec 500 000 habitants. Sa marine contrôle toute la Méditerranée occidentale — jusqu'à ce que Rome l'anéantisse en 146 av. J.-C.",
         "kind": "histoire",
+        "icon": "📜",
+        "tag": "Histoire des textes",
+        "date": "–600 à –200 av. J.-C.",
+        "title": "La Rédaction de la Bible Hébraïque",
+        "desc": "Les textes qui formeront la Bible hébraïque (Tanakh) ne sont pas écrits par Moïse mais compilés et mis par écrit principalement lors de l'exil à Babylone (–586) et dans les siècles qui suivent. La Torah (les cinq premiers livres), les Prophètes et les Écrits sont progressivement rassemblés, débattus et canonisés. C'est moins un événement qu'un long processus de mémoire collective mise en mots.",
         "anecdotes": [
           {
-            "i": "🔥",
-            "t": "'Carthago delenda est' — Carthage doit être détruite. Caton l'Ancien terminait chacun de ses discours au Sénat par cette phrase, quel que soit le sujet traité. En 146 av. J.-C., Rome rase la ville et, selon la légende, sème son sol de sel pour qu'elle ne repousse jamais."
+            "i": "📚",
+            "t": "<b>La Bible est une bibliothèque, pas un livre.</b> Le mot 'Bible' vient du grec 'biblia' — les livres. Elle rassemble 73 textes (pour les catholiques) rédigés sur plus de 1 000 ans, par des dizaines d'auteurs, en trois langues (hébreu, araméen, grec), dans des genres très différents : loi, poésie, histoire, prophétie, sagesse, épopée."
+          },
+          {
+            "i": "📜",
+            "t": "<b>Les manuscrits de la mer Morte (1947) ont révolutionné notre compréhension.</b> Découverts dans des grottes près de Qumrân, ces textes datant de –200 à 70 ap. J.-C. sont les plus vieux manuscrits bibliques connus. Ils confirment que le texte a été remarquablement bien préservé à travers les siècles."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Sous quel nom désigne-t-on la traduction en grec de la Bible hébraïque, réalisée vers –250 av. J.-C. à Alexandrie ?",
+          "r": "La Septante (ou LXX)",
+          "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
+        },
+        "img": "histoire/Moïse et les prophètes sous l'orage.webp"
       }
     ]
   },
   {
-    "era": "✦ Grèce Antique & Méditerranée — −800 à −300",
+    "era": "✦ Grèce Antique & Monde Hellénistique — −800 à −300",
     "cls": "antique",
     "events": [
       {
@@ -570,30 +610,6 @@
           "hint": "Massalia est la plus ancienne ville de France — 2 600 ans avant l'hymne national"
         },
         "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
-      },
-      {
-        "icon": "🐪",
-        "tag": "Commerce",
-        "date": "–400 à –100 av. J.-C.",
-        "title": "Pétra & les Routes Caravanières",
-        "desc": "Au cœur du désert jordanien, le peuple nabatéen taille dans la roche rose une ville extraordinaire : Pétra. Carrefour entre l'Arabie, l'Égypte et la Méditerranée, elle contrôle le commerce des épices, de l'encens, de la soie et de l'or. Ses ingénieurs maîtrisent l'eau dans le désert grâce à un réseau de citernes et de canaux invisible depuis l'extérieur. Au premier siècle avant J.-C., Pétra est l'une des villes les plus riches du monde.",
-        "kind": "histoire",
-        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp",
-        "anecdotes": [
-          {
-            "i": "🏛️",
-            "t": "<b>Le Trésor (Al-Khazneh) n'est pas un trésor.</b> Cette façade taillée dans le roc de 43 mètres de haut était en réalité un mausolée royal. Les Bédouins pensaient qu'une urne au sommet contenait des trésors — ils la criblèrent de balles pour la faire s'ouvrir. Elle est en pierre solide."
-          },
-          {
-            "i": "💧",
-            "t": "<b>Les Nabatéens ont vaincu le désert par l'ingénierie.</b> Leurs canaux et citernes collectaient chaque goutte de pluie et de rosée. Pétra pouvait alimenter 30 000 habitants dans un désert aride — une prouesse d'ingénierie hydraulique sans équivalent dans l'Antiquité."
-          }
-        ],
-        "quiz": {
-          "q": "Dans quelle roche la ville de Pétra est-elle principalement sculptée ?",
-          "r": "Dans le grès rose-rouge",
-          "hint": "La couleur de la roche lui vaut parfois le surnom de 'ville rose'"
-        }
       },
       {
         "icon": "🏛️",
@@ -699,6 +715,34 @@
         "img": "histoire/Aristote et ses étudiants à Athènes.webp"
       },
       {
+        "icon": "📐",
+        "tag": "Sciences",
+        "date": "–625 à –100 av. J.-C.",
+        "title": "Thalès, Pythagore, Ptolémée — Les Savants Grecs",
+        "desc": "En deux siècles, la Grèce accomplit une révolution intellectuelle sans précédent : elle invente la démonstration mathématique, la philosophie, l'astronomie scientifique et la géographie rationnelle. Thalès de Milet (–624) prédit une éclipse solaire et mesure la hauteur des pyramides par les ombres. Pythagore (–570) lie mathématiques et musique. Euclide codifie la géométrie. Ptolémée (IIe siècle ap. J.-C.) construit un modèle du cosmos utilisé pendant 1 400 ans.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>Thalès calcula la hauteur de la pyramide de Khéops sans la gravir.</b> Il attendit le moment de la journée où son ombre égalait sa taille, puis mesura l'ombre de la pyramide. Sa méthode — les triangles semblables — est encore enseignée au collège 2 600 ans plus tard. C'est le premier exemple connu de raisonnement mathématique appliqué à un problème réel."
+          },
+          {
+            "e": "🎵",
+            "t": "<b>Pythagore découvrit que la musique obéit aux mathématiques.</b> En pinçant une corde tendue à la moitié, on obtient une note une octave plus haute — exactement. Les rapports 1/2, 2/3, 3/4 produisent des harmonies parfaites. Cette découverte le convainquit que l'univers entier était régi par des nombres. Il fonda une secte secrète dont les membres ne mangeaient pas de fèves — raison inconnue."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
+          "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
+          "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
+        },
+        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+      },
+      {
         "icon": "🌍",
         "tag": "Conquérant",
         "date": "–336 à –323 av. J.-C.",
@@ -727,6 +771,41 @@
         "img": "histoire/Alexandre le grand Le général au coucher du soleil.webp"
       },
       {
+        "icon": "🐪",
+        "tag": "Commerce",
+        "date": "–400 à –100 av. J.-C.",
+        "title": "Pétra & les Routes Caravanières",
+        "desc": "Au cœur du désert jordanien, le peuple nabatéen taille dans la roche rose une ville extraordinaire : Pétra. Carrefour entre l'Arabie, l'Égypte et la Méditerranée, elle contrôle le commerce des épices, de l'encens, de la soie et de l'or. Ses ingénieurs maîtrisent l'eau dans le désert grâce à un réseau de citernes et de canaux invisible depuis l'extérieur. Au premier siècle avant J.-C., Pétra est l'une des villes les plus riches du monde.",
+        "kind": "histoire",
+        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp",
+        "anecdotes": [
+          {
+            "i": "🏛️",
+            "t": "<b>Le Trésor (Al-Khazneh) n'est pas un trésor.</b> Cette façade taillée dans le roc de 43 mètres de haut était en réalité un mausolée royal. Les Bédouins pensaient qu'une urne au sommet contenait des trésors — ils la criblèrent de balles pour la faire s'ouvrir. Elle est en pierre solide."
+          },
+          {
+            "i": "💧",
+            "t": "<b>Les Nabatéens ont vaincu le désert par l'ingénierie.</b> Leurs canaux et citernes collectaient chaque goutte de pluie et de rosée. Pétra pouvait alimenter 30 000 habitants dans un désert aride — une prouesse d'ingénierie hydraulique sans équivalent dans l'Antiquité."
+          }
+        ],
+        "quiz": {
+          "q": "Dans quelle roche la ville de Pétra est-elle principalement sculptée ?",
+          "r": "Dans le grès rose-rouge",
+          "hint": "La couleur de la roche lui vaut parfois le surnom de 'ville rose'"
+        }
+      }
+    ]
+  },
+  {
+    "era": "⬛ BASSE ANTIQUITÉ",
+    "cls": "antique",
+    "events": []
+  },
+  {
+    "era": "✦ Rome — République & Conquêtes — −300 à −27",
+    "cls": "antique",
+    "events": [
+      {
         "kind": "histoire",
         "icon": "🏛️",
         "tag": "Patrimoine",
@@ -754,40 +833,6 @@
         },
         "img": "histoire/Merveilles antiques au coucher du soleil.webp"
       },
-      {
-        "icon": "📐",
-        "tag": "Sciences",
-        "date": "–625 à –100 av. J.-C.",
-        "title": "Thalès, Pythagore, Ptolémée — Les Savants Grecs",
-        "desc": "En deux siècles, la Grèce accomplit une révolution intellectuelle sans précédent : elle invente la démonstration mathématique, la philosophie, l'astronomie scientifique et la géographie rationnelle. Thalès de Milet (–624) prédit une éclipse solaire et mesure la hauteur des pyramides par les ombres. Pythagore (–570) lie mathématiques et musique. Euclide codifie la géométrie. Ptolémée (IIe siècle ap. J.-C.) construit un modèle du cosmos utilisé pendant 1 400 ans.",
-        "anecdotes": [
-          {
-            "e": "📐",
-            "t": "<b>Thalès calcula la hauteur de la pyramide de Khéops sans la gravir.</b> Il attendit le moment de la journée où son ombre égalait sa taille, puis mesura l'ombre de la pyramide. Sa méthode — les triangles semblables — est encore enseignée au collège 2 600 ans plus tard. C'est le premier exemple connu de raisonnement mathématique appliqué à un problème réel."
-          },
-          {
-            "e": "🎵",
-            "t": "<b>Pythagore découvrit que la musique obéit aux mathématiques.</b> En pinçant une corde tendue à la moitié, on obtient une note une octave plus haute — exactement. Les rapports 1/2, 2/3, 3/4 produisent des harmonies parfaites. Cette découverte le convainquit que l'univers entier était régi par des nombres. Il fonda une secte secrète dont les membres ne mangeaient pas de fèves — raison inconnue."
-          },
-          {
-            "e": "🌍",
-            "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
-          "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
-          "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
-        },
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
-      }
-    ]
-  },
-  {
-    "era": "✦ Rome — De la République à l'Empire",
-    "cls": "antique",
-    "events": [
       {
         "icon": "🏛️",
         "tag": "Civilisation",
@@ -946,7 +991,13 @@
           "hint": "Elle était la première de sa lignée ptolémaïque à parler égyptien"
         },
         "img": "histoire/Cléopâtre surplombant Alexandrie au crépuscule.webp"
-      },
+      }
+    ]
+  },
+  {
+    "era": "✦ Empire Romain & Naissance du Christianisme — −27 à 200",
+    "cls": "antique",
+    "events": [
       {
         "title": "Auguste — Le Premier Empereur",
         "date": "–27 à 14 ap. J.-C.",
@@ -960,6 +1011,62 @@
             "t": "Auguste réforme le calendrier de César et donne son nom au mois d'août (Augustus). Son prédécesseur César avait déjà donné son nom à juillet (Julius). Les deux mois d'été portent encore les noms de ces deux dictateurs."
           }
         ]
+      },
+      {
+        "icon": "🏙️",
+        "tag": "Fondation",
+        "date": "–15 av. J.-C.",
+        "title": "Lugdunum (Lyon) — Capitale des Gaules",
+        "desc": "L'empereur Auguste fait de Lugdunum (Lyon) la capitale administrative des Trois Gaules. Deuxième ville de l'Empire après Rome, avec 50 000 à 80 000 habitants. Deux empereurs romains y naîtront : Claude et Caracalla. C'est par Lyon que le christianisme entre en Gaule — et que naît le réseau routier en étoile de toute la France.",
+        "anecdotes": [
+          {
+            "e": "🛣️",
+            "t": "<b>Toutes les routes gauloises partaient de Lyon.</b> Agrippa fit construire 4 grandes voies rayonnant vers l'Atlantique, la Manche, le Rhin et la Méditerranée. Ces routes romaines sont encore visibles sous certaines nationales françaises — l'autoroute A6 suit en partie la Via Agrippa vieille de 2 000 ans."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Claude, né à Lyon en –10 av. J.-C., devint empereur de Rome.</b> Dans un discours gravé sur bronze (retrouvé à Lyon), il plaida pour que les notables gaulois accèdent au Sénat romain — une révolution dans la conception de la citoyenneté. Ce texte est encore visible au musée de la Civilisation gallo-romaine de Lyon."
+          },
+          {
+            "e": "🩸",
+            "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Sa sérénité frappa tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel futur empereur romain est né à Lyon en –10 av. J.-C. ?",
+          "r": "Claude (Claudius)",
+          "hint": "Il plaida au Sénat pour que les notables gaulois puissent accéder aux plus hautes fonctions romaines"
+        },
+        "img": "histoire/"
+      },
+      {
+        "icon": "🏗️",
+        "tag": "Architecture",
+        "date": "–19 av. J.-C.",
+        "title": "Le Pont du Gard — Le Génie Romain",
+        "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour acheminer 40 000 m³ d'eau par jour vers Nîmes. Aucun mortier — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes. Il a traversé 2 000 ans pratiquement intact.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>La pente du canal est de 34 cm sur 50 km</b> — soit 0,07 % d'inclinaison constante dans un relief accidenté, sans instruments modernes. Cette précision géodésique représente un exploit que peu de civilisations auraient pu reproduire avant le XIXe siècle."
+          },
+          {
+            "e": "💧",
+            "t": "<b>Nîmes recevait 400 litres d'eau par habitant par jour</b> — davantage que la plupart des villes européennes au XIXe siècle. Les Romains avaient fontaines publiques, thermes, toilettes à chasse d'eau et égouts. Après la chute de Rome, l'Europe attendit 1 500 ans pour retrouver ce niveau de confort sanitaire."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur chaque pierre pour le montage — certains de ces signes de tailleur sont encore visibles aujourd'hui. En 2 siècles d'utilisation, 5 cm de calcaire se déposèrent sur les parois, préservant encore le canal."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle est la pente du canal du Pont du Gard sur ses 50 km de longueur ?",
+          "r": "34 cm de dénivelé sur 50 km — soit 0,07 % d'inclinaison",
+          "hint": "Cette précision géodésique sans instruments modernes reste un exploit d'ingénierie"
+        },
+        "img": "histoire/pont_du_gard.webp"
       },
       {
         "kind": "histoire",
@@ -1035,6 +1142,34 @@
           "r": "La Menorah (chandelier à 7 branches)",
           "hint": "Ce candélabre à sept branches est encore aujourd'hui le symbole de l'État d'Israël"
         }
+      },
+      {
+        "kind": "histoire",
+        "icon": "✝️",
+        "tag": "Texte fondateur",
+        "date": "30 à 100 ap. J.-C.",
+        "title": "Le Nouveau Testament — La Naissance du Christianisme",
+        "desc": "Jésus de Nazareth prêche en Galilée et Judée vers 27-30 ap. J.-C., est crucifié sous Ponce Pilate, et ses disciples annoncent sa résurrection. Paul de Tarse (lui-même ancien persécuteur des chrétiens) diffuse cette nouvelle foi dans tout le bassin méditerranéen. Les 27 textes du Nouveau Testament — Évangiles, Actes, Épîtres, Apocalypse — sont rédigés entre ~50 et 100 ap. J.-C. en grec, dans l'Empire romain. En moins de 300 ans, cette religion minoritaire et persécutée devient la religion officielle de l'Empire.",
+        "anecdotes": [
+          {
+            "e": "📅",
+            "t": "<b>Jésus est probablement né en –4 av. J.-C. — et non l'an 0.</b> Le moine Denys le Petit, qui fixa notre calendrier au VIe siècle, se trompa dans ses calculs. L'an 0 n'existe d'ailleurs pas : on passe directement de –1 à 1 ap. J.-C. Hérode le Grand, qui selon l'Évangile de Matthieu fit massacrer les Innocents, mourut en –4 — ce qui place la naissance de Jésus avant cette date."
+          },
+          {
+            "e": "✉️",
+            "t": "<b>Paul n'a jamais rencontré Jésus — et a pourtant écrit la moitié du Nouveau Testament.</b> Ses épîtres (vers 50-60 ap. J.-C.) sont les textes chrétiens les plus anciens connus, antérieurs aux Évangiles. Pharisien cultivé et citoyen romain, Paul transforme un mouvement juif local en religion universelle, ouverte aux non-Juifs. Sans lui, le christianisme serait peut-être resté une secte juive de Palestine."
+          },
+          {
+            "e": "📖",
+            "t": "<b>Les 4 Évangiles ont des dates de rédaction très différentes.</b> Marc (~70 ap. J.-C.) est le plus ancien. Matthieu et Luc (~80-90) s'en inspirent en ajoutant d'autres sources. Jean (~95-100) est le plus tardif et le plus théologique. Entre la mort de Jésus (~30) et la rédaction du premier Évangile (~70), 40 ans de transmission orale. La question de l'historicité de certains récits reste un débat vivant entre historiens et théologiens."
+          }
+        ],
+        "quiz": {
+          "q": "Quel personnage, ancien persécuteur des chrétiens, fut le principal propagateur du christianisme dans tout l'Empire romain ?",
+          "r": "Paul de Tarse (saint Paul)",
+          "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
+        },
+        "img": "histoire/La promesse divine sous les étoiles.webp"
       },
       {
         "title": "Pompéi — La Ville Engloutie",
@@ -1114,65 +1249,9 @@
     ]
   },
   {
-    "era": "✦ Gaule Romaine & Chute de l'Empire — −15 à 476",
+    "era": "✦ Gaule Romaine & Déclin de l'Empire — 200 à 476",
     "cls": "antique",
     "events": [
-      {
-        "icon": "🏙️",
-        "tag": "Fondation",
-        "date": "–15 av. J.-C.",
-        "title": "Lugdunum (Lyon) — Capitale des Gaules",
-        "desc": "L'empereur Auguste fait de Lugdunum (Lyon) la capitale administrative des Trois Gaules. Deuxième ville de l'Empire après Rome, avec 50 000 à 80 000 habitants. Deux empereurs romains y naîtront : Claude et Caracalla. C'est par Lyon que le christianisme entre en Gaule — et que naît le réseau routier en étoile de toute la France.",
-        "anecdotes": [
-          {
-            "e": "🛣️",
-            "t": "<b>Toutes les routes gauloises partaient de Lyon.</b> Agrippa fit construire 4 grandes voies rayonnant vers l'Atlantique, la Manche, le Rhin et la Méditerranée. Ces routes romaines sont encore visibles sous certaines nationales françaises — l'autoroute A6 suit en partie la Via Agrippa vieille de 2 000 ans."
-          },
-          {
-            "e": "👑",
-            "t": "<b>Claude, né à Lyon en –10 av. J.-C., devint empereur de Rome.</b> Dans un discours gravé sur bronze (retrouvé à Lyon), il plaida pour que les notables gaulois accèdent au Sénat romain — une révolution dans la conception de la citoyenneté. Ce texte est encore visible au musée de la Civilisation gallo-romaine de Lyon."
-          },
-          {
-            "e": "🩸",
-            "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Sa sérénité frappa tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quel futur empereur romain est né à Lyon en –10 av. J.-C. ?",
-          "r": "Claude (Claudius)",
-          "hint": "Il plaida au Sénat pour que les notables gaulois puissent accéder aux plus hautes fonctions romaines"
-        },
-        "img": "histoire/"
-      },
-      {
-        "icon": "🏗️",
-        "tag": "Architecture",
-        "date": "–19 av. J.-C.",
-        "title": "Le Pont du Gard — Le Génie Romain",
-        "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour acheminer 40 000 m³ d'eau par jour vers Nîmes. Aucun mortier — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes. Il a traversé 2 000 ans pratiquement intact.",
-        "anecdotes": [
-          {
-            "e": "📐",
-            "t": "<b>La pente du canal est de 34 cm sur 50 km</b> — soit 0,07 % d'inclinaison constante dans un relief accidenté, sans instruments modernes. Cette précision géodésique représente un exploit que peu de civilisations auraient pu reproduire avant le XIXe siècle."
-          },
-          {
-            "e": "💧",
-            "t": "<b>Nîmes recevait 400 litres d'eau par habitant par jour</b> — davantage que la plupart des villes européennes au XIXe siècle. Les Romains avaient fontaines publiques, thermes, toilettes à chasse d'eau et égouts. Après la chute de Rome, l'Europe attendit 1 500 ans pour retrouver ce niveau de confort sanitaire."
-          },
-          {
-            "e": "🏗️",
-            "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur chaque pierre pour le montage — certains de ces signes de tailleur sont encore visibles aujourd'hui. En 2 siècles d'utilisation, 5 cm de calcaire se déposèrent sur les parois, préservant encore le canal."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quelle est la pente du canal du Pont du Gard sur ses 50 km de longueur ?",
-          "r": "34 cm de dénivelé sur 50 km — soit 0,07 % d'inclinaison",
-          "hint": "Cette précision géodésique sans instruments modernes reste un exploit d'ingénierie"
-        },
-        "img": "histoire/pont_du_gard.webp"
-      },
       {
         "icon": "🏛️",
         "tag": "Société",
@@ -1358,26 +1437,6 @@
         "img": "histoire/L'édiction de l'Édit de Milan.webp"
       },
       {
-        "icon": "🏹",
-        "tag": "Invasion",
-        "date": "451 ap. J.-C.",
-        "title": "Attila & les Huns aux Portes de Paris",
-        "desc": "Attila, 'le fléau de Dieu', mène ses cavaliers huns à travers l'Europe. En 451, il menace Paris. Selon la tradition, la prière de la jeune Geneviève — future patronne de Paris — détourne les Huns. Attila est finalement stoppé aux Champs Catalauniques par une coalition romano-barbare. Il meurt en 453, probablement d'une hémorragie nasale lors de sa nuit de noces.",
-        "anecdotes": [
-          {
-            "i": "💀",
-            "t": "À la mort d'Attila, ses guerriers se lacèrent le visage pour qu'un grand guerrier soit pleuré avec du sang et non des larmes de femme. Il est enterré dans trois cercueils emboîtés — or, argent, fer. Ses funérailles avaient lieu la nuit. Tous ceux qui avaient assisté aux funérailles furent tués pour que personne ne puisse révéler l'emplacement de sa tombe."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quelle sainte aurait, selon la tradition, protégé Paris d'Attila par ses prières ?",
-          "r": "Sainte Geneviève",
-          "hint": "Elle est la patronne de Paris et donne son nom à une célèbre montagne parisienne"
-        },
-        "img": "histoire/Attila.webp"
-      },
-      {
         "icon": "🗺️",
         "tag": "Événement",
         "date": "395 ap. J.-C.",
@@ -1406,6 +1465,26 @@
         "img": "histoire/Les deux souverains face à face.webp"
       },
       {
+        "icon": "🏹",
+        "tag": "Invasion",
+        "date": "451 ap. J.-C.",
+        "title": "Attila & les Huns aux Portes de Paris",
+        "desc": "Attila, 'le fléau de Dieu', mène ses cavaliers huns à travers l'Europe. En 451, il menace Paris. Selon la tradition, la prière de la jeune Geneviève — future patronne de Paris — détourne les Huns. Attila est finalement stoppé aux Champs Catalauniques par une coalition romano-barbare. Il meurt en 453, probablement d'une hémorragie nasale lors de sa nuit de noces.",
+        "anecdotes": [
+          {
+            "i": "💀",
+            "t": "À la mort d'Attila, ses guerriers se lacèrent le visage pour qu'un grand guerrier soit pleuré avec du sang et non des larmes de femme. Il est enterré dans trois cercueils emboîtés — or, argent, fer. Ses funérailles avaient lieu la nuit. Tous ceux qui avaient assisté aux funérailles furent tués pour que personne ne puisse révéler l'emplacement de sa tombe."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle sainte aurait, selon la tradition, protégé Paris d'Attila par ses prières ?",
+          "r": "Sainte Geneviève",
+          "hint": "Elle est la patronne de Paris et donne son nom à une célèbre montagne parisienne"
+        },
+        "img": "histoire/Attila.webp"
+      },
+      {
         "title": "Chute de l'Empire Romain d'Occident",
         "date": "476 ap. J.-C.",
         "tag": "Événement",
@@ -1423,64 +1502,6 @@
           "r": "Romulus Augustule",
           "hint": "Il portait le nom du fondateur légendaire de Rome — une ironie de l'histoire"
         }
-      }
-    ]
-  },
-  {
-    "era": "✦ Religions & Textes Fondateurs",
-    "cls": "religio",
-    "events": [
-      {
-        "kind": "histoire",
-        "icon": "📜",
-        "tag": "Histoire des textes",
-        "date": "–600 à –200 av. J.-C.",
-        "title": "La Rédaction de la Bible Hébraïque",
-        "desc": "Les textes qui formeront la Bible hébraïque (Tanakh) ne sont pas écrits par Moïse mais compilés et mis par écrit principalement lors de l'exil à Babylone (–586) et dans les siècles qui suivent. La Torah (les cinq premiers livres), les Prophètes et les Écrits sont progressivement rassemblés, débattus et canonisés. C'est moins un événement qu'un long processus de mémoire collective mise en mots.",
-        "anecdotes": [
-          {
-            "i": "📚",
-            "t": "<b>La Bible est une bibliothèque, pas un livre.</b> Le mot 'Bible' vient du grec 'biblia' — les livres. Elle rassemble 73 textes (pour les catholiques) rédigés sur plus de 1 000 ans, par des dizaines d'auteurs, en trois langues (hébreu, araméen, grec), dans des genres très différents : loi, poésie, histoire, prophétie, sagesse, épopée."
-          },
-          {
-            "i": "📜",
-            "t": "<b>Les manuscrits de la mer Morte (1947) ont révolutionné notre compréhension.</b> Découverts dans des grottes près de Qumrân, ces textes datant de –200 à 70 ap. J.-C. sont les plus vieux manuscrits bibliques connus. Ils confirment que le texte a été remarquablement bien préservé à travers les siècles."
-          }
-        ],
-        "quiz": {
-          "q": "Sous quel nom désigne-t-on la traduction en grec de la Bible hébraïque, réalisée vers –250 av. J.-C. à Alexandrie ?",
-          "r": "La Septante (ou LXX)",
-          "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
-        },
-        "img": "histoire/Moïse et les prophètes sous l'orage.webp"
-      },
-      {
-        "kind": "histoire",
-        "icon": "✝️",
-        "tag": "Texte fondateur",
-        "date": "30 à 100 ap. J.-C.",
-        "title": "Le Nouveau Testament — La Naissance du Christianisme",
-        "desc": "Jésus de Nazareth prêche en Galilée et Judée vers 27-30 ap. J.-C., est crucifié sous Ponce Pilate, et ses disciples annoncent sa résurrection. Paul de Tarse (lui-même ancien persécuteur des chrétiens) diffuse cette nouvelle foi dans tout le bassin méditerranéen. Les 27 textes du Nouveau Testament — Évangiles, Actes, Épîtres, Apocalypse — sont rédigés entre ~50 et 100 ap. J.-C. en grec, dans l'Empire romain. En moins de 300 ans, cette religion minoritaire et persécutée devient la religion officielle de l'Empire.",
-        "anecdotes": [
-          {
-            "e": "📅",
-            "t": "<b>Jésus est probablement né en –4 av. J.-C. — et non l'an 0.</b> Le moine Denys le Petit, qui fixa notre calendrier au VIe siècle, se trompa dans ses calculs. L'an 0 n'existe d'ailleurs pas : on passe directement de –1 à 1 ap. J.-C. Hérode le Grand, qui selon l'Évangile de Matthieu fit massacrer les Innocents, mourut en –4 — ce qui place la naissance de Jésus avant cette date."
-          },
-          {
-            "e": "✉️",
-            "t": "<b>Paul n'a jamais rencontré Jésus — et a pourtant écrit la moitié du Nouveau Testament.</b> Ses épîtres (vers 50-60 ap. J.-C.) sont les textes chrétiens les plus anciens connus, antérieurs aux Évangiles. Pharisien cultivé et citoyen romain, Paul transforme un mouvement juif local en religion universelle, ouverte aux non-Juifs. Sans lui, le christianisme serait peut-être resté une secte juive de Palestine."
-          },
-          {
-            "e": "📖",
-            "t": "<b>Les 4 Évangiles ont des dates de rédaction très différentes.</b> Marc (~70 ap. J.-C.) est le plus ancien. Matthieu et Luc (~80-90) s'en inspirent en ajoutant d'autres sources. Jean (~95-100) est le plus tardif et le plus théologique. Entre la mort de Jésus (~30) et la rédaction du premier Évangile (~70), 40 ans de transmission orale. La question de l'historicité de certains récits reste un débat vivant entre historiens et théologiens."
-          }
-        ],
-        "quiz": {
-          "q": "Quel personnage, ancien persécuteur des chrétiens, fut le principal propagateur du christianisme dans tout l'Empire romain ?",
-          "r": "Paul de Tarse (saint Paul)",
-          "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
-        },
-        "img": "histoire/La promesse divine sous les étoiles.webp"
       }
     ]
   }
