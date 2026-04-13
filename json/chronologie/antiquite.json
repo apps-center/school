@@ -1245,6 +1245,33 @@
           "hint": "Il traversait toute l'Angleterre d'est en ouest, de la mer du Nord à la mer d'Irlande"
         },
         "img": "histoire/Mur d'hadrien.webp"
+      },
+      {
+        "icon": "🦅",
+        "tag": "Apogée",
+        "date": "117 ap. J.-C.",
+        "title": "L'Apogée de l'Empire Romain — Sous Trajan",
+        "kind": "histoire",
+        "desc": "Sous l'empereur Trajan (98–117 ap. J.-C.), l'Empire romain atteint sa plus grande extension : 5 millions de km², 70 millions d'habitants, de l'Écosse à la Mésopotamie, du Sahara au Rhin. C'est le moment de la Pax Romana à son zénith : routes pavées, aqueducs, villes prospères, commerce florissant de l'Inde à la Bretagne. Son successeur Hadrien comprend qu'un tel empire ne peut plus s'étendre — il consolide les frontières et commence à les fortifier.",
+        "anecdotes": [
+          {
+            "i": "🗺️",
+            "t": "<b>L'Empire romain couvrait 5 millions de km² — soit 9 fois la France actuelle.</b> De l'Écosse à l'Irak, de la Roumanie au Maroc. Plus de 400 000 km de routes reliaient cet ensemble — dont 80 000 km de routes pavées. La célèbre expression 'tous les chemins mènent à Rome' reflète une réalité géographique absolue."
+          },
+          {
+            "i": "🏙️",
+            "t": "<b>Rome comptait plus d'un million d'habitants — une taille que Paris n'atteindra qu'au XIXe siècle.</b> La ville était nourrie par des importations massives de blé d'Égypte et d'Afrique du Nord. Des immeubles de 6 étages (insulae) logeaient des centaines de milliers de locataires dans des conditions souvent précaires."
+          },
+          {
+            "i": "⚖️",
+            "t": "<b>La citoyenneté romaine sera accordée à tous les hommes libres de l'Empire en 212 ap. J.-C.</b> L'édit de Caracalla unifie juridiquement un empire multiethnique : Gaulois, Espagnols, Africains, Syriens deviennent tous 'Romains'. Une idée d'universalité civique qui influencera encore la Révolution française."
+          }
+        ],
+        "quiz": {
+          "q": "Sous quel empereur l'Empire romain atteint-il sa plus grande extension territoriale en 117 ap. J.-C. ?",
+          "r": "L'empereur Trajan",
+          "hint": "Un empereur d'origine espagnole, premier provincial à diriger Rome"
+        }
       }
     ]
   },
@@ -1463,6 +1490,33 @@
           "hint": "Célébrés sans interruption depuis –776 — ils ne reprirent qu'en 1896, après 1 503 ans"
         },
         "img": "histoire/Les deux souverains face à face.webp"
+      },
+      {
+        "icon": "🕯️",
+        "tag": "Sainte",
+        "date": "451 ap. J.-C.",
+        "title": "Sainte Geneviève — La Bergère qui Sauva Paris",
+        "kind": "histoire",
+        "desc": "En 451, la nouvelle se répand comme une traînée de poudre : Attila et ses Huns déferlent vers Paris. La population panique et s'apprête à fuir. Une jeune bergère de 27 ans, Geneviève de Nanterre, harangue les habitants et les femmes de la ville : elle leur ordonne de rester, de prier et de ne pas céder à la peur. Sa conviction est absolue — Dieu protégera Paris. Contre toute attente, les Huns dévient leur route et épargnent la ville. Geneviève devient la patronne de Paris, dont elle porte encore aujourd'hui le nom sur la montagne Sainte-Geneviève.",
+        "anecdotes": [
+          {
+            "i": "⛪",
+            "t": "<b>Le Panthéon de Paris est construit à l'emplacement de sa tombe.</b> Louis XV, guéri d'une grave maladie, fait vœu d'édifier une grande église en l'honneur de sainte Geneviève. La Révolution en fait le Panthéon des grands hommes — mais la sainte reste présente dans les fresques de Puvis de Chavannes qui ornent encore ses murs."
+          },
+          {
+            "i": "🐑",
+            "t": "<b>Geneviève était bergère à Nanterre quand l'évêque Germain d'Auxerre la repéra, vers 429, et lui prédit une grande destinée.</b> Elle avait 7 ans. À 15 ans, elle prend le voile et consacre sa vie à Dieu. Elle mourra vers 502 à près de 90 ans — ayant vécu assez longtemps pour voir Clovis, roi des Francs, entrer dans Paris."
+          },
+          {
+            "i": "🕯️",
+            "t": "<b>La légende du 'cierge de Geneviève' est célèbre.</b> Le diable soufflait sa bougie pendant qu'elle priait la nuit — elle la rallumait sans cesse. Ce motif iconographique — une jeune femme avec un cierge et un diable souffleur — est l'un des plus reconnaissables de l'art chrétien médiéval français."
+          }
+        ],
+        "quiz": {
+          "q": "Quel est le surnom donné à la montagne parisienne qui porte le nom de sainte Geneviève, sur laquelle est construit le Panthéon ?",
+          "r": "La Montagne Sainte-Geneviève",
+          "hint": "C'est le quartier du Ve arrondissement de Paris, cœur du Quartier latin"
+        }
       },
       {
         "icon": "🏹",
