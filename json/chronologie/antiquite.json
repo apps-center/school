@@ -49,7 +49,8 @@
           "q": "En quelle matière les premières tablettes d'écriture cunéiforme étaient-elles façonnées ?",
           "r": "En argile cuite",
           "hint": "Un matériau abondant en Mésopotamie, entre le Tigre et l'Euphrate"
-        }
+        },
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "title": "Unification de l'Égypte — Ménès & la Double Couronne",
@@ -139,7 +140,8 @@
           "q": "Quels deux métaux compose-t-on pour obtenir le bronze ?",
           "r": "Cuivre et étain",
           "hint": "L'un est rouge, l'autre est blanc-argenté"
-        }
+        },
+        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
       }
     ]
   },
@@ -239,7 +241,8 @@
             "i": "🏺",
             "t": "Son épouse Néfertiti est l'une des femmes les plus représentées de l'Antiquité. Son buste au musée de Berlin est l'une des œuvres d'art les plus célèbres au monde."
           }
-        ]
+        ],
+        "img": "histoire/La construction de la pyramide.webp"
       },
       {
         "title": "Toutankhamon — Le Pharaon Enfant",
@@ -253,7 +256,8 @@
             "i": "💀",
             "t": "La 'malédiction du pharaon' : plusieurs membres de l'équipe de fouille meurent dans les années suivantes. En réalité, des bactéries et des moisissures piégées 3 000 ans dans la tombe sont la cause la plus probable."
           }
-        ]
+        ],
+        "img": "histoire/Ramsès II devant ses temples majestueux.webp"
       },
       {
         "icon": "☀️",
@@ -324,7 +328,8 @@
           "q": "Combien de lettres comptait l'alphabet phénicien original ?",
           "r": "22 consonnes",
           "hint": "Pas de voyelles — les lecteurs devaient les deviner selon le contexte"
-        }
+        },
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "icon": "⚓",
@@ -351,7 +356,8 @@
           "q": "Combien de lettres comptait l'alphabet phénicien original ?",
           "r": "22 lettres (consonnes uniquement)",
           "hint": "Pas de voyelles — les lecteurs les devinaient selon le contexte, comme en arabe et hébreu aujourd'hui"
-        }
+        },
+        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp"
       }
     ]
   },
@@ -456,7 +462,8 @@
             "i": "🔥",
             "t": "'Carthago delenda est' — Carthage doit être détruite. Caton l'Ancien terminait chacun de ses discours au Sénat par cette phrase, quel que soit le sujet traité. En 146 av. J.-C., Rome rase la ville et, selon la légende, sème son sol de sel pour qu'elle ne repousse jamais."
           }
-        ]
+        ],
+        "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
       },
       {
         "kind": "histoire",
@@ -541,7 +548,8 @@
           "q": "Quel est le premier mot de l'Iliade d'Homère, qui donne le thème central de l'épopée ?",
           "r": "Mênis — la colère (d'Achille contre Agamemnon)",
           "hint": "Ce mot ouvre le premier grand texte littéraire de l'Occident"
-        }
+        },
+        "img": "histoire/L'Iliade et l'Odyssée de Homère.webp"
       },
       {
         "title": "Les Jeux Olympiques — La Trêve Sacrée",
@@ -560,7 +568,8 @@
           "q": "Quelle récompense recevaient les vainqueurs des Jeux Olympiques antiques ?",
           "r": "Une couronne d'olivier",
           "hint": "Rien de matériel — juste la gloire éternelle"
-        }
+        },
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "title": "Fondation de Rome — Romulus & Remus",
@@ -579,7 +588,8 @@
           "q": "Selon la légende, qui allaita Romulus et Remus après leur abandon sur le Tibre ?",
           "r": "Une louve",
           "hint": "Un animal symbole de Rome encore aujourd'hui"
-        }
+        },
+        "img": "histoire/Le sac de Rome ancienne par les gaulois.webp"
       },
       {
         "icon": "⚓",
@@ -682,7 +692,8 @@
           "q": "Comment Socrate fut-il condamné à mourir en 399 av. J.-C. ?",
           "r": "En buvant la ciguë",
           "hint": "Un poison végétal bu dans une coupe, devant ses amis"
-        }
+        },
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "kind": "histoire",
@@ -856,7 +867,8 @@
           "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
           "r": "L'alphabet latin",
           "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
-        }
+        },
+        "img": "histoire/Le sac de Rome ancienne par les gaulois.webp"
       },
       {
         "icon": "🐘",
@@ -903,7 +915,8 @@
           "q": "Quelle phrase César aurait-il prononcée en franchissant le Rubicon ?",
           "r": "Alea jacta est (le sort en est jeté)",
           "hint": "Une phrase en latin qui signifie qu'il n'y a plus de retour en arrière"
-        }
+        },
+        "img": "histoire/Ciceron Orateur romain au coucher du soleil.webp"
       },
       {
         "icon": "⚔️",
@@ -1007,7 +1020,8 @@
             "i": "📅",
             "t": "Auguste réforme le calendrier de César et donne son nom au mois d'août (Augustus). Son prédécesseur César avait déjà donné son nom à juillet (Julius). Les deux mois d'été portent encore les noms de ces deux dictateurs."
           }
-        ]
+        ],
+        "img": "histoire/Bains romains sous les voûtes majestueuses.webp"
       },
       {
         "icon": "🏙️",
@@ -1186,7 +1200,8 @@
           "q": "Combien de mètres de cendres et de ponces ont enseveli Pompéi lors de l'éruption du Vésuve ?",
           "r": "6 mètres",
           "hint": "Une couche suffisante pour dissimuler une ville entière pendant 17 siècles"
-        }
+        },
+        "img": "histoire/Néron contemple la ville en flammes.webp"
       },
       {
         "icon": "🏟️",
@@ -1269,7 +1284,8 @@
           "q": "Sous quel empereur l'Empire romain atteint-il sa plus grande extension territoriale en 117 ap. J.-C. ?",
           "r": "L'empereur Trajan",
           "hint": "Un empereur d'origine espagnole, premier provincial à diriger Rome"
-        }
+        },
+        "img": "histoire/Soldats romains au coucher du soleil.webp"
       }
     ]
   },
@@ -1514,7 +1530,8 @@
           "q": "Quel est le surnom donné à la montagne parisienne qui porte le nom de sainte Geneviève, sur laquelle est construit le Panthéon ?",
           "r": "La Montagne Sainte-Geneviève",
           "hint": "C'est le quartier du Ve arrondissement de Paris, cœur du Quartier latin"
-        }
+        },
+        "img": "histoire/Saint Denis marchant sur la voie ancienne.webp"
       },
       {
         "icon": "🏹",
@@ -1553,7 +1570,8 @@
           "q": "Quel était le nom du dernier empereur romain d'Occident déposé en 476 ?",
           "r": "Romulus Augustule",
           "hint": "Il portait le nom du fondateur légendaire de Rome — une ironie de l'histoire"
-        }
+        },
+        "img": "histoire/premieres invasion barbare sur l empire romain.webp"
       }
     ]
   }
