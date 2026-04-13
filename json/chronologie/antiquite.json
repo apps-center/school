@@ -1128,6 +1128,38 @@
         "img": "histoire/La Nativité sous l'étoile brillante.webp"
       },
       {
+        "kind": "histoire",
+        "icon": "✝️",
+        "tag": "Persécutions",
+        "date": "64 à 313 ap. J.-C.",
+        "title": "Les Persécutions des Chrétiens — Le Sang des Martyrs",
+        "desc": "Pendant deux siècles et demi, le christianisme est une religion illégale dans l'Empire romain. Les chrétiens refusent de sacrifier aux dieux de Rome et de vénérer l'empereur comme dieu — actes perçus comme trahison politique autant que religieuse. Dix grandes vagues de persécutions se succèdent, de Néron (64 ap. J.-C.) à Dioclétien (303-313 ap. J.-C.). Des milliers de fidèles sont jetés aux fauves dans les arènes, crucifiés, brûlés vifs ou décapités. Pourtant, loin d'éteindre la foi, ces persécutions la propagent : « Le sang des martyrs est semence de chrétiens », écrit Tertullien.",
+        "anecdotes": [
+          {
+            "i": "🦁",
+            "t": "<b>Blandine, esclave de 17 ans, affronta les lions à Lyon en 177 ap. J.-C.</b> Ses bourreaux s'étonnèrent qu'une si frêle jeune femme résiste si longtemps aux tortures — fouet, chaise de fer chauffée à blanc, exposition aux fauves. Elle mourut enveloppée dans un filet, livrée à un taureau qui la projeta en l'air plusieurs fois. Les témoins présents dans l'arène rapportèrent sa sérénité absolue. Elle fut canonisée et reste l'une des saintes les plus vénérées de France."
+          },
+          {
+            "i": "🔥",
+            "t": "<b>Néron fit des chrétiens des torches humaines dans ses jardins.</b> Après l'incendie de Rome en 64, il les accusa d'en être responsables. Selon Tacite, il les fit enduire de poix et brûler vifs pour éclairer ses fêtes nocturnes. D'autres furent cousus dans des peaux de bêtes et livrés aux chiens. Cette première persécution officielle fut si violente qu'elle choqua même des Romains non chrétiens."
+          },
+          {
+            "i": "👧",
+            "t": "<b>Perpétua, 22 ans, noble carthaginoise, refusa de renier sa foi pour sauver sa vie — et celle de son nourrisson.</b> En 203 ap. J.-C. à Carthage, elle fut jetée dans l'arène avec une vache sauvage. Blessée, elle se releva, replaça son épingle dans ses cheveux défaits pour ne pas paraître en deuil, et guida elle-même la main du gladiateur hésitant vers sa gorge. Son journal de prison, rédigé avant sa mort, est le plus ancien texte chrétien connu écrit par une femme."
+          },
+          {
+            "i": "📜",
+            "t": "<b>La persécution de Dioclétien (303-313) fut la plus systématique.</b> Il ordonna la destruction de toutes les églises, la confiscation des textes sacrés, l'interdiction des assemblées, et l'exécution de tout chrétien refusant de sacrifier aux dieux. Des milliers moururent en quelques années. Ironie de l'histoire : dix ans plus tard, Constantin légalisait le christianisme par l'Édit de Milan — et un siècle après, il devenait la religion officielle de l'Empire que Dioclétien avait voulu défendre."
+          }
+        ],
+        "quiz": {
+          "q": "Quel écrivain chrétien du IIe siècle formula la célèbre phrase : 'Le sang des martyrs est semence de chrétiens' ?",
+          "r": "Tertullien (Quintus Septimius Florens Tertullianus)",
+          "hint": "Un théologien de Carthage, vers 200 ap. J.-C. — il voulait dire que chaque exécution publique convertissait des spectateurs"
+        },
+        "img": "histoire/Néron contemple la ville en flammes.webp"
+      },
+      {
         "icon": "🔥",
         "tag": "Empereur",
         "date": "54 à 68 ap. J.-C.",
