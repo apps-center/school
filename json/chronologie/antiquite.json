@@ -30,7 +30,7 @@
           "r": "Kushim — un comptable d'Uruk",
           "hint": "Pas un roi, pas un héros : son nom figure sur une tablette d'inventaire de grain"
         },
-        "img": "histoire/croissant_fertile.webp"
+        "img": "histoire/croissant fertile.webp"
       },
       {
         "title": "L'Invention de l'Écriture — Cunéiforme & Hiéroglyphes",
@@ -39,7 +39,6 @@
         "icon": "✍️",
         "desc": "En Mésopotamie, les marchands d'Uruk inventent les premiers signes d'écriture pour comptabiliser les récoltes et les troupeaux. Ce cunéiforme tracé sur argile est la première mémoire de l'humanité. Simultanément, en Égypte, les hiéroglyphes apparaissent. L'écriture transforme radicalement les sociétés : elle permet les lois, les contrats, les archives, les récits.",
         "kind": "histoire",
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp",
         "anecdotes": [
           {
             "i": "📜",
@@ -130,7 +129,6 @@
         "icon": "⚔️",
         "desc": "L'alliage du cuivre et de l'étain donne le bronze, métal plus dur et plus tranchant que tout ce qui existait. Il révolutionne l'armement, l'agriculture et le commerce. Les routes du bronze relient l'Europe à l'Asie Mineure. Les civilisations qui maîtrisent le bronze dominent leurs voisins pendant mille ans. En Europe, l'Âge du Bronze transforme des sociétés pastorales en civilisations guerrières organisées.",
         "kind": "histoire",
-        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp",
         "anecdotes": [
           {
             "i": "⚙️",
@@ -171,7 +169,7 @@
           "r": "282 articles — gravés sur basalte, conservés au Louvre à Paris",
           "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
         },
-        "img": "histoire/babylone_vers_-1800.webp"
+        "img": "histoire/babylone vers -1800.webp"
       },
       {
         "kind": "histoire",
@@ -199,7 +197,7 @@
           "r": "–586 av. J.-C.",
           "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
         },
-        "img": "histoire/Histoire_ancienne_du_judaïsme_en_triptyque.webp"
+        "img": "histoire/Histoire ancienne du judaisme en triptyque.webp"
       },
       {
         "kind": "histoire",
@@ -292,7 +290,7 @@
         "icon": "🐴",
         "desc": "Selon la tradition épique grecque, le prince troyen Pâris enlève Hélène, épouse du roi de Sparte Ménélas. Une coalition grecque assiège Troie pendant dix ans. La ruse du cheval de bois permet aux Grecs de s'infiltrer et d'incendier la ville. L'historicité de cet événement est débattue : des fouilles à Hisarlik (Turquie) révèlent bien une cité détruite vers –1 200, mais rien ne confirme le récit d'Homère.",
         "kind": "histoire",
-        "img": "histoire/Le_cheval_de_Troie_entre_dans_la_ville.webp",
+        "img": "histoire/Le cheval de Troie dans la cité.webp",
         "anecdotes": [
           {
             "i": "📖",
@@ -444,7 +442,7 @@
           "r": "Les Tables de la Loi reçues par Moïse au mont Sinaï",
           "hint": "L'Arche disparaît en –586 lors de la destruction du Temple — son sort reste un mystère"
         },
-        "img": "histoire/Temple_de_Salomon_et_l_Arche_sainte.webp"
+        "img": "histoire/Temple de Salomon et l Arche sainte.webp"
       },
       {
         "title": "Création de Carthage — La Rivale de Rome",
@@ -486,7 +484,7 @@
           "r": "Cyrus le Grand (Cyrus II de Perse)",
           "hint": "Il est le seul non-Juif appelé 'messie' dans la Bible — et son Édit est exposé à l'ONU"
         },
-        "img": "histoire/Cyrus_libère_les_captifs_juifs.webp"
+        "img": "histoire/Cyrus libère les captifs juifs.webp"
       },
       {
         "kind": "histoire",
@@ -510,7 +508,7 @@
           "r": "La Septante (ou LXX)",
           "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
         },
-        "img": "histoire/Moïse et les prophètes sous l'orage.webp"
+        "img": "histoire/Moïse et les prophètes sous l orage.webp"
       }
     ]
   },
@@ -543,8 +541,7 @@
           "q": "Quel est le premier mot de l'Iliade d'Homère, qui donne le thème central de l'épopée ?",
           "r": "Mênis — la colère (d'Achille contre Agamemnon)",
           "hint": "Ce mot ouvre le premier grand texte littéraire de l'Occident"
-        },
-        "img": "histoire/L'Iliade et l'Odyssée de Homère.webp"
+        }
       },
       {
         "title": "Les Jeux Olympiques — La Trêve Sacrée",
@@ -638,7 +635,7 @@
           "r": "Il dut boire la ciguë (un poison)",
           "hint": "Condamné pour 'corrompre la jeunesse et nier les dieux' — il refusa l'exil"
         },
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "kind": "histoire",
@@ -713,7 +710,7 @@
           "r": "Alexandre le Grand",
           "hint": "Alexandre dormait avec l'Iliade annotée par Aristote sous son oreiller"
         },
-        "img": "histoire/Aristote et ses étudiants à Athènes.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "icon": "📐",
@@ -741,7 +738,7 @@
           "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
           "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
         },
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "icon": "🌍",
@@ -906,8 +903,7 @@
           "q": "Quelle phrase César aurait-il prononcée en franchissant le Rubicon ?",
           "r": "Alea jacta est (le sort en est jeté)",
           "hint": "Une phrase en latin qui signifie qu'il n'y a plus de retour en arrière"
-        },
-        "img": "histoire/Machiavel_en_pleine_réflexion_politique.webp"
+        }
       },
       {
         "icon": "⚔️",
@@ -1039,7 +1035,7 @@
           "r": "Claude (Claudius)",
           "hint": "Il plaida au Sénat pour que les notables gaulois puissent accéder aux plus hautes fonctions romaines"
         },
-        "img": "histoire/Lugdunum_à_son_apogée.webp"
+        "img": "histoire/Lugdunum à son apogée.webp"
       },
       {
         "icon": "🏗️",
@@ -1143,7 +1139,7 @@
           "r": "La Menorah (chandelier à 7 branches)",
           "hint": "Ce candélabre à sept branches est encore aujourd'hui le symbole de l'État d'Israël"
         },
-        "img": "histoire/La_destruction_du_Temple_de_Salomon_par_Nabuchodonosor.webp"
+        "img": "histoire/La destruction du Temple de Salomon par Nabuchodonosor.webp"
       },
       {
         "kind": "histoire",
@@ -1538,7 +1534,7 @@
           "r": "Sainte Geneviève",
           "hint": "Elle est la patronne de Paris et donne son nom à une célèbre montagne parisienne"
         },
-        "img": "histoire/Attila.webp"
+        "img": "histoire/Atila.webp"
       },
       {
         "title": "Chute de l'Empire Romain d'Occident",
