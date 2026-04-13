@@ -86,10 +86,9 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 /* IMAGE MINIATURE côté opposé à la carte */
 .ev-img{width:calc(50% - 54px);flex-shrink:0;display:flex;align-items:stretch;}
 .ev-img img{width:100%;height:100%;object-fit:cover;border-radius:5px;
-  border:1px solid rgba(200,180,120,.25);opacity:1;
-  box-shadow:0 4px 20px rgba(0,0,0,.5);cursor:pointer;display:block;
-  transition:transform .3s;}
-.ev:hover .ev-img img{transform:scale(1.025);}
+  border:1px solid rgba(200,180,120,.18);opacity:.75;
+  transition:opacity .3s,transform .3s,box-shadow .3s;cursor:pointer;display:block;}
+.ev:hover .ev-img img{opacity:1;transform:scale(1.025);box-shadow:0 4px 20px rgba(0,0,0,.5);}
 .ev-img-placeholder{width:calc(50% - 54px);flex-shrink:0;}
 
 .ctag{display:inline-block;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;
@@ -112,6 +111,12 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 .era-col .card{border-left:3px solid var(--c);}
 .era-col .dot{background:var(--c);}
 .era-col .ctitle{color:var(--c);}
+
+/* Séparateurs grandes périodes (Haute / Moyenne / Basse Antiquité) */
+.grande-periode{margin:60px 0 20px;display:flex;align-items:center;justify-content:center;gap:0;position:relative;z-index:1;}
+.grande-periode::before,.grande-periode::after{content:'';flex:1;height:2px;background:linear-gradient(to right,transparent,rgba(200,180,120,.45));}
+.grande-periode::after{background:linear-gradient(to left,transparent,rgba(200,180,120,.45));}
+.grande-periode span{font-family:'Cinzel',serif;font-size:1.1rem;letter-spacing:.32em;text-transform:uppercase;color:rgba(232,223,196,.9);padding:10px 28px;border:1px solid rgba(200,180,120,.35);border-radius:3px;background:rgba(6,10,20,.95);white-space:nowrap;}
 
 /* MODAL */
 .moverlay{position:fixed;inset:0;z-index:1000;background:rgba(2,4,10,.88);
@@ -659,6 +664,16 @@ function renderBranch(branchId){
   const tl=document.createElement('div');tl.className='timeline';
   let side=0;
   eras.forEach(era=>{
+    // Séparateur grande période (⬛ HAUTE / MOYENNE / BASSE ANTIQUITÉ)
+    if(!era.events || era.events.length === 0){
+      const gp=document.createElement('div');
+      gp.className='grande-periode';
+      // Nettoyer le préfixe ⬛
+      const label=era.era.replace(/^[⬛▪️■\s]+/,'').trim();
+      gp.innerHTML=`<span>${label}</span>`;
+      tl.appendChild(gp);
+      return;
+    }
     const sep=document.createElement('div');
     sep.className=`era-sep era-col ${era.cls}`;sep.dataset.cls=era.cls;
     sep.innerHTML=`<span>${era.era}</span>`;tl.appendChild(sep);
