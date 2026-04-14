@@ -156,6 +156,54 @@
         "img": "histoire/sacre_charlemagne.webp"
       },
       {
+        "kind": "histoire",
+        "icon": "🗣️",
+        "tag": "Langue",
+        "date": "842",
+        "title": "Les Serments de Strasbourg — Naissance du Français",
+        "desc": "Après la mort de Charlemagne, ses trois petits-fils se disputent l'empire. Deux d'entre eux, Louis le Germanique et Charles le Chauve, s'allient contre leur frère Lothaire. En 842, à Strasbourg, ils se font une promesse solennelle d'entraide. Mais voilà quelque chose d'extraordinaire : pour que les soldats de chacun comprennent le serment, chaque prince le prononce dans la langue de l'autre. Charles parle en vieux-allemand, Louis en vieux-français. Ce vieux-français est le plus ancien texte écrit dans la langue qui deviendra le français. Le latin de Jules César vient de se transformer en quelque chose de nouveau !",
+        "anecdotes": [
+          {
+            "i": "🗣️",
+            "t": "<b>La naissance officielle du français.</b> Les historiens considèrent les Serments de Strasbourg comme la date de naissance de la langue française. C'est la première fois qu'on écrit ce qui n'est plus du latin mais pas encore tout à fait du français — une langue intermédiaire qu'on appelle le roman. Tu parles donc une langue née en 842 !"
+          },
+          {
+            "i": "✂️",
+            "t": "<b>Pourquoi l'empire s'est-il divisé ?</b> Les Francs avaient l'habitude de partager les terres entre les fils à la mort du père — comme on coupe un gâteau. Cette tradition pratique pour les familles était catastrophique pour les empires. L'Europe aurait peut-être une histoire très différente si Charlemagne n'avait eu qu'un seul héritier."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi les Serments de Strasbourg sont-ils importants pour la langue française ?",
+          "r": "C'est le premier texte écrit en vieux-français, ancêtre direct de notre langue",
+          "hint": "Le latin se transformait peu à peu — et ce serment en garde la première trace écrite"
+        },
+        "img": "histoire/sacre_charlemagne.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "✂️",
+        "tag": "Politique",
+        "date": "843",
+        "title": "Le Traité de Verdun — L'Europe Découpée",
+        "desc": "Un an après les Serments de Strasbourg, les trois petits-fils de Charlemagne signent le traité de Verdun en 843. Ils coupent l'empire en trois morceaux. Charles le Chauve reçoit l'Ouest — ce sera la France. Louis le Germanique reçoit l'Est — ce sera l'Allemagne. Lothaire garde le milieu et le titre d'empereur. Ce découpage, fait il y a 1 200 ans, dessine en gros les frontières de l'Europe d'aujourd'hui. La France que tu connais est née d'un coup de crayon sur une carte en 843 !",
+        "anecdotes": [
+          {
+            "i": "🗺️",
+            "t": "<b>Le traité de Verdun a créé l'Europe.</b> La France, l'Allemagne, l'Italie du Nord : ces trois grands pays ont pour ancêtre commun ce découpage de 843. Quand la France et l'Allemagne se font la guerre mille ans plus tard, elles se disputent encore les terres du milieu que Lothaire avait reçues — la Lorraine, l'Alsace, la Belgique."
+          },
+          {
+            "i": "👑",
+            "t": "<b>Lothaire était le 'grand frère' qui voulait tout garder.</b> Il gardait le titre d'empereur et les terres du milieu, mais ses frères refusaient de lui obéir. Son empire du milieu — la Lotharingie — disparaîtra après sa mort, partagé à nouveau entre ses fils. Le titre d'empereur, lui, passera plus tard aux rois d'Allemagne."
+          }
+        ],
+        "quiz": {
+          "q": "Quel pays futur correspond aux terres que Charles le Chauve reçoit au traité de Verdun en 843 ?",
+          "r": "La France (la Francia occidentalis — l'Ouest des Francs)",
+          "hint": "L'Ouest de l'empire de Charlemagne deviendra progressivement le royaume de France"
+        },
+        "img": "histoire/sacre_charlemagne.webp"
+      },
+      {
         "icon": "🛶",
         "tag": "Invasions",
         "date": "845 à 911",
@@ -237,6 +285,30 @@
         "img": "histoire/Le_seigneur_et_le_vassal_supérieur.webp"
       },
       {
+        "kind": "histoire",
+        "icon": "⚔️",
+        "tag": "Conquête",
+        "date": "1066",
+        "title": "Guillaume le Conquérant — La France Conquiert l'Angleterre",
+        "desc": "En 1066, Guillaume, duc de Normandie (donc descendant de Vikings devenus Français !), traverse la Manche avec son armée et bat le roi d'Angleterre Harold à la bataille d'Hastings. Il devient roi d'Angleterre. Résultat inattendu : pendant des siècles, les rois d'Angleterre parlent français, la noblesse anglaise parle français, et des milliers de mots français entrent dans la langue anglaise. Aujourd'hui encore, la moitié des mots anglais viennent du français apporté par Guillaume !",
+        "anecdotes": [
+          {
+            "i": "🏹",
+            "t": "<b>La bataille d'Hastings a duré toute une journée.</b> Harold semblait bien parti — son armée était bien positionnée sur une colline. Guillaume eut l'idée de faire semblant de fuir pour attirer les Anglais hors de leur position. Quand ils dévalèrent la pente en désordre, les Normands firent demi-tour et les massacrèrent. Harold fut tué, dit la légende, d'une flèche dans l'œil."
+          },
+          {
+            "i": "🗺️",
+            "t": "<b>La tapisserie de Bayeux raconte toute l'histoire en images.</b> Longue de 70 mètres, cette broderie géante réalisée peu après la bataille montre en bande dessinée — la plus ancienne du monde — toute l'histoire de la conquête. Elle est encore visible aujourd'hui au musée de Bayeux, en Normandie, et en parfait état après 950 ans !"
+          }
+        ],
+        "quiz": {
+          "q": "Quelle conséquence inattendue la conquête de Guillaume eut-elle sur la langue anglaise ?",
+          "r": "La moitié des mots anglais viennent du français apporté par la noblesse normande",
+          "hint": "Beef, pork, justice, noble, adventure… tous ces mots anglais sont en réalité du vieux-français"
+        },
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+      },
+      {
         "icon": "✝️",
         "tag": "Événement",
         "date": "1095 à 1291",
@@ -258,6 +330,25 @@
         ],
         "kind": "histoire",
         "img": "histoire/urbain2_croisades.webp"
+      },
+      {
+        "icon": "✝️",
+        "tag": "Ordre",
+        "date": "1119 – 1312",
+        "title": "Les Templiers — Moines & Guerriers",
+        "desc": "Fondé en 1119 à Jérusalem pour protéger les pèlerins, l'Ordre du Temple devient la première banque internationale d'Europe. Richissimes et puissants, les Templiers prêtent aux rois. Leur fortune attise la convoitise de Philippe le Bel.",
+        "anecdotes": [
+          {
+            "e": "🏦",
+            "t": "<b>Les Templiers inventèrent la lettre de crédit :</b> un pèlerin déposait de l'or en France et recevait un document qu'il échangeait à Jérusalem. Le principe de la banque moderne est né dans un ordre monastique médiéval."
+          },
+          {
+            "e": "🤫",
+            "t": "<b>Les « secrets » des Templiers alimentèrent des siècles de légendes :</b> Saint-Graal, Arche d'Alliance, trésors cachés. Leur richesse mystérieuse et leurs rites confidentiels nourrirent toutes les théories du complot de l'Occident."
+          }
+        ],
+        "kind": "histoire",
+        "img": "histoire/templiers.webp"
       },
       {
         "icon": "👑",
@@ -283,25 +374,6 @@
         "img": "histoire/La cour de la reine Aliénor.webp"
       },
       {
-        "icon": "✝️",
-        "tag": "Ordre",
-        "date": "1119 – 1312",
-        "title": "Les Templiers — Moines & Guerriers",
-        "desc": "Fondé en 1119 à Jérusalem pour protéger les pèlerins, l'Ordre du Temple devient la première banque internationale d'Europe. Richissimes et puissants, les Templiers prêtent aux rois. Leur fortune attise la convoitise de Philippe le Bel.",
-        "anecdotes": [
-          {
-            "e": "🏦",
-            "t": "<b>Les Templiers inventèrent la lettre de crédit :</b> un pèlerin déposait de l'or en France et recevait un document qu'il échangeait à Jérusalem. Le principe de la banque moderne est né dans un ordre monastique médiéval."
-          },
-          {
-            "e": "🤫",
-            "t": "<b>Les « secrets » des Templiers alimentèrent des siècles de légendes :</b> Saint-Graal, Arche d'Alliance, trésors cachés. Leur richesse mystérieuse et leurs rites confidentiels nourrirent toutes les théories du complot de l'Occident."
-          }
-        ],
-        "kind": "histoire",
-        "img": "histoire/templiers.webp"
-      },
-      {
         "kind": "histoire",
         "icon": "🏛️",
         "date": "1140",
@@ -317,6 +389,30 @@
             "t": "<b>Notre-Dame de Paris (1163-1345)</b> est l'exemple parfait : ses arcs-boutants permettent des murs de verre et une hauteur de 35 mètres sous voûte. Une prouesse d'ingénierie médiévale."
           }
         ],
+        "img": "histoire/arc_boutant.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "💡",
+        "tag": "Architecture",
+        "date": "1144",
+        "title": "La Basilique Saint-Denis — L'Invention du Gothique",
+        "desc": "Un moine très intelligent nommé Suger a une idée géniale : et si on construisait des églises remplies de lumière ? Jusqu'alors, les églises romanes avaient des murs épais et des petites fenêtres — elles étaient sombres. Suger invente une nouvelle façon de construire, le gothique, avec des arcs en ogive et des arcs-boutants qui soutiennent les murs de l'extérieur. Résultat : on peut ouvrir les murs en immenses vitraux colorés. La lumière entre à flots. Suger dit que 'Dieu est lumière'. Ce style gothique va transformer toutes les cathédrales de France pendant 300 ans.",
+        "anecdotes": [
+          {
+            "i": "🔆",
+            "t": "<b>La lumière avait un sens religieux profond.</b> Pour les chrétiens du Moyen Âge, la lumière qui traverse le vitrail et se colore était une image de Dieu entrant dans le monde. Les vitraux de Chartres, du Sainte-Chapelle ou de Notre-Dame de Paris sont des descendants directs de cette idée de Suger. Tu n'entres pas dans une cathédrale gothique, tu entres dans la lumière de Dieu."
+          },
+          {
+            "i": "🏗️",
+            "t": "<b>L'arc-boutant est une invention révolutionnaire.</b> Comment construire des murs très hauts sans qu'ils s'écroulent sous le poids du toit ? En les soutenant de l'extérieur avec des bras de pierre inclinés — les arcs-boutants. Cette technique d'ingénierie médiévale a permis de construire des cathédrales de 40 ou 50 mètres de haut, qui tiennent toujours 800 ans plus tard sans béton armé."
+          }
+        ],
+        "quiz": {
+          "q": "Quel moine a inventé le style gothique en reconstruisant la basilique Saint-Denis en 1144 ?",
+          "r": "Suger, abbé de Saint-Denis",
+          "hint": "Il voulait que les églises soient remplies de lumière pour symboliser la présence de Dieu"
+        },
         "img": "histoire/arc_boutant.webp"
       },
       {
@@ -424,21 +520,51 @@
       },
       {
         "kind": "histoire",
-        "icon": "🎵",
-        "date": "1320 – 1370",
-        "title": "Ars Nova — La Polyphonie",
-        "desc": "Philippe de Vitry théorise l'Ars Nova (vers 1320) : plusieurs voix indépendantes chantent simultanément des mélodies différentes. Cette révolution rythmique et harmonique du XIVe siècle ouvre la voie à toute la musique polyphonique occidentale. À distinguer de l'École de Notre-Dame (XIIe–XIIIe s.) qui en fut le terreau.",
+        "icon": "👑",
+        "tag": "Régence",
+        "date": "1226 – 1252",
+        "title": "Blanche de Castille — La Reine qui Gouverna la France",
+        "desc": "Quand le roi Louis VIII meurt en 1226, son fils et héritier Louis IX n'a que 12 ans. C'est sa mère, Blanche de Castille, qui prend les rênes du royaume — et elle le fait avec une poigne de fer. Pendant des années, elle repousse les nobles qui veulent profiter de la jeunesse du roi pour reprendre du pouvoir, signe des traités, et élève son fils pour en faire un grand roi. Louis IX deviendra Saint Louis, l'un des rois les plus admirés de l'histoire de France. Grande première : pour la première fois, une femme gouverne la France, et elle est étrangère — elle vient d'Espagne !",
         "anecdotes": [
           {
-            "e": "🎶",
-            "t": "<b>La polyphonie semble évidente aujourd'hui,</b> mais c'était révolutionnaire au XIIIe siècle : faire chanter 4 voix indépendantes en harmonie requiert une théorie musicale complexe que personne n'avait formulée avant."
+            "i": "👑",
+            "t": "<b>Blanche de Castille était la petite-fille d'Aliénor d'Aquitaine.</b> Ce qui fait d'elle l'héritière d'une longue lignée de femmes remarquables. Elle était réputée pour son intelligence politique, sa piété et sa poigne — les nobles rebelles la craignaient. Elle gouvernera la France non seulement pendant la minorité de Louis IX, mais aussi quand il partira en croisade !"
           },
           {
-            "e": "🏛️",
-            "t": "<b>L'École de Notre-Dame de Paris</b> (Léonin, Pérotin, XIIe s.) est le premier grand centre de composition polyphonique de l'histoire. Les musiciens venaient du monde entier étudier à Paris — la musique classique occidentale est née à Notre-Dame."
+            "i": "💪",
+            "t": "<b>Les barons essayèrent de l'intimider — et échouèrent.</b> Plusieurs grands seigneurs se coalisèrent pour profiter de la faiblesse d'un roi enfant. Blanche les affronta un par un, signa des alliances habiles et tint bon. Le jeune Louis IX put grandir et régner en paix grâce à la résistance de sa mère."
           }
         ],
-        "img": "histoire/notre_dame_1200.webp"
+        "quiz": {
+          "q": "Pourquoi Blanche de Castille fut-elle une figure exceptionnelle dans l'histoire de France ?",
+          "r": "Première femme étrangère à gouverner la France, elle assura la régence pendant la minorité de Louis IX",
+          "hint": "Elle venait d'Espagne et prit les rênes du royaume alors que son fils n'avait que 12 ans"
+        },
+        "img": "histoire/La cour de la reine Aliénor.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "📜",
+        "tag": "Politique",
+        "date": "10 avril 1302",
+        "title": "Les États Généraux — Le Roi Demande l'Avis du Peuple",
+        "desc": "Le roi Philippe le Bel est en dispute avec le pape, qui prétend avoir plus d'autorité que lui. Pour montrer que tout le royaume est derrière lui, Philippe invente quelque chose de nouveau : il convoque à Notre-Dame de Paris des représentants de toute la France — les nobles, les prêtres, et pour la première fois, des représentants des villes (les bourgeois). C'est la naissance des États Généraux. Cette réunion de 1302 est le lointain ancêtre de notre Assemblée Nationale — et 487 ans plus tard, ce sont les États Généraux que Louis XVI convoquera en 1789, déclenchant la Révolution !",
+        "anecdotes": [
+          {
+            "i": "🏛️",
+            "t": "<b>Les États Généraux ont dormi pendant des siècles.</b> Après 1614, ils ne furent plus convoqués pendant 175 ans — jusqu'à la crise financière de 1789. Quand Louis XVI les réunit à Versailles, les représentants du Tiers État (le peuple) décidèrent de changer les règles du jeu. Cette assemblée convoquée par un roi finit par décapiter la monarchie. Histoire ironique."
+          },
+          {
+            "i": "📋",
+            "t": "<b>L'idée que le roi doit consulter ses sujets est très ancienne.</b> Même les rois les plus puissants du Moyen Âge ne décidaient pas seuls. Ils devaient tenir compte des nobles, des évêques et des grandes villes. La démocratie moderne n'a pas inventé la représentation — elle l'a seulement élargie à tout le monde."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle institution née en 1302 sous Philippe le Bel est l'ancêtre lointain de notre Assemblée Nationale ?",
+          "r": "Les États Généraux",
+          "hint": "Cette réunion de nobles, prêtres et bourgeois sera convoquée à nouveau en 1789 — avec des conséquences explosives"
+        },
+        "img": "histoire/La_fin_de_la_lignée_capétienne.webp"
       },
       {
         "icon": "🎰",
@@ -458,6 +584,30 @@
         ],
         "kind": "histoire",
         "img": "histoire/templiers.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "⛪",
+        "tag": "Religion",
+        "date": "1309 – 1377",
+        "title": "Les Papes à Avignon — Quand Rome s'Installa en France",
+        "desc": "Tu sais que le pape habite à Rome — mais pendant 68 ans au XIVe siècle, il habitait en France, à Avignon ! Comment ? Le roi Philippe le Bel était très influent, et le nouveau pape Clément V, qui était français, préféra rester près de chez lui. Il s'installa à Avignon en 1309. Les six papes suivants, tous français, firent pareil. C'était bizarre : le chef de toute la chrétienté vivait dans une ville française ! À Avignon, ils firent construire un immense palais, le Palais des Papes, qu'on peut encore visiter aujourd'hui.",
+        "anecdotes": [
+          {
+            "i": "🏰",
+            "t": "<b>Le Palais des Papes d'Avignon est le plus grand bâtiment gothique du monde.</b> Construit en seulement 20 ans, il est immense — deux fois le château de Versailles ! Aujourd'hui encore, avec ses tours de 50 mètres, il domine la ville. Chaque été, son immense cour accueille le Festival d'Avignon, le plus grand festival de théâtre du monde."
+          },
+          {
+            "i": "😤",
+            "t": "<b>Beaucoup de chrétiens trouvaient ça scandaleux.</b> Le pape était censé être le successeur de saint Pierre, martyrisé à Rome. Le voir installer sa cour en France, sous l'influence du roi de France, choquait. Le grand poète italien Pétrarque appelait Avignon 'l'enfer des vivants'. En 1377, le pape Grégoire XI finit par rentrer à Rome — non sans mal."
+          }
+        ],
+        "quiz": {
+          "q": "Pendant combien d'années les papes ont-ils habité à Avignon au lieu de Rome ?",
+          "r": "68 ans — de 1309 à 1377",
+          "hint": "Sept papes successifs, tous français, préférèrent rester en France plutôt que de rejoindre Rome"
+        },
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "icon": "🔥",
@@ -500,6 +650,24 @@
         ],
         "kind": "histoire",
         "img": "histoire/La_fin_de_la_lignée_capétienne.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎵",
+        "date": "1320 – 1370",
+        "title": "Ars Nova — La Polyphonie",
+        "desc": "Philippe de Vitry théorise l'Ars Nova (vers 1320) : plusieurs voix indépendantes chantent simultanément des mélodies différentes. Cette révolution rythmique et harmonique du XIVe siècle ouvre la voie à toute la musique polyphonique occidentale. À distinguer de l'École de Notre-Dame (XIIe–XIIIe s.) qui en fut le terreau.",
+        "anecdotes": [
+          {
+            "e": "🎶",
+            "t": "<b>La polyphonie semble évidente aujourd'hui,</b> mais c'était révolutionnaire au XIIIe siècle : faire chanter 4 voix indépendantes en harmonie requiert une théorie musicale complexe que personne n'avait formulée avant."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>L'École de Notre-Dame de Paris</b> (Léonin, Pérotin, XIIe s.) est le premier grand centre de composition polyphonique de l'histoire. Les musiciens venaient du monde entier étudier à Paris — la musique classique occidentale est née à Notre-Dame."
+          }
+        ],
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "icon": "⚔️",
@@ -555,6 +723,30 @@
         "img": "histoire/peste.webp"
       },
       {
+        "kind": "histoire",
+        "icon": "⚔️",
+        "tag": "Défaite",
+        "date": "19 septembre 1356",
+        "title": "Poitiers — Le Roi de France Fait Prisonnier !",
+        "desc": "Imaginez qu'on capture le Président de la République à la guerre ! C'est ce qui arrive au roi Jean II de France en 1356 à Poitiers. Les archers anglais écrasent une nouvelle fois la chevalerie française. Pire : le roi lui-même est fait prisonnier et emmené en Angleterre. Pour le récupérer, la France devra payer une rançon astronomique — 3 millions d'écus d'or — et céder un tiers du territoire. C'est l'une des pires humiliations de l'histoire de France. C'est le fils du roi, Charles, 18 ans, qui doit gérer ce chaos.",
+        "anecdotes": [
+          {
+            "i": "🤺",
+            "t": "<b>Jean II se battit jusqu'au bout.</b> Entouré d'ennemis, refusant de fuir, il continua à se battre avec son fils Philippe de 14 ans à ses côtés. Quand il se rendit enfin, plusieurs chevaliers anglais se disputèrent l'honneur de l'avoir capturé. Il fut traité avec tous les égards dus à un roi et put mener une vie confortable à Londres — en prison dorée."
+          },
+          {
+            "i": "💰",
+            "t": "<b>La rançon du roi ruina la France.</b> 3 millions d'écus, c'était plusieurs années de revenus du royaume entier. Pour payer, il fallut lever des impôts massifs, vendre des bijoux de la couronne, emprunter partout. Jean II, libéré, renvoya en otage son fils Louis — qui s'échappa. Jean II, homme d'honneur, retourna alors volontairement en captivité à Londres, où il mourut en 1364."
+          }
+        ],
+        "quiz": {
+          "q": "Qu'arriva-t-il d'extraordinaire au roi Jean II de France lors de la bataille de Poitiers en 1356 ?",
+          "r": "Il fut fait prisonnier par les Anglais et emmené en Angleterre",
+          "hint": "La France dut payer une rançon gigantesque pour récupérer son roi"
+        },
+        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
+      },
+      {
         "icon": "📚",
         "tag": "Roi",
         "date": "1364 – 1380",
@@ -590,6 +782,54 @@
           }
         ],
         "kind": "histoire",
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "✡️",
+        "tag": "Société",
+        "date": "1394",
+        "title": "L'Expulsion des Juifs de France",
+        "desc": "En 1394, le roi Charles VI décide d'expulser tous les Juifs du royaume de France. Ce n'était pas la première fois — ils avaient déjà été chassés plusieurs fois et rappelés. Mais cette fois, c'est présenté comme définitif. Des milliers de familles durent tout quitter — leurs maisons, leurs boutiques, leurs synagogues — et partir vers l'Allemagne, l'Italie ou l'Orient. Cette décision injuste faisait des Juifs les boucs émissaires des malheurs du temps (la guerre, la peste). Ce n'est qu'en 1791, après la Révolution française, que les Juifs de France obtiendraient enfin les mêmes droits que tous les autres citoyens.",
+        "anecdotes": [
+          {
+            "i": "📚",
+            "t": "<b>Rachi, le plus grand commentateur de la Bible du Moyen Âge, était de Troyes.</b> Ce savant extraordinaire, né vers 1040 à Troyes en Champagne, a écrit des commentaires sur la Bible et le Talmud encore étudiés aujourd'hui dans le monde entier. Il montre que les Juifs de France avaient une culture et un savoir remarquables — que l'expulsion de 1394 priva le royaume."
+          },
+          {
+            "i": "🌍",
+            "t": "<b>La France n'était pas la seule à expulser ses Juifs.</b> L'Angleterre l'avait fait en 1290. L'Espagne et le Portugal en 1492. Ces expulsions poussèrent les communautés juives vers l'Est de l'Europe — Pologne, Russie — où elles fondèrent des centres culturels et religieux florissants qui durèrent jusqu'à la Shoah au XXe siècle."
+          }
+        ],
+        "quiz": {
+          "q": "En quelle année les Juifs de France obtinrent-ils enfin les mêmes droits que tous les citoyens ?",
+          "r": "1791 — lors de la Révolution française",
+          "hint": "Il fallut attendre 397 ans après l'expulsion de 1394 pour que la France reconnaisse pleinement leur citoyenneté"
+        },
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "✍️",
+        "tag": "Littérature",
+        "date": "1405",
+        "title": "Christine de Pisan — La Première Grande Écrivaine Française",
+        "desc": "Au Moyen Âge, les femmes n'étaient pas censées écrire des livres. Christine de Pisan, venue d'Italie enfant et éduquée à la cour du roi, ne s'en soucia pas. Quand son mari mourut et la laissa seule avec ses enfants, elle se mit à écrire pour gagner sa vie. Poèmes, histoires, traités de politique et même un manuel militaire ! En 1405, elle écrit 'La Cité des Dames' — un livre où elle imagine une ville peuplée des plus grandes femmes de l'histoire pour montrer que les femmes sont aussi capables et courageuses que les hommes. 600 ans avant le féminisme, Christine défendait les mêmes idées !",
+        "anecdotes": [
+          {
+            "i": "✍️",
+            "t": "<b>Christine de Pisan écrivit l'un des premiers poèmes sur Jeanne d'Arc.</b> En 1429, vieille et retirée dans un couvent, elle apprit la victoire de Jeanne à Orléans et écrivit un poème d'émerveillement. Deux femmes extraordinaires, l'une qui écrit, l'autre qui se bat — au même moment, dans la même France déchirée par la guerre."
+          },
+          {
+            "i": "💪",
+            "t": "<b>Elle dirigeait un atelier de copistes.</b> Avant l'imprimerie, les livres étaient recopiés à la main. Christine dirigeait une équipe qui copiait et enluminait les livres pour des princes et des nobles. C'était une vraie cheffe d'entreprise — et l'une des rares femmes du Moyen Âge à vivre de sa plume."
+          }
+        ],
+        "quiz": {
+          "q": "Quel livre remarquable Christine de Pisan écrit-elle en 1405 pour défendre la valeur des femmes ?",
+          "r": "La Cité des Dames",
+          "hint": "Elle imagine une ville imaginaire peuplée des femmes les plus remarquables de l'histoire"
+        },
         "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
@@ -673,6 +913,49 @@
         "img": "histoire/jeanne-d-arc.webp"
       },
       {
+        "icon": "📰",
+        "tag": "Invention",
+        "date": "1450",
+        "title": "L'Imprimerie de Gutenberg",
+        "desc": "Johannes Gutenberg invente les caractères mobiles en plomb à Mayence. La Bible à 42 lignes est imprimée vers 1455. En quelques décennies, l'imprimerie se répand dans toute l'Europe — y compris en France dès 1470. La diffusion du savoir bascule pour toujours.",
+        "anecdotes": [
+          {
+            "e": "📖",
+            "t": "<b>Avant l'imprimerie, un moine copiait un livre en un an.</b> Gutenberg pouvait en produire 180 en quelques semaines. Le prix des livres s'effondra, l'alphabétisation explosa. La Réforme protestante, l'humanisme et la Renaissance en furent directement rendus possibles."
+          },
+          {
+            "e": "💸",
+            "t": "<b>Gutenberg mourut presque ruiné.</b> Son associé Fust lui réclama ses dettes en justice, saisit ses presses et récupéra l'essentiel des bénéfices. L'inventeur de l'imprimerie ne profita guère de sa révolution."
+          }
+        ],
+        "kind": "histoire",
+        "img": "histoire/Gutenberg.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏹",
+        "tag": "Victoire",
+        "date": "17 juillet 1453",
+        "title": "Castillon — La Fin de la Guerre de Cent Ans",
+        "desc": "Après 116 ans de guerre, la France remporte enfin une victoire décisive à Castillon, près de Bordeaux, en 1453. Cette fois, les Anglais ont face à eux une arme terrifiante qu'ils ne connaissaient pas encore bien : les canons. L'artillerie française pulvérise leur armée. Le général anglais John Talbot, vieux guerrier de 70 ans, est tué. La Guyenne — le Sud-Ouest de la France — redevient française. L'Angleterre ne garde plus en France que Calais. Après plus d'un siècle de guerre, d'épidémies et de famine, la France peut enfin souffler.",
+        "anecdotes": [
+          {
+            "i": "💥",
+            "t": "<b>Les canons changèrent tout.</b> Castillon est l'une des premières batailles où l'artillerie décide de l'issue. Les Anglais, habitués à leurs archers aux longbows qui avaient écrasé la chevalerie française à Crécy et Azincourt, n'avaient pas de réponse face aux boulets de canon. La guerre médiévale touchait à sa fin — une nouvelle époque militaire commençait."
+          },
+          {
+            "i": "🍷",
+            "t": "<b>Bordeaux était anglaise depuis 300 ans.</b> La Guyenne appartenait aux rois d'Angleterre depuis le mariage d'Aliénor d'Aquitaine avec Henri II en 1152. Les Bordelais, qui exportaient leur vin vers l'Angleterre depuis des siècles, regrettèrent longtemps ce changement de maître. Aujourd'hui encore, le vin de Bordeaux est le plus bu en Angleterre — un lien qui dure depuis 900 ans."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle nouvelle arme permit à la France de remporter la victoire décisive de Castillon en 1453 ?",
+          "r": "Les canons (l'artillerie à poudre)",
+          "hint": "Cette arme rendit obsolètes les archers anglais aux longbows qui avaient dominé à Crécy et Azincourt"
+        },
+        "img": "histoire/Bataille d'Azincourt sous la pluie.webp"
+      },
+      {
         "icon": "🕸️",
         "tag": "Roi",
         "date": "1461 – 1483",
@@ -692,23 +975,76 @@
         "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
       },
       {
-        "icon": "📰",
+        "kind": "histoire",
+        "icon": "📬",
         "tag": "Invention",
-        "date": "1450",
-        "title": "L'Imprimerie de Gutenberg",
-        "desc": "Johannes Gutenberg invente les caractères mobiles en plomb à Mayence. La Bible à 42 lignes est imprimée vers 1455. En quelques décennies, l'imprimerie se répand dans toute l'Europe — y compris en France dès 1470. La diffusion du savoir bascule pour toujours.",
+        "date": "1476",
+        "title": "Les Relais de Poste — L'Internet du Moyen Âge",
+        "desc": "Sous Louis XI, une idée simple révolutionne les communications : on installe sur les grandes routes des 'relais' où des messagers royaux peuvent changer de cheval. Au lieu d'épuiser un seul cheval pour un long voyage, le message est transmis de relais en relais, comme un bâton de course. Une lettre peut traverser la France en quelques jours au lieu de plusieurs semaines. C'est le premier réseau de communication rapide de l'histoire — l'ancêtre de nos emails ! Et Louis XI, ce roi rusé qu'on surnomme 'l'Universelle Araignée', voulait surtout pouvoir envoyer ses espions et ses ordres plus vite que ses ennemis.",
         "anecdotes": [
           {
-            "e": "📖",
-            "t": "<b>Avant l'imprimerie, un moine copiait un livre en un an.</b> Gutenberg pouvait en produire 180 en quelques semaines. Le prix des livres s'effondra, l'alphabétisation explosa. La Réforme protestante, l'humanisme et la Renaissance en furent directement rendus possibles."
+            "i": "📮",
+            "t": "<b>Le mot 'poste' vient de là.</b> Les 'postes' étaient les points (du latin 'positum' — endroit fixé) où l'on changeait de cheval. De là vient la Poste française, les boîtes aux lettres, les facteurs, et même le mot 'poster' une lettre en anglais. Un système inventé sous Louis XI est encore dans nos mots quotidiens."
           },
           {
-            "e": "💸",
-            "t": "<b>Gutenberg mourut presque ruiné.</b> Son associé Fust lui réclama ses dettes en justice, saisit ses presses et récupéra l'essentiel des bénéfices. L'inventeur de l'imprimerie ne profita guère de sa révolution."
+            "i": "🕵️",
+            "t": "<b>Louis XI était obsédé par le contrôle de l'information.</b> Ce roi méfiant avait des espions partout. Les relais de poste lui permettaient de recevoir des nouvelles de tout le royaume en quelques jours et d'envoyer ses ordres très vite. La rapidité de communication était au Moyen Âge une arme politique aussi puissante que les épées."
           }
         ],
+        "quiz": {
+          "q": "Sous quel roi les relais de poste furent-ils organisés en France en 1476 ?",
+          "r": "Louis XI, surnommé 'l'Universelle Araignée'",
+          "hint": "Ce roi rusé voulait pouvoir communiquer plus vite que tous ses ennemis"
+        },
+        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
+      },
+      {
         "kind": "histoire",
-        "img": "histoire/Gutenberg.webp"
+        "icon": "🌿",
+        "tag": "Unification",
+        "date": "1481",
+        "title": "La Provence Rejoint la France",
+        "desc": "En 1481, le comte de Provence meurt sans héritier direct et lègue sa région au roi de France Louis XI. La Provence — avec ses oliviers, sa mer bleue, son soleil et ses villes comme Marseille et Aix — devient française. C'est une grande acquisition : la Provence est riche, cultivée, et ses ports ouvrent la France sur la Méditerranée. La France grandit à nouveau. Peu à peu, comme des pièces de puzzle, les grandes régions s'assemblent pour former le pays que nous connaissons.",
+        "anecdotes": [
+          {
+            "i": "🎵",
+            "t": "<b>Le provençal était une grande langue littéraire.</b> Au Moyen Âge, les troubadours — poètes et musiciens — chantaient en occitan (langue d'oc) à travers toute l'Europe du Sud. L'amour courtois, cette façon romantique de parler de l'amour que tous les poètes ont imitée, est née en Provence. Quand la Provence rejoint la France, toute cette culture vient avec."
+          },
+          {
+            "i": "🗺️",
+            "t": "<b>La France se construisait comme un puzzle.</b> Au temps d'Hugues Capet (987), le roi ne contrôlait qu'un petit territoire autour de Paris. Peu à peu, par mariages, guerres, héritages et achats : la Normandie, la Bourgogne, la Provence, la Bretagne... Chaque pièce s'ajoutait. La France d'aujourd'hui est le résultat de 500 ans d'assemblage patient."
+          }
+        ],
+        "quiz": {
+          "q": "Comment la Provence est-elle devenue française en 1481 ?",
+          "r": "Le comte de Provence mourut sans héritier et légua sa région au roi Louis XI",
+          "hint": "Ni guerre ni mariage — juste un héritage transmis directement au roi de France"
+        },
+        "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🗺️",
+        "tag": "Unification",
+        "date": "1482 – 1493",
+        "title": "La Bourgogne & la Picardie — La France Complète son Puzzle",
+        "desc": "Charles le Téméraire, duc de Bourgogne et homme le plus puissant d'Europe après le roi, meurt en 1477 dans une bataille en Lorraine. Son rêve de créer un grand empire entre France et Allemagne s'effondre. Louis XI récupère rapidement la Bourgogne et la Picardie — deux régions immenses et riches. C'est un coup de maître : le rival le plus dangereux de la France a disparu, et ses terres tombent dans l'escarcelle du royaume. La France ressemble désormais beaucoup à ce qu'elle sera pendant des siècles.",
+        "anecdotes": [
+          {
+            "i": "💎",
+            "t": "<b>La Bourgogne était un état presque aussi puissant que la France.</b> Les ducs de Bourgogne contrôlaient non seulement la Bourgogne, mais aussi la Flandre — la région la plus riche d'Europe avec ses draperies, ses banquiers et ses villes comme Bruges et Gand. Charles le Téméraire avait une cour plus brillante et plus riche que celle du roi de France. Sa mort en bataille fut une chance extraordinaire pour Louis XI."
+          },
+          {
+            "i": "🤝",
+            "t": "<b>La fille de Charles, Marie de Bourgogne, épousa un Habsbourg.</b> Maximilien d'Autriche récupéra une partie des terres de son beau-père. Ce mariage créa la puissance des Habsbourg qui domineront l'Europe pendant 200 ans — et donneront à la France son grand rival : l'Empire. La mort de Charles le Téméraire enclencha une chaîne d'événements qui façonna l'histoire de l'Europe entière."
+          }
+        ],
+        "quiz": {
+          "q": "Qui était Charles le Téméraire, et pourquoi sa mort en 1477 profita-t-elle tant au roi Louis XI ?",
+          "r": "Duc de Bourgogne, il était le plus puissant rival de la France — sa mort permit à Louis XI de récupérer la Bourgogne et la Picardie",
+          "hint": "Son rêve était de créer un grand empire entre France et Allemagne — il mourut en bataille avant d'y parvenir"
+        },
+        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
       }
     ]
   }
