@@ -43,6 +43,14 @@
           {
             "i": "📜",
             "t": "Les premiers textes écrits connus ne sont pas de la poésie ou des lois — ce sont des reçus de bière et de céréales. La comptabilité précède la littérature de mille ans."
+          },
+          {
+            "i": "🌍",
+            "t": "<b>L'écriture a été inventée indépendamment au moins 4 fois dans l'histoire.</b> En Mésopotamie (~–3 200), en Égypte (~–3 100), en Chine (~–1 200) et chez les Mayas (~–300 av. J.-C.). Ces systèmes sont si différents qu'ils ne peuvent pas avoir eu une origine commune. L'écriture n'est pas une invention unique : c'est une solution que l'intelligence humaine a trouvée plusieurs fois, indépendamment, quand la société devient assez complexe pour en avoir besoin."
+          },
+          {
+            "i": "📚",
+            "t": "<b>Les hiéroglyphes égyptiens ont été déchiffrés grâce à la Pierre de Rosette.</b> Découverte en 1799 par les soldats de Napoléon à Rosette (Égypte), cette stèle porte le même texte en trois écritures : hiéroglyphes, démotique et grec. Le français Champollion comprit en 1822 que les hiéroglyphes n'étaient pas uniquement symboliques mais aussi phonétiques — un même signe peut représenter un son. Il déchiffra tout le système en quelques mois. 3 500 ans de silence brisés d'un coup."
           }
         ],
         "quiz": {
@@ -50,22 +58,35 @@
           "r": "En argile cuite",
           "hint": "Un matériau abondant en Mésopotamie, entre le Tigre et l'Euphrate"
         },
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "title": "Unification de l'Égypte — Ménès & la Double Couronne",
         "date": "–3 100 av. J.-C.",
         "tag": "Événement",
         "icon": "🏺",
-        "desc": "Le pharaon Ménès (ou Narmer) unifie la Haute et la Basse-Égypte sous une seule couronne. C'est la naissance de l'un des plus longs États de l'Histoire : la civilisation pharaonique durera 3 000 ans sans interruption majeure. La palette de Narmer, retrouvée à Hiérakonpolis, commémore cet acte fondateur.",
+        "desc": "Le pharaon Ménès (ou Narmer) unifie la Haute et la Basse-Égypte sous une seule couronne vers –3 100 av. J.-C. C'est la naissance de l'un des plus longs États de l'histoire : la civilisation pharaonique durera 3 000 ans sans interruption majeure. La palette de Narmer, retrouvée à Hiérakonpolis, commémore cet acte fondateur — on y voit le roi coiffé alternativement de la couronne blanche du Sud et de la couronne rouge du Nord. La double couronne ainsi créée, symbole de cette union, sera portée par tous les pharaons pendant trente siècles.",
         "kind": "histoire",
         "img": "histoire/Pharaon Ménès et l'unification de l'Égypte.webp",
         "anecdotes": [
           {
             "i": "👑",
             "t": "La double couronne rouge et blanche que portent les pharaons symbolise cette union du Nord et du Sud. Elle sera portée pendant 3 000 ans — l'un des symboles politiques les plus durables de l'histoire humaine."
+          },
+          {
+            "i": "🏺",
+            "t": "<b>La double couronne rouge et blanche que portent les pharaons symbolise cette union.</b> La couronne blanche (Hedjet) représentait la Haute-Égypte au sud, la couronne rouge (Deshret) la Basse-Égypte au nord. Réunies en Pschent, elles symbolisaient le pouvoir sur les deux terres pendant 3 000 ans — l'un des symboles politiques les plus durables de l'histoire humaine."
+          },
+          {
+            "i": "📐",
+            "t": "<b>L'unité de l'Égypte tient à un miracle géographique.</b> Le Nil, fleuve prévisible qui inonde régulièrement ses rives au même moment chaque année, irrigue une bande de terre fertile longue de 1 000 km dans un désert hostile. Cette géographie unique — une route naturelle fermée par le désert des deux côtés — rendait l'unification non seulement possible mais presque inévitable. L'Égypte est 'un don du Nil', disait Hérodote."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel objet archéologique célèbre commémore l'unification de l'Égypte par Narmer/Ménès vers –3 100 av. J.-C. ?",
+          "r": "La palette de Narmer, retrouvée à Hiérakonpolis — elle est conservée au Musée du Caire",
+          "hint": "Cette ardoise sculptée des deux côtés montre le pharaon frappant un ennemi avec sa massue"
+        }
       },
       {
         "icon": "🔺",
@@ -134,6 +155,14 @@
           {
             "i": "⚙️",
             "t": "L'étain nécessaire à la fabrication du bronze devait souvent voyager des milliers de kilomètres — depuis les mines de Cornouailles en Angleterre ou d'Afghanistan. Le commerce du bronze crée les premières routes commerciales intercontinentales."
+          },
+          {
+            "i": "🗺️",
+            "t": "<b>Le commerce du bronze a créé les premières routes commerciales intercontinentales.</b> L'étain nécessaire au bronze devait voyager des milliers de kilomètres : depuis les mines de Cornouailles en Angleterre, d'Afghanistan ou d'Anatolie. Des marchands et des marins traversaient l'Europe entière pour acheminer ce métal précieux. Ces routes du bronze sont les ancêtres des routes de la soie."
+          },
+          {
+            "i": "⚔️",
+            "t": "<b>La fin de l'Âge du Bronze reste l'un des grands mystères de l'histoire.</b> Vers –1 200 av. J.-C., en l'espace de quelques décennies, presque toutes les grandes civilisations de la Méditerranée orientale s'effondrent : les Mycéniens, les Hittites, Ougarit, les cités chypriotes. Les causes restent débattues : invasion des Peuples de la Mer, sécheresse, séismes, révoltes internes — probablement une combinaison catastrophique. C'est l'une des plus grandes crises de l'Antiquité."
           }
         ],
         "quiz": {
@@ -230,7 +259,7 @@
         "date": "–1 372 à –1 336 av. J.-C.",
         "tag": "Pharaon",
         "icon": "☀️",
-        "desc": "Amenhotep IV prend le nom d'Akhenaton et impose le monothéisme en Égypte : un seul dieu, Aton, le disque solaire. Il déplace la capitale à Amarna et efface les autres dieux des temples. À sa mort, ses successeurs s'empressent d'effacer toute trace de sa révolution religieuse. Akhenaton sera oublié pendant 3 000 ans.",
+        "desc": "Amenhotep IV prend le nom d'Akhenaton ('celui qui est utile à Aton') et impose le monothéisme en Égypte : un seul dieu, Aton, le disque solaire. Il ferme les temples des autres dieux, confisque leurs richesses, et déplace la capitale à Amarna, une ville entièrement neuve bâtie en dix ans dans le désert. Sa femme Néfertiti, dont le buste au musée de Berlin est l'une des œuvres d'art les plus célèbres du monde, semble avoir joué un rôle politique majeur. À la mort d'Akhenaton, ses successeurs s'empressent d'effacer toute trace de sa révolution religieuse — son nom est martelé sur les monuments. Akhenaton sera oublié pendant 3 000 ans, jusqu'à ce que les archéologues redécouvrent Amarna au XIXe siècle.",
         "kind": "histoire",
         "anecdotes": [
           {
@@ -242,22 +271,40 @@
             "t": "Son épouse Néfertiti est l'une des femmes les plus représentées de l'Antiquité. Son buste au musée de Berlin est l'une des œuvres d'art les plus célèbres au monde."
           }
         ],
-        "img": "histoire/La destruction des anciens dieux à Amarna.webp"
+        "img": "histoire/La destruction des anciens dieux à Amarna.webp",
+        "quiz": {
+          "q": "Quel dieu unique Akhenaton imposa-t-il aux Égyptiens, balayant tous les autres dieux ?",
+          "r": "Aton — le disque solaire, représenté comme un soleil aux rayons terminés par des mains",
+          "hint": "Ce pharaon prit même un nouveau nom pour honorer ce dieu et déplaça la capitale à Amarna"
+        }
       },
       {
         "title": "Toutankhamon — Le Pharaon Enfant",
         "date": "–1 354 à –1 327 av. J.-C.",
         "tag": "Pharaon",
         "icon": "👑",
-        "desc": "Toutankhamon monte sur le trône à 9 ans et meurt à 18 ou 19 ans. Il restaure l'ancienne religion égyptienne après l'hérésie d'Akhenaton. Sa tombe, découverte intacte par Howard Carter en 1922, révèle des trésors inestimables et déclenche une véritable égyptomanie mondiale.",
+        "desc": "Toutankhamon monte sur le trône à 9 ans et meurt à 18 ou 19 ans — probablement de complications liées à une fracture de la jambe, selon les analyses ADN récentes. Fils ou gendre d'Akhenaton, il restaure l'ancienne religion égyptienne, reprend le nom divin Amon, et abandonne Amarna pour retourner à Thèbes. Pendant 3 000 ans, sa tombe sommeille dans la Vallée des Rois, oubliée. En 1922, l'archéologue Howard Carter perce un mur et découvre, incrédule, une chambre étincelante : 5 000 objets d'or, d'ivoire et de faïence. Le masque funéraire en or massif de Toutankhamon, pesant 10 kg, est aujourd'hui le visage le plus reconnu de l'Égypte ancienne.",
         "kind": "histoire",
         "anecdotes": [
           {
             "i": "💀",
             "t": "La 'malédiction du pharaon' : plusieurs membres de l'équipe de fouille meurent dans les années suivantes. En réalité, des bactéries et des moisissures piégées 3 000 ans dans la tombe sont la cause la plus probable."
+          },
+          {
+            "i": "🧬",
+            "t": "<b>Les analyses ADN ont résolu des mystères vieux de 3 000 ans.</b> En 2010, les chercheurs ont analysé l'ADN de Toutankhamon et de onze autres momies royales. Résultat : son père était très probablement Akhenaton, et sa mère une sœur de ce dernier — un mariage consanguin qui expliquerait ses nombreuses pathologies (pied bot, malaria, fractures multiples). Le 'pharaon enfant mystérieux' avait une histoire familiale complexe et douloureuse."
+          },
+          {
+            "i": "💎",
+            "t": "<b>La tombe de Toutankhamon contenait 5 398 objets.</b> Chars de guerre démontés, trônes en or, statuettes, boomerangs, lit de chasse, sandales en or, instruments de musique, vêtements, jeux de société — et même des mèches de cheveux de sa grand-mère. Il fallut dix ans à Howard Carter pour tout inventorier. Toutankhamon était un roi mineur : on imagine ce que devaient contenir les tombes des grands pharaons, toutes pillées dans l'Antiquité."
           }
         ],
-        "img": "histoire/Le jeune pharaon et ses trésors.webp"
+        "img": "histoire/Le jeune pharaon et ses trésors.webp",
+        "quiz": {
+          "q": "Quel archéologue britannique découvrit la tombe intacte de Toutankhamon en 1922, dans la Vallée des Rois ?",
+          "r": "Howard Carter — financé par Lord Carnarvon",
+          "hint": "Sa découverte déclencha une véritable égyptomanie mondiale et la légende de la 'malédiction du pharaon'"
+        }
       },
       {
         "icon": "☀️",
@@ -322,6 +369,14 @@
           {
             "i": "🔤",
             "t": "Notre alphabet a 3 200 ans. Les lettres A, B, C viennent du phénicien aleph (tête de bœuf), beth (maison), gimel (chameau). La forme de nos lettres majuscules est encore reconnaissable dans les hiéroglyphes phéniciens originaux."
+          },
+          {
+            "i": "⚙️",
+            "t": "<b>Le fer était connu depuis longtemps — mais trop rare et trop fragile.</b> Les premières traces de fer travaillé remontent à –3 000 av. J.-C., dans des météorites. Mais maîtriser la fonte du fer terrestre — qui nécessite des températures bien plus élevées que le cuivre — fut une révolution technique. Une fois maîtrisé, le fer changea tout : il était abondant partout, beaucoup moins cher que le bronze, et plus dur. L'armement en fer démocratisa la guerre — n'importe quelle tribu pouvait désormais équiper ses guerriers."
+          },
+          {
+            "i": "🌍",
+            "t": "<b>L'alphabet phénicien a engendré presque tous les alphabets du monde.</b> De lui dérivent l'alphabet grec (qui ajouta les voyelles), puis le latin (notre alphabet), mais aussi l'hébreu, l'arabe, le cyrillique (russe, bulgare...), le géorgien et même les alphabets de l'Inde. Quand tu écris en français, en anglais, en arabe ou en hindi, tu utilises des lettres dont l'ancêtre commun est ce système phénicien de –1 200 av. J.-C."
           }
         ],
         "quiz": {
@@ -455,15 +510,28 @@
         "date": "–814 av. J.-C.",
         "tag": "Fondation",
         "icon": "⚓",
-        "desc": "La reine phénicienne Didon fonde Carthage ('Qart Hadasht' — la nouvelle ville) sur les côtes de l'actuelle Tunisie. En quelques siècles, Carthage devient la plus grande cité du monde méditerranéen occidental, avec 500 000 habitants. Sa marine contrôle toute la Méditerranée occidentale — jusqu'à ce que Rome l'anéantisse en 146 av. J.-C.",
+        "desc": "La reine phénicienne Didon fonde Carthage ('Qart Hadasht' — la nouvelle ville) vers –814 av. J.-C. sur les côtes de l'actuelle Tunisie. Selon la légende, elle obtint des terres locales aussi grandes qu'une peau de bœuf pouvait en couvrir — et fit découper la peau en lanières si fines qu'elles délimitèrent toute une colline. En quelques siècles, Carthage devient la plus grande cité du monde méditerranéen occidental, avec 500 000 habitants, une marine redoutable et un empire commercial s'étendant de l'Espagne au Maroc. Sa rivalité avec Rome donnera naissance aux guerres Puniques — et au plus grand chef militaire de l'Antiquité : Hannibal.",
         "kind": "histoire",
         "anecdotes": [
           {
             "i": "🔥",
             "t": "'Carthago delenda est' — Carthage doit être détruite. Caton l'Ancien terminait chacun de ses discours au Sénat par cette phrase, quel que soit le sujet traité. En 146 av. J.-C., Rome rase la ville et, selon la légende, sème son sol de sel pour qu'elle ne repousse jamais."
+          },
+          {
+            "i": "🌊",
+            "t": "<b>Carthage contrôlait toute la Méditerranée occidentale.</b> Ses flottes de guerre et de commerce dominaient les routes entre l'Afrique, l'Espagne, la Sicile et la Sardaigne. Elle possédait des comptoirs jusqu'au Maroc et peut-être jusqu'aux Canaries. Avant Rome, Carthage était la puissance navale incontestée de l'Ouest méditerranéen — ce qui rendait inévitable le choc avec Rome qui voulait la même chose."
+          },
+          {
+            "i": "🧂",
+            "t": "<b>'Carthago delenda est' — Carthage doit être détruite.</b> Le sénateur romain Caton l'Ancien terminait chacun de ses discours par cette phrase, quel qu'en soit le sujet. En –146, Rome rasa la ville, tua ou réduisit en esclavage ses 500 000 habitants, et — selon la légende — sema son sol de sel pour qu'il ne repousse jamais. La rivale la plus dangereuse de Rome était effacée pour toujours."
           }
         ],
-        "img": "histoire/La fondation de Carthage par Didon.webp"
+        "img": "histoire/La fondation de Carthage par Didon.webp",
+        "quiz": {
+          "q": "Quelle reine phénicienne fonda Carthage selon la légende, et comment obtint-elle les terres nécessaires ?",
+          "r": "La reine Didon — elle obtint autant de terre qu'une peau de bœuf pouvait en couvrir, et la fit découper en fines lanières pour délimiter une grande surface",
+          "hint": "Cette ruse ingénieuse lui permit de fonder 'Qart Hadasht' — la nouvelle ville — sur les côtes de l'actuelle Tunisie"
+        }
       },
       {
         "kind": "histoire",
@@ -562,6 +630,14 @@
           {
             "i": "🫒",
             "t": "Les athlètes concouraient entièrement nus — le mot 'gymnase' vient du grec 'gymnos' (nu). Les femmes n'avaient pas le droit d'assister aux Jeux sous peine de mort. Ils seront supprimés en 393 ap. J.-C. par l'empereur chrétien Théodose comme 'festivité païenne'."
+          },
+          {
+            "i": "🏟️",
+            "t": "<b>Les Jeux durèrent 1 168 ans sans interruption.</b> De –776 av. J.-C. à 393 ap. J.-C., les Jeux Olympiques se tinrent toutes les quatre années. C'est l'empereur chrétien Théodose qui les supprima comme 'fête païenne'. Ils ne reprirent qu'en 1896 à Athènes, sur l'initiative du Français Pierre de Coubertin — après 1 503 ans d'interruption. Aucune autre institution humaine n'a duré aussi longtemps de façon continue."
+          },
+          {
+            "i": "🫒",
+            "t": "<b>Les athlètes concouraient entièrement nus.</b> Le mot 'gymnase' vient du grec 'gymnos' (nu). Les femmes n'avaient pas le droit d'assister aux Jeux sous peine de mort — sauf les prêtresses de Déméter, seules autorisées à regarder. Il existait des Jeux féminins séparés, les Jeux Héréens en l'honneur d'Héra, mais beaucoup moins prestigieux. Les vainqueurs, coiffés d'une simple couronne d'olivier, recevaient pourtant la gloire éternelle : des poètes comme Pindare leur composaient des odes qui traversèrent les siècles."
           }
         ],
         "quiz": {
@@ -582,6 +658,14 @@
           {
             "i": "🐺",
             "t": "La louve du Capitole, bronze célèbre du musée de Rome, représente cette scène fondatrice. Les fouilles archéologiques confirment une installation humaine sur les collines romaines vers 800-750 av. J.-C. — la légende n'est pas totalement sans fondement."
+          },
+          {
+            "i": "🏛️",
+            "t": "<b>L'archéologie a retrouvé des traces d'occupation sur les collines romaines dès –900 av. J.-C.</b> La légende de Romulus n'est pas pure invention : des hameaux de bergers existaient bien sur le Palatin et l'Aventin à cette époque. Ils fusionnèrent progressivement avec les communautés voisines pour former ce qui deviendra Rome. La date de –753 av. J.-C. était calculée par les Romains eux-mêmes des siècles plus tard — elle est symbolique mais pas absurde."
+          },
+          {
+            "i": "🐺",
+            "t": "<b>La louve du Capitole, bronze célèbre du musée de Rome, pose un problème.</b> Longtemps datée du Ve siècle av. J.-C., des analyses récentes suggèrent qu'elle daterait plutôt du Moyen Âge — environ 1000 ap. J.-C. Les petits jumeaux Romulus et Remus qui lui sont attachés ont, eux, clairement été ajoutés au XVe siècle par le sculpteur Antonio Pollaiolo. Le symbole fondateur de Rome serait donc une œuvre médiévale. L'histoire des origines est souvent plus récente qu'on ne le croit."
           }
         ],
         "quiz": {
@@ -686,6 +770,14 @@
           {
             "i": "⚰️",
             "t": "'Je sais que je ne sais rien' — phrase attribuée à Socrate, qui ne l'a jamais écrite. Ce paradoxe illustre sa méthode : la conscience de sa propre ignorance est le début de la sagesse. Platon consacrera toute sa vie à honorer la mémoire de son maître condamné injustement."
+          },
+          {
+            "i": "🏛️",
+            "t": "<b>Platon a inventé la notion d'Académie.</b> L'école qu'il fonda vers –387 av. J.-C. dans un jardin aux portes d'Athènes dédié au héros Académos donnera son nom à toutes les académies du monde. Elle fonctionnera pendant 916 ans — jusqu'à sa fermeture par l'empereur Justinien en 529 ap. J.-C. comme 'institution païenne'. Aristote y enseigna pendant 20 ans avant de fonder sa propre école, le Lycée. Ces deux institutions sont les ancêtres de toutes les universités."
+          },
+          {
+            "i": "💬",
+            "t": "<b>Socrate considérait l'écriture comme dangereuse pour la pensée.</b> C'est son paradoxe ultime : il n'a rien écrit, estimant que l'écriture endort la mémoire et donne l'illusion de la connaissance sans la vraie compréhension. Tout ce qu'on sait de lui vient de Platon — qui a peut-être largement réinterprété, voire inventé, la pensée de son maître. Socrate, le philosophe de la vérité, nous est connu uniquement à travers les écrits d'un autre. Ironie parfaite."
           }
         ],
         "quiz": {
@@ -937,6 +1029,14 @@
           {
             "i": "🗡️",
             "t": "'Et tu, Brute ?' — Shakespeare invente cette phrase. Selon Suétone, César voit Brutus parmi les assassins et se couvre le visage de sa toge. 23 coups de couteau, mais seul le deuxième était mortel selon l'autopsie — les autres assassins se sont blessés entre eux dans la confusion."
+          },
+          {
+            "i": "📅",
+            "t": "<b>César a réformé notre calendrier.</b> Le calendrier romain était devenu un désastre — il avait trois mois de décalage avec les saisons. César fit appel à l'astronome alexandrin Sosigène et imposa le calendrier julien : 365 jours et une année bissextile tous les 4 ans. Ce calendrier, avec une légère correction en 1582 par le pape Grégoire XIII (le calendrier grégorien que nous utilisons), est encore le nôtre aujourd'hui. César a structuré notre temps."
+          },
+          {
+            "i": "✍️",
+            "t": "<b>César était aussi l'un des meilleurs écrivains de son temps.</b> Ses Commentaires sur la Guerre des Gaules, rédigés en campagne pour informer Rome de ses victoires, sont considérés comme un modèle de prose latine — clairs, directs, efficaces. Cicéron lui-même les admirait. César écrivait à la troisième personne ('César fit ceci', 'César ordonna cela') — pour paraître objectif tout en se glorifiant. Le premier spin doctor de l'histoire."
           }
         ],
         "quiz": {
@@ -1041,15 +1141,28 @@
         "date": "–27 à 14 ap. J.-C.",
         "tag": "Empereur",
         "icon": "🏛️",
-        "desc": "Octave, petit-neveu et héritier de César, écrase ses rivaux (Antoine, Lépide) et devient Auguste — le premier empereur romain. Il conserve les formes républicaines mais concentre tous les pouvoirs. Il lance la Pax Romana, 200 ans de paix relative. 'J'ai trouvé Rome en briques, je la laisse en marbre.' Sous son règne, naissance d'un certain Jésus en Judée.",
+        "desc": "Octave, petit-neveu et héritier de César, n'a que 18 ans quand il apprend l'assassinat de son grand-oncle. Il forge des alliances, brise ses alliés, et écrase ses rivaux Marc Antoine et Cléopâtre à la bataille d'Actium en –31. En –27, le Sénat lui accorde le titre d'Augustus — 'le vénérable'. Il règne 44 ans, le plus long règne de l'histoire romaine, en gardant soigneusement les formes républicaines tout en concentrant tous les pouvoirs. Sous lui naît la Pax Romana — 200 ans de paix relative qui permettront à l'Empire de prospérer. 'J'ai trouvé Rome en briques, je la laisse en marbre.' Sous son règne naît, en Judée romaine, un certain Jésus de Nazareth.",
         "kind": "histoire",
         "anecdotes": [
           {
             "i": "📅",
             "t": "Auguste réforme le calendrier de César et donne son nom au mois d'août (Augustus). Son prédécesseur César avait déjà donné son nom à juillet (Julius). Les deux mois d'été portent encore les noms de ces deux dictateurs."
+          },
+          {
+            "i": "🏛️",
+            "t": "<b>Auguste a inventé la propagande architecturale à grande échelle.</b> 'J'ai trouvé Rome en briques, je la laisse en marbre.' Il fit construire ou restaurer 82 temples, le Forum d'Auguste, le Mausolée d'Auguste, la Ara Pacis (autel de la Paix), et transforme le Champ de Mars en quartier monumental. Cette politique architecturale était délibérée : chaque bâtiment glorifiait sa famille et légitimait son pouvoir. Trois siècles avant Constantin, Auguste avait compris que la pierre dure plus longtemps que les discours."
+          },
+          {
+            "i": "📜",
+            "t": "<b>Auguste a rédigé lui-même le bilan de son règne, gravé sur bronze après sa mort.</b> Les 'Res Gestae Divi Augusti' ('Les choses accomplies par le divin Auguste') listaient ses exploits : guerres gagnées, temples construits, distributions de blé, spectacles organisés. Ce document, retrouvé gravé sur les murs d'un temple en Turquie, est la première autobiographie politique connue — et un modèle pour tous les communicants politiques qui suivirent."
           }
         ],
-        "img": "histoire/Bains romains sous les voûtes majestueuses.webp"
+        "img": "histoire/Bains romains sous les voûtes majestueuses.webp",
+        "quiz": {
+          "q": "Quels sont les deux mois de l'année qui portent encore aujourd'hui les noms de César et d'Auguste ?",
+          "r": "Juillet (Julius Caesar) et Août (Augustus) — les deux mois d'été portent les noms de ces deux hommes",
+          "hint": "Avant eux, ces mois s'appelaient Quintilis et Sextilis — le 5e et 6e mois du calendrier romain originel"
+        }
       },
       {
         "icon": "🏙️",
@@ -1118,6 +1231,14 @@
           {
             "i": "📅",
             "t": "Paradoxe : Jésus n'est probablement pas né en l'an 0. Le moine Denys le Petit, qui inventa notre calendrier au VIe siècle, fit une erreur de calcul. Selon les Évangiles et les données historiques (mort d'Hérode), Jésus serait né entre –6 et –4 av. J.-C. — donc 'avant Jésus-Christ'."
+          },
+          {
+            "i": "⭐",
+            "t": "<b>Les Rois Mages ne sont probablement pas 3, et ne sont pas des rois.</b> L'Évangile de Matthieu parle de 'mages venus d'Orient' — des astrologues ou savants, sans préciser leur nombre. Le chiffre 3 vient du nombre de cadeaux (or, encens, myrrhe). Leurs noms — Melchior, Gaspard et Balthazar — n'apparaissent dans aucun texte avant le VIe siècle. Leurs reliques sont vénérées à Cologne depuis 1164. Trois personnages construits au fil des siècles à partir d'une seule phrase d'Évangile."
+          },
+          {
+            "i": "📅",
+            "t": "<b>L'an 0 n'existe pas dans notre calendrier.</b> On passe directement du 1 av. J.-C. au 1 ap. J.-C. Le moine Denys le Petit, qui calcula la date de naissance de Jésus au VIe siècle pour fixer notre ère chrétienne, fit une erreur. Selon les données de l'Évangile (mort d'Hérode, étoile de Bethléem), Jésus serait né entre –6 et –4 av. J.-C. — donc 'avant Jésus-Christ'. Une petite absurdité mathématique au cœur de notre calendrier universel."
           }
         ],
         "quiz": {
@@ -1254,6 +1375,14 @@
           {
             "i": "📜",
             "t": "Le jeune Pline le Jeune, présent à Misène le jour de l'éruption, rédige la première description scientifique d'une éruption volcanique. On appelle encore aujourd'hui une éruption à panache de cendres 'éruption plinienne' en son honneur."
+          },
+          {
+            "i": "🏙️",
+            "t": "<b>Pompéi révèle une vie romaine saisissante de modernité.</b> Les fouilles ont mis au jour des bars à restauration rapide (thermopolia) avec leurs comptoirs en marbre, des graffitis électoraux sur les murs ('Votez Aulus Marcus !'), des pubs d'esclaves, une maison close avec des fresques explicites, et des jeux pour enfants tracés dans la pierre. Pompéi n'est pas un musée — c'était une ville vivante, bruyante, colorée, au IVe étage socialement très divers."
+          },
+          {
+            "i": "🔬",
+            "t": "<b>Les corps ne sont pas des corps — ce sont des moulages.</b> Les victimes ont été recouvertes de cendres qui se sont solidifiées en conservant leur forme exacte. Les corps ont ensuite pourri, laissant des cavités. En 1863, l'archéologue Giuseppe Fiorelli eut l'idée d'injecter du plâtre dans ces cavités — et fit ressurgir les habitants figés dans leur dernier instant : une femme protégeant un enfant, un homme se couvrant le visage, un chien enchaîné qui n'a pas pu fuir."
           }
         ],
         "quiz": {
@@ -1603,6 +1732,14 @@
           {
             "i": "💀",
             "t": "À la mort d'Attila, ses guerriers se lacèrent le visage pour qu'un grand guerrier soit pleuré avec du sang et non des larmes de femme. Il est enterré dans trois cercueils emboîtés — or, argent, fer. Ses funérailles avaient lieu la nuit. Tous ceux qui avaient assisté aux funérailles furent tués pour que personne ne puisse révéler l'emplacement de sa tombe."
+          },
+          {
+            "i": "⚔️",
+            "t": "<b>Attila fut arrêté aux Champs Catalauniques en 451 — pas seulement par la prière.</b> La vraie victoire fut celle d'une coalition improbable : le général romain Aetius, son ancien otage chez les Huns, s'allia avec le roi wisigoth Théodoric (qui mourut dans la bataille) pour stopper l'armée d'Attila près de Châlons-en-Champagne. C'est l'une des dernières grandes victoires de Rome — et Aetius, le 'dernier des Romains', sera assassiné par l'empereur qu'il venait de sauver."
+          },
+          {
+            "i": "💀",
+            "t": "<b>Attila mourut d'une hémorragie nasale lors de sa nuit de noces avec Ildico en 453.</b> À ses funérailles nocturnes, ses guerriers se lacérèrent le visage pour qu'un grand guerrier soit pleuré avec du sang et non des larmes de femme. Il fut enterré dans trois cercueils emboîtés — or, argent, fer. Tous ceux présents à l'enterrement furent tués pour que personne ne révèle l'emplacement de sa tombe. Elle n'a jamais été retrouvée."
           }
         ],
         "kind": "histoire",
@@ -1624,6 +1761,14 @@
           {
             "i": "🏛️",
             "t": "'Personne ne remarqua la chute de Rome' — l'historien Bryan Ward-Perkins. En réalité, pour les habitants de l'époque, la transition fut graduelle. C'est seulement des siècles plus tard que les historiens fixeront 476 comme la date symbolique de la fin du monde antique."
+          },
+          {
+            "i": "📚",
+            "t": "<b>'Personne ne remarqua la chute de Rome.'</b> L'historien Bryan Ward-Perkins résume une réalité troublante : pour les contemporains, la destitution de Romulus Augustule en 476 ne fut pas un événement majeur. L'Empire se fragmentait depuis des décennies, des rois barbares gouvernaient déjà des provinces entières. Ce sont des historiens des siècles suivants qui fixèrent 476 comme date symbolique de la 'fin du monde antique'. Les grandes ruptures historiques sont souvent invisibles à ceux qui les vivent."
+          },
+          {
+            "i": "🏛️",
+            "t": "<b>L'Empire romain d'Orient, lui, survécut jusqu'en 1453.</b> Constantinople — la 'Nouvelle Rome' fondée par Constantin en 330 — résista 977 ans de plus. Cet Empire byzantin parlait grec, était chrétien, et se considérait comme la continuation directe de Rome. Quand il tomba sous les canons ottomans de Mehmed II le 29 mai 1453, des érudits byzantins s'enfuirent en Italie avec leurs manuscrits grecs — déclenchant la Renaissance. La chute de Byzance nourrit la naissance de l'Europe moderne."
           }
         ],
         "quiz": {
