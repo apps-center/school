@@ -58,7 +58,7 @@
           "r": "En argile cuite",
           "hint": "Un matériau abondant en Mésopotamie, entre le Tigre et l'Euphrate"
         },
-        "img": "histoire/Rassemblement philosophique à Athènes.webp"
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "title": "Unification de l'Égypte — Ménès & la Double Couronne",
@@ -1249,6 +1249,34 @@
         "img": "histoire/La Nativité sous l'étoile brillante.webp"
       },
       {
+        "icon": "🔥",
+        "tag": "Empereur",
+        "date": "54 à 68 ap. J.-C.",
+        "title": "Néron — L'Incendie de Rome & les Persécutions",
+        "desc": "Néron monte sur le trône à 17 ans. Son règne commence bien — il est conseillé par le philosophe Sénèque — puis déraille dans la tyrannie, les meurtres de proches (dont sa propre mère Agrippine) et la mégalomanie. En 64, un incendie ravage les deux tiers de Rome. Il accuse les chrétiens, les fait crucifier et brûler comme torches vivantes. Il est le premier persécuteur institutionnel du christianisme.",
+        "anecdotes": [
+          {
+            "e": "🎻",
+            "t": "<b>Néron ne jouait pas du violon pendant l'incendie de Rome</b> — le violon n'existait pas encore. La légende dit qu'il jouait de la cithare depuis sa terrasse en récitant ses propres poèmes sur la destruction de Troie. Mais les sources antiques contredisent les unes les autres. Ce qu'on sait : il profita de l'incendie pour construire sa Domus Aurea — un palais de 300 pièces avec un lac artificiel."
+          },
+          {
+            "e": "👩",
+            "t": "<b>Néron fit assassiner sa propre mère Agrippine.</b> Après plusieurs tentatives ratées (dont un bateau conçu pour couler), il envoya des soldats chez elle. Elle présenta sa poitrine au centurion : « Frappe ici, là d'où est sorti un tel fils. » Cette scène, rapportée par Tacite, est l'une des plus dramatiques de l'Antiquité — et illustre jusqu'où le pouvoir absolu peut mener."
+          },
+          {
+            "e": "😈",
+            "t": "<b>Dans l'Apocalypse de Jean, la « Bête » dont le nombre est 666 désigne probablement Néron.</b> En hébreu, les lettres de « Néron César » donnent la valeur numérique 666. Pour les chrétiens du Ier siècle, persécutés par Néron, ce chiffre était un code pour le désigner sans le nommer — une façon de critiquer l'Empire sans risquer la mort."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Dans quelle œuvre biblique le nombre 666 désigne-t-il probablement Néron en code hébreu ?",
+          "r": "L'Apocalypse de Jean",
+          "hint": "Les lettres de 'Néron César' en hébreu donnent la valeur numérique 666"
+        },
+        "img": "histoire/Néron contemple la ville en flammes.webp"
+      },
+      {
         "kind": "histoire",
         "icon": "✝️",
         "tag": "Persécutions",
@@ -1279,34 +1307,6 @@
           "hint": "Un théologien de Carthage, vers 200 ap. J.-C. — il voulait dire que chaque exécution publique convertissait des spectateurs"
         },
         "img": "histoire/Persécution des chrétiens dans l'arène.webp"
-      },
-      {
-        "icon": "🔥",
-        "tag": "Empereur",
-        "date": "54 à 68 ap. J.-C.",
-        "title": "Néron — L'Incendie de Rome & les Persécutions",
-        "desc": "Néron monte sur le trône à 17 ans. Son règne commence bien — il est conseillé par le philosophe Sénèque — puis déraille dans la tyrannie, les meurtres de proches (dont sa propre mère Agrippine) et la mégalomanie. En 64, un incendie ravage les deux tiers de Rome. Il accuse les chrétiens, les fait crucifier et brûler comme torches vivantes. Il est le premier persécuteur institutionnel du christianisme.",
-        "anecdotes": [
-          {
-            "e": "🎻",
-            "t": "<b>Néron ne jouait pas du violon pendant l'incendie de Rome</b> — le violon n'existait pas encore. La légende dit qu'il jouait de la cithare depuis sa terrasse en récitant ses propres poèmes sur la destruction de Troie. Mais les sources antiques contredisent les unes les autres. Ce qu'on sait : il profita de l'incendie pour construire sa Domus Aurea — un palais de 300 pièces avec un lac artificiel."
-          },
-          {
-            "e": "👩",
-            "t": "<b>Néron fit assassiner sa propre mère Agrippine.</b> Après plusieurs tentatives ratées (dont un bateau conçu pour couler), il envoya des soldats chez elle. Elle présenta sa poitrine au centurion : « Frappe ici, là d'où est sorti un tel fils. » Cette scène, rapportée par Tacite, est l'une des plus dramatiques de l'Antiquité — et illustre jusqu'où le pouvoir absolu peut mener."
-          },
-          {
-            "e": "😈",
-            "t": "<b>Dans l'Apocalypse de Jean, la « Bête » dont le nombre est 666 désigne probablement Néron.</b> En hébreu, les lettres de « Néron César » donnent la valeur numérique 666. Pour les chrétiens du Ier siècle, persécutés par Néron, ce chiffre était un code pour le désigner sans le nommer — une façon de critiquer l'Empire sans risquer la mort."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Dans quelle œuvre biblique le nombre 666 désigne-t-il probablement Néron en code hébreu ?",
-          "r": "L'Apocalypse de Jean",
-          "hint": "Les lettres de 'Néron César' en hébreu donnent la valeur numérique 666"
-        },
-        "img": "histoire/Néron contemple la ville en flammes.webp"
       },
       {
         "icon": "🔥",
