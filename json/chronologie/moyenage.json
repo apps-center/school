@@ -64,7 +64,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/Le_baptême_de_Clovis_à_Reims.webp"
       },
       {
         "icon": "👑",
@@ -83,7 +83,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/dogobert.webp"
       },
       {
         "icon": "😴",
@@ -98,7 +98,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/rois faineants.webp"
       }
     ]
   },
@@ -119,7 +119,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/charles martel.webp"
       },
       {
         "icon": "⚜️",
@@ -134,7 +134,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "👑",
@@ -177,7 +177,7 @@
           "r": "C'est le premier texte écrit en vieux-français, ancêtre direct de notre langue",
           "hint": "Le latin se transformait peu à peu — et ce serment en garde la première trace écrite"
         },
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -201,7 +201,7 @@
           "r": "La France (la Francia occidentalis — l'Ouest des Francs)",
           "hint": "L'Ouest de l'empire de Charlemagne deviendra progressivement le royaume de France"
         },
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/traite de verdun.webp"
       },
       {
         "icon": "🛶",
@@ -242,7 +242,7 @@
             "t": "<b>L'étrier changea la guerre.</b> Le cavalier stabilisé peut frapper avec toute la force de son cheval. C'est ce qui rendit la chevalerie lourde possible — et domina les champs de bataille pendant 700 ans."
           }
         ],
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/collier épaule etrier.webp"
       }
     ]
   },
@@ -267,7 +267,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/notre_dame_1200.webp"
+        "img": "histoire/mont_saint_michel.webp"
       },
       {
         "icon": "🏰",
@@ -282,7 +282,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_seigneur_et_le_vassal_supérieur.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -306,7 +306,7 @@
           "r": "La moitié des mots anglais viennent du français apporté par la noblesse normande",
           "hint": "Beef, pork, justice, noble, adventure… tous ces mots anglais sont en réalité du vieux-français"
         },
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/guillaume le conquerant.webp"
       },
       {
         "icon": "✝️",
@@ -371,7 +371,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La cour de la reine Aliénor.webp"
+        "img": "histoire/alienor.webp"
       },
       {
         "kind": "histoire",
@@ -413,7 +413,7 @@
           "r": "Suger, abbé de Saint-Denis",
           "hint": "Il voulait que les églises soient remplies de lumière pour symboliser la présence de Dieu"
         },
-        "img": "histoire/notre_dame_1200.webp"
+        "img": "histoire/basilique saint denis gothique.webp"
       },
       {
         "kind": "histoire",
@@ -431,7 +431,7 @@
             "t": "<b>Le système « licence-maîtrise-doctorat »</b> inventé par les universités médiévales est encore celui que nous utilisons aujourd'hui, 850 ans plus tard."
           }
         ],
-        "img": "histoire/Rassemblement philosophique à Athènes.webp"
+        "img": "histoire/universités.webp"
       },
       {
         "icon": "⛪",
@@ -540,7 +540,7 @@
           "r": "Première femme étrangère à gouverner la France, elle assura la régence pendant la minorité de Louis IX",
           "hint": "Elle venait d'Espagne et prit les rênes du royaume alors que son fils n'avait que 12 ans"
         },
-        "img": "histoire/La cour de la reine Aliénor.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -564,7 +564,7 @@
           "r": "Les États Généraux",
           "hint": "Cette réunion de nobles, prêtres et bourgeois sera convoquée à nouveau en 1789 — avec des conséquences explosives"
         },
-        "img": "histoire/La_fin_de_la_lignée_capétienne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🎰",
@@ -583,7 +583,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/templiers.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -607,7 +607,7 @@
           "r": "68 ans — de 1309 à 1377",
           "hint": "Sept papes successifs, tous français, préférèrent rester en France plutôt que de rejoindre Rome"
         },
-        "img": "histoire/notre_dame_1200.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🔥",
@@ -667,7 +667,7 @@
             "t": "<b>L'École de Notre-Dame de Paris</b> (Léonin, Pérotin, XIIe s.) est le premier grand centre de composition polyphonique de l'histoire. Les musiciens venaient du monde entier étudier à Paris — la musique classique occidentale est née à Notre-Dame."
           }
         ],
-        "img": "histoire/notre_dame_1200.webp"
+        "img": "histoire/ars nova.webp"
       },
       {
         "icon": "⚔️",
@@ -744,7 +744,7 @@
           "r": "Il fut fait prisonnier par les Anglais et emmené en Angleterre",
           "hint": "La France dut payer une rançon gigantesque pour récupérer son roi"
         },
-        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "📚",
@@ -763,7 +763,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🌀",
@@ -782,7 +782,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -806,7 +806,7 @@
           "r": "1791 — lors de la Révolution française",
           "hint": "Il fallut attendre 397 ans après l'expulsion de 1394 pour que la France reconnaisse pleinement leur citoyenneté"
         },
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -830,7 +830,7 @@
           "r": "La Cité des Dames",
           "hint": "Elle imagine une ville imaginaire peuplée des femmes les plus remarquables de l'histoire"
         },
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚔️",
@@ -853,7 +853,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/guerre de 100 ans.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🏹",
@@ -891,7 +891,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🔥",
