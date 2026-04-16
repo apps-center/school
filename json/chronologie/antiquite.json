@@ -672,6 +672,34 @@
         "img": "histoire/Les jeux olympiques antiques à Olympie.webp"
       },
       {
+        "icon": "🏛️",
+        "tag": "Civilisation",
+        "date": "–800 à –509 av. J.-C.",
+        "title": "Les Étrusques & la République Romaine",
+        "desc": "Avant Rome, les Étrusques dominent l'Italie centrale. Ce peuple mystérieux — dont la langue reste partiellement indéchiffrée — transmet à Rome l'architecture en voûte, les jeux du cirque, la divination et les symboles du pouvoir (la toge, les faisceaux). En 509 av. J.-C., les Romains chassent leur dernier roi étrusque et proclament la République.",
+        "anecdotes": [
+          {
+            "e": "🔤",
+            "t": "<b>Tu écris avec l'alphabet étrusque.</b> Les Étrusques adaptèrent l'alphabet grec pour leur propre langue, et les Romains l'adaptèrent à leur tour pour le latin. Notre alphabet — A, B, C, D… — est un héritage étrusque transmis via Rome. Une civilisation dont on ne comprend plus la langue a façonné l'écriture de la moitié du monde."
+          },
+          {
+            "e": "🔮",
+            "t": "<b>Les Étrusques lisaient l'avenir dans les foies des animaux sacrifiés.</b> Des modèles de foies en bronze ont été retrouvés, divisés en régions correspondant aux dieux. Cette pratique — l'haruspicine — fut adoptée par les Romains et pratiquée officiellement jusqu'au IVe siècle ap. J.-C. Les généraux romains consultaient les entrailles avant toute bataille importante."
+          },
+          {
+            "e": "❓",
+            "t": "<b>On ne sait toujours pas d'où viennent les Étrusques.</b> Leur langue, non indo-européenne, n'est apparentée à aucune autre connue. Les anciens eux-mêmes débattaient : Hérodote disait qu'ils venaient d'Anatolie, Denys d'Halicarnasse qu'ils étaient autochtones. L'ADN ancien suggère aujourd'hui une origine anatolienne — Hérodote avait peut-être raison."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
+          "r": "L'alphabet latin",
+          "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
+        },
+        "img": "histoire/Transition historique entre Étrusques et Romains.webp"
+      },
+      {
         "title": "Fondation de Rome — Romulus & Remus",
         "date": "–753 av. J.-C.",
         "tag": "Fondation",
@@ -961,34 +989,6 @@
           "hint": "Les 6 autres ont été détruites par des séismes, incendies ou pillages entre le IIIe et le XVe siècle"
         },
         "img": "histoire/Les sept merveilles du monde antique.webp"
-      },
-      {
-        "icon": "🏛️",
-        "tag": "Civilisation",
-        "date": "–800 à –509 av. J.-C.",
-        "title": "Les Étrusques & la République Romaine",
-        "desc": "Avant Rome, les Étrusques dominent l'Italie centrale. Ce peuple mystérieux — dont la langue reste partiellement indéchiffrée — transmet à Rome l'architecture en voûte, les jeux du cirque, la divination et les symboles du pouvoir (la toge, les faisceaux). En 509 av. J.-C., les Romains chassent leur dernier roi étrusque et proclament la République.",
-        "anecdotes": [
-          {
-            "e": "🔤",
-            "t": "<b>Tu écris avec l'alphabet étrusque.</b> Les Étrusques adaptèrent l'alphabet grec pour leur propre langue, et les Romains l'adaptèrent à leur tour pour le latin. Notre alphabet — A, B, C, D… — est un héritage étrusque transmis via Rome. Une civilisation dont on ne comprend plus la langue a façonné l'écriture de la moitié du monde."
-          },
-          {
-            "e": "🔮",
-            "t": "<b>Les Étrusques lisaient l'avenir dans les foies des animaux sacrifiés.</b> Des modèles de foies en bronze ont été retrouvés, divisés en régions correspondant aux dieux. Cette pratique — l'haruspicine — fut adoptée par les Romains et pratiquée officiellement jusqu'au IVe siècle ap. J.-C. Les généraux romains consultaient les entrailles avant toute bataille importante."
-          },
-          {
-            "e": "❓",
-            "t": "<b>On ne sait toujours pas d'où viennent les Étrusques.</b> Leur langue, non indo-européenne, n'est apparentée à aucune autre connue. Les anciens eux-mêmes débattaient : Hérodote disait qu'ils venaient d'Anatolie, Denys d'Halicarnasse qu'ils étaient autochtones. L'ADN ancien suggère aujourd'hui une origine anatolienne — Hérodote avait peut-être raison."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
-          "r": "L'alphabet latin",
-          "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
-        },
-        "img": "histoire/Transition historique entre Étrusques et Romains.webp"
       },
       {
         "icon": "🐘",
