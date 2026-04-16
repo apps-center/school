@@ -64,7 +64,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_baptême_de_Clovis_à_Reims.webp"
+        "img": "histoire/sacre_charlemagne.webp"
       },
       {
         "icon": "👑",
@@ -83,7 +83,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       },
       {
         "icon": "😴",
@@ -98,7 +98,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
+        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
       }
     ]
   },
@@ -134,7 +134,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_roi_merovingien_et_le_maire_du_palais.webp"
+        "img": "histoire/sacre_charlemagne.webp"
       },
       {
         "icon": "👑",
@@ -267,7 +267,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/mont_saint_michel.webp"
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "icon": "🏰",
@@ -413,7 +413,7 @@
           "r": "Suger, abbé de Saint-Denis",
           "hint": "Il voulait que les églises soient remplies de lumière pour symboliser la présence de Dieu"
         },
-        "img": "histoire/arc_boutant.webp"
+        "img": "histoire/notre_dame_1200.webp"
       },
       {
         "kind": "histoire",
@@ -431,7 +431,7 @@
             "t": "<b>Le système « licence-maîtrise-doctorat »</b> inventé par les universités médiévales est encore celui que nous utilisons aujourd'hui, 850 ans plus tard."
           }
         ],
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "icon": "⛪",
@@ -468,7 +468,7 @@
             "t": "<b>Don Quichotte attaque des moulins à vent</b> (Cervantes, 1605) en les prenant pour des géants. À cette époque, les moulins étaient si omniprésents dans le paysage qu'ils étaient devenus le symbole même du progrès technique."
           }
         ],
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/moulins a vent.webp"
       },
       {
         "icon": "🗺️",
@@ -501,7 +501,7 @@
             "t": "<b>La boussole pointe vers le nord magnétique,</b> pas le nord géographique. Cette déclinaison magnétique, découverte au XVe siècle, dut être compensée dans tous les calculs de navigation — une subtilité qui causa bien des naufrages."
           }
         ],
-        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
+        "img": "histoire/Schéma et histoire du compas.webp"
       },
       {
         "icon": "🌳",
@@ -682,7 +682,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
+        "img": "histoire/guerre de 100 ans.webp"
       },
       {
         "icon": "🏹",
@@ -853,7 +853,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/guerre de 100 ans.webp"
       },
       {
         "icon": "🏹",
@@ -953,7 +953,7 @@
           "r": "Les canons (l'artillerie à poudre)",
           "hint": "Cette arme rendit obsolètes les archers anglais aux longbows qui avaient dominé à Crécy et Azincourt"
         },
-        "img": "histoire/Bataille d'Azincourt sous la pluie.webp"
+        "img": "histoire/guerre de 100 ans.webp"
       },
       {
         "icon": "🕸️",
