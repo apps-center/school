@@ -584,6 +584,30 @@
           "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
         },
         "img": "histoire/Moïse et les prophètes sous l'orage.webp"
+      },
+      {
+        "icon": "🐪",
+        "tag": "Commerce",
+        "date": "–400 à –100 av. J.-C.",
+        "title": "Pétra & les Routes Caravanières",
+        "desc": "Au cœur du désert jordanien, le peuple nabatéen taille dans la roche rose une ville extraordinaire : Pétra. Carrefour entre l'Arabie, l'Égypte et la Méditerranée, elle contrôle le commerce des épices, de l'encens, de la soie et de l'or. Ses ingénieurs maîtrisent l'eau dans le désert grâce à un réseau de citernes et de canaux invisible depuis l'extérieur. Au premier siècle avant J.-C., Pétra est l'une des villes les plus riches du monde.",
+        "kind": "histoire",
+        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp",
+        "anecdotes": [
+          {
+            "t": "<b>Le Trésor (Al-Khazneh) n'est pas un trésor.</b> Cette façade taillée dans le roc de 43 mètres de haut était en réalité un mausolée royal. Les Bédouins pensaient qu'une urne au sommet contenait des trésors — ils la criblèrent de balles pour la faire s'ouvrir. Elle est en pierre solide.",
+            "e": "🏛️"
+          },
+          {
+            "t": "<b>Les Nabatéens ont vaincu le désert par l'ingénierie.</b> Leurs canaux et citernes collectaient chaque goutte de pluie et de rosée. Pétra pouvait alimenter 30 000 habitants dans un désert aride — une prouesse d'ingénierie hydraulique sans équivalent dans l'Antiquité.",
+            "e": "💧"
+          }
+        ],
+        "quiz": {
+          "q": "Dans quelle roche la ville de Pétra est-elle principalement sculptée ?",
+          "r": "Dans le grès rose-rouge",
+          "hint": "La couleur de la roche lui vaut parfois le surnom de 'ville rose'"
+        }
       }
     ]
   },
@@ -704,6 +728,34 @@
         "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
       },
       {
+        "icon": "📐",
+        "tag": "Sciences",
+        "date": "–625 à –100 av. J.-C.",
+        "title": "Thalès, Pythagore, Ptolémée — Les Savants Grecs",
+        "desc": "En deux siècles, la Grèce accomplit une révolution intellectuelle sans précédent : elle invente la démonstration mathématique, la philosophie, l'astronomie scientifique et la géographie rationnelle. Thalès de Milet (–624) prédit une éclipse solaire et mesure la hauteur des pyramides par les ombres. Pythagore (–570) lie mathématiques et musique. Euclide codifie la géométrie. Ptolémée (IIe siècle ap. J.-C.) construit un modèle du cosmos utilisé pendant 1 400 ans.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>Thalès calcula la hauteur de la pyramide de Khéops sans la gravir.</b> Il attendit le moment de la journée où son ombre égalait sa taille, puis mesura l'ombre de la pyramide. Sa méthode — les triangles semblables — est encore enseignée au collège 2 600 ans plus tard. C'est le premier exemple connu de raisonnement mathématique appliqué à un problème réel."
+          },
+          {
+            "e": "🎵",
+            "t": "<b>Pythagore découvrit que la musique obéit aux mathématiques.</b> En pinçant une corde tendue à la moitié, on obtient une note une octave plus haute — exactement. Les rapports 1/2, 2/3, 3/4 produisent des harmonies parfaites. Cette découverte le convainquit que l'univers entier était régi par des nombres. Il fonda une secte secrète dont les membres ne mangeaient pas de fèves — raison inconnue."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
+          }
+        ],
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
+          "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
+          "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
+        },
+        "img": "histoire/Les savants grecs en pleine étude.webp"
+      },
+      {
         "icon": "🏛️",
         "tag": "Politique",
         "date": "–508 à –322 av. J.-C.",
@@ -816,34 +868,6 @@
         "img": "histoire/Aristote Le philosophe et ses disciples aux étoiles.webp"
       },
       {
-        "icon": "📐",
-        "tag": "Sciences",
-        "date": "–625 à –100 av. J.-C.",
-        "title": "Thalès, Pythagore, Ptolémée — Les Savants Grecs",
-        "desc": "En deux siècles, la Grèce accomplit une révolution intellectuelle sans précédent : elle invente la démonstration mathématique, la philosophie, l'astronomie scientifique et la géographie rationnelle. Thalès de Milet (–624) prédit une éclipse solaire et mesure la hauteur des pyramides par les ombres. Pythagore (–570) lie mathématiques et musique. Euclide codifie la géométrie. Ptolémée (IIe siècle ap. J.-C.) construit un modèle du cosmos utilisé pendant 1 400 ans.",
-        "anecdotes": [
-          {
-            "e": "📐",
-            "t": "<b>Thalès calcula la hauteur de la pyramide de Khéops sans la gravir.</b> Il attendit le moment de la journée où son ombre égalait sa taille, puis mesura l'ombre de la pyramide. Sa méthode — les triangles semblables — est encore enseignée au collège 2 600 ans plus tard. C'est le premier exemple connu de raisonnement mathématique appliqué à un problème réel."
-          },
-          {
-            "e": "🎵",
-            "t": "<b>Pythagore découvrit que la musique obéit aux mathématiques.</b> En pinçant une corde tendue à la moitié, on obtient une note une octave plus haute — exactement. Les rapports 1/2, 2/3, 3/4 produisent des harmonies parfaites. Cette découverte le convainquit que l'univers entier était régi par des nombres. Il fonda une secte secrète dont les membres ne mangeaient pas de fèves — raison inconnue."
-          },
-          {
-            "e": "🌍",
-            "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
-          }
-        ],
-        "kind": "histoire",
-        "quiz": {
-          "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
-          "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
-          "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
-        },
-        "img": "histoire/Les savants grecs en pleine étude.webp"
-      },
-      {
         "icon": "🌍",
         "tag": "Conquérant",
         "date": "–336 à –323 av. J.-C.",
@@ -899,30 +923,6 @@
         },
         "img": "histoire/Diogène et l’agora d’Athènes.webp"
       },
-      {
-        "icon": "🐪",
-        "tag": "Commerce",
-        "date": "–400 à –100 av. J.-C.",
-        "title": "Pétra & les Routes Caravanières",
-        "desc": "Au cœur du désert jordanien, le peuple nabatéen taille dans la roche rose une ville extraordinaire : Pétra. Carrefour entre l'Arabie, l'Égypte et la Méditerranée, elle contrôle le commerce des épices, de l'encens, de la soie et de l'or. Ses ingénieurs maîtrisent l'eau dans le désert grâce à un réseau de citernes et de canaux invisible depuis l'extérieur. Au premier siècle avant J.-C., Pétra est l'une des villes les plus riches du monde.",
-        "kind": "histoire",
-        "img": "histoire/La_caravane_vers_le_Trésor_de_Petra.webp",
-        "anecdotes": [
-          {
-            "t": "<b>Le Trésor (Al-Khazneh) n'est pas un trésor.</b> Cette façade taillée dans le roc de 43 mètres de haut était en réalité un mausolée royal. Les Bédouins pensaient qu'une urne au sommet contenait des trésors — ils la criblèrent de balles pour la faire s'ouvrir. Elle est en pierre solide.",
-            "e": "🏛️"
-          },
-          {
-            "t": "<b>Les Nabatéens ont vaincu le désert par l'ingénierie.</b> Leurs canaux et citernes collectaient chaque goutte de pluie et de rosée. Pétra pouvait alimenter 30 000 habitants dans un désert aride — une prouesse d'ingénierie hydraulique sans équivalent dans l'Antiquité.",
-            "e": "💧"
-          }
-        ],
-        "quiz": {
-          "q": "Dans quelle roche la ville de Pétra est-elle principalement sculptée ?",
-          "r": "Dans le grès rose-rouge",
-          "hint": "La couleur de la roche lui vaut parfois le surnom de 'ville rose'"
-        }
-      }
     ]
   },
   {
