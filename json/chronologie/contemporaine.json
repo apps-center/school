@@ -87,7 +87,7 @@
             "t": "<b>Notre-Dame de Paris (1831)</b> fut écrit exprès pour sauver la cathédrale de la démolition. Le roman créa un tel engouement populaire que Victor Hugo força le gouvernement à restaurer l'édifice. Un roman qui sauva un monument."
           }
         ],
-        "img": "histoire/victor_hugo.webp"
+        "img": "histoire/victor hugo.webp"
       },
       {
         "icon": "🦅",
@@ -150,7 +150,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/epoque_coloniale.webp"
+        "img": "histoire/epoque coloniale.webp"
       },
       {
         "icon": "🏛️",
@@ -169,7 +169,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "✨",
@@ -188,7 +188,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/belle_epoque.webp"
+        "img": "histoire/belle epoque.webp"
       },
       {
         "kind": "histoire",
@@ -206,7 +206,7 @@
             "t": "<b>Zola préparait ses romans comme un journaliste-scientifique :</b> il passa des mois dans les mines du Nord pour écrire Germinal, remplissant des carnets de notes sur les conditions de travail réelles."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -224,7 +224,7 @@
             "t": "<b>Le jardin de Giverny</b> que Monet fit construire avec son bassin et ses nymphéas fut son chef-d'œuvre architectural — il le peignit plus de 250 fois sous différentes lumières et saisons."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🗼",
@@ -243,7 +243,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/tour_effeil.webp"
+        "img": "histoire/tour effeil.webp"
       },
       {
         "icon": "⚖️",
@@ -277,7 +277,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/premiere_guerre.webp"
+        "img": "histoire/premiere guerre.webp"
       },
       {
         "icon": "🎷",
@@ -296,7 +296,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/annees_folles.webp"
+        "img": "histoire/annees folles.webp"
       },
       {
         "icon": "📉",
@@ -315,7 +315,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/crise_1929.webp"
+        "img": "histoire/crise 1929.webp"
       },
       {
         "icon": "🔥",
@@ -374,7 +374,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🇩🇿",
@@ -393,7 +393,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🗳️",
@@ -412,7 +412,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/de_gaulle.webp"
+        "img": "histoire/de gaulle.webp"
       },
       {
         "icon": "✊",
@@ -431,7 +431,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🧱",
@@ -450,7 +450,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       }
     ]
   }
