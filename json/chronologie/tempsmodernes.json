@@ -401,7 +401,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/peste.webp"
+        "img": "histoire/peste marseille.webp"
       },
       {
         "icon": "💎",
@@ -438,6 +438,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/voltaire.webp"
       },
       {
         "icon": "📚",
@@ -456,6 +457,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/diderot dalembert.webp"
       },
       {
         "icon": "🌍",
@@ -474,7 +476,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Bataille_de_la_guerre_de_Sept_Ans.webp"
+        "img": "histoire/guerre de 7 ans.webp"
       },
       {
         "icon": "🌿",
@@ -493,6 +495,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/rousseau.webp"
       },
       {
         "icon": "🗡️",
@@ -511,6 +514,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/louis XVI.webp"
       }
     ]
   }
