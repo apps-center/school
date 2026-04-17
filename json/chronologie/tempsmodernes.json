@@ -244,7 +244,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
+        "img": "histoire/louis XIV.webp"
       },
       {
         "icon": "👑",
@@ -259,6 +259,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/versailles.webp"
       },
       {
         "icon": "💰",
@@ -277,6 +278,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/colbert.webp"
       },
       {
         "kind": "histoire",
@@ -294,7 +296,7 @@
             "t": "<b>Tartuffe fut interdite dès sa première représentation</b> en 1664, jugée scandaleuse par l'Église. Louis XIV la défendit. La bataille entre Molière et les dévots dura 5 ans avant que la pièce puisse être jouée librement."
           }
         ],
-        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
+        "img": "histoire/moliere.webp"
       },
       {
         "icon": "🎭",
@@ -309,6 +311,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/racine andromaque.webp"
       },
       {
         "icon": "🦊",
@@ -327,6 +330,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/la fontaine.webp"
       },
       {
         "icon": "✍️",
@@ -345,6 +349,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/mme de cleves.webp"
       },
       {
         "icon": "⚓",
@@ -363,7 +368,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/corsaires.webp"
       },
       {
         "icon": "⛓️",
@@ -382,7 +387,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_commerce_triangulaire_transatlantique.webp"
+        "img": "histoire/traite negriere.webp"
       },
       {
         "icon": "☠️",
