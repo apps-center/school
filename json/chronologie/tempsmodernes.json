@@ -258,7 +258,7 @@
             "t": "<b>Le château le plus luxueux d'Europe manquait cruellement de sanitaires.</b> L'odeur était légendaire — ironie suprême de la magnificence absolue."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/versailles.webp"
       },
       {
@@ -277,7 +277,7 @@
             "t": "<b>Il faisait espionner les manufactures étrangères</b> pour voler leurs techniques. Des agents payés par lui dérobèrent les secrets de la dentelle de Venise et de la verrerie de Murano — au risque de leur vie. L'espionnage industriel est aussi vieux que l'industrie."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/colbert.webp"
       },
       {
@@ -310,7 +310,7 @@
             "t": "<b>Phèdre amoureuse de son beau-fils Hippolyte</b> est l'un des portraits psychologiques les plus fouillés de la littérature mondiale — culpabilité, désir et mort avec une modernité saisissante."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/racine andromaque.webp"
       },
       {
@@ -329,7 +329,7 @@
             "t": "<b>Les Fables sont le texte le plus imprimé de France</b> après la Bible. La Fontaine transforme la morale ésopique en poésie musicale aux vers impossibles à améliorer."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/la fontaine.webp"
       },
       {
@@ -348,7 +348,7 @@
             "t": "<b>En 2009, Sarkozy railla ce roman.</b> La polémique déclencha des lectures publiques de masse — la Princesse de Clèves fut en rupture de stock dans toutes les librairies de France."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/mme de cleves.webp"
       },
       {
