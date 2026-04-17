@@ -132,7 +132,7 @@
             "t": "<b>Ravaillac était un fanatique catholique</b> convaincu qu'Henri IV allait attaquer le pape. Il le poignarda dans son carrosse bloqué dans la rue de la Ferronnerie, le 14 mai 1610."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/henri 4.webp"
       },
       {
@@ -226,7 +226,7 @@
             "t": "<b>Louis XIV dut fuir Paris en pleine nuit à 10 ans, pendant la Fronde.</b> Ce traumatisme explique sa méfiance des grands seigneurs — et son choix de les enfermer dorés à Versailles, loin de tout pouvoir réel."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/.webp"
       },
       {
