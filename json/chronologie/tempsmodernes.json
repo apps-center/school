@@ -437,7 +437,7 @@
             "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Cette ironie dévastratrice en 30 pages reste inégalée."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/voltaire.webp"
       },
       {
@@ -456,7 +456,7 @@
             "t": "<b>Le propre éditeur de Diderot sabota secrètement l'Encyclopédie</b> en supprimant des passages trop dangereux pour éviter la censure — sans en informer Diderot. Ce dernier l'apprit à la fin du projet et fut anéanti. Il ne publia plus rien de son vivant."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/diderot dalembert.webp"
       },
       {
@@ -494,7 +494,7 @@
             "t": "<b>Rousseau fut le premier écologiste :</b> il défendait la nature contre la civilisation corromprice et rêvait du « bon sauvage ». Thoreau, Tolstoï et tous les critiques de la modernité lui doivent tout."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/rousseau.webp"
       },
       {
@@ -513,7 +513,7 @@
             "t": "<b>Louis XVI était passionné de serrurerie.</b> On découvrit dans son atelier son « armoire de fer » contenant ses correspondances compromettantes."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/louis XVI.webp"
       }
     ]
