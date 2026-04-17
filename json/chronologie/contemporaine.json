@@ -16,7 +16,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_prise_de_la_Bastille_en_feu.webp"
+        "img": "histoire/bastille_1789.webp"
       },
       {
         "icon": "⚖️",
@@ -31,7 +31,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/La_prise_de_la_Bastille_en_feu.webp"
       },
       {
         "icon": "👑",
@@ -50,7 +50,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/napoleon.webp"
       },
       {
         "icon": "🏭",
@@ -87,7 +87,7 @@
             "t": "<b>Notre-Dame de Paris (1831)</b> fut écrit exprès pour sauver la cathédrale de la démolition. Le roman créa un tel engouement populaire que Victor Hugo força le gouvernement à restaurer l'édifice. Un roman qui sauva un monument."
           }
         ],
-        "img": "histoire/notre_dame_1200.webp"
+        "img": "histoire/victor_hugo.webp"
       },
       {
         "icon": "🦅",
@@ -125,7 +125,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/haussman.webp"
       }
     ]
   },
@@ -149,7 +149,8 @@
             "t": "<b>La France consommait le cacao, le caoutchouc, le coton et le riz</b> produits par des millions de travailleurs forcés dans ses colonies. L'économie métropolitaine de la Belle Époque reposait directement sur ce système d'exploitation."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/epoque_coloniale.webp"
       },
       {
         "icon": "🏛️",
@@ -167,7 +168,8 @@
             "t": "<b>La Tour Eiffel devait être démolie après 20 ans.</b> Elle fut sauvée uniquement parce qu'elle servait d'antenne radio."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "✨",
@@ -185,7 +187,8 @@
             "t": "<b>Le Moulin Rouge (1889), le cancan, Toulouse-Lautrec, les cafés-concerts :</b> Montmartre et Montparnasse attiraient les artistes du monde entier. Picasso, Modigliani, Hemingway — Paris était une fête."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/belle_epoque.webp"
       },
       {
         "kind": "histoire",
@@ -220,7 +223,8 @@
             "e": "🌸",
             "t": "<b>Le jardin de Giverny</b> que Monet fit construire avec son bassin et ses nymphéas fut son chef-d'œuvre architectural — il le peignit plus de 250 fois sous différentes lumières et saisons."
           }
-        ]
+        ],
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🗼",
@@ -239,7 +243,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/tour_effeil.webp"
       },
       {
         "icon": "⚖️",
@@ -272,7 +276,8 @@
             "t": "<b>Le 11 novembre 1918 à 11h,</b> les canons se turent sur tout le front. Des soldats qui s'étaient entre-tués pendant 4 ans se levèrent et se regardèrent en silence."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/premiere_guerre.webp"
       },
       {
         "icon": "🎷",
@@ -290,7 +295,8 @@
             "t": "<b>Coco Chanel libéra les femmes des corsets</b> et inventa la mode moderne : jersey, tailleur, cheveux courts, cigarettes. Le N°5 (1921) reste le parfum le plus vendu au monde un siècle plus tard."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/annees_folles.webp"
       },
       {
         "icon": "📉",
@@ -308,7 +314,8 @@
             "t": "<b>La Bourse de Paris perdit 60 % de sa valeur entre 1929 et 1932.</b> La crise économique alimenta directement la montée du fascisme en Europe — et prépara le terrain de la Seconde Guerre mondiale."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/crise_1929.webp"
       },
       {
         "icon": "🔥",
@@ -322,7 +329,8 @@
             "t": "<b>Le 18 juin 1940, de Gaulle lança son appel depuis Londres :</b> « La France a perdu une bataille, mais la France n'a pas perdu la guerre ! »"
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/occupation.webp"
       },
       {
         "icon": "🚢",
@@ -341,7 +349,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/debarquement.webp"
       }
     ]
   },
@@ -365,7 +373,8 @@
             "t": "<b>Les États-Unis prirent le relais de la France en Indochine.</b> Vingt ans plus tard, ils subirent la même humiliation au Vietnam — prouvant que la leçon française n'avait pas été entendue."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🇩🇿",
@@ -383,7 +392,8 @@
             "t": "<b>Un million de pieds-noirs — Français nés en Algérie —</b> durent tout abandonner en quelques semaines. Leur intégration difficile en métropole et leur mémoire blessée marquent encore la politique française."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🗳️",
@@ -402,7 +412,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/de_gaulle.webp"
       },
       {
         "icon": "✊",
@@ -420,7 +430,8 @@
             "t": "<b>De Gaulle s'envola secrètement pour Baden-Baden</b> rencontrer le général Massu — pour s'assurer du soutien de l'armée. Il revint, dissout l'Assemblée, fit un discours de 4 minutes à la radio — et remporta les élections triomphalement un mois plus tard."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "icon": "🧱",
