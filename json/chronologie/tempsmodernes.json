@@ -244,7 +244,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/louis XIV.webp"
+        "img": "histoire/louis XIV..webp"
       },
       {
         "icon": "👑",
@@ -425,6 +425,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/louis XV.webp"
       },
       {
         "icon": "⚡",
