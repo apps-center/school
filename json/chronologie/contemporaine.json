@@ -16,7 +16,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/bastille_1789.webp"
+        "img": "histoire/bastille.webp"
       },
       {
         "icon": "⚖️",
@@ -31,7 +31,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/terreur.webp"
       },
       {
         "icon": "👑",
@@ -224,7 +224,7 @@
             "t": "<b>Le jardin de Giverny</b> que Monet fit construire avec son bassin et ses nymphéas fut son chef-d'œuvre architectural — il le peignit plus de 250 fois sous différentes lumières et saisons."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/impressionnisme.webp"
       },
       {
         "icon": "🗼",
@@ -374,7 +374,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/guerre d indochine.webp"
       },
       {
         "icon": "🇩🇿",
@@ -393,7 +393,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/guerre d algerie.webp"
       },
       {
         "icon": "🗳️",
@@ -431,7 +431,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/mai 68.webp"
       },
       {
         "icon": "🧱",
@@ -450,7 +450,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/mur de berlin.webp"
       }
     ]
   }
