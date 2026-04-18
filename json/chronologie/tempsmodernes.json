@@ -34,7 +34,7 @@
             "t": "<b>« Fais ce que voudras »</b> — la devise de l'abbaye de Thélème résume l'idéal humaniste : liberté naturelle de l'être instruit. Une provocation dans la France du XVIe siècle."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/rabelais.webp"
       },
       {
@@ -72,7 +72,7 @@
             "t": "<b>Il mourut d'une mastoïdite —</b> une infection de l'oreille qui gagna le cerveau. Une balade antibiotique aurait suffi à changer le cours de l'histoire de France. Sa mort ouvrit la voie aux guerres de Religion qui ensanglanteraient la France pendant 40 ans."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/francois II.webp"
       },
       {
@@ -91,7 +91,7 @@
             "t": "<b>Henri III et Henri IV furent tous deux assassinés par des fanatiques catholiques.</b> La France tua deux de ses rois de suite au nom de la religion — un record dans l'histoire monarchique."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "histoire/guerres religion.webp"
       },
       {
@@ -192,7 +192,7 @@
             "t": "<b>Corneille inventa le dilemme cornélien :</b> choisir entre deux valeurs également impérieuses — honneur vs amour. Ce conflit psychologique structure encore le cinéma et la littérature."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
         "img": "le cid.webp"
       },
       {
