@@ -1020,7 +1020,7 @@
           "r": "Le comte de Provence mourut sans héritier et légua sa région au roi Louis XI",
           "hint": "Ni guerre ni mariage — juste un héritage transmis directement au roi de France"
         },
-        "img": "histoire/Masalia vue sur la cité antique au coucher du soleil.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1044,7 +1044,7 @@
           "r": "Duc de Bourgogne, il était le plus puissant rival de la France — sa mort permit à Louis XI de récupérer la Bourgogne et la Picardie",
           "hint": "Son rêve était de créer un grand empire entre France et Allemagne — il mourut en bataille avant d'y parvenir"
         },
-        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
+        "img": ".webp"
       }
     ]
   }
