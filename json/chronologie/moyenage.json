@@ -134,7 +134,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/pepin le bref.webp"
       },
       {
         "icon": "👑",
@@ -242,7 +242,7 @@
             "t": "<b>L'étrier changea la guerre.</b> Le cavalier stabilisé peut frapper avec toute la force de son cheval. C'est ce qui rendit la chevalerie lourde possible — et domina les champs de bataille pendant 700 ans."
           }
         ],
-        "img": "histoire/collier épaule etrier.webp"
+        "img": "histoire/collier d epaule.webp"
       }
     ]
   },
@@ -282,7 +282,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/hugues capet.webp"
       },
       {
         "kind": "histoire",
