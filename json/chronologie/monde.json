@@ -24,7 +24,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/peuplement_amerique_traversée_béring.webp"
       },
       {
         "icon": "🧠",
@@ -65,7 +65,8 @@
             "t": "<b>Le réchauffement climatique menace directement</b> la culture inuite. La banquise qui fond change les routes de chasse et rend les igloos impossibles à construire."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Crépuscule_sur_l'immensité_glacée.webp"
       }
     ]
   },
@@ -93,7 +94,8 @@
             "t": "<b>Le Code d'Hammurabi (~1792 av. J.-C.)</b> est le premier grand code de lois. « Œil pour œil » était un progrès : la vengeance illimitée était remplacée par une peine proportionnelle au crime."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Ville antique de Sumer en soirée.webp"
       },
       {
         "kind": "histoire",
@@ -152,7 +154,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/La construction de la pyramide.webp"
       },
       {
         "icon": "🏙️",
@@ -170,7 +172,8 @@
             "t": "<b>L'écriture de l'Indus reste indéchiffrée.</b> Des centaines de tablettes couvertes de signes attendent encore leur Champollion."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
       },
       {
         "kind": "histoire",
@@ -198,7 +201,7 @@
             "t": "<b>La perspective frontale égyptienne</b> — où chaque partie du corps est montrée sous son angle le plus caractéristique (tête de profil, épaules de face, jambes de profil) — n'est pas un manque de talent mais un choix délibéré pour la clarté."
           }
         ],
-        "img": "histoire/La_construction_des_pyramides_égyptiennes.webp"
+        "img": "histoire/La construction de la pyramide.webp"
       },
       {
         "kind": "histoire",
@@ -215,7 +218,8 @@
             "e": "💀",
             "t": "<b>Gilgamesh perd son ami Enkidu</b> et part chercher l'immortalité pour ne plus jamais perdre un être aimé. C'est la première exploration littéraire du deuil et de la mort — toujours aussi universelle 4 000 ans plus tard."
           }
-        ]
+        ],
+        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
       },
       {
         "icon": "📿",
@@ -233,7 +237,8 @@
             "t": "<b>Le yoga existe depuis plus de 5 000 ans.</b> Les premières postures sont représentées sur des sceaux de la civilisation de l'Indus."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La promesse divine sous les étoiles.webp"
       },
       {
         "icon": "🗿",
@@ -252,7 +257,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Scène de commerce phénicien au port.webp"
       },
       {
         "icon": "🏛️",
@@ -270,7 +275,8 @@
             "t": "<b>Le « Marathon » commémore la course du soldat Phidippidès</b> — 42 km pour annoncer la victoire sur les Perses (490 av. J.-C.). Il cria « Victoire ! » et mourut."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Les jeux olympiques antiques à Olympie.webp"
       },
       {
         "kind": "histoire",
@@ -283,7 +289,8 @@
             "e": "🎭",
             "t": "<b>L'Iliade et l'Odyssée étaient récitées oralement</b> lors de festivals, des heures durant. Les aèdes mémorisaient les 15 000 et 12 000 vers respectivement."
           }
-        ]
+        ],
+        "img": "histoire/L'Iliade et l'Odyssée de Homère.webp"
       },
       {
         "icon": "🌟",
@@ -301,7 +308,8 @@
             "t": "<b>La « Route Royale » de Darius</b> : 2 700 km avec des relais de poste. Un message royal la parcourait en 7 jours — 3 mois pour un voyageur ordinaire."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Cyrus libère les captifs juifs.webp"
       }
     ]
   },
@@ -325,7 +333,8 @@
             "t": "<b>Zhuangzi rêva qu'il était un papillon.</b> À son réveil : était-il un homme qui avait rêvé être papillon, ou un papillon qui rêvait être homme ? La plus belle question sur l'identité."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/La promesse divine sous les étoiles.webp"
       },
       {
         "icon": "🪷",
@@ -343,7 +352,8 @@
             "t": "<b>Le Bouddha ne se déclarait pas dieu</b> et demandait à chacun de vérifier ses enseignements par l'expérience. C'est une philosophie de l'éveil personnel, pas un acte de foi aveugle."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Rassemblement philosophique à Athènes.webp"
       },
       {
         "icon": "📜",
@@ -361,7 +371,8 @@
             "t": "<b>Le confucianisme ne porte pas sur les dieux</b> mais sur les relations humaines : entre enfants et parents, élèves et maîtres, sujets et souverains."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       }
     ]
   },
@@ -386,7 +397,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
+        "img": "histoire/La fondation de Carthage par Didon.webp"
       },
       {
         "icon": "⚡",
@@ -404,7 +415,8 @@
             "t": "<b>Le « nœud gordien » :</b> une prophétie disait que celui qui le dénouerait régnerait sur l'Asie. Alexandre trancha simplement le nœud avec son épée. Expression restée dans la langue."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Alexandre le grand Le général au coucher du soleil.webp"
       },
       {
         "kind": "histoire",
@@ -417,7 +429,8 @@
             "e": "🌍",
             "t": "<b>Son résultat : ~39 375 km. La vraie valeur : 40 075 km.</b> Une erreur de 1,7 % — sans satellite ni GPS, juste deux bâtons et de la trigonométrie."
           }
-        ]
+        ],
+        "img": "histoire/Les savants de l'Antiquité grecque.webp"
       },
       {
         "kind": "histoire",
@@ -434,7 +447,8 @@
             "e": "📐",
             "t": "<b>Le « théorème de Thalès »</b> sur les triangles semblables lui permit de mesurer la hauteur de la Grande Pyramide en comparant son ombre à celle d'un bâton. Simple, élégant, révolutionnaire."
           }
-        ]
+        ],
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       },
       {
         "kind": "histoire",
@@ -451,7 +465,8 @@
             "e": "🎵",
             "t": "<b>Pythagore découvrit aussi les harmonies musicales.</b> En jouant sur des cordes de longueurs différentes, il remarqua que des rapports simples (1/2, 2/3) produisaient des sons harmonieux. Il inventait ainsi l'acoustique mathématique."
           }
-        ]
+        ],
+        "img": "histoire/Les savants de l'Antiquité grecque.webp"
       },
       {
         "kind": "histoire",
@@ -468,7 +483,8 @@
             "e": "💣",
             "t": "<b>Le Parthénon fut partiellement détruit en 1687</b> quand les Vénitiens bombardèrent les Ottomans qui y stockaient de la poudre à canon. 2 000 ans de conservation détruits en une explosion."
           }
-        ]
+        ],
+        "img": "histoire/Les sept merveilles du monde antique.webp"
       },
       {
         "kind": "histoire",
@@ -485,7 +501,8 @@
             "e": "⚙️",
             "t": "<b>Ses machines de guerre</b> défendirent Syracuse contre les Romains pendant 3 ans. Des grues géantes soulevaient les navires romains hors de l'eau et les retournaient."
           }
-        ]
+        ],
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       },
       {
         "kind": "histoire",
@@ -502,7 +519,8 @@
             "e": "⚙️",
             "t": "<b>Le moulin à vent</b> apparaît en Perse vers 500-600 ap. J.-C., puis en Europe au XIIe siècle. Les moulins domineront la production d'énergie mécanique pendant 1 500 ans — jusqu'à la vapeur."
           }
-        ]
+        ],
+        "img": "histoire/moulins a vent.webp"
       },
       {
         "icon": "🐉",
@@ -543,7 +561,8 @@
             "t": "<b>Le « garum »</b> — sauce de poisson fermenté — était le ketchup romain. Ils le mettaient sur tout. Des amphores de garum ont été trouvées jusqu'en Bretagne."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Bains romains sous les voûtes majestueuses.webp"
       },
       {
         "icon": "✝️",
@@ -562,7 +581,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/L'expansion du christianisme au Ier siècle.webp"
       },
       {
         "kind": "histoire",
@@ -575,7 +594,8 @@
             "e": "🧭",
             "t": "<b>La boussole fut d'abord utilisée pour orienter les maisons</b> selon les principes du feng shui — pas pour la navigation. C'est son usage maritime qui changea le monde."
           }
-        ]
+        ],
+        "img": "histoire/Schéma et histoire du compas.webp"
       },
       {
         "kind": "histoire",
@@ -588,7 +608,8 @@
             "e": "✍️",
             "t": "<b>Le premier roman de l'histoire est écrit par une femme,</b> au Japon, il y a 1 000 ans. C'est aussi l'un des plus longs et des plus complexes — psychologiquement, il n'a rien à envier aux romans modernes."
           }
-        ]
+        ],
+        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
       },
       {
         "kind": "histoire",
@@ -605,7 +626,8 @@
             "e": "⏰",
             "t": "<b>Le papier mit 1 000 ans à atteindre l'Europe</b> (XIe-XIIe siècle, via les Arabes). Sans papier, pas d'imprimerie possible."
           }
-        ]
+        ],
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       },
       {
         "icon": "🌸",
@@ -623,7 +645,8 @@
             "t": "<b>Le « hanami »</b> (contemplation des cerisiers en fleurs) est une tradition née à la période Heian (~800 ap.). 1 200 ans plus tard, tout le Japon le pratique encore."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
       },
       {
         "icon": "⚜️",
@@ -642,7 +665,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_quotidienne_dans_une_villa_romaine.webp"
+        "img": "histoire/Le_siège_de_Constantinople,_1453.webp"
       }
     ]
   },
@@ -666,7 +689,8 @@
             "t": "<b>Tombouctou possédait 180 écoles coraniques</b> et une université (Sankore) attirant des érudits de toute l'Afrique. Elle avait plus de livres que n'importe quelle ville européenne de l'époque."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
       },
       {
         "icon": "🌍",
@@ -685,7 +709,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/sortie_afrique.webp"
+        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
       },
       {
         "icon": "⡐",
@@ -704,7 +728,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
+        "img": "histoire/Les sept merveilles du monde antique.webp"
       },
       {
         "kind": "histoire",
@@ -718,7 +742,7 @@
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
         ],
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Machiavel à son bureau à Florence.webp"
       },
       {
         "icon": "🌙",
@@ -737,7 +761,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/La_migration_du_prophète_Muhammad.webp"
       },
       {
         "icon": "📚",
@@ -755,7 +779,8 @@
             "t": "<b>La moitié des étoiles ont des noms arabes :</b> Algol, Aldébaran, Rigel, Véga, Bételgeuse... Les astronomes arabes médiévaux avaient cartographié le ciel quand l'Europe traversait le haut Moyen Âge."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
       },
       {
         "icon": "⚡",
@@ -778,7 +803,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/raids_vikings.webp"
       },
       {
         "icon": "🏯",
@@ -797,7 +822,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
       },
       {
         "icon": "🏹",
@@ -838,7 +863,7 @@
             "t": "<b>La suite de Fibonacci</b> (1, 1, 2, 3, 5, 8, 13...) apparaît partout dans la nature : pétales de fleurs, spirales de coquillages, disposition des graines de tournesol. Une des formules les plus magiques des mathématiques."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       },
       {
         "kind": "histoire",
@@ -856,7 +881,7 @@
             "t": "<b>Bacon chiffra sa recette de poudre à canon</b> en anagramme pour éviter d'être condamné. Son code ne fut déchiffré qu'en 1904 — 637 ans après avoir été écrit."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       },
       {
         "kind": "histoire",
@@ -873,7 +898,8 @@
             "e": "🔭",
             "t": "<b>Les lunettes sont à l'origine du télescope et du microscope.</b> Galilée améliora simplement une lunette de spectacle pour regarder le ciel en 1609. Toute la révolution astronomique commence avec un correcteur de presbytie."
           }
-        ]
+        ],
+        "img": "histoire/Les savants grecs en pleine étude.webp"
       },
       {
         "kind": "histoire",
@@ -890,7 +916,8 @@
             "e": "⚙️",
             "t": "<b>Le mécanisme d'échappement</b> — l'engrenage qui transforme un mouvement continu en battements réguliers — est l'une des inventions les plus ingénieuses de l'histoire. Il est encore au cœur de toutes les montres mécaniques modernes."
           }
-        ]
+        ],
+        "img": "histoire/Schéma et histoire du compas.webp"
       },
       {
         "kind": "histoire",
@@ -907,7 +934,8 @@
             "e": "😤",
             "t": "<b>Dante place ses ennemis politiques en Enfer</b> par leur nom, dans des supplices précis et inventifs. La Divine Comédie est aussi un règlement de comptes littéraire d'une rare vengeance."
           }
-        ]
+        ],
+        "img": "histoire/Les freres grimm conte de village.webp"
       },
       {
         "kind": "histoire",
@@ -924,7 +952,8 @@
             "e": "🥚",
             "t": "<b>La technique de la fresque</b> (peinture sur plâtre frais) ne permet pas les repentirs — impossible d'effacer. Giotto peignait directement, sans esquisse, sur des surfaces de plusieurs mètres carrés. Un exploit de précision et de rapidité."
           }
-        ]
+        ],
+        "img": "histoire/Machiavel à son bureau à Florence.webp"
       },
       {
         "kind": "histoire",
@@ -937,7 +966,8 @@
             "e": "🔭",
             "t": "<b>Galilée confirma Copernic par l'observation</b> en 1609-1610 et fut condamné par l'Inquisition en 1633. L'Église réhabilita officiellement Galilée en... 1992."
           }
-        ]
+        ],
+        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
       }
     ]
   },
@@ -961,7 +991,8 @@
             "t": "<b>La variole fut l'arme principale de Cortés</b> (1519-1521) sans qu'il le sache. 50 à 90 % de la population indigène mourut de maladies européennes en moins d'un siècle."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Les sept merveilles du monde antique.webp"
       },
       {
         "icon": "🧱",
@@ -998,7 +1029,8 @@
             "t": "<b>Les Incas n'avaient pas d'écriture</b> mais utilisaient les « quipus » — systèmes de nœuds colorés — pour enregistrer des données. On commence seulement à les déchiffrer."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Les sept merveilles du monde antique.webp"
       },
       {
         "icon": "💀",
@@ -1073,7 +1105,7 @@
             "t": "<b>La production d'acier en Europe</b> multiplia par 10 en moins d'un siècle après le haut-fourneau. Sans lui, pas de Révolution industrielle — les machines à vapeur nécessitaient des pièces en fonte usinées."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/revolution_industrielle.webp"
       },
       {
         "icon": "🌏",
@@ -1091,7 +1123,8 @@
             "t": "<b>Le contact entre Ancien et Nouveau Monde</b> tua 90 % des populations amérindiennes par les maladies européennes. La plus grande catastrophe démographique de l'histoire."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Traversée_en_mer_au_coucher_du_soleil.webp"
       },
       {
         "icon": "⛪",
@@ -1106,7 +1139,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Massacre_de_la_Saint-Barthélemy_à_Paris.webp"
       }
     ]
   },
@@ -1130,7 +1163,8 @@
             "t": "<b>Le « seppuku »</b> (suicide rituel) permettait à un samouraï déshonoré de mourir avec dignité. Un ami se tenait prêt à décapiter le mourant pour abréger sa souffrance."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
       },
       {
         "kind": "histoire",
@@ -1143,7 +1177,8 @@
             "e": "🌍",
             "t": "<b>Shakespeare est l'auteur le plus joué au monde,</b> dans toutes les langues. Ses pièces sont jouées quelque part dans le monde chaque jour depuis 400 ans."
           }
-        ]
+        ],
+        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
       },
       {
         "icon": "☀️",
@@ -1162,7 +1197,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Le_commerce_triangulaire_transatlantique.webp"
       },
       {
         "kind": "histoire",
@@ -1179,7 +1214,8 @@
             "e": "💸",
             "t": "<b>Rembrandt mourut ruiné</b> malgré son immense talent. Il dépensait sans compter en objets d'art et faisait faillite. Comme Gutenberg, comme Mozart — les génies créateurs ne sont pas toujours de bons gestionnaires."
           }
-        ]
+        ],
+        "img": "histoire/Machiavel à son bureau à Florence.webp"
       },
       {
         "kind": "histoire",
@@ -1214,7 +1250,8 @@
             "e": "🎹",
             "t": "<b>Bach fut presque oublié après sa mort.</b> C'est Mendelssohn qui redécouvrit la Passion selon Saint Matthieu en 1829 — 79 ans après sa composition — et la fit rejouer."
           }
-        ]
+        ],
+        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
       },
       {
         "kind": "histoire",
@@ -1231,7 +1268,8 @@
             "e": "💀",
             "t": "<b>Mozart mourut à 35 ans dans la misère</b> et fut enterré dans une fosse commune à Vienne. Le génie le plus admiré d'Europe mourut sans sou et sans sépulture connue."
           }
-        ]
+        ],
+        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
       },
       {
         "kind": "histoire",
@@ -1245,7 +1283,7 @@
             "t": "<b>En 1800, 80 % des humains travaillaient la terre.</b> En 1900, l'Angleterre était urbanisée à 80 %. La machine à vapeur fit cette transformation en 100 ans — contre 10 000 ans pour la révolution agricole."
           }
         ],
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/revolution_industrielle.webp"
       },
       {
         "kind": "histoire",
@@ -1258,7 +1296,8 @@
             "e": "😂",
             "t": "<b>Le mot « impressionnisme » est une insulte recyclée.</b> Le critique Louis Leroy raillait Monet en disant que ses toiles n'étaient que des « impressions ». Les artistes adoptèrent le terme avec fierté."
           }
-        ]
+        ],
+        "img": "histoire/impressionnisme.webp"
       },
       {
         "kind": "histoire",
@@ -1271,7 +1310,8 @@
             "e": "🎸",
             "t": "<b>Le blues est né de la fusion</b> des chants de travail africains, des spirituals et des harmonies européennes. C'est la musique de la souffrance transformée en art — et l'ancêtre de toute la musique populaire moderne."
           }
-        ]
+        ],
+        "img": "histoire/annees folles.webp"
       },
       {
         "icon": "🌐",
@@ -1289,7 +1329,8 @@
             "t": "<b>Aujourd'hui, 8 milliards d'humains</b> parlent ~7 000 langues, pratiquent des milliers de religions et cultures différentes — héritage vivant de toutes les civilisations que cette chronologie retrace."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/Nelson_Mandela_et_la_lutte_pour_la_liberté.webp"
       }
     ]
   }
