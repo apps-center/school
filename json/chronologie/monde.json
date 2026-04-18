@@ -863,7 +863,7 @@
             "t": "<b>La suite de Fibonacci</b> (1, 1, 2, 3, 5, 8, 13...) apparaît partout dans la nature : pétales de fleurs, spirales de coquillages, disposition des graines de tournesol. Une des formules les plus magiques des mathématiques."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/fibonacci.webp"
       },
       {
         "kind": "histoire",
@@ -899,7 +899,7 @@
             "t": "<b>Les lunettes sont à l'origine du télescope et du microscope.</b> Galilée améliora simplement une lunette de spectacle pour regarder le ciel en 1609. Toute la révolution astronomique commence avec un correcteur de presbytie."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/lunettes.webp"
       },
       {
         "kind": "histoire",
@@ -935,7 +935,7 @@
             "t": "<b>Dante place ses ennemis politiques en Enfer</b> par leur nom, dans des supplices précis et inventifs. La Divine Comédie est aussi un règlement de comptes littéraire d'une rare vengeance."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/dante.webp"
       },
       {
         "kind": "histoire",
@@ -967,7 +967,7 @@
             "t": "<b>Galilée confirma Copernic par l'observation</b> en 1609-1610 et fut condamné par l'Inquisition en 1633. L'Église réhabilita officiellement Galilée en... 1992."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/copernic.webp"
       }
     ]
   },
@@ -1011,7 +1011,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/amiral zheng.webp"
       },
       {
         "icon": "🏔️",
@@ -1030,7 +1030,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/machu pitchu.webp"
       },
       {
         "icon": "💀",
@@ -1124,7 +1124,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/decouverte amerique.webp"
       },
       {
         "icon": "⛪",
@@ -1139,7 +1139,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/luther.webp"
       }
     ]
   },
