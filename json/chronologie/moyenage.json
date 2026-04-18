@@ -782,7 +782,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/charles VI.webp"
       },
       {
         "kind": "histoire",
@@ -806,7 +806,7 @@
           "r": "1791 — lors de la Révolution française",
           "hint": "Il fallut attendre 397 ans après l'expulsion de 1394 pour que la France reconnaisse pleinement leur citoyenneté"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/expulsion juifs.webp"
       },
       {
         "kind": "histoire",
@@ -830,7 +830,7 @@
           "r": "La Cité des Dames",
           "hint": "Elle imagine une ville imaginaire peuplée des femmes les plus remarquables de l'histoire"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/christine de pisan.webp"
       },
       {
         "icon": "⚔️",
