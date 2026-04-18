@@ -58,7 +58,7 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
   font-weight:700;text-shadow:0 0 30px currentColor;
   box-shadow:0 0 18px rgba(0,0,0,.4), inset 0 0 20px rgba(0,0,0,.2);}
 
-.ev{display:flex;align-items:stretch;margin:20px 0;position:relative;max-height:280px;
+.ev{display:flex;align-items:stretch;margin:20px 0;position:relative;
   opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s;}
 .ev.vis{opacity:1;transform:none;}
 .ev.L{flex-direction:row;}
@@ -85,8 +85,8 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 .conn{width:42px;height:2px;background:var(--line);align-self:flex-start;margin-top:22px;flex-shrink:0;}
 
 /* IMAGE MINIATURE côté opposé à la carte */
-.ev-img{width:calc(50% - 54px);flex-shrink:0;display:flex;align-items:stretch;}
-.ev-img img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:5px;
+.ev-img{width:calc(50% - 54px);flex-shrink:0;display:flex;align-items:flex-start;}
+.ev-img img{width:100%;height:auto;max-height:360px;object-fit:contain;border-radius:5px;
   border:1px solid rgba(200,180,120,.18);opacity:1;
   transition:opacity .3s,transform .3s,box-shadow .3s;cursor:pointer;display:block;}
 .ev:hover .ev-img img{transform:scale(1.025);box-shadow:0 4px 20px rgba(0,0,0,.5);}
