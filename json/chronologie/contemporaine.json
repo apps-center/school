@@ -31,7 +31,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/terreur.webp"
+        "img": "histoire/robespierre.webp"
       },
       {
         "icon": "👑",
@@ -206,7 +206,7 @@
             "t": "<b>Zola préparait ses romans comme un journaliste-scientifique :</b> il passa des mois dans les mines du Nord pour écrire Germinal, remplissant des carnets de notes sur les conditions de travail réelles."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/zola.webp"
       },
       {
         "kind": "histoire",
