@@ -16,7 +16,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/françois 1er.webp"
+        "img": "histoire/francois Ier.webp"
       },
       {
         "icon": "📖",
@@ -53,7 +53,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/henri II.webp"
       },
       {
         "icon": "👑",
@@ -72,6 +72,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/francois II.webp"
       },
       {
         "icon": "⚔️",
@@ -90,6 +91,7 @@
           }
         ],
         "kind": "histoire"
+        "img": "histoire/guerres religion.webp"
       },
       {
         "icon": "🔔",
@@ -108,7 +110,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Massacre_de_la_Saint-Barthélemy_à_Paris.webp"
+        "img": "histoire/saint barthelemy.webp"
       }
     ]
   },
