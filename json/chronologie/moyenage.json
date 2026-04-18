@@ -516,7 +516,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Saint_Louis_dispense_la_justice_sous_le_chêne.webp"
+        "img": "histoire/Louis IX.webp"
       },
       {
         "kind": "histoire",
@@ -540,7 +540,7 @@
           "r": "Première femme étrangère à gouverner la France, elle assura la régence pendant la minorité de Louis IX",
           "hint": "Elle venait d'Espagne et prit les rênes du royaume alors que son fils n'avait que 12 ans"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/blanche castille.webp"
       },
       {
         "kind": "histoire",
@@ -607,7 +607,7 @@
           "r": "68 ans — de 1309 à 1377",
           "hint": "Sept papes successifs, tous français, préférèrent rester en France plutôt que de rejoindre Rome"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/pape avignon.webp"
       },
       {
         "icon": "🔥",
@@ -701,7 +701,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Bataille_de_Crécy_en_1346.webp"
+        "img": "histoire/crecy.webp"
       },
       {
         "icon": "💀",
@@ -891,7 +891,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/charles VII.webp"
       },
       {
         "icon": "🔥",
