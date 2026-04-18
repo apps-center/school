@@ -564,7 +564,7 @@
           "r": "Les États Généraux",
           "hint": "Cette réunion de nobles, prêtres et bourgeois sera convoquée à nouveau en 1789 — avec des conséquences explosives"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/1ers etats generaux.webp"
       },
       {
         "icon": "🎰",
@@ -744,7 +744,7 @@
           "r": "Il fut fait prisonnier par les Anglais et emmené en Angleterre",
           "hint": "La France dut payer une rançon gigantesque pour récupérer son roi"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/roi prisonnier.webp"
       },
       {
         "icon": "📚",
@@ -1020,7 +1020,7 @@
           "r": "Le comte de Provence mourut sans héritier et légua sa région au roi Louis XI",
           "hint": "Ni guerre ni mariage — juste un héritage transmis directement au roi de France"
         },
-        "img": "histoire/.webp"
+        "img": "histoire/provence rejoint france.webp"
       },
       {
         "kind": "histoire",
