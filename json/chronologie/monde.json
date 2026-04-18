@@ -665,7 +665,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/byzance.webp"
       }
     ]
   },
@@ -709,7 +709,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/tombouctou2.webp"
       },
       {
         "icon": "⡐",
@@ -728,7 +728,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/mayas.webp"
       },
       {
         "kind": "histoire",
@@ -742,7 +742,7 @@
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/vinci.webp"
       },
       {
         "icon": "🌙",
@@ -780,7 +780,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/savants arabes.webp"
       },
       {
         "icon": "⚡",
@@ -881,7 +881,7 @@
             "t": "<b>Bacon chiffra sa recette de poudre à canon</b> en anagramme pour éviter d'être condamné. Son code ne fut déchiffré qu'en 1904 — 637 ans après avoir été écrit."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/bacon.webp"
       },
       {
         "kind": "histoire",
