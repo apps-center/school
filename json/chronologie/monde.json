@@ -24,7 +24,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/peuplement_amerique_traversée_béring.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🧠",
@@ -66,7 +66,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Crépuscule_sur_l'immensité_glacée.webp"
+        "img": "histoire/peuplement_amerique_traversée_béring.webp"
       }
     ]
   },
@@ -154,7 +154,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La construction de la pyramide.webp"
+        "img": "histoire/Pharaon Ménès et l'unification de l'Égypte.webp"
       },
       {
         "icon": "🏙️",
@@ -173,7 +173,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -219,7 +219,7 @@
             "t": "<b>Gilgamesh perd son ami Enkidu</b> et part chercher l'immortalité pour ne plus jamais perdre un être aimé. C'est la première exploration littéraire du deuil et de la mort — toujours aussi universelle 4 000 ans plus tard."
           }
         ],
-        "img": "histoire/Les jardins suspendus de Babylone au coucher du soleil.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "📿",
@@ -238,7 +238,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La promesse divine sous les étoiles.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🗿",
@@ -334,7 +334,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La promesse divine sous les étoiles.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🪷",
@@ -353,7 +353,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Rassemblement philosophique à Athènes.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "📜",
@@ -372,7 +372,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       }
     ]
   },
@@ -430,7 +430,7 @@
             "t": "<b>Son résultat : ~39 375 km. La vraie valeur : 40 075 km.</b> Une erreur de 1,7 % — sans satellite ni GPS, juste deux bâtons et de la trigonométrie."
           }
         ],
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -484,7 +484,7 @@
             "t": "<b>Le Parthénon fut partiellement détruit en 1687</b> quand les Vénitiens bombardèrent les Ottomans qui y stockaient de la poudre à canon. 2 000 ans de conservation détruits en une explosion."
           }
         ],
-        "img": "histoire/Les sept merveilles du monde antique.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -502,7 +502,7 @@
             "t": "<b>Ses machines de guerre</b> défendirent Syracuse contre les Romains pendant 3 ans. Des grues géantes soulevaient les navires romains hors de l'eau et les retournaient."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -543,7 +543,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🐺",
@@ -609,7 +609,7 @@
             "t": "<b>Le premier roman de l'histoire est écrit par une femme,</b> au Japon, il y a 1 000 ans. C'est aussi l'un des plus longs et des plus complexes — psychologiquement, il n'a rien à envier aux romans modernes."
           }
         ],
-        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -646,7 +646,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚜️",
@@ -665,7 +665,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_siège_de_Constantinople,_1453.webp"
+        "img": "histoire/.webp"
       }
     ]
   },
@@ -709,7 +709,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⡐",
@@ -728,7 +728,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les sept merveilles du monde antique.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -742,7 +742,7 @@
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
         ],
-        "img": "histoire/Machiavel à son bureau à Florence.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🌙",
@@ -780,7 +780,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚡",
@@ -863,7 +863,7 @@
             "t": "<b>La suite de Fibonacci</b> (1, 1, 2, 3, 5, 8, 13...) apparaît partout dans la nature : pétales de fleurs, spirales de coquillages, disposition des graines de tournesol. Une des formules les plus magiques des mathématiques."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -881,7 +881,7 @@
             "t": "<b>Bacon chiffra sa recette de poudre à canon</b> en anagramme pour éviter d'être condamné. Son code ne fut déchiffré qu'en 1904 — 637 ans après avoir été écrit."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -899,7 +899,7 @@
             "t": "<b>Les lunettes sont à l'origine du télescope et du microscope.</b> Galilée améliora simplement une lunette de spectacle pour regarder le ciel en 1609. Toute la révolution astronomique commence avec un correcteur de presbytie."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -917,7 +917,7 @@
             "t": "<b>Le mécanisme d'échappement</b> — l'engrenage qui transforme un mouvement continu en battements réguliers — est l'une des inventions les plus ingénieuses de l'histoire. Il est encore au cœur de toutes les montres mécaniques modernes."
           }
         ],
-        "img": "histoire/Schéma et histoire du compas.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -935,7 +935,7 @@
             "t": "<b>Dante place ses ennemis politiques en Enfer</b> par leur nom, dans des supplices précis et inventifs. La Divine Comédie est aussi un règlement de comptes littéraire d'une rare vengeance."
           }
         ],
-        "img": "histoire/Les freres grimm conte de village.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -953,7 +953,7 @@
             "t": "<b>La technique de la fresque</b> (peinture sur plâtre frais) ne permet pas les repentirs — impossible d'effacer. Giotto peignait directement, sans esquisse, sur des surfaces de plusieurs mètres carrés. Un exploit de précision et de rapidité."
           }
         ],
-        "img": "histoire/Machiavel à son bureau à Florence.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -967,7 +967,7 @@
             "t": "<b>Galilée confirma Copernic par l'observation</b> en 1609-1610 et fut condamné par l'Inquisition en 1633. L'Église réhabilita officiellement Galilée en... 1992."
           }
         ],
-        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
+        "img": "histoire/.webp"
       }
     ]
   },
@@ -992,7 +992,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les sept merveilles du monde antique.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🧱",
@@ -1011,7 +1011,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🏔️",
@@ -1030,7 +1030,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les sept merveilles du monde antique.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "💀",
@@ -1049,7 +1049,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/peste.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "💀",
@@ -1124,7 +1124,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Traversée_en_mer_au_coucher_du_soleil.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⛪",
@@ -1139,7 +1139,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Massacre_de_la_Saint-Barthélemy_à_Paris.webp"
+        "img": "histoire/.webp"
       }
     ]
   },
@@ -1178,7 +1178,7 @@
             "t": "<b>Shakespeare est l'auteur le plus joué au monde,</b> dans toutes les langues. Ses pièces sont jouées quelque part dans le monde chaque jour depuis 400 ans."
           }
         ],
-        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "☀️",
@@ -1215,7 +1215,7 @@
             "t": "<b>Rembrandt mourut ruiné</b> malgré son immense talent. Il dépensait sans compter en objets d'art et faisait faillite. Comme Gutenberg, comme Mozart — les génies créateurs ne sont pas toujours de bons gestionnaires."
           }
         ],
-        "img": "histoire/Machiavel à son bureau à Florence.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1233,7 +1233,7 @@
             "t": "<b>Newton inventa aussi le calcul infinitésimal</b> (simultanément avec Leibniz). Ces deux inventions — gravitation et calcul — sont les fondements de toute la physique et ingénierie modernes."
           }
         ],
-        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1251,7 +1251,7 @@
             "t": "<b>Bach fut presque oublié après sa mort.</b> C'est Mendelssohn qui redécouvrit la Passion selon Saint Matthieu en 1829 — 79 ans après sa composition — et la fit rejouer."
           }
         ],
-        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1269,7 +1269,7 @@
             "t": "<b>Mozart mourut à 35 ans dans la misère</b> et fut enterré dans une fosse commune à Vienne. Le génie le plus admiré d'Europe mourut sans sou et sans sépulture connue."
           }
         ],
-        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1283,7 +1283,7 @@
             "t": "<b>En 1800, 80 % des humains travaillaient la terre.</b> En 1900, l'Angleterre était urbanisée à 80 %. La machine à vapeur fit cette transformation en 100 ans — contre 10 000 ans pour la révolution agricole."
           }
         ],
-        "img": "histoire/revolution_industrielle.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -1302,7 +1302,7 @@
       {
         "kind": "histoire",
         "icon": "🎵",
-        "date": "1920s",
+        "date": "1920",
         "title": "Jazz & Blues — Révolution Musicale",
         "desc": "Nés des communautés afro-américaines, le blues et le jazz révolutionnent la musique mondiale. Ce sont les ancêtres du rock, de la soul, du R&B et de toute la musique populaire contemporaine.",
         "anecdotes": [
